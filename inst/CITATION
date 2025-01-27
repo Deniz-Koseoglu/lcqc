@@ -1,0 +1,9 @@
+bibentry(
+  bibtype  = "Manual",
+  title    = "LCQC - Chromatographic Peak Detection, Analysis, and Reporting",
+  author   = "Denizcan Koseoglu",
+  organization  = "AltraFlora Natural Extracts Inc.",
+  address  = "Denizli, Turkey",
+  year     = "2024",
+  url      = "https://www.altraflora.com/"
+)

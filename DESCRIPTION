@@ -1,0 +1,47 @@
+Package: lcqc
+Title: Chromatographic Peak Detection, Analysis, and Reporting
+Version: 0.9.7
+Authors@R: 
+    person("Deniz Can", "Koseoglu", , "denizcan.koseoglu@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-1569-9788"))
+Description: LCQC is used to automatically detect, process, and analyze chromatographic peaks
+    for various metrics relevant to quality control of liquid chromatographic (HPLC) columns. 
+    Functions for baseline correction, chromatogram smoothing, peak detection and integration,
+    non-linear iterative curve fitting (peak deconvolution), performance metric calculations,
+    and automated reporting are included.
+License: MIT + file LICENSE
+URL: https://github.com/Deniz-Koseoglu/lcqc
+Depends: 
+    R (>= 4.0.0)
+Imports:
+    utils,
+    stats,
+    graphics,
+    grDevices,
+    stringr,
+    fs (>= 1.6.3),
+    devtools (>= 2.4.5),
+    data.table (>= 1.14.8),
+    ggplot2 (>= 3.4.4),
+    ggpubr (>= 0.6.0),
+    scales (>= 1.2.1),
+    nloptr (>= 2.0.3),
+    akima (>= 0.6.3.4),
+    quarto (>= 1.4),
+    flextable (>= 0.9.5),
+    tibble (>= 3.2.1),
+    knitr (>= 1.45),
+    rlang,
+    lifecycle,
+    glue
+Suggests:
+    testthat (>= 3.2.0),
+    rmarkdown (>= 2.25)
+SystemRequirements: Quarto (https://quarto.org/docs/download/)
+VignetteBuilder: knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
+LazyData: true
+BugReports: https://github.com/Deniz-Koseoglu/lcqc/issues
