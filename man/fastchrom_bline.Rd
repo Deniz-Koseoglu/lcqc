@@ -18,8 +18,10 @@ fastchrom_bline(inds = NA, sig, starts, ends, crit_w = 1, for_plot = FALSE)
 \item{for_plot}{A \code{logical} toggle that determines whether the output data should be formatted for plotting (e.g. via \code{\link{chrom_plot}}).}
 }
 \value{
-The output changes depending on whether \code{for_plot} is \code{TRUE}. If so, a \code{list} of length 3 is returned containing \code{numeric}
-vectors of the \code{Original_Signal}, \code{Corrected_Signal}, and \code{Baseline}. Otherwise, the same data alongside data indices is returned as a
+A \code{list} of length 2 is returned containing the output \code{$data} and (updated) peak limits \code{$peaklims}.
+The structure of \code{$data} changes depending on whether \code{for_plot} is \code{TRUE}.
+If so, a \code{list} of length 3 is returned containing \code{numeric} vectors of the \code{Original_Signal},
+\code{Corrected_Signal}, and \code{Baseline}. Otherwise, the same data alongside data indices is returned as a
 4-column \code{data.frame}.
 }
 \description{
@@ -27,7 +29,7 @@ The function calculates baselines of well-resolved peaks and peak groups via the
 }
 \details{
 Iteratively derives baselines for all resolved regions based on the FastChrom algorithm proposed by Johnsen et al. (2013).
-First, all peak regions (e.g. determined by \code{\link{chrom_detect}}) are separated and a linear interpolated is carried out between their starting
+First, all peak regions (e.g. determined by \code{\link{chrom_detect}}) are separated and a linear interpolation is carried out between their starting
 and ending points to derive initial baselines.
 Each baseline is then checked and, if necessary, adjusted iteratively as follows: if a \strong{consecutive} number of baseline points
 equal to or greater than the critical width (\code{crit_w}) of the baseline are \strong{above the signal}, the baseline is forced through the
@@ -37,7 +39,7 @@ equal to or greater than the critical width (\code{crit_w}) of the baseline are 
 sigvec <- lcqc::simlc1[,"Signal"]
 strvec <- c(486, 763, 916, 1745, 2428)
 endvec <- c(707, 897, 1050, 1946, 2588)
-crw <- 10
+crw <- 1
 
 #Data formatted simply
 res1 <- fastchrom_bline(sig = sigvec, starts = strvec, ends = endvec, crit_w = crw,

@@ -11,15 +11,17 @@
 #' @param crit_w The critical width parameter. Usually equal to the minimum peak width at half height (see \strong{Details}).
 #' @param for_plot A \code{logical} toggle that determines whether the output data should be formatted for plotting (e.g. via \code{\link{chrom_plot}}).
 #'
-#' @return The output changes depending on whether \code{for_plot} is \code{TRUE}. If so, a \code{list} of length 3 is returned containing \code{numeric}
-#' vectors of the \code{Original_Signal}, \code{Corrected_Signal}, and \code{Baseline}. Otherwise, the same data alongside data indices is returned as a
+#' @return A \code{list} of length 2 is returned containing the output \code{$data} and (updated) peak limits \code{$peaklims}.
+#' The structure of \code{$data} changes depending on whether \code{for_plot} is \code{TRUE}.
+#' If so, a \code{list} of length 3 is returned containing \code{numeric} vectors of the \code{Original_Signal},
+#' \code{Corrected_Signal}, and \code{Baseline}. Otherwise, the same data alongside data indices is returned as a
 #' 4-column \code{data.frame}.
 #'
 #' @export
 #'
 #' @details
 #' Iteratively derives baselines for all resolved regions based on the FastChrom algorithm proposed by Johnsen et al. (2013).
-#' First, all peak regions (e.g. determined by \code{\link{chrom_detect}}) are separated and a linear interpolated is carried out between their starting
+#' First, all peak regions (e.g. determined by \code{\link{chrom_detect}}) are separated and a linear interpolation is carried out between their starting
 #' and ending points to derive initial baselines.
 #' Each baseline is then checked and, if necessary, adjusted iteratively as follows: if a \strong{consecutive} number of baseline points
 #' equal to or greater than the critical width (\code{crit_w}) of the baseline are \strong{above the signal}, the baseline is forced through the
@@ -29,7 +31,7 @@
 #' sigvec <- lcqc::simlc1[,"Signal"]
 #' strvec <- c(486, 763, 916, 1745, 2428)
 #' endvec <- c(707, 897, 1050, 1946, 2588)
-#' crw <- 10
+#' crw <- 1
 #'
 #' #Data formatted simply
 #' res1 <- fastchrom_bline(sig = sigvec, starts = strvec, ends = endvec, crit_w = crw,
@@ -104,13 +106,26 @@ fastchrom_bline <- function(inds = NA, sig, starts, ends, crit_w = 1, for_plot =
                        method = "linear", xout = pk_x)[["y"]]
       pts_rle <- rle(pk_y < pk_bls)
       blwchk <- which(pts_rle[["values"]] & pts_rle[["lengths"]] >= crit_w)
+
+      #Define new peak limits
+      if(length(blwchk)==0) {
+        newrng <- range(which((pk_y-pk_bls)>0))
+        peak_reg[[i]] <- peak_reg[[i]][newrng[1]:newrng[2]]
+        starts[i] <- min(peak_reg[[i]])
+        ends[i] <- max(peak_reg[[i]])
+      }
     }
     df <- rbind.data.frame(df, do.call(cbind.data.frame, list(ind = pk_x, orig_y = pk_y, bline = pk_bls, y = pk_y-pk_bls)))
   }
 
+  df <- df[order(df[,"ind"]),]
+
   #Compile and return data
   if(for_plot) {
     finres <- setNames(as.list(df[,c("orig_y","y","bline")]), c("Original_Signal","Corrected_Signal","Baseline"))
-  } else finres <- df[order(df[,"ind"]),]
+  } else finres <- df
+
+  #Add peak indices
+  finres <- list(data = finres, peaklims = list(starts = starts, ends = ends))
   return(finres)
 }
