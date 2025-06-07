@@ -82,10 +82,10 @@ The main workflow of `lcqc` is supported by the following key functions:
   more holistic independent assessment of peak fronting and tailing.
 
 - `chrom_retf`, `chrom_sepf`, and `chrom_res` These functions calculate
-  retention factors ***k***, separation factors $\boldsymbol{\alpha}$,
+  retention factors ***k***, separation factors $\alpha$,
   and resolution ***R*** as key metrics of column selectivity
   (separation quality). Since the calculation of ***R*** requires both
-  ***k*** and $\boldsymbol{\alpha}$ as input, `chrom_res` alone may be
+  ***k*** and $\alpha$ as input, `chrom_res` alone may be
   used to retrieve all three metrics with certain methods.
 
 ## Basic usage
