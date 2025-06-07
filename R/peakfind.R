@@ -23,6 +23,8 @@
 #' @param sn_rej Signal-to-noise ratio (S/N) peak \strong{pre}-filtering criterion. Defaults to \code{NA}.
 #' @param rej_logic Logic to use for peak filtering via \code{w_rej}, \code{pa_rej}, \code{min_ht}, and/or \code{sn_rej}. One of \code{"OR"} or \code{"AND"}. See \code{\link{rej_filter}} for more information.
 #' @param bnch A \code{logical} indicating whether peak bunching should be detected and mitigated (see \code{\link{detect_bunch}}).
+#' @param fchrom Either \code{NA} (default) or a \code{numeric} value of critical width to use for FastChrom baseline correction.
+#' Applies to resolved peaks only. See \code{\link{fastchrom_bline}} for details.
 #' @param refine_infs A \code{logical} indicating whether detected inflection points should be refined to be as close as possible to their Gaussian theoretical values
 #' (see \code{\link{inf_refine}}).
 #'
@@ -38,13 +40,16 @@
 #' }
 #' @seealso \code{\link{chrom_detect}}, \code{\link{markmerge}}, \code{\link{sdmin_infchk}}, \code{\link{detect_bunch}}, \code{\link{noise_calc}},
 #' \code{\link{rej_filter}}, \code{\link{det_infs}}, \code{\link{base_raw}}, \code{\link{find_fused}}, \code{\link{base_fused}}, \code{\link{find_shld}},
-#' \code{\link{ptype_class}}, \code{\link{corresp}}, \code{\link{grp_pks}}, \code{\link{inf_refine}}, \code{\link{find_ups}}
+#' \code{\link{ptype_class}}, \code{\link{corresp}}, \code{\link{grp_pks}}, \code{\link{inf_refine}}, \code{\link{find_ups}}, \code{\link{fastchrom_bline}}
 #'
 #' @keywords internal
 #'
 #' @importFrom stats na.omit
 peakfind <- function(marks, smooth_marks = NA, rtime, sig, fder, sder, max_w = NA, liftoff = 0, touchdown = 0.5, sig_thres, fd_thres, sd_thres,
-                     min_ht = NA, w_rej = NA, pa_rej = NA, sn_rej = NA, rej_logic = rep("OR",2), bnch = TRUE, refine_infs = TRUE) { #fder and sder denote SMOOTHED first and second derivatives
+                     min_ht = NA, w_rej = NA, pa_rej = NA, sn_rej = NA, rej_logic = rep("OR",2), bnch = TRUE, refine_infs = TRUE, fchrom = NA) { #fder and sder denote SMOOTHED first and second derivatives
+
+  #Preliminary checks
+  if(is.na(fchrom)) fchrom <- 0
 
   #Merge original and smoothed peak markers (when both are available)
   fin <- markmerge(marks = marks, smooth_marks = smooth_marks, max_w = max_w, minsim = 3)
@@ -75,7 +80,7 @@ peakfind <- function(marks, smooth_marks = NA, rtime, sig, fder, sder, max_w = N
   sigmax_nc <- fin[["sig_maxima_nc"]]
 
   #Create vector to store information about function output
-  #information <- c()
+  information <- c()
 
   #Detect matching points that reinforce a specific conclusion
   #Carry out starting checks on SD minima (peak markers)
@@ -209,6 +214,18 @@ peakfind <- function(marks, smooth_marks = NA, rtime, sig, fder, sder, max_w = N
     cat("\nA total of ", length(sdmin)-nrow(peak_idres), " peaks were removed due to unidentified peak type and/or absence of peak starts/ends!")
   }
 
+  #Optionally carry out additional baseline correction using FastChrom to adjust baseline-resolved peak boundaries
+  if(fchrom>0) {
+    information <- paste0(information, "\nFastChrom baseline correction was carried out with a critical width of ", fchrom, ".")
+
+    fchrom_res <- fastchrom_bline(sig = sig, starts = peak_idres[,"ind_starts"], ends = peak_idres[,"ind_ends"],
+                                  crit_w = fchrom, for_plot = FALSE)[["peaklims"]]
+
+    #Replace any adjusted peak starts or ends with new ones
+    peak_idres[,"ind_starts"] <- fchrom_res[["starts"]]
+    peak_idres[,"ind_ends"] <- fchrom_res[["ends"]]
+  }
+
   #Add retention times to the output data.frame
   rt_colsub <- grep("^ind_", colnames(peak_idres))
   for(i in rt_colsub) {
@@ -229,7 +246,7 @@ peakfind <- function(marks, smooth_marks = NA, rtime, sig, fder, sder, max_w = N
   #Add information about the total number of peaks finally detected
   ptype_tbl <- table(peak_idres[,"ptype"])
   ptype_nms <- c("B" = "baseline-resolved", "F" = "fused", "S" = "shoulder", "R" = "round")
-  information <- paste0("\nFollowing peak picking and removal, a total of ", nrow(peak_idres), " peaks were detected:",
+  information <- paste0(information,"\nFollowing peak picking and removal, a total of ", nrow(peak_idres), " peaks were detected:",
                         paste0(sapply(names(ptype_nms), function(x) if(any(names(ptype_tbl)==names(ptype_nms[x]))) paste0("\n", ptype_tbl[x], " ", ptype_nms[x], " peaks.") else ""), collapse = ""), collapse = "")
   cat(information)
   return(list(results = peak_idres, information = information))

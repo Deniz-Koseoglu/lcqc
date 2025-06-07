@@ -27,7 +27,8 @@ chrom_detect(
   rej_logic = rep("OR", 2),
   zscore_pars = "default",
   plot_corr = FALSE,
-  plotset = "make"
+  plotset = "make",
+  fchrom = NA
 )
 }
 \arguments{
@@ -106,6 +107,9 @@ When \code{FALSE} (default), the original signal is plotted instead.}
 
 \item{plotset}{A \code{character} string specifying whether data is visualized/shown.
 One of \code{"make"} (generates plots without printing; default), \code{"print"} (generates and prints plots), or \code{"none"}.}
+
+\item{fchrom}{Either \code{NA} (default) or a \code{numeric} value of critical width to use for FastChrom baseline correction.
+Applies to resolved peaks only. See \code{\link{fastchrom_bline}} for details.}
 }
 \value{
 A \strong{list of lists} containing named elements \code{results} and \code{plots}.
@@ -129,8 +133,8 @@ This function uses a combination of various custom and industry-standard algorit
 chromatographic peaks using 1-dimensional data (only retention time and signal). This is the most complex function in \pkg{lcqc}.
 }
 \examples{
-#LC chromatogram
-reslc1 <- chrom_detect(lcqc::simlc1, vars = c("Time","Signal"))
+#LC chromatogram (with FastChrom baseline correction)
+reslc1 <- chrom_detect(lcqc::simlc1, vars = c("Time","Signal"), fchrom = 1)
 
 #GC chromatogram
 resgc <- chrom_detect(lcqc::exgc2, vars = c("Time","Signal"), det_bunch = FALSE)
@@ -149,7 +153,7 @@ Waters Corporation (2017), 'Empower Software Data Acquisition and Processing The
 This workflow uses a multitude of exported and \strong{un}exported functions:
 \describe{
 \item{Exported}{\code{\link{chrom_width}}, \code{\link{chrom_smooth}}, \code{\link{chrom_bline}}, \code{\link{chrom_deriv}}, \code{\link{z_optim}},
-\code{\link{chrom_amplim}}, \code{\link{chrom_derlims}}}
+\code{\link{chrom_amplim}}, \code{\link{chrom_derlims}}, \code{\link{fastchrom_bline}}}
 \item{Unexported}{\code{\link{peakmark}}, \code{\link{peakfind}} and its constituent functions}
 }
 }

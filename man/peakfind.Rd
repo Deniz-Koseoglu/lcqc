@@ -23,7 +23,8 @@ peakfind(
   sn_rej = NA,
   rej_logic = rep("OR", 2),
   bnch = TRUE,
-  refine_infs = TRUE
+  refine_infs = TRUE,
+  fchrom = NA
 )
 }
 \arguments{
@@ -60,6 +61,9 @@ peakfind(
 
 \item{refine_infs}{A \code{logical} indicating whether detected inflection points should be refined to be as close as possible to their Gaussian theoretical values
 (see \code{\link{inf_refine}}).}
+
+\item{fchrom}{Either \code{NA} (default) or a \code{numeric} value of critical width to use for FastChrom baseline correction.
+Applies to resolved peaks only. See \code{\link{fastchrom_bline}} for details.}
 }
 \value{
 A list of length 2 containing the following elements:
@@ -81,6 +85,6 @@ This function forms a complete workflow for peak identification and uses various
 \seealso{
 \code{\link{chrom_detect}}, \code{\link{markmerge}}, \code{\link{sdmin_infchk}}, \code{\link{detect_bunch}}, \code{\link{noise_calc}},
 \code{\link{rej_filter}}, \code{\link{det_infs}}, \code{\link{base_raw}}, \code{\link{find_fused}}, \code{\link{base_fused}}, \code{\link{find_shld}},
-\code{\link{ptype_class}}, \code{\link{corresp}}, \code{\link{grp_pks}}, \code{\link{inf_refine}}, \code{\link{find_ups}}
+\code{\link{ptype_class}}, \code{\link{corresp}}, \code{\link{grp_pks}}, \code{\link{inf_refine}}, \code{\link{find_ups}}, \code{\link{fastchrom_bline}}
 }
 \keyword{internal}

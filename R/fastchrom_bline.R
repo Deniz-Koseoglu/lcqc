@@ -41,8 +41,8 @@
 #' res2 <- fastchrom_bline(sig = sigvec, starts = strvec, ends = endvec, crit_w = crw, for_plot = TRUE)
 #'
 #' #Create plot
-#' plot(res2[["Original_Signal"]])
-#' lines(res2[["Baseline"]], col = "red")
+#' plot(res2[["data"]][["Original_Signal"]], type = "l")
+#' lines(res2[["data"]][["Baseline"]], col = "red")
 #'
 #' @references Johnsen, L.G., Skov, T., Houlberg, U., Bro, R. (2013), 'An automated method for baseline correction, peak finding and peak grouping in chromatographic data', \emph{Analyst} \strong{138} (12), pp. 3502-3511, DOI: \url{https://www.doi.org/10.1039/C3AN36276K}
 #'
@@ -56,6 +56,10 @@ fastchrom_bline <- function(inds = NA, sig, starts, ends, crit_w = 1, for_plot =
   if(any(c(starts,ends) > length(sig)) | any(c(starts,ends) <= 0)) stop("All indices given in 'starts' and 'ends' must be within the length of 'sig'!")
   if(!is.na(inds) & length(inds)!=length(sig)) stop("When custom indices are provided, their length must be equal to that of 'sig'!")
   crit_w <- unname(crit_w)
+
+  #Backup starts and ends (needed later for finding indices where they have been adjusted)
+  starts_bckp <- starts
+  ends_bckp <- ends
 
   #Filter out start-end pairs of fused peaks (ONLY APPLICABLE WHEN MORE THAN ONE PEAK IS PRESENT)
   if(all(lengths(list(starts,ends))>1)) {
@@ -111,8 +115,8 @@ fastchrom_bline <- function(inds = NA, sig, starts, ends, crit_w = 1, for_plot =
       if(length(blwchk)==0) {
         newrng <- range(which((pk_y-pk_bls)>0))
         peak_reg[[i]] <- peak_reg[[i]][newrng[1]:newrng[2]]
-        starts[i] <- min(peak_reg[[i]])
-        ends[i] <- max(peak_reg[[i]])
+        starts_bckp[starts_bckp == starts[i]] <- min(peak_reg[[i]])
+        ends_bckp[ends_bckp == ends[i]] <- max(peak_reg[[i]])
       }
     }
     df <- rbind.data.frame(df, do.call(cbind.data.frame, list(ind = pk_x, orig_y = pk_y, bline = pk_bls, y = pk_y-pk_bls)))
@@ -126,6 +130,6 @@ fastchrom_bline <- function(inds = NA, sig, starts, ends, crit_w = 1, for_plot =
   } else finres <- df
 
   #Add peak indices
-  finres <- list(data = finres, peaklims = list(starts = starts, ends = ends))
+  finres <- list(data = finres, peaklims = list(starts = starts_bckp, ends = ends_bckp))
   return(finres)
 }
