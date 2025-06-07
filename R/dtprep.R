@@ -65,8 +65,10 @@ dtprep <- function(input, vars = "auto", crit_w = "auto") {
 
   #Calculate and rbind common (group) baselines
   #Derive baselines for each peak group
-  blines <- fastchrom_bline(sig = chrom_df[,vars[2]], starts = peak_idres[,"ind_starts"], ends = peak_idres[,"ind_ends"],
+  fchr_res <- fastchrom_bline(sig = chrom_df[,vars[2]], starts = peak_idres[,"ind_starts"], ends = peak_idres[,"ind_ends"],
                             crit_w = if(crit_w=="auto") min(peak_idres[,"ind_rinf"]-peak_idres[,"ind_linf"], na.rm = TRUE) else crit_w)
+  blines <- fchr_res[["data"]]
+
   grp_col <- rep(NA, nrow(blines))
   for(i in seq_along(grpspans)) {
     grp_col[grpspans[[i]]] <- grps[i]

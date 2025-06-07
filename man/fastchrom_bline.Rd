@@ -49,8 +49,8 @@ for_plot = FALSE)
 res2 <- fastchrom_bline(sig = sigvec, starts = strvec, ends = endvec, crit_w = crw, for_plot = TRUE)
 
 #Create plot
-plot(res2[["Original_Signal"]])
-lines(res2[["Baseline"]], col = "red")
+plot(res2[["data"]][["Original_Signal"]], type = "l")
+lines(res2[["data"]][["Baseline"]], col = "red")
 
 }
 \references{

@@ -92,6 +92,8 @@ addnms <- function(x, nms, whichpks = NA) {
 #' Possible values are \code{"OR"} or \code{"AND"}. Defaults to \code{rep("OR",2)}. A single value may also be provided, in which case the same logic will
 #' be applied for both rounds of peak filtering.
 #' @param zscore_pars Either \code{"default"} or a \code{list} of \code{numeric} vectors providing sequences of 3 parameters to use for \code{\link{z_optim}}.
+#' @param fchrom Either \code{NA} (default) or a \code{numeric} value of critical width to use for FastChrom baseline correction.
+#' Applies to resolved peaks only. See \code{\link{fastchrom_bline}} for details.
 #' @param plot_corr A \code{logical} switch. Should the baseline-corrected signal be plotted?
 #' When \code{FALSE} (default), the original signal is plotted instead.
 #' @param plotset A \code{character} string specifying whether data is visualized/shown.
@@ -122,13 +124,13 @@ addnms <- function(x, nms, whichpks = NA) {
 #' @seealso This workflow uses a multitude of exported and \strong{un}exported functions:
 #'\describe{
 #' \item{Exported}{\code{\link{chrom_width}}, \code{\link{chrom_smooth}}, \code{\link{chrom_bline}}, \code{\link{chrom_deriv}}, \code{\link{z_optim}},
-#' \code{\link{chrom_amplim}}, \code{\link{chrom_derlims}}}
+#' \code{\link{chrom_amplim}}, \code{\link{chrom_derlims}}, \code{\link{fastchrom_bline}}}
 #' \item{Unexported}{\code{\link{peakmark}}, \code{\link{peakfind}} and its constituent functions}
 #'}
 #'
 #' @examples
-#' #LC chromatogram
-#' reslc1 <- chrom_detect(lcqc::simlc1, vars = c("Time","Signal"))
+#' #LC chromatogram (with FastChrom baseline correction)
+#' reslc1 <- chrom_detect(lcqc::simlc1, vars = c("Time","Signal"), fchrom = 1)
 #'
 #' #GC chromatogram
 #' resgc <- chrom_detect(lcqc::exgc2, vars = c("Time","Signal"), det_bunch = FALSE)
@@ -142,7 +144,8 @@ chrom_detect <- function(chrom, vars = c("Time", "Signal"), trange = range(chrom
                          bline_method = "none", bline_pars = "default", smooth = rep("tri",2), mpts = c(3,3), crosspts = c(2,2),
                          ma_pts = c("auto",7), ma_passes = c("auto",1), sens = c(2,1,3), amp_thres = "zscore", ampfrac = 0.05,
                          der_thres = c("ncore", "iqr"), apex_pars = c(0,0.5), rej = c(wd = "auto", pa = NA, sn = NA, ht = NA),
-                         asprat = 0.71, rej_logic = rep("OR",2), zscore_pars = "default", plot_corr = FALSE, plotset = "make") {
+                         asprat = 0.71, rej_logic = rep("OR",2), zscore_pars = "default", plot_corr = FALSE, plotset = "make",
+                         fchrom = NA) {
 
   #Generate function call
   cl_rec <- match.call()
@@ -430,8 +433,8 @@ chrom_detect <- function(chrom, vars = c("Time", "Signal"), trange = range(chrom
   peak_idres <- peakfind(marks = orig_df, smooth_marks = smooth_df, rtime = rtime, sig = ssig, fder = fder_smooth, sder = sder_smooth,
                          sig_thres = amplim, fd_thres = TFD, sd_thres = TSD, max_w = if(any(c(ma_pts, ma_passes) %in% "auto")) autowd[3] else NA, liftoff = apex_pars[1],
                          touchdown = apex_pars[2], min_ht = ht_rej, w_rej = w_rej, pa_rej = pa_rej, sn_rej = sn_rej, rej_logic = rej_logic,
-                         bnch = det_bunch, refine_infs = TRUE)
-  #return(peak_idres)
+                         bnch = det_bunch, fchrom = fchrom, refine_infs = TRUE)
+
   #Information about the peak detection
   information <- paste0(information, peak_idres[["information"]])
   peak_idres <- peak_idres[["results"]]
