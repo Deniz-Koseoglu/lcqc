@@ -137,6 +137,14 @@ peakfind <- function(marks, smooth_marks = NA, rtime, sig, fder, sder, max_w = N
     fused_bnds <- sr_bnds <- NA
   }
 
+  #Optionally carry out additional baseline correction using FastChrom to adjust baseline-resolved peak boundaries
+  if(fchrom>0) {
+    information <- paste0(information, "\nFastChrom baseline correction was carried out with a critical width of ", fchrom, ".")
+
+    fchrom_res <- fastchrom_bline(sig = sig, starts = base_str, ends = base_end,
+                                  crit_w = fchrom, for_plot = FALSE)[["peaklims"]]
+  }
+
   #Combine all peaks boundaries into one vector
   all_bnds <- c(base_str, base_end, fused_bnds, sr_bnds)
   all_bnds <- sort(all_bnds[!is.na(all_bnds) & !duplicated(all_bnds)])
@@ -212,18 +220,6 @@ peakfind <- function(marks, smooth_marks = NA, rtime, sig, fder, sder, max_w = N
   if(any(is.na(peak_idres[,c("ind_starts", "ind_ends", "ptype")]))) {
     peak_idres <- peak_idres[!with(peak_idres,is.na(ind_starts)|is.na(ind_ends)|is.na(ptype)),]
     cat("\nA total of ", length(sdmin)-nrow(peak_idres), " peaks were removed due to unidentified peak type and/or absence of peak starts/ends!")
-  }
-
-  #Optionally carry out additional baseline correction using FastChrom to adjust baseline-resolved peak boundaries
-  if(fchrom>0) {
-    information <- paste0(information, "\nFastChrom baseline correction was carried out with a critical width of ", fchrom, ".")
-
-    fchrom_res <- fastchrom_bline(sig = sig, starts = peak_idres[,"ind_starts"], ends = peak_idres[,"ind_ends"],
-                                  crit_w = fchrom, for_plot = FALSE)[["peaklims"]]
-
-    #Replace any adjusted peak starts or ends with new ones
-    peak_idres[,"ind_starts"] <- fchrom_res[["starts"]]
-    peak_idres[,"ind_ends"] <- fchrom_res[["ends"]]
   }
 
   #Add retention times to the output data.frame
