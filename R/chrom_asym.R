@@ -172,11 +172,8 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
   fout[["information"]] <- paste0("Asymmetry metric calculation was attempted for ", ifelse(is.numeric(which_peaks), paste0(length(which_peaks), " out of "), "all of "), peaknum, " peaks.",
                                   "\nThe following methods were used: ", paste0(metnms[names(metnms) %in% method], " ('", method, "')", collapse = ", "),".",
                                   ifelse(any(method=="TPA"), paste0("\nTotal Peak Analysis (TPA) was carried out on ", length(plotlist), " baseline-resolved peaks out of ", peaknum, " total peaks (or ",
-<<<<<<< HEAD
                                                                     blinenum, " baseline-resolved peaks)."),""))
-=======
-                                                                    blinenum, " baseline-resolved peaks."),""))
->>>>>>> 17ad0a858074f62c312b79f29c2f1c67a6440373
+
   return(fout)
 }
 
