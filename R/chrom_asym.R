@@ -96,7 +96,11 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
 
   #Unpack input data
   peaknum <- nrow(input[["acc_tops"]])
+<<<<<<< HEAD
   blinenum <- length(which(input[["type_df"]][["maxes"]][,"ptype"]=="B"))
+=======
+  blinenum <- length(which(input[["type_df"]][["maxes"]][,"ptype"]==0))
+>>>>>>> 17ad0a858074f62c312b79f29c2f1c67a6440373
 
   acc <- input[["acc_tops"]][which_peaks,]
   ptypes <- input[["type_df"]][["maxes"]][which_peaks,"ptype"] #Peak types
@@ -110,7 +114,11 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
   for(i in seq_along(pklst)) {
 
     #Optionally retrieve peak name (where present)
+<<<<<<< HEAD
     tpa_suffix <- if(any(colnames(acc) %in% "Compound")) paste0(i, " (", acc[i,"Compound"], ")") else acc[i,"peak"]
+=======
+    tpa_suffix <- if(any(colnames(acc) %in% "Compound")) paste0(i, " (", acc[i,"Compound"], ")") else i
+>>>>>>> 17ad0a858074f62c312b79f29c2f1c67a6440373
     trmax <- acc[i,"rt_max"]
     sigmax <- acc[i,"sig_max"]
     fracs <- if(any(method %in% "TPA")) c(0.05, 0.10, tpa_thres) else c(0.05, 0.10)
@@ -171,7 +179,11 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
   fout[["information"]] <- paste0("Asymmetry metric calculation was attempted for ", ifelse(is.numeric(which_peaks), paste0(length(which_peaks), " out of "), "all of "), peaknum, " peaks.",
                                   "\nThe following methods were used: ", paste0(metnms[names(metnms) %in% method], " ('", method, "')", collapse = ", "),".",
                                   ifelse(any(method=="TPA"), paste0("\nTotal Peak Analysis (TPA) was carried out on ", length(plotlist), " baseline-resolved peaks out of ", peaknum, " total peaks (or ",
+<<<<<<< HEAD
                                                                     blinenum, " baseline-resolved peaks)."),""))
+=======
+                                                                    blinenum, " baseline-resolved peaks."),""))
+>>>>>>> 17ad0a858074f62c312b79f29c2f1c67a6440373
   return(fout)
 }
 
