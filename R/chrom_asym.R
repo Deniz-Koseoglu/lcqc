@@ -82,6 +82,7 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
 
   if(!any(c("all", "Tf", "As", "TPA") %in% method)) stop("Method must be one or more of: 'all', 'Tf', 'As', and/or 'TPA'!")
   if(any(method %in% "all")) method <- c("Tf", "As", "TPA")
+  if(any(which_peaks %in% "all")) which_peaks <- seq(nrow(input[["acc_tops"]]))
   if(is.numeric(which_peaks)) {
     if(max(which_peaks)>nrow(input[["Peak_Extents"]])) stop("At least one of the chosen peak indices exceeds the number of peaks in the input data!")
   }
@@ -94,9 +95,12 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
   input <- dtprep(input, crit_w = crit_w)
 
   #Unpack input data
-  acc <- input[["acc_tops"]]
-  ptypes <- input[["type_df"]][["maxes"]][,"ptype"] #Peak types
-  pklst <- input[["peak_list"]]
+  peaknum <- nrow(input[["acc_tops"]])
+  blinenum <- length(which(input[["type_df"]][["maxes"]][,"ptype"]==0))
+
+  acc <- input[["acc_tops"]][which_peaks,]
+  ptypes <- input[["type_df"]][["maxes"]][which_peaks,"ptype"] #Peak types
+  pklst <- input[["peak_list"]][which_peaks]
 
   #Output list
   output <- plotlist <- list()
@@ -107,7 +111,6 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
 
     #Optionally retrieve peak name (where present)
     tpa_suffix <- if(any(colnames(acc) %in% "Compound")) paste0(i, " (", acc[i,"Compound"], ")") else i
-
     trmax <- acc[i,"rt_max"]
     sigmax <- acc[i,"sig_max"]
     fracs <- if(any(method %in% "TPA")) c(0.05, 0.10, tpa_thres) else c(0.05, 0.10)
@@ -156,8 +159,7 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
   #Add compound names (optional)
   if(any(colnames(acc) %in% "Compound")) output <- cbind.data.frame(Compound = acc[,"Compound"], output)
 
-  #Filter unwanted peaks
-  if(is.numeric(which_peaks)) output <- output[which_peaks,]
+  #Compile plots
   fout <- list(results = output, call = cl_rec)
   if(any(method %in% "TPA") & plotset!="none") {
     fout[["plots"]] <- plotlist
@@ -166,9 +168,10 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
 
   #Compile information about function
   metnms <- c(Tf = "USP Tailing Factor", As = "Asymmetry Factor", TPA = "Total Peak Analysis")
-  fout[["information"]] <- paste0("Asymmetry metric calculation was attempted for ", ifelse(is.numeric(which_peaks), paste0(length(which_peaks), " out of "), "all of "), length(pklst), " peaks.",
+  fout[["information"]] <- paste0("Asymmetry metric calculation was attempted for ", ifelse(is.numeric(which_peaks), paste0(length(which_peaks), " out of "), "all of "), peaknum, " peaks.",
                                   "\nThe following methods were used: ", paste0(metnms[names(metnms) %in% method], " ('", method, "')", collapse = ", "),".",
-                                  ifelse(any(method=="TPA"), paste0("\nTotal Peak Analysis (TPA) was carried out on ", length(plotlist), " baseline-resolved peaks out of ", length(pklst), " total peaks."),""))
+                                  ifelse(any(method=="TPA"), paste0("\nTotal Peak Analysis (TPA) was carried out on ", length(plotlist), " baseline-resolved peaks out of ", peaknum, " total peaks (or ",
+                                                                    blinenum, " baseline-resolved peaks."),""))
   return(fout)
 }
 
