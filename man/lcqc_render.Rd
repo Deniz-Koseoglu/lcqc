@@ -133,7 +133,7 @@ tpars = c(sn = "C18-2024000001",
          inj = "20 microL",
          unit_c = "ppm",
          tform = "default"),
-expath = paste0("C:/Users/Denizcan/Desktop"),
+expath = getwd(),
 asprat = 0.4,
 add_pnums = TRUE,
 fontsize = 10)

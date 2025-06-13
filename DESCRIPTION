@@ -36,7 +36,9 @@ Imports:
     glue
 Suggests:
     testthat (>= 3.2.0),
-    rmarkdown (>= 2.25)
+    rmarkdown (>= 2.25),
+    quarto (>= 1.4.4),
+    magick (>= 2.8.7)
 SystemRequirements: Quarto (https://quarto.org/docs/download/)
 VignetteBuilder: knitr
 Encoding: UTF-8

@@ -703,7 +703,7 @@ etg_penalty <- function(pars, input, vars = c("x","y"), infs) {
 #' @description Visualizes the results of Non-Linear Least Squares Iterative Curve Fitting (ICF) of chromatographic data
 #' obtained via \code{\link{chrom_icf}}.
 #'
-#' @param input The \code{data.frame} of data output from the \code{[["main_data"]]} element of \code{\link{chrom_skim}}.
+#' @param input The \code{data.frame} of data output from the \code{[["main_data"]]} element of \code{\link{chrom_icf}}.
 #' @param cols Plot colour palette. Either \code{"default"} or a \strong{named} \code{character} vector of colours.
 #' Names denote the following plot elements: original chromatogram (\code{"main"}), Gaussian (\code{"gs"}), EGH (\code{"egh"}),
 #' EMG (\code{"emg"}), and ETG (\code{"etg"}) grouped models, unmodeled peaks (\code{"none"}),
@@ -782,16 +782,6 @@ icf_plot <- function(input, cols = "default", plabs = "default", plotsum = TRUE,
 
   baseplot <- ggplot(data = input, aes(x = .data[[aes_xvar]])) +
     geom_path(aes(y = .data[[aes_yvar]]), col = cols["main"]) +
-    scale_colour_manual(name = "", values = c("gs" = cols[["gs"]],
-                                              "egh" = cols[["egh"]],
-                                              "emg" = cols[["emg"]],
-                                              "etg" = cols[["etg"]],
-                                              "none" = cols[["none"]])) +
-    scale_fill_manual(name = "", values = c("gs" = cols[["gs"]],
-                                            "egh" = cols[["egh"]],
-                                            "emg" = cols[["emg"]],
-                                            "etg" = cols[["etg"]],
-                                            "none" = cols[["none"]])) +
     scale_x_continuous(breaks = breaks_pretty(n = 6)) +
     scale_y_continuous(breaks = breaks_pretty(n = 6)) +
     coord_cartesian(xlim = c(input[min(which(!is.na(input[,"bline"])))-3,"x"],
@@ -813,7 +803,17 @@ icf_plot <- function(input, cols = "default", plabs = "default", plotsum = TRUE,
     aes_mtype <- "model_type"
 
     modplot[["Modeled_Groups"]] <- baseplot + geom_path(data = input[!is.na(input[,"bline"]) & !is.na(input[,"modsum_y"]),], aes(y = .data[[aes_msum]], group = .data[[aes_grpvar]], col = .data[[aes_mtype]]), lwd = 1.02) +
-      {if(fillplot) geom_ribbon(data = input[!is.na(input[,"bline"]) & !is.na(input[,"modsum_y"]),], aes(ymax = .data[[aes_msum]], fill = .data[[aes_mtype]], group = .data[[aes_grpvar]]), ymin = 0, alpha = 0.15)}
+      {if(fillplot) geom_ribbon(data = input[!is.na(input[,"bline"]) & !is.na(input[,"modsum_y"]),], aes(ymax = .data[[aes_msum]], fill = .data[[aes_mtype]], group = .data[[aes_grpvar]]), ymin = 0, alpha = 0.15)} +
+    scale_colour_manual(name = "", values = c("gs" = cols[["gs"]],
+                                              "egh" = cols[["egh"]],
+                                              "emg" = cols[["emg"]],
+                                              "etg" = cols[["etg"]],
+                                              "none" = cols[["none"]])) +
+      scale_fill_manual(name = "", values = c("gs" = cols[["gs"]],
+                                              "egh" = cols[["egh"]],
+                                              "emg" = cols[["emg"]],
+                                              "etg" = cols[["etg"]],
+                                              "none" = cols[["none"]]))
   }
 
   if(plotind) {

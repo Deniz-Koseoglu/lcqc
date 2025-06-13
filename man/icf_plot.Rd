@@ -17,7 +17,7 @@ icf_plot(
 )
 }
 \arguments{
-\item{input}{The \code{data.frame} of data output from the \code{[["main_data"]]} element of \code{\link{chrom_skim}}.}
+\item{input}{The \code{data.frame} of data output from the \code{[["main_data"]]} element of \code{\link{chrom_icf}}.}
 
 \item{cols}{Plot colour palette. Either \code{"default"} or a \strong{named} \code{character} vector of colours.
 Names denote the following plot elements: original chromatogram (\code{"main"}), Gaussian (\code{"gs"}), EGH (\code{"egh"}),

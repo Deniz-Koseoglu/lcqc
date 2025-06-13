@@ -111,7 +111,7 @@ render_defs <- function() {
 #'          inj = "20 microL",
 #'          unit_c = "ppm",
 #'          tform = "default"),
-#' expath = paste0("C:/Users/Denizcan/Desktop"),
+#' expath = getwd(),
 #' asprat = 0.4,
 #' add_pnums = TRUE,
 #' fontsize = 10)
@@ -120,11 +120,15 @@ render_defs <- function() {
 #' @seealso \code{\link{render_defs}}, \code{\link{chrom_tplate}}, \code{\link{chrom_asym}}, \code{\link{chrom_addmets}},
 #' \code{\link{chrom_skim}}
 #'
+#' @import quarto
+#' @import magick
 #' @importFrom ggpubr get_legend
 #' @importFrom flextable flextable autofit append_chunks prepend_chunks valign align border_remove bold italic fontsize line_spacing width delete_part as_chunk as_sup as_i
 #' @importFrom tibble tribble
 #' @importFrom glue glue
 #' @importFrom fs file_move
+#' @importFrom knitr plot_crop
+#'
 lcqc_render <- function(tpl, cplot, tpars, spec, clogo = NA, sym = NA, ext = NA,
                         mets = c("EP", "AH", "Tf", "As"), exmets = c("Linear Velocity", "Packing Porosity", "Flow Resistance", "Permeability"),
                         add_tpa = FALSE, expath = getwd(), asprat = 0.4, pnms = NA, pconcs = NA, add_pnums = TRUE,
@@ -254,11 +258,19 @@ lcqc_render <- function(tpl, cplot, tpars, spec, clogo = NA, sym = NA, ext = NA,
   }))
   names(mainres) <-c("Name", mets)
 
+  #Remove metrics and extra metrics which result in output of length 0 or all NAs:
+  mainres_rm <- which(lengths(mainres)==0 | sapply(mainres, function(x) all(is.na(x))))
+  if(length(mainres_rm)>0) {
+    mainres <- mainres[-mainres_rm]
+    mets <- mets[-mainres_rm]
+  }
+
   #Optionally also compile extra column-specific parameters
   if(!all(is.na(input[["ext"]]))) {
     exmetchk <- which(input[["ext"]][,"metric"] %in% exmets)
     exres <- as.list(input[["ext"]][exmetchk,"value"])
-    names(exres) <- exmets
+    names(exres) <- exmets[exmetchk]
+    exmets <- exmets[exmetchk]
   } else exres <- "false"
 
   #Run rendering function
@@ -271,7 +283,7 @@ lcqc_render <- function(tpl, cplot, tpars, spec, clogo = NA, sym = NA, ext = NA,
                                               tpath = if(length(tpafnms)==0) "false" else as.list(tpafnms),
                                               tpars = as.list(tpars),
                                               mainmets = mainres, spec = spec, extmets = exres, metfont = fontsize),
-                        quiet = TRUE)
+                        quiet = FALSE)
 
   #Move the output file to a custom directory (file is also removed from working directory)
   outdir <- paste0(getwd(), "/", render_fname) #imgpath
