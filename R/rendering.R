@@ -137,14 +137,14 @@ lcqc_render <- function(tpl, cplot, tpars, spec, clogo = NA, sym = NA, ext = NA,
   #Preliminary checks
   #Check and compile input data
   if(any(which_pks %in% "all")) {
-    which_pks <- seq(nrow(tpl[["results"]]))
+    which_pks <- tpl[["results"]][,"peak"]
   } else if(any(which_pks<1)|length(which_pks)>nrow(tpl[["results"]])) stop("Peaks for which data is to be reported ('which_pks') must be within the data range!")
 
   if((is.list(tpl) & !all(c("results", "information", "call") %in% names(tpl)))|
      (is.list(sym) & !all(c("results", "information", "call", "plots") %in% names(sym)))|
      (is.list(ext) & !all(c("results", "information", "call") %in% names(ext)))) {
     stop("Input data in incorrect format! Arguments 'tpl', 'sym' and 'ext' must be output from 'chrom_tplate', 'chrom_asym', and 'chrom_addmets', respectively.")
-  } else input <- setNames(lapply(list(tpl, sym, ext), function(x) if(!all(is.na(x)) & "results" %in% names(x)) x[["results"]][if(all(c("metric", "value", "units") %in% colnames(x[["results"]]))) 1:nrow(x[["results"]]) else which_pks,] else NA), c("tpl", "sym", "ext"))
+  } else input <- setNames(lapply(list(tpl, sym, ext), function(x) if(!all(is.na(x)) & "results" %in% names(x)) x[["results"]][if(all(c("metric", "value", "units") %in% colnames(x[["results"]]))) 1:nrow(x[["results"]]) else x[["results"]][,"peak"] %in% which_pks,] else NA), c("tpl", "sym", "ext"))
   if(!any(c("gg","ggplot") %in% class(cplot))) stop("The chromatogram plot ('cplot') must originate from ggplot2!")
 
   #Check text parameters (mobile phase, serial number etc.)
@@ -275,7 +275,7 @@ lcqc_render <- function(tpl, cplot, tpars, spec, clogo = NA, sym = NA, ext = NA,
 
   #Run rendering function
   render_fname <- paste0("LC_Col_Report_", format(Sys.time(), "%Y-%m-%d %Hhr %Mmin %Ssec"), ".pdf")
-  cat("\nRendering report...")
+  #cat("\nRendering report...")
   quarto::quarto_render(input = tmpath,
                         output_format = "pdf",
                         output_file = render_fname,
@@ -283,12 +283,12 @@ lcqc_render <- function(tpl, cplot, tpars, spec, clogo = NA, sym = NA, ext = NA,
                                               tpath = if(length(tpafnms)==0) "false" else as.list(tpafnms),
                                               tpars = as.list(tpars),
                                               mainmets = mainres, spec = spec, extmets = exres, metfont = fontsize),
-                        quiet = FALSE)
+                        quiet = "default")
 
   #Move the output file to a custom directory (file is also removed from working directory)
   outdir <- paste0(getwd(), "/", render_fname) #imgpath
   fs::file_move(outdir, expath)
-  cat("\nPDF report exported to: ", paste0(expath, "/", render_fname))
+  #cat("\nPDF report exported to: ", paste0(expath, "/", render_fname))
 
   #Finally, remove the main and tpa plot files
   invisible(file.remove(list.files(imgpath, pattern = "tpa_[[:digit:]]|qcplot.png$", full.names = TRUE)))

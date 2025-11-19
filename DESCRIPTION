@@ -27,23 +27,22 @@ Imports:
     scales (>= 1.2.1),
     nloptr (>= 2.0.3),
     akima (>= 0.6.3.4),
-    quarto (>= 1.4),
+    quarto (>= 1.4.4),
     flextable (>= 0.9.5),
     tibble (>= 3.2.1),
     knitr (>= 1.45),
+    magick (>= 2.9.0),
     rlang,
     lifecycle,
     glue
 Suggests:
     testthat (>= 3.2.0),
-    rmarkdown (>= 2.25),
-    quarto (>= 1.4.4),
-    magick (>= 2.8.7)
+    rmarkdown (>= 2.25)
 SystemRequirements: Quarto (https://quarto.org/docs/download/)
 VignetteBuilder: knitr
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Config/testthat/edition: 3
 LazyData: true
 BugReports: https://github.com/Deniz-Koseoglu/lcqc/issues

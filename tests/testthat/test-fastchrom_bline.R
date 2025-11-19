@@ -6,5 +6,5 @@ test_that("fastchrom_bline() works", {
 
   #Data formatted simply
   res1 <- fastchrom_bline(sig = sigvec, starts = strvec, ends = endvec, crit_w = crw, for_plot = FALSE)
-  expect_equal(colnames(res1), c("ind","orig_y","bline","y"))
+  expect_equal(colnames(res1[["data"]]), c("ind","orig_y","bline","y"))
 })

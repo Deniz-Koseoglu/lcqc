@@ -71,6 +71,8 @@ read_shim <- function(file, ptable = TRUE, simtable = TRUE, pnames = TRUE, pcas 
 
   #Check for required packages
   #Perform checks and read data
+  peak_names <- peak_cas <- NULL
+
   #if(!all(out_format %in% c("wide", "long"))) stop("Argument 'out_format' must be one of: 'wide' or 'long'!")
   if(!file.exists(file)) {
     stop("The specified file path does not exist... Check the 'file' argument!")
@@ -281,6 +283,7 @@ read_shim <- function(file, ptable = TRUE, simtable = TRUE, pnames = TRUE, pcas 
         }
 
         #(Optionally) retrieve peak names and/or CAS numbers
+        # Assign to the pre-initialized variables
         peak_names <- if(pnames) curptab[,tags["pname"]] else "Peak names were not retrieved."
         peak_cas <- if(pcas & mode=="gcms") curptab[,tags["cas"]] else "Peak CAS numbers were not retrieved."
 
@@ -307,9 +310,9 @@ read_shim <- function(file, ptable = TRUE, simtable = TRUE, pnames = TRUE, pcas 
 
     } else {
       if(!simtable) stop("Peak table not found!") else warning("Peak table not found!")
-      peak_tab <- peak_names <- "No peak table was found."
+      peak_tab <- peak_names <- peak_cas <- "No peak table was found."
     }
-  } else peak_tab <- peak_names <- "The peak table was not retrieved."
+  } else peak_tab <- peak_names <- peak_cas <- "The peak table was not retrieved."
 
   #Retrieve MS similarity search table
   if(simtable & mode == "gcms" & length(simtab_idx)>0) {

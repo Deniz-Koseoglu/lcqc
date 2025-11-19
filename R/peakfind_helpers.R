@@ -445,7 +445,7 @@ find_fused <- function(input, rtime, sdmax, sigmin) {
       l1 <- c(ints[x], slps[x])
       l2 <- c(ints[x+1], slps[x+1])
       res <- insect(l1, l2)[1]
-      if(res>=trng[1] & res<=trng[2]) {
+      if(res>=trng[1] & res<=trng[2] & !is.na(res)) {
         res <- which.min(abs(rtime-res))
         res <- if(res>=str_r[x] & res<=end_r[x]) res else NA
       } else res <- NA
