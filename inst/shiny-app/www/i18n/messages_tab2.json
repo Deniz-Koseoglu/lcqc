@@ -1,0 +1,34 @@
+{
+  "translation": [
+    {
+      "en": "Creating output",
+      "ru": "Создание выходных данных",
+      "tr": "Çıktı oluşturuluyor"
+    },
+    {
+      "en": "Error in",
+      "ru": "Ошибка в",
+      "tr": "Hata:"
+    },
+    {
+      "en": "Fraction",
+      "ru": "Доля",
+      "tr": "Kesir"
+    },
+    {
+      "en": "Invalid baseline correction method",
+      "ru": "Неверный метод коррекции базовой линии",
+      "tr": "Geçersiz baz çizgisi düzeltme yöntemi"
+    },
+    {
+      "en": "No chromatogram data loaded. Please load a file first.",
+      "ru": "Данные хроматограммы не загружены. Сначала загрузите файл.",
+      "tr": "Kromatogram verisi yüklenmedi. Lütfen önce bir dosya yükleyin."
+    },
+    {
+      "en": "Processing data",
+      "ru": "Обработка данных",
+      "tr": "Veri işleniyor"
+    }
+  ]
+}

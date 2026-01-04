@@ -1,0 +1,44 @@
+{
+  "translation": [
+    {
+      "en": "RT (min)",
+      "tr": "AZ (dk)",
+      "ru": "ВУ (мин)"
+    },
+    {
+      "en": "Area",
+      "tr": "Pik Alanı",
+      "ru": "Область пиков"
+    },
+    {
+      "en": "Signal/Noise",
+      "tr": "Sinyal/Gürültü",
+      "ru": "Сигнал/Шум"
+    },
+    {
+      "en": "Width",
+      "tr": "Genişlik",
+      "ru": "Ширина"
+    },
+    {
+      "en": "Peaks 1 (Earlier-Eluting)",
+      "tr": "Pikler 1",
+      "ru": "Пики 1 (элюирующие раньше)"
+    },
+    {
+      "en": "Peaks 2 (Later-Eluting)",
+      "tr": "Pikler 2",
+      "ru": "Пики 2 (элюирующие позже)"
+    },
+    {
+      "en": "Name",
+      "tr": "Pik adı",
+      "ru": "Название"
+    },
+    {
+      "en": "Conc.",
+      "tr": "Derişim",
+      "ru": "Концентрация"
+    }
+  ]
+}

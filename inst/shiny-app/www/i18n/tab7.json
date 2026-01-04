@@ -1,0 +1,164 @@
+{
+  "translation": [
+    {
+      "en": "Baseline-Adjusted Peak",
+      "ru": "Пик (разрешенный)",
+      "tr": "Pik (çözülmüş)"
+    },
+    {
+      "en": "Absolute Residuals",
+      "ru": "Абсолютные остатки",
+      "tr": "Kalıntılar"
+    },
+    {
+      "en": "Gaussian Model",
+      "ru": "Гауссова модель",
+      "tr": "Gauss Modeli"
+    },
+    {
+      "en": "Absolute Residual Sum",
+      "ru": "Остатки",
+      "tr": "Kalıntı Toplamı"
+    },
+    {
+      "en": "Fronting",
+      "ru": "Фронтальность",
+      "tr": "Fronting"
+    },
+    {
+      "en": "Tailing",
+      "ru": "Хвостатость",
+      "tr": "Tailing"
+    },
+    {
+      "en": "Peak Symmetry",
+      "ru": "Симметрия пиков",
+      "tr": "Pik Simetrisi"
+    },
+    {
+      "en": "Choose Plots:",
+      "tr": "Grafik Seç:",
+      "ru": "Выбор графика:"
+    },
+    {
+      "en": "TPA Suitability",
+      "tr": "TPA Uygunluğu",
+      "ru": "Пригодность для TPA"
+    },
+    {
+      "en": "Asymmetry Factor (As)",
+      "tr": "Asimmetri Faktörü (As)",
+      "ru": "Коэффициент асимметрии (As)"
+    },
+    {
+      "en": "USP Tailing Factor (Tf)",
+      "tr": "USP Kuyruklama Faktörü (Tf)",
+      "ru": "Коэффициент асимметрии USP (Tf)"
+    },
+    {
+      "en": "Total Peak Analysis (TPA)",
+      "tr": "Kapsamlı Pik Analizi (TPA)",
+      "ru": "Полный Анализ Пиков (TPA)"
+    },
+    {
+      "en": "Select Peaks for Peak Symmetry",
+      "tr": "Pik simetrisi için seçim yapın",
+      "ru": "Выберите пики для определения симметрии"
+    },
+    {
+      "en": "Peaks (e.g. 1:3 or comma-separated)",
+      "tr": "Pikler (ör. 1:3 veya virgülle ayrılmış)",
+      "ru": "Пики (напр. 1:3 или через запятую)"
+    },
+    {
+      "en": "Visual Select",
+      "tr": "Detaylı Seçim",
+      "ru": "Визуальный выбор"
+    },
+    {
+      "en": "Non-Linear Programming",
+      "tr": "Doğrusal Olmayan Programlama",
+      "ru": "Нелинейное программирование"
+    },
+    {
+      "en": "Resolution",
+      "tr": "Çözünürlük",
+      "ru": "Разрешение"
+    },
+    {
+      "en": "Peak",
+      "tr": "Pik",
+      "ru": "Пик"
+    },
+    {
+      "en": "Peak Symmetry Summary Information",
+      "tr": "Pik Simetrisi Özet Bilgileri",
+      "ru": "Информация о вычислении симметрии"
+    },
+    {
+      "en": "Basics",
+      "tr": "Temeller",
+      "ru": "Основы"
+    },
+    {
+      "en": "Modelling Method",
+      "tr": "Modelleme Yöntemi",
+      "ru": "Метод Моделирования"
+    },
+    {
+      "en": "Peaks to Model",
+      "tr": "Modellenecek Pikler",
+      "ru": "Пики для Моделирования"
+    },
+    {
+      "en": "Start",
+      "tr": "Başlangıç",
+      "ru": "Начало"
+    },
+    {
+      "en": "End",
+      "tr": "Bitiş",
+      "ru": "Конец"
+    },
+    {
+      "en": "Critical Width",
+      "tr": "Kritik Genişlik",
+      "ru": "Критическая Ширина"
+    },
+    {
+      "en": "Show widths",
+      "tr": "Genişlikleri Göster",
+      "ru": "Включить значения ширины пиков в результаты"
+    },
+    {
+      "en": "Apply Modelling",
+      "tr": "Modellemeyi Uygula",
+      "ru": "Применить Моделирование"
+    },
+    {
+      "en": "Advanced",
+      "tr": "Gelişmiş",
+      "ru": "Продвинутый"
+    },
+    {
+      "en": "Optimization Method",
+      "tr": "Optimizasyon Yöntemi",
+      "ru": "Метод Оптимизации"
+    },
+    {
+      "en": "Modelled Peaks Plot",
+      "tr": "Modellenmiş Pik Grafiği",
+      "ru": "График Моделированных Пиков"
+    },
+    {
+      "en": "Results Table",
+      "tr": "Sonuç Tablosu",
+      "ru": "Таблица Результатов"
+    },
+    {
+      "en": "Summary Information",
+      "tr": "Özet Bilgiler",
+      "ru": "Сводная Информация"
+    }
+  ]
+}

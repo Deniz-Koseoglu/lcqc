@@ -20,7 +20,7 @@ chrom_asym(
 \item{input}{The output data from function \code{\link{chrom_detect}}.}
 
 \item{method}{A \code{character} vector of method(s) to apply for asymmetry calculations. One or more of: \code{"all"} (default),
-\code{"Tf"} (USP \eqn{T_f}), \code{"As"} (\eqn{A_s}), and/or \code{"TPA"} (Total Peak Analysis).}
+\code{"Tf"} (USP \eqn{T_f}), \code{"As"} (\eqn{A_s}), and/or \code{"tpa"} (Total Peak Analysis).}
 
 \item{which_peaks}{Selects specific peaks from \code{input} to process. Either \code{"all"} (default) or a \code{numeric} vector
 of peak indices included in \code{input}.}

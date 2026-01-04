@@ -1,0 +1,74 @@
+{
+  "translation": [
+    {
+      "en": "After uploading your file, select the specific chromatogram you wish to analyze from this list. For GC-MS, you might see TIC or SIM chromatograms here.",
+      "ru": "После загрузки файла выберите конкретную хроматограмму для анализа из этого списка. Для ГХ-МС здесь могут отображаться хроматограммы TIC или SIM.",
+      "tr": "Dosyanızı yükledikten sonra, bu listeden analiz etmek istediğiniz belirli kromatogramı seçin. GC-MS için burada TIC veya SIM kromatogramlarını görebilirsiniz."
+    },
+    {
+      "en": "Check this box if the first row of your CSV file contains column headers. This helps the application correctly identify your data.",
+      "ru": "Установите этот флажок, если первая строка вашего CSV-файла содержит заголовки столбцов.",
+      "tr": "CSV dosyanızın ilk satırı sütun başlıkları içeriyorsa bu kutuyu işaretleyin."
+    },
+    {
+      "en": "Check this box to extract the Similarity Table, which is relevant for GC-MS data and provides information on compound identification based on spectral similarity.",
+      "ru": "Установите этот флажок для извлечения таблицы сходства для данных ГХ-МС.",
+      "tr": "GC-MS verileri için Benzerlik Tablosunu çıkarmak için bu kutuyu işaretleyin."
+    },
+    {
+      "en": "Choose whether to retrieve CAS numbers for identified peaks.",
+      "ru": "Выберите, следует ли получать номера CAS для идентифицированных пиков.",
+      "tr": "Tanımlanan pikler için CAS numaralarının alınıp alınmayacağını seçin."
+    },
+    {
+      "en": "Click here to upload your Shimadzu ASCII text file containing chromatography data.",
+      "ru": "Нажмите здесь, чтобы загрузить ASCII-текстовый файл Shimadzu.",
+      "tr": "Shimadzu ASCII metin dosyanızı yüklemek için buraya tıklayın."
+    },
+    {
+      "en": "Define a retention time range to display or process only a specific portion of your chromatogram. Enter the lower and/or upper limits.",
+      "ru": "Определите диапазон времени удерживания для отображения или обработки только определенной части хроматограммы.",
+      "tr": "Kromatogramınızın belirli bir bölümünü görüntülemek için alıkonma süresi aralığı tanımlayın."
+    },
+    {
+      "en": "Enable this option to extract the peak table from your Shimadzu file, which contains details about detected peaks like retention time, area, and height.",
+      "ru": "Включите эту опцию для извлечения таблицы пиков из файла Shimadzu.",
+      "tr": "Shimadzu dosyanızdan pik tablosunu çıkarmak için bu seçeneği etkinleştirin."
+    },
+    {
+      "en": "Once a Gc-MS chromatogram is processed, all detected Peak Tables will be listed here for selection.",
+      "ru": "После обработки хроматограммы ГХ-МС все обнаруженные таблицы пиков будут перечислены здесь.",
+      "tr": "GC-MS kromatogramı işlendikten sonra tespit edilen Pik Tabloları burada listelenecektir."
+    },
+    {
+      "en": "Optionally, enter the lower and/or upper retention time limits to focus your analysis on a specific range of the chromatogram. Data outside this range will be excluded.",
+      "ru": "При необходимости введите пределы времени удерживания, чтобы сфокусировать анализ на определенном диапазоне.",
+      "tr": "Analizinizi belirli bir aralığa odaklamak için alıkonma süresi sınırlarını girin."
+    },
+    {
+      "en": "Removes all analytically unimportant columns from input. Use with caution as the definition of 'unimportant' is subjective.",
+      "ru": "Удаляет все аналитически незначимые столбцы из входных данных.",
+      "tr": "Girişten tüm analitik olarak önemsiz sütunları kaldırır."
+    },
+    {
+      "en": "Select Columns for 'Time' and 'Intensity",
+      "ru": "Выберите столбцы для 'Времени' и 'Интенсивности'",
+      "tr": "'Zaman' ve 'Yoğunluk' için Sütunları Seçin"
+    },
+    {
+      "en": "Select column and decimal separators here. These are normally detected automatically where set to 'auto'.",
+      "ru": "Выберите разделители столбцов и десятичные разделители здесь.",
+      "tr": "Sütun ve ondalık ayırıcıları burada seçin."
+    },
+    {
+      "en": "Select this to retrieve additional experimental metadata embedded within your Shimadzu file, such as sample names, injection volume, or acquisition parameters.",
+      "ru": "Выберите это для извлечения дополнительных экспериментальных метаданных из файла Shimadzu.",
+      "tr": "Shimadzu dosyanızda gömülü ek deneysel meta verileri almak için bunu seçin."
+    },
+    {
+      "en": "Upload your chromatography data here in CSV format. Ensure your file contains columns for both time and intensity.",
+      "ru": "Загрузите ваши хроматографические данные в формате CSV.",
+      "tr": "Kromatografi verilerinizi CSV formatında yükleyin."
+    }
+  ]
+}

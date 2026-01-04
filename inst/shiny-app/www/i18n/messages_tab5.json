@@ -1,0 +1,39 @@
+{
+  "translation": [
+    {
+      "en": "Applying Integration",
+      "ru": "Применение интеграции",
+      "tr": "Entegrasyon Uygulanıyor"
+    },
+    {
+      "en": "Error in integration:",
+      "ru": "Ошибка при интеграции:",
+      "tr": "Entegrasyon hatası:"
+    },
+    {
+      "en": "Generating outputs",
+      "ru": "Генерация выходных данных",
+      "tr": "Çıktılar oluşturuluyor"
+    },
+    {
+      "en": "Integration plot could not be generated.",
+      "ru": "Не удалось создать график интеграции.",
+      "tr": "Entegrasyon grafiği oluşturulamadı."
+    },
+    {
+      "en": "No peak detection data available. Please perform peak detection first.",
+      "ru": "Нет данных обнаружения пиков. Сначала выполните обнаружение пиков.",
+      "tr": "Pik tespit verisi mevcut değil. Lütfen önce pik tespiti yapın."
+    },
+    {
+      "en": "Performing integration",
+      "ru": "Выполнение интеграции",
+      "tr": "Entegrasyon yapılıyor"
+    },
+    {
+      "en": "Preparing data",
+      "ru": "Подготовка данных",
+      "tr": "Veri hazırlanıyor"
+    }
+  ]
+}

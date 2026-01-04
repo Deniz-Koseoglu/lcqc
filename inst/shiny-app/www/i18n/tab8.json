@@ -1,0 +1,304 @@
+{
+  "translation": [
+    {
+      "en": "Parameter",
+      "ru": "Параметр",
+      "tr": "Parametre"
+    },    
+    {
+      "en": "Dynamic Viscosity (mPas)",
+      "ru": "Динамическая Вязкость (мПа·с)",
+      "tr": "Dinamik Vizkozite (mPas)"
+    },
+    {
+      "en": " (mol)",
+      "ru": " (моль)",
+      "tr": " (mol)"
+    },
+    {
+      "en": " (mass)",
+      "ru": " (по массе)",
+      "tr": " (kütlesel)"
+    },
+    {
+      "en": " (vol)",
+      "ru": " (по объёму)",
+      "tr": " (hacimsel)"
+    },
+    {
+      "en": "Volume fraction",
+      "ru": "Объёмная доля",
+      "tr": "Hacimsel fraksiyon"
+    },
+    {
+      "en": "Mass fraction",
+      "ru": "Массовая доля",
+      "tr": "Kütle fraksiyon"
+    },
+    {
+      "en": "Mole fraction",
+      "ru": "Мольная доля",
+      "tr": "Mol kesri"
+    },
+    {
+      "en": "Temperature (&deg;C)",
+      "ru": "Температура (&deg;C)",
+      "tr": "Sıcaklık (&deg;C)"
+    },
+    {
+      "en": "Performance Metrics",
+      "ru": "Показатели производительности",
+      "tr": "Performans Metrikleri"
+    },
+    {
+      "en": "Ready: Will create %d peak pairs",
+      "tr": "Hazır: %d pik çifti işlenecek",
+      "ru": "Готово: Будет обработано %d пар(ы) пиков"
+    },
+    {
+      "en": "Ready: %d peaks selected",
+      "tr": "Hazır: %d pik seçildi",
+      "ru": "Готово: Выбрано %d пиков"
+    },
+    {
+      "en": "Linear Velocity",
+      "tr": "Lineer Hız",
+      "ru": "Линейная скорость"
+    },
+    {
+      "en": "Packing Porosity",
+      "tr": "Sabit Faz Porozitesi",
+      "ru": "Пористость стационарной фазы"
+    },
+    {
+      "en": "Flow Resistance",
+      "tr": "Akış Direnci",
+      "ru": "Сопротивление потоку"
+    },
+    {
+      "en": "Permeability",
+      "tr": "Geçirgenlik",
+      "ru": "Проницаемость"
+    },
+    {
+      "en": "Specific Permeability",
+      "tr": "Özgül Geçirgenlik",
+      "ru": "Удельная проницаемость"
+    },
+    {
+      "en": "Full Width",
+      "tr": "Tam genişlik",
+      "ru": "Полная ширина"
+    },
+    {
+      "en": "Half-Width (variant 1)",
+      "tr": "Yarı genişlik (varyant 1)",
+      "ru": "Половина ширины (вариант 1)"
+    },
+    {
+      "en": "Half-Width (variant 2)",
+      "tr": "Yarı genişlik (varyant 2)",
+      "ru": "Половина ширины (вариант 2)"
+    },
+    {
+      "en": "Fundamental Resolution Equation",
+      "tr": "Temel Çözünürlük Denklemi",
+      "ru": "Фундаментальное уравнение разрешения"
+    },
+    {
+      "en": "Individual",
+      "tr": "Her pik için ayrı",
+      "ru": "Индивидуальный"
+    },
+    {
+      "en": "Universal",
+      "tr": "Bütünleşik",
+      "ru": "Универсальный"
+    },
+    {
+      "en": "Based on Peak",
+      "tr": "Pik Endeksinden",
+      "ru": "Использовать ВУ пика"
+    },
+    {
+      "en": "Select Peaks for Resolution",
+      "tr": "Pik çözünürlüğü için seçim yapın",
+      "ru": "Выберите пики для определения разрешения"
+    },
+    {
+      "en": "Select Peaks for Retention Factor",
+      "tr": "Tutma faktörü için seçim yapın",
+      "ru": "Выберите пики для определения фактора удерживания"
+    },
+    {
+      "en": "Select Peaks for Separation Factor",
+      "tr": "Ayırma faktörü için seçim yapın",
+      "ru": "Выберите пики для определения фактора разделения"
+    },
+    {
+      "en": "Full Width (FW)",
+      "ru": "Полная Ширина (FW)",
+      "tr": "Tam Genişlik (FW)"
+    },
+    {
+      "en": "5-Sigma (S5)",
+      "ru": "5-Сигма (S5)",
+      "tr": "5-Sigma (S5)"
+    },
+    {
+      "en": "European Pharmacopoeia (EP)",
+      "ru": "Европейская фармакопея (ЕP)",
+      "tr": "Avrupa Farmakopesi (EP)"
+    },
+    {
+      "en": "Inflection Point Width (inf)",
+      "ru": "Ширина точки перегиба (inf)",
+      "tr": "Bükülme Noktası Genişliği (inf)"
+    },
+    {
+      "en": "Area-Height (AH)",
+      "ru": "Площадь-Высота (AH)",
+      "tr": "Alan-Yükseklik (AH)"
+    },
+    {
+      "en": "Peaks 1 (e.g. 1:3 or comma-separated)",
+      "ru": "Пики 1 (напр. 1:3 или через запятую)",
+      "tr": "Pikler 1 (ör. 1:3 veya virgülle ayrılmış)"
+    },
+    {
+      "en": "Peaks 2 (e.g. 1:3 or comma-separated)",
+      "ru": "Пики 2 (напр. 1:3 или через запятую)",
+      "tr": "Pikler 2 (ör. 1:3 veya virgülle ayrılmış)"
+    },
+    {
+      "en": "All",
+      "ru": "Все доступные",
+      "tr": "Tüm metotlar"
+    },
+    {
+      "en": "Start",
+      "ru": "Начало",
+      "tr": "Başlangıç"
+    },
+    {
+      "en": "End",
+      "ru": "Конец",
+      "tr": "Bitiş"
+    },
+    {
+      "en": "Calculation Method",
+      "ru": "Метод Вычисления",
+      "tr": "Hesaplama Yöntemi"
+    },
+    {
+      "en": "Dead Time (minutes)",
+      "ru": "Мертвое время (минуты)",
+      "tr": "Ölü Zaman (dakika)"
+    },
+    {
+      "en": "Dead Time Peak Index",
+      "ru": "Индекс пика мертвого времени",
+      "tr": "Ölü Zaman Pik İndeksi"
+    },
+    {
+      "en": "Dead Time (t0) Mode",
+      "ru": "Режим вычисления мёртвого времени (t0)",
+      "tr": "Ölü Zaman Hesaplama Modu"
+    },
+    {
+      "en": "Critical Width",
+      "ru": "Критическая ширина",
+      "tr": "Kritik Genişlik"
+    },
+    {
+      "en": "Calculate",
+      "ru": "Рассчитать",
+      "tr": "Hesapla"
+    },
+    {
+      "en": "Separation Factor",
+      "ru": "Фактор разделения",
+      "tr": "Ayırma Faktörü"
+    },
+    {
+      "en": "Theoretical Plates (N)",
+      "ru": "Теоретические тарелки (N)",
+      "tr": "Teorik Plakalar (N)"
+    },
+    {
+      "en": "Theoretical Plates Information",
+      "ru": "Информация о Теоретических Тарелках",
+      "tr": "Teorik Plaka Bilgileri"
+    },
+    {
+      "en": "Column Length (mm)",
+      "ru": "Длина колонки (мм)",
+      "tr": "Kolon Uzunluğu (mm)"
+    },
+    {
+      "en": "Flow Rate (mL/min)",
+      "ru": "Скорость тока (мл/мин)",
+      "tr": "Akış Hızı (mL/dk)"
+    },
+    {
+      "en": "Show Widths",
+      "ru": "Показать ширины",
+      "tr": "Genişlikleri Göster"
+    },
+    {
+      "en": "Back Pressure (bar)",
+      "ru": "Обратное давление (бар)",
+      "tr": "Geri Basınç (bar)"
+    },
+    {
+      "en": "Mobile Phase Viscosity (mPas)",
+      "ru": "Вязкость подвижной фазы (мПа·с)",
+      "tr": "Mobil Faz Viskozitesi (mPas)"
+    },
+    {
+      "en": "Impedance Calculation Method",
+      "ru": "Метод вычисления импеданса",
+      "tr": "Empedans Hesaplama Yöntemi"
+    },
+    {
+      "en": "Metrics to Calculate",
+      "ru": "Метрики для расчета",
+      "tr": "Hesaplanacak Metrikler"
+    },
+    {
+      "en": "Column Internal Diameter (mm)",
+      "ru": "Внутренний диаметр колонки (мм)",
+      "tr": "Kolon İç Çapı (mm)"
+    },
+    {
+      "en": "Particle Size (µm)",
+      "ru": "Размер частиц (мкм)",
+      "tr": "Partikül Boyutu (µm)"
+    },
+    {
+      "en": "Column-Specific Metrics Information",
+      "ru": "Информация о дополнительных метриках",
+      "tr": "Kolona Özel Metrik Bilgileri"
+    },
+    {
+      "en": "Resolution",
+      "ru": "Разрешение",
+      "tr": "Çözünürlük"
+    },
+    {
+      "en": "Retention Factor (k)",
+      "ru": "Фактор удерживания (k)",
+      "tr": "Tutma Faktörü (k)"
+    },
+    {
+      "en": "Column-Specific Metrics",
+      "ru": "Доп. Метрики Колонки",
+      "tr": "Kolona Özel Metrikler"
+    },
+    {
+      "en": "Calculate Viscosity",
+      "ru": "Рассчитать Вязкость",
+      "tr": "Viskoziteyi Hesapla"
+    }
+  ]
+}

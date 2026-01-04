@@ -1,0 +1,459 @@
+{
+  "translation": [
+    {
+      "en": "Peak Detection",
+      "ru": "Обнаружение пиков",
+      "tr": "Pik Algılama"
+    },
+    {
+      "en": "Summary",
+      "ru": "Сводка",
+      "tr": "Özet"
+    },
+    {
+      "en": "Summary of thresholds",
+      "ru": "Сводка пороговых значений",
+      "tr": "Algılama Sınırların Özeti"
+    },
+    {
+      "en": "Detection Thresholds",
+      "ru": "Пороговые Значения",
+      "tr": "Algılama Sınırları"
+    },
+    {
+      "en": "No peak detection results available yet.",
+      "ru": "Определение пиков пока не было проведено.",
+      "tr": "Pik algılama işlemi henüz yapılmamıştır."
+    },
+    {
+      "en": "First Derivative (FD):",
+      "ru": "Первая Производная:",
+      "tr": "Birinci Türev:"
+    },
+    {
+      "en": "Second Derivative (SD):",
+      "ru": "Вторая Производная:",
+      "tr": "İkinci Türev:"
+    },
+    {
+      "en": "Superior:",
+      "ru": "Верхний порог:",
+      "tr": "Üst sınır:"
+    },
+    {
+      "en": "Inferior:",
+      "ru": "Нижний порог:",
+      "tr": "Alt sınır:"
+    },
+    {
+      "en": "Z-score Limits:",
+      "ru": "Пороговые значения Z-оценки:",
+      "tr": "Z-skor Sınırları:"
+    },
+    {
+      "en": "Peak Detection Summary",
+      "ru": "Сводка Определения Пиков",
+      "tr": "Pik Algılama Özeti"
+    },
+    {
+      "en": "Manual Amplitude Threshold",
+      "ru": "Введите порог амплитуды",
+      "tr": "Sinyal sınırını giriniz"
+    },
+    {
+      "en": "Methods for derivative threshold:",
+      "ru": "Методы обнаружения пиков из производных:",
+      "tr": "Türevlerden pik tespit etme metotları:"
+    },
+    {
+      "en": "Amplitude Limit:",
+      "ru": "Порог амплитуды:",
+      "tr": "Genlik Sınırı:"
+    },
+    {
+      "en": "Amplitude Limit",
+      "ru": "Порог амплитуды",
+      "tr": "Genlik Sınırı"
+    },
+    {
+      "en": "No amplitude limit data available yet.",
+      "ru": "Данные о пороге амплитуды пока отсутствуют.",
+      "tr": "Genlik sınırı verisi henüz oluşturulmadı."
+    },
+    {
+      "en": "Peak Detection Information:",
+      "ru": "Информация об обнаружении пиков:",
+      "tr": "Pik Algılama Bilgileri:"
+    },
+    {
+      "en": "No peak detection information available yet.",
+      "ru": "Информация об обнаружении пиков пока отсутствует.",
+      "tr": "Pik algılama bilgisi henüz mevcut değil."
+    },
+    {
+      "en": "Derivative Limits:",
+      "ru": "Пределы производных:",
+      "tr": "Türev Limitleri:"
+    },
+    {
+      "en": "No derivative limits data available yet.",
+      "ru": "Данные о лимитах производных пока отсутствуют.",
+      "tr": "Türev limitleri henüz hesaplanmamıştır."
+    },
+    {
+      "en": "No Z-score limits data available yet.",
+      "ru": "Данные о предельных значениях Z-оценки пока недоступны.",
+      "tr": "Henüz Z-skoru sınırlamalarına ilişkin veri mevcut değil."
+    },
+    {
+      "en": "Manual",
+      "ru": "Ручной",
+      "tr": "Manuel"
+    },
+    {
+      "en": "Manual amplitude threshold is active.",
+      "ru": "Пороговый уровень амплитуды был задан вручную.",
+      "tr": "Manuel genlik eşiği etkin durumda."
+    },
+    {
+      "en": "Quantile Probability:",
+      "ru": "Квантильная вероятность:",
+      "tr": "Kantil Olasılığı:"
+    },
+    {
+      "en": "Max Difference Percentage:",
+      "ru": "Максимальная разница в процентах:",
+      "tr": "Maksimum Fark Yüzdesi:"
+    },
+    {
+      "en": "Z-score Lag:",
+      "ru": "Задержка Z-оценки:",
+      "tr": "Z-skor Gecikmesi:"
+    },
+    {
+      "en": "Threshold:",
+      "ru": "Порог:",
+      "tr": "Eşik:"
+    },
+    {
+      "en": "Sensitivity:",
+      "ru": "Чувствительность:",
+      "tr": "Hassasiyet:"
+    },
+    {
+      "en": "Amplitude Fraction: Not applicable when using manual threshold.",
+      "ru": "Доля амплитуды: Неприменима при использовании ручного порогового значения.",
+      "tr": "Genlik Oranı: Manuel eşik değeri kullanılırken geçerli değildir."
+    },
+    {
+      "en": "Amplitude Fraction:",
+      "ru": "Доля амплитуды:",
+      "tr": "Genlik Oranı:"
+    },
+    {
+      "en": "Amplitude Fraction (Quantile):",
+      "ru": "Доля амплитуды (квантиль):",
+      "tr": "Genlik Kesri (Kantil):"
+    },
+    {
+      "en": "Amplitude Fraction (Max Difference):",
+      "ru": "Доля амплитуды (максимальная разница):",
+      "tr": "Genlik Oranı (Maksimum Fark):"
+    },
+    {
+      "en": "Amplitude Fraction: Not applicable or not set",
+      "ru": "Доля амплитуды: Неприменима или не установлена",
+      "tr": "Genlik Oranı: Uygulanamaz veya ayarlanmamış"
+    },
+    {
+      "en": "First Derivative Sensitivity:",
+      "ru": "Чувствительность первой производной:",
+      "tr": "Birinci Türev Duyarlılığı:"
+    },
+    {
+      "en": "Second Derivative Sensitivity:",
+      "ru": "Чувствительность второй производной:",
+      "tr": "İkinci Türev Duyarlılığı:"
+    },
+    {
+      "en": "Amplitude Limit Sensitivity (Z-score):",
+      "ru": "Чувствительность к предельному значению амплитуды (Z-оценка):",
+      "tr": "Genlik Sınırı Hassasiyeti (Z-skoru):"
+    },
+    {
+      "en": "Detect and mitigate peak bunching:",
+      "ru": "Выявление и предотвращение образования групп пиков:",
+      "tr": "Pik kümelenmesini tespit et ve azalt:"
+    },
+    {
+      "en": "Simple Quantiles",
+      "ru": "Простые квантили",
+      "tr": "Basit kantiller"
+    },
+    {
+      "en": "Relative Differences",
+      "ru": "Относительные различия",
+      "tr": "Bağıl Farklılıklar"
+    },
+    {
+      "en": "Z-scores",
+      "ru": "Z-оценки",
+      "tr": "Z-skorlar"
+    },
+    {
+      "en": "Noise core estimator",
+      "ru": "Оценка уровня шума",
+      "tr": "Gürültü çekirdeği algılama"
+    },
+    {
+      "en": "Z-score based",
+      "ru": "На основе Z-оценки",
+      "tr": "Z-skoruna dayalı"
+    },
+    {
+      "en": "Vaz et al. (2016) method",
+      "ru": "Метод Vaz et al. (2016)",
+      "tr": "Vaz vd. (2016) metodu"
+    },
+    {
+      "en": "No filtering",
+      "ru": "Не применять фильтрацию",
+      "tr": "Filtreleme yok"
+    },
+    {
+      "en": "All methods",
+      "ru": "Все методы",
+      "tr": "Tüm metotlar"
+    },
+    {
+      "en": "Interquartile range",
+      "ru": "Межквартильный размах",
+      "tr": "Çeyrekler açıklığı"
+    },
+    {
+      "en": "Quantile-based",
+      "ru": "На основе квантилей",
+      "tr": "Kantil tabanlı"
+    },
+    {
+      "en": "Standard deviation-based",
+      "ru": "На основе стандартного отклонения",
+      "tr": "Standart sapmaya dayalı"
+    },
+    {
+      "en": "ApexTrack Baseline Expansion Parameters",
+      "ru": "Парамерты Алгоритма Экспансии Пиков ApexTrack",
+      "tr": "ApexTrack Pik Algılama Ayarları"
+    },
+    {
+      "en": "Liftoff (%)",
+      "ru": "Левый порог (%)",
+      "tr": "Sol sınır (%)"
+    },
+    {
+      "en": "Touchdown (%)",
+      "ru": "Правый порог (%)",
+      "tr": "Sağ sınır (%)"
+    },
+    {
+      "en": "Moving Average/SD Lag (integer)",
+      "ru": "Отставание по скользящему среднему и стандартному отклонению (целое число)",
+      "tr": "Hareketli ortalama / Standart Sapma Gecikmesi (tam sayı)"
+    },
+    {
+      "en": "Threshold (factor of standard deviation)",
+      "ru": "Пороговое значение (коэфф. стандартного отклонения",
+      "tr": "Sınır (standart sapma faktörü)"
+    },
+    {
+      "en": "Sensitivity to average and SD",
+      "ru": "Чувствительность к среднему значению и отклонению",
+      "tr": "Ortalamaya ve standart sapmaya duyarlılık"
+    },
+    {
+      "en": "Enable FastChrom Baseline Correction",
+      "ru": "Включить коррекцию базовой линии FastChrom",
+      "tr": "FastChrom Temel Çizgi Düzeltmesini Etkinleştirin"
+    },
+    {
+      "en": "Reset Filters",
+      "ru": "Сбросить Фильтры",
+      "tr": "Filtreleri Sıfırla"
+    },
+    {
+      "en": "FastChrom critical width",
+      "ru": "Критическая ширина FastChrom",
+      "tr": "FastChrom kritik genişliği"
+    },
+    {
+      "en": "Z-score Parameters",
+      "ru": "Параметры Z-оценки",
+      "tr": "Z-skoru Parametreleri"
+    },
+    {
+      "en": "Use Manual Amplitude Threshold",
+      "ru": "Использовать ручной порог амплитуды",
+      "tr": "Manuel Sinyal Sınırı Kullan"
+    },
+    {
+      "en": "Amplitude Threshold Method",
+      "ru": "Метод определения пороговой амплитуды",
+      "tr": "Sinyal Sınır Belirleme Yöntemi"
+    },
+    {
+      "en": "Amplitude Threshold Method:",
+      "ru": "Метод определения пороговой амплитуды:",
+      "tr": "Sinyal Sınır Belirleme Yöntemi:"
+    },
+    {
+      "en": "Quantile Probability (0.001-50%)",
+      "ru": "Квантильная вероятность (0.001-50%)",
+      "tr": "Kantil Olasılık (0.001-50%)"
+    },
+    {
+      "en": "Max Difference Percentage (0.001-50%)",
+      "ru": "Максимальный процент разницы (0.001-50%)",
+      "tr": "Maksimum Fark Yüzdesi (0.001-50%)"
+    },
+    {
+      "en": "Sensitivity Parameters",
+      "ru": "Параметры чувствительности",
+      "tr": "Hassasiyet Parametreleri"
+    },
+    {
+      "en": "First Derivative Sensitivity",
+      "ru": "Чувствительность первой производной",
+      "tr": "Birinci Türev Hassasiyeti"
+    },
+    {
+      "en": "Second Derivative Sensitivity",
+      "ru": "Чувствительность второй производной",
+      "tr": "İkinci Türev Hassasiyeti"
+    },
+    {
+      "en": "Amplitude Limit Sensitivity (Z-score)",
+      "ru": "Чувствительность предела амплитуды (Z-оценка)",
+      "tr": "Genlik Limiti Hassasiyeti (Z-skoru)"
+    },
+    {
+      "en": "Detect and mitigate peak bunching",
+      "ru": "Обнаружение и удаление соэлюированных пиков",
+      "tr": "Pik kümelenmesini tespit et ve azalt"
+    },
+    {
+      "en": "Derivative-based peak detection method",
+      "ru": "Порог обнаружения пиков из производных",
+      "tr": "Türev bazlı pik algılama yöntemi"
+    },
+    {
+      "en": "Outlier detection method",
+      "ru": "Порог обнаружения исключений",
+      "tr": "İstisna değer algılama yöntemi"
+    },
+    {
+      "en": "Peak Rejection Filters",
+      "ru": "Фильтры пиков",
+      "tr": "Pik Reddetme Filtreleri"
+    },
+    {
+      "en": "Signal/Noise",
+      "ru": "Сигнал/Шум",
+      "tr": "Sinyal/Gürültü"
+    },
+    {
+      "en": "Minimum Height",
+      "ru": "Минимальная высота",
+      "tr": "Minimum Yükseklik"
+    },
+    {
+      "en": "Peak Width",
+      "ru": "Ширина пика",
+      "tr": "Pik Genişliği"
+    },
+    {
+      "en": "Peak Area",
+      "ru": "Площадь пика",
+      "tr": "Pik Alanı"
+    },
+    {
+      "en": "Boundary Verification Parameters",
+      "ru": "Параметры проверки границ",
+      "tr": "Sınır Doğrulama Parametreleri"
+    },
+    {
+      "en": "Signal Confirmation Points",
+      "ru": "Точки подтверждения сигнала",
+      "tr": "Sinyal Onay Noktaları"
+    },
+    {
+      "en": "Derivative Confirmation Points",
+      "ru": "Точки подтверждения производной",
+      "tr": "Türev Onay Noktaları"
+    },
+    {
+      "en": "Zero Crossing Parameters",
+      "ru": "Параметры пересечения нуля",
+      "tr": "Sıfır Geçiş Parametreleri"
+    },
+    {
+      "en": "Signal Zero Crossing Points",
+      "ru": "Точки пересечения нуля сигнала",
+      "tr": "Sinyal Sıfır Geçiş Noktaları"
+    },
+    {
+      "en": "Derivative Zero Crossing Points",
+      "ru": "Точки пересечения нуля производной",
+      "tr": "Türev Sıfır Geçiş Noktaları"
+    },
+    {
+      "en": "Apply Peak Detection",
+      "ru": "Применить Обнаружение Пиков",
+      "tr": "Pik Noktası Algılamayı Uygula"
+    },
+    {
+      "en": "Chromatogram Plot",
+      "ru": "Хроматограмма",
+      "tr": "Kromatogram Çizimi"
+    },
+    {
+      "en": "FD Noise Plot",
+      "ru": "График шума первой производной",
+      "tr": "Birinci Türev Gürültü Grafiği"
+    },
+    {
+      "en": "SD Noise Plot",
+      "ru": "График шума второй производной",
+      "tr": "İkinci Türev Gürültü Grafiği"
+    },
+    {
+      "en": "Information",
+      "ru": "Информация",
+      "tr": "Bilgi"
+    },
+    {
+      "en": "Peak Rejection Logic",
+      "ru": "Логика отбраковки пиков",
+      "tr": "Pik Reddetme Mantığı"
+    },
+    {
+      "en": "Pre-Classification Logic",
+      "ru": "Логика до классификации",
+      "tr": "Sınıflandırma Öncesi Mantık"
+    },
+    {
+      "en": "Post-Classification Logic",
+      "ru": "Логика после классификации",
+      "tr": "Sınıflandırma Sonrası Mantık"
+    },
+    {
+      "en": "Or (Disjunction)",
+      "ru": "Или (логика 'OR')",
+      "tr": "Veya ('OR' mantığı)"
+    },
+    {
+      "en": "And (Conjunction)",
+      "ru": "И (логика 'AND')",
+      "tr": "Ve ('AND' mantığı)"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "dimp": {
+    "dataSource": {
+      "selected": "CSV File"
+    },
+    "mode": {
+      "selected": "lc"
+    },
+    "shim_trange_lower": {
+      "value": null
+    },
+    "shim_trange_upper": {
+      "value": null
+    },
+    "simtable": {
+      "value": true
+    },
+    "ptable": {
+      "value": true
+    },
+    "pnames": {
+      "value": true
+    },
+    "pcas": {
+      "value": true
+    },
+    "metadata": {
+      "value": true
+    },
+    "sep": {
+      "selected": "auto"
+    },
+    "decsep": {
+      "selected": "auto"
+    },
+    "fix_names": {
+      "value": true
+    },
+    "fil_cols": {
+      "value": true
+    },
+    "csv_trange_lower": {
+      "value": null
+    },
+    "csv_trange_upper": {
+      "value": null
+    },
+    "csvSep": {
+      "selected": ","
+    },
+    "csvDecsep": {
+      "selected": "."
+    },
+    "csvHeader": {
+      "value": true
+    }
+  },
+  "bline": {
+    "method": {
+      "selected": "None"
+    },
+    "als": {
+      "lambda": 6,
+      "p": 0.001,
+      "prec": 1e-08,
+      "maxit": 50,
+      "rm_neg": true
+    },
+    "chang": {
+      "threshold": 0.5,
+      "alpha": 0.95,
+      "bfrac": 0.2,
+      "segments": 100,
+      "sig_window": 10,
+      "fit": "linear",
+      "rm_neg": true
+    },
+    "isrea": {
+      "eta": 10,
+      "maxit": 100,
+      "rm_neg": true
+    },
+    "poly": {
+      "deg": 4,
+      "prec": 0.001,
+      "maxit": 100,
+      "rm_neg": true
+    }
+  },
+  "smooth": {
+    "method": {},
+    "smoothing_pts": {
+      "value": 3
+    },
+    "smoothing_passes": {
+      "value": 3
+    }
+  },
+  "pdet": {
+    "amp_thres_method": {
+      "selected": "zscore"
+    },
+    "amp_thres_pars": {
+      "quant": {
+        "value": {}
+      },
+      "diff": {
+        "value": {}
+      },
+      "zscore": {
+        "lag": {
+          "value": 10
+        },
+        "thres": {
+          "value": 3
+        },
+        "sens": {
+          "value": 0.5
+        }
+      }
+    },
+    "sens": {
+      "value": {}
+    },
+    "det_bunch": {
+      "value": true
+    },
+    "der_thres_method1": {
+      "selected": "ncore"
+    },
+    "der_thres_method2": {
+      "selected": "iqr"
+    },
+    "fast_chrom_critical_width": {
+      "value": 1
+    },
+    "enable_fast_chrom": {
+      "value": true
+    },
+    "rej": {
+      "sn": {
+        "value": null
+      },
+      "ht": {
+        "value": null
+      },
+      "wd": {
+        "value": null
+      },
+      "pa": {
+        "value": null
+      }
+    },
+    "ma": {
+      "pts_first": {
+        "selected": {}
+      },
+      "pts_second": {
+        "value": {}
+      },
+      "passes_first": {
+        "selected": {}
+      },
+      "passes_second": {
+        "value": {}
+      }
+    },
+    "mpts": {
+      "signal": {
+        "value": 3
+      },
+      "deriv": {
+        "value": 3
+      }
+    },
+    "crosspts": {
+      "signal": {
+        "value": 2
+      },
+      "deriv": {
+        "value": 2
+      }
+    }
+  },
+  "integ": {
+    "method": {
+      "selected": "gskim"
+    },
+    "skim": {
+      "value": 10
+    },
+    "dyson": {
+      "value": 10
+    },
+    "crit_w": {
+      "value": "auto"
+    }
+  },
+  "dconv": {
+    "method": {
+      "selected": "all"
+    },
+    "crit_w": {
+      "value": 5
+    },
+    "modres": {
+      "value": true
+    },
+    "optmet": {
+      "selected": "all"
+    },
+    "reprs_emg": {
+      "value": "emg1"
+    }
+  },
+  "psym": {
+    "method": {
+      "selected": "all"
+    },
+    "start_peak": {
+      "value": {}
+    },
+    "end_peak": {
+      "value": {}
+    },
+    "crit_w": {
+      "value": 5
+    },
+    "show_widths": {
+      "value": true
+    },
+    "optmet": {
+      "selected": "nlp"
+    },
+    "reprs": {
+      "value": 500
+    }
+  },
+  "perf": {
+    "res": {
+      "peaks1_manual": {
+        "value": "all"
+      },
+      "peaks2_manual": {
+        "value": "all"
+      },
+      "method": {
+        "selected": "all"
+      },
+      "ks_mode": {
+        "selected": "peak"
+      },
+      "ks_manual": {
+        "value": 0
+      },
+      "ks_peak_index": {
+        "value": 1
+      },
+      "crit_w": {
+        "value": "auto"
+      }
+    },
+    "retf": {
+      "t0_mode": {
+        "selected": "peak"
+      },
+      "t0_manual": {
+        "value": 0
+      },
+      "t0_peak_index": {
+        "value": 1
+      },
+      "peaks_manual": {
+        "value": "all"
+      },
+      "crit_w": {
+        "value": "auto"
+      }
+    },
+    "sepf": {
+      "peaks1_manual": {
+        "value": "all"
+      },
+      "peaks2_manual": {
+        "value": "all"
+      },
+      "ks_mode": {
+        "selected": "peak"
+      },
+      "ks_manual": {
+        "value": 0
+      },
+      "ks_peak_index": {
+        "value": 1
+      },
+      "crit_w": {
+        "value": "auto"
+      }
+    },
+    "tplate": {
+      "method": {
+        "selected": "all"
+      },
+      "len": {
+        "value": 120
+      },
+      "dp": {
+        "value": 5
+      },
+      "show_widths": {
+        "value": true
+      },
+      "crit_w": {
+        "value": "auto"
+      },
+      "deltap": {
+        "value": 10
+      },
+      "visc": {
+        "value": 8
+      },
+      "t0_mode": {
+        "selected": "peak"
+      },
+      "t0_manual": {
+        "value": 0
+      },
+      "t0_peak_index": {
+        "value": 1
+      },
+      "imped_met": {
+        "selected": "all"
+      }
+    },
+    "addmets": {
+      "which_mets": {
+        "selected": "all"
+      },
+      "t0": {
+        "value": 2
+      },
+      "len": {
+        "value": 120
+      },
+      "flow": {
+        "value": 10
+      },
+      "id": {
+        "value": 8
+      },
+      "deltap": {
+        "value": 10
+      },
+      "visc": {
+        "value": 8
+      },
+      "dp": {
+        "value": 5
+      }
+    }
+  },
+  "rpr": {
+    "which_pks": {},
+    "pnms": "Caff,Caff,Caff",
+    "pcons": {},
+    "add_tpa": true,
+    "add_addmets": false,
+    "metric_EP": true,
+    "metric_AH": true,
+    "metric_S5": true,
+    "metric_EMG": false,
+    "metric_As": false,
+    "metric_Tf": false,
+    "spec_EP": "cock",
+    "spec_AH": "cock",
+    "spec_S5": "cock",
+    "spec_EMG": "",
+    "spec_As": "cock",
+    "spec_Tf": "",
+    "tpars_dnum": "LC-C18-20240000001",
+    "tpars_oper": "Deniz Can Koseoglu",
+    "tpars_sn": "C18-2024000001",
+    "tpars_pn": "L-C182546510",
+    "tpars_desc": "AC-C18 Column\n(250x4.6 mm, 5 µm, 10 nm)",
+    "tpars_bn": "20240000001",
+    "tpars_mp": "70:30 MeOH:Water",
+    "tpars_sp": "80:20 (volumetric) IPA:Water",
+    "tpars_bp": "126",
+    "tpars_flow": "1.0",
+    "tpars_temp": "30",
+    "tpars_inj": "20",
+    "tpars_unitc":"ppm",
+    "asprat": 0.4,
+    "fontsize": 10,
+    "expath": "C:\\Users\\Denizcan\\Documents"
+  }
+}

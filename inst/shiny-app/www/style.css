@@ -1,0 +1,106 @@
+/* www/style.css */
+
+.dataTables_scrollBody {
+  max-height: 400px; /* İstediğiniz yüksekliği ayarlayın */
+  overflow-y: auto;
+}
+hr{
+  border: 10px solid red;
+  border-radius: 3px;
+}
+/* ... existing styles ... */
+
+.status-bar {
+  background-color: #f8f9fa !important; /* Tema stilini geçersiz kılabilir */
+  border-bottom: 1px solid #dee2e6 !important; /* Tema stilini geçersiz kılabilir */
+  padding: 10px !important;
+  margin-bottom: 15px !important;
+  font-size: 0.9em !important; /* Boyutu da önemli yapabiliriz */
+}
+
+.status-item {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.status-item .fa {
+  margin-right: 8px !important;
+  color: #007bff !important; /* Tema stilini geçersiz kılabilir */
+}
+
+.status-subtitle {
+  font-weight: bold !important;
+  margin-right: 5px !important;
+  color: #6c757d !important; /* Tema stilini geçersiz kılabilir */
+}
+
+.status-value {
+  color: #212529 !important; /* Varsayılan renk - tema stilini geçersiz kılabilir */
+  font-weight: normal !important;
+  margin-left: 5px !important;
+}
+
+/* Style for when a file is loaded - Relying on :not(:empty) and :contains() */
+#current_file_name:not(:empty):not(:contains("No file loaded")):not(:contains("Error loading file")) {
+  color: #28a745 !important; /* Yüklenen dosya için yeşil - tema stilini geçersiz kılabilir */
+}
+
+/* Style for when settings are loaded - Relying on :not(:empty) and :contains() */
+#current_settings_name:not(:empty):not(:contains("No settings loaded")) {
+  color: #17a2b8 !important; /* Yüklenen ayarlar için mavi - tema stilini geçersiz kılabilir */
+}
+
+/* Style for error state - Relying on :contains() */
+#current_file_name:contains("Error loading file") {
+  color: #dc3545 !important; /* Hata için kırmızı - tema stilini geçersiz kılabilir */
+}
+
+/* Optional: Hover effect for status items */
+.status-item:hover {
+    background-color: #e9ecef !important; /* Hafif gri arka plan - tema stilini geçersiz kılabilir */
+    border-radius: 4px !important;
+    cursor: default !important; /* İmleç - tema stilini geçersiz kılabilir */
+}
+
+.disabled {
+  pointer-events: none; /* Prevents the default hover/click events */
+  cursor: not-allowed !important; /* Ensure the cursor changes */
+  opacity: 0.6; /* Make it look greyed out */
+  color: #aaa !important; /* Change text color (adjust to your theme) */
+  text-decoration: none !important; /* Remove underline if present */
+}
+
+/* Optional: Style the parent list item too */
+ #main_tabs .disabled,
+ #main_tabs .disabled:focus,
+ #main_tabs .disabled:hover {
+    background-color: initial !important; /* Prevent hover background changes */
+    border-color: initial !important; /* Prevent hover border changes */
+ }
+
+/* Intro.js özelleştirmeleri */
+.lcqc-app-container {
+  position: relative; /* Ensure intro.js positions correctly within the app container */
+}
+
+.introjs-tooltip {
+  max-width: 400px !important;
+  font-size: 14px !important;
+  /* Ensure tooltip is positioned relative to the highlighted element */
+  position: absolute; /* This is usually default, but good to be explicit */
+}
+
+.introjs-helperLayer {
+  z-index: 9999999 !important;
+  position: fixed; /* Ensure it covers the entire viewport */
+}
+
+.introjs-overlay {
+  z-index: 9999998 !important;
+  position: fixed; /* Ensure it covers the entire viewport */
+}
+
+/* Tab geçişi için smooth animasyon */
+.nav-tabs > li > a {
+  transition: all 0.3s ease;
+}

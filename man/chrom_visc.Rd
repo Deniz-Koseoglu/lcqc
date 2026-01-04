@@ -82,7 +82,7 @@ García-Colín, L.S., del Castillo, L.F., Goldstein, P. (1989), 'Theoretical Bas
 
 Silva, M., Vieira, B., Ottens, M. (2018), 'Preferential crystallization for the purification of similar hydrophobic polyphenols', \emph{Journal of Chemical Technology & Biotechnology} \strong{93} (7), pp. 1997-2010, DOI: \url{https://doi.org/10.1002/jctb.5526}.
 
-Snyder, L.R., Kirkland, J.J., Glajch, J.L. (1997), 'Appendix II: Properties of Solvent Used in HPLC', In: \emph{Practical HPLC Method Development, Second Edition}, John Wiley & Sons, USA.
+Snyder, L.R., Kirkland, J.J., Glajch, J.L. (1997), 'Appendix II: Properties of Solvent Used in HPLC', In: \emph{Practical HPLC Method Development, Second Edition}, John Wiley & Sons, USA, DOI: \url{https://www.doi.org/10.1002/9781118592014.app2}.
 
 Snyder, L.R., Kirkland, J.J., Dolan, J.W. (2009), 'Appendix I: Properties of HPLC Solvents', In: \emph{Introduction to Modern Liquid Chromatography}, pp. 879-886, DOI: \url{https://doi.org/10.1002/9780470508183.app1}.
 

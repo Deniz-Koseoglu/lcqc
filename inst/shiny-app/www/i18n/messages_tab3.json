@@ -1,0 +1,24 @@
+{
+  "translation": [
+    {
+      "en": "Applying Smoothing",
+      "ru": "Применение сглаживания",
+      "tr": "Yumuşatma Uygulanıyor"
+    },
+    {
+      "en": "Error in automatic smoothing parameter determination:",
+      "ru": "Ошибка при автоматическом определении параметров сглаживания:",
+      "tr": "Otomatik yumuşatma parametresi belirleme hatası:"
+    },
+    {
+      "en": "Error in smoothing:",
+      "ru": "Ошибка при сглаживании:",
+      "tr": "Yumuşatma hatası:"
+    },
+    {
+      "en": "No baseline corrected data available. Please perform baseline correction first.",
+      "ru": "Нет данных с коррекцией базовой линии. Сначала выполните коррекцию базовой линии.",
+      "tr": "Baz çizgisi düzeltilmiş veri mevcut değil. Lütfen önce baz çizgisi düzeltmesi yapın."
+    }
+  ]
+}

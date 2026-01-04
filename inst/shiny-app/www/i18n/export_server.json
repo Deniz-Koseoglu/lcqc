@@ -1,0 +1,114 @@
+{
+  "translation": [
+    {
+      "en": " (not available)",
+      "tr": " (mevcut değil)",
+      "ru": " (недоступно)"
+    },
+    {
+      "en": "Export button inside modal clicked!",
+      "tr": "Modal içindeki dışa aktarma düğmesine tıklandı!",
+      "ru": "Нажата кнопка экспорта внутри модального окна!"
+    },
+    {
+      "en": "Please select at least one data type to export.",
+      "tr": "Lütfen dışa aktarmak için en az bir veri türü seçin.",
+      "ru": "Пожалуйста, выберите хотя бы один тип данных для экспорта."
+    },
+    {
+      "en": "No valid data selected for export.",
+      "tr": "Dışa aktarmak için geçerli veri seçilmedi.",
+      "ru": "Не выбраны действительные данные для экспорта."
+    },
+    {
+      "en": "Please select a valid export directory.",
+      "tr": "Lütfen geçerli bir dışa aktarma dizini seçin.",
+      "ru": "Пожалуйста, выберите действительный путь экспорта."
+    },
+    {
+      "en": "Exporting Data",
+      "tr": "Veriler Dışa Aktarılıyor",
+      "ru": "Экспорт данных"
+    },
+    {
+      "en": "Preparing data...",
+      "tr": "Veriler hazırlanıyor...",
+      "ru": "Подготовка данных..."
+    },
+    {
+      "en": "Running export function...",
+      "tr": "Dışa aktarma fonksiyonu çalıştırılıyor...",
+      "ru": "Запуск функции экспорта..."
+    },
+    {
+      "en": "No valid data for selected types to export.",
+      "tr": "Seçilen türler için dışa aktarılacak geçerli veri yok.",
+      "ru": "Нет действительных данных для выбранных типов для экспорта."
+    },
+    {
+      "en": "Export complete.",
+      "tr": "Dışa aktarma tamamlandı.",
+      "ru": "Экспорт завершен."
+    },
+    {
+      "en": "Data exported successfully to ",
+      "tr": "Veriler başarıyla dışa aktarıldı: ",
+      "ru": "Данные успешно экспортированы в "
+    },
+    {
+      "en": "Export failed:",
+      "tr": "Dışa aktarma başarısız oldu:",
+      "ru": "Экспорт не удался:"
+    },
+    {
+      "en": "Export Error:",
+      "tr": "Dışa Aktarma Hatası:",
+      "ru": "Ошибка экспорта:"
+    },
+    {
+      "en": "Peak Detection",
+      "tr": "Pik Algılama",
+      "ru": "Обнаружение пиков"
+    },
+    {
+      "en": "Integration",
+      "tr": "Entegrasyon",
+      "ru": "Интеграция"
+    },
+    {
+      "en": "Iterative Curve Fitting",
+      "tr": "İteratif Dekonvolüsyon",
+      "ru": "Итеративная Деконволюция Пиков"
+    },
+    {
+      "en": "Peak Symmetry",
+      "tr": "Pik Simetrisi",
+      "ru": "Симметрия пиков"
+    },
+    {
+      "en": "Theoretical Plates",
+      "tr": "Teorik Plakalar",
+      "ru": "Теоретические тарелки"
+    },
+    {
+      "en": "Resolution",
+      "tr": "Çözünürlük",
+      "ru": "Разрешение"
+    },
+    {
+      "en": "Retention Factors",
+      "tr": "Alıkonma Faktörleri",
+      "ru": "Факторы удерживания"
+    },
+    {
+      "en": "Separation Factors",
+      "tr": "Ayırma Faktörleri",
+      "ru": "Факторы разделения"
+    },
+    {
+      "en": "Additional Performance Metrics",
+      "tr": "Ek Performans Metrikleri",
+      "ru": "Дополнительные показатели производительности"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "translation": [
+    {
+      "en": "Call:",
+      "ru": "Вызов:",
+      "tr": "Çağrı:"
+    },
+    {
+      "en": "Error.",
+      "ru": "Ошибка.",
+      "tr": "Hata."
+    },
+    {
+      "en": "Index",
+      "ru": "Индекс",
+      "tr": "İndeks"
+    },
+    {
+      "en": "Message:",
+      "ru": "Сообщение:",
+      "tr": "Mesaj:"
+    },
+    {
+      "en": "No original chromatogram data available for peak detection. Please import data in the first tab.",
+      "ru": "Нет исходных данных хроматограммы для обнаружения пиков. Импортируйте данные на первой вкладке.",
+      "tr": "Pik tespiti için orijinal kromatogram verisi mevcut değil. Lütfen ilk sekmede veri içe aktarın."
+    },
+    {
+      "en": "Performing Peak Detection...",
+      "ru": "Выполняется обнаружение пиков...",
+      "tr": "Pik Tespiti Yapılıyor..."
+    },
+    {
+      "en": "Preparing parameters...",
+      "ru": "Подготовка параметров...",
+      "tr": "Parametreler hazırlanıyor..."
+    },
+    {
+      "en": "Processing results...",
+      "ru": "Обработка результатов...",
+      "tr": "Sonuçlar işleniyor..."
+    },
+    {
+      "en": "Running chrom_detect...",
+      "ru": "Запуск chrom_detect...",
+      "tr": "chrom_detect çalıştırılıyor..."
+    },
+    {
+      "en": "Z-score Limits",
+      "ru": "Пределы Z-оценки",
+      "tr": "Z-skoru Sınırları"
+    }
+  ]
+}

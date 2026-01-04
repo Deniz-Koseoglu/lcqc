@@ -1,0 +1,44 @@
+{
+  "translation": [
+    {
+      "en": "After selecting your desired method, click this button to apply smoothing. If 'None' is selected, this button will allow you to skip the smoothing step and proceed to peak detection.",
+      "ru": "После выбора метода нажмите эту кнопку для применения сглаживания.",
+      "tr": "Yumuşatma uygulamak için bu düğmeye tıklayın."
+    },
+    {
+      "en": "Apply or skip smoothing using these settings.",
+      "ru": "Примените или пропустите сглаживание, используя эти настройки.",
+      "tr": "Bu ayarları kullanarak yumuşatmayı uygulayın veya atlayın."
+    },
+    {
+      "en": "Configure the starting parameters for auto-smoothing.",
+      "ru": "Настройте начальные параметры для автоматического сглаживания.",
+      "tr": "Otomatik yumuşatma için başlangıç parametrelerini yapılandırın."
+    },
+    {
+      "en": "Manually adjust smoothing points and passes.",
+      "ru": "Вручную настройте точки и проходы сглаживания.",
+      "tr": "Yumuşatma noktalarını ve geçişleri manuel olarak ayarlayın."
+    },
+    {
+      "en": "Select a derivative smoothing method from this dropdown. Options include 'None', 'Rectangular', or 'Triangular'. Your selection here will determine the smoothing algorithm applied.",
+      "ru": "Выберите метод сглаживания производной из этого списка.",
+      "tr": "Bu açılır menüden bir türev yumuşatma yöntemi seçin."
+    },
+    {
+      "en": "Select a signal smoothing method from this dropdown. Options include 'None', 'Rectangular', 'Triangular', and two types of Savitzky-Golay filters. Your selection here will determine the smoothing algorithm applied.",
+      "ru": "Выберите метод сглаживания сигнала из этого списка.",
+      "tr": "Bu açılır menüden bir sinyal yumuşatma yöntemi seçin."
+    },
+    {
+      "en": "This displays the currently selected smoothing method. You can change the method in the 'Basic' tab.",
+      "ru": "Здесь отображается текущий метод сглаживания.",
+      "tr": "Seçili mevcut yumuşatma yöntemini görüntüler."
+    },
+    {
+      "en": "Toggle this on to automatically estimate the optimal number of smoothing points and passes based on average peak width and other factors.",
+      "ru": "Включите это для автоматической оценки оптимального количества точек сглаживания.",
+      "tr": "Optimal yumuşatma noktası sayısını otomatik olarak tahmin etmek için bunu açın."
+    }
+  ]
+}

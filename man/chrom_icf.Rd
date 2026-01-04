@@ -66,9 +66,10 @@ Iterative curve fitting (ICF) fits several Gaussian and modified Gaussian models
 and minimizes the associated Root Mean Squared Error (RMSE) of the resulting model through iterative optimization. Thus, a
 model that resembles actual chromatographic signal as closely as possible within the constraints of the chosen model is obtained.
 ICF is especially useful as a peak deconvolution method for moderately or even completely fused peaks. The \code{\link{chrom_icf}}
-workflow currently implements 3 popular ICF models and offers active selection of the most appropriate model for each examined peak
+workflow currently implements 4 popular ICF models and offers active selection of the most appropriate model for each examined peak
 or a group of up to 5 fused peaks. The available models include a simple Gaussian model (GS), the Exponentially-Modified Gaussian (EMG),
-and the Exponential-Gaussian Hybrid (EGH) that is considered a simpler, more robust alternative to EMG with faster computation time.
+as well as the Exponential-Gaussian Hybrid (EGH) and the Empirically Transformed Gaussian (ETG) models that are
+considered to be simpler, more robust alternatives to EMG with faster computation time.
 
 The GS model is based on the following equation (Nikitas et al., 2001):
 \deqn{H_{gs} = H_m\times e^{-((t_R-t_m)/2\sigma)^2}}
@@ -91,7 +92,7 @@ peaks by including a truncated exponential component into the equation:
 Where \eqn{t_{R2}} are those retention times where \eqn{(2\sigma^2 + \tau\times(t_R-t_0)) > 0}. EGH converges significantly faster
 than EMG, but somewhat lacks flexibility for modeling fronting peaks (similarly to EMG).
 
-Finally, the ETG model is unique in incorporating 6 parameters describing the \strong{leading} (\eqn{k_l}, \eqn{\lambda_l},
+Finally, the ETG model (Li, 1995, 1997, 2002) is unique in incorporating 6 parameters describing the \strong{leading} (\eqn{k_l}, \eqn{\lambda_l},
 and \eqn{\alpha}) and \strong{trailing} (\eqn{k_r}, \eqn{\lambda_r}, and \eqn{\beta}) peak edges, respectively. Including
 the peak height \eqn{H_m}, a total of 7 parameters are optimized. Additionally, the function requires estimates of the left
 and right inflection point times (\eqn{t_l} and \eqn{t_r}) for each peak, which remain constant and are not optimized:
@@ -117,6 +118,8 @@ chrom_icf(det_res, method = c("egh","etg"), modres = FALSE)
 
 }
 \references{
+Caballero, R.D., Garcia-Alvarez-Coque, M.C., Baeza-Baeza, J.J. (2002), 'Parabolic-Lorentzian modified Gaussian model for describing and deconvolving chromatographic peaks', \emph{Journal of Chromatography A} \strong{954} (1), pp. 59-76, DOI: \url{https://doi.org/10.1016/S0021-9673(02)00194-2}.
+
 Kalambet, Y., Kozmin, Y., Mikhailova, K., Nagaev, I., Tikhonov, P. (2011), 'Reconstruction of Chromatographic Peaks using the Exponentially Modified Gaussian Function', \emph{Journal of Chemometrics} \strong{25} (7), pp. 352-356, DOI: \url{https://doi.org/10.1002/cem.1343}.
 
 Li (1995), 'A Simplified Exponentially Modified Gaussian Function for Modeling Chromatographic Peaks', \emph{Journal of Chromatographic Science} \strong{33}, pp. 568-572, DOI: \url{https://www.doi.org/10.1093/chromsci/33.10.568}.

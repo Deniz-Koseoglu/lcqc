@@ -1,0 +1,104 @@
+{
+  "translation": [
+    {
+      "en": ". Only valid indices will be used.",
+      "ru": ". Будут использованы только допустимые индексы.",
+      "tr": ". Yalnızca geçerli indeksler kullanılacaktır."
+    },
+    {
+      "en": "Error creating export directory:",
+      "ru": "Ошибка при создании директории экспорта:",
+      "tr": "Dışa aktarma dizini oluşturma hatası:"
+    },
+    {
+      "en": "Error generating report: ",
+      "ru": "Ошибка при создании отчета: ",
+      "tr": "Rapor oluşturma hatası: "
+    },
+    {
+      "en": "Error parsing peak concentrations. Please use comma-separated numbers.",
+      "ru": "Ошибка при разборе концентраций пиков. Используйте числа, разделенные запятыми.",
+      "tr": "Pik konsantrasyonları ayrıştırma hatası. Lütfen virgülle ayrılmış sayılar kullanın."
+    },
+    {
+      "en": "Error parsing peak indices:",
+      "ru": "Ошибка при разборе индексов пиков:",
+      "tr": "Pik indeksleri ayrıştırma hatası:"
+    },
+    {
+      "en": "Export directory is not writable. Please choose a different location.",
+      "ru": "Директория экспорта недоступна для записи. Выберите другое расположение.",
+      "tr": "Dışa aktarma dizini yazılabilir değil. Lütfen farklı bir konum seçin."
+    },
+    {
+      "en": "Generating Performance Report",
+      "ru": "Создание отчета о производительности",
+      "tr": "Performans Raporu Oluşturuluyor"
+    },
+    {
+      "en": "Generating report...",
+      "ru": "Создание отчета...",
+      "tr": "Rapor oluşturuluyor..."
+    },
+    {
+      "en": "Integration data is missing. Please carry out integration first!",
+      "ru": "Данные интеграции отсутствуют. Сначала выполните интеграцию!",
+      "tr": "Entegrasyon verisi eksik. Lütfen önce entegrasyon yapın!"
+    },
+    {
+      "en": "Peak selection with names and concentrations applied successfully",
+      "ru": "Выбор пиков с названиями и концентрациями успешно применен",
+      "tr": "Adları ve konsantrasyonları ile pik seçimi başarıyla uygulandı"
+    },
+    {
+      "en": "Please specify an export directory.",
+      "ru": "Укажите директорию для экспорта.",
+      "tr": "Lütfen bir dışa aktarma dizini belirtin."
+    },
+    {
+      "en": "Preparing data for render...",
+      "ru": "Подготовка данных для отрисовки...",
+      "tr": "Render için veri hazırlanıyor..."
+    },
+    {
+      "en": "Rendering...",
+      "ru": "Отрисовка...",
+      "tr": "Oluşturuluyor..."
+    },
+    {
+      "en": "Report generated successfully in ",
+      "ru": "Отчет успешно создан в ",
+      "tr": "Rapor başarıyla oluşturuldu: "
+    },
+    {
+      "en": "Report generation failed: ",
+      "ru": "Создание отчета не удалось: ",
+      "tr": "Rapor oluşturma başarısız: "
+    },
+    {
+      "en": "Report successfully generated at: ",
+      "ru": "Отчет успешно создан по адресу: ",
+      "tr": "Rapor başarıyla oluşturuldu: "
+    },
+    {
+      "en": "Select peaks to enter names and concentrations",
+      "ru": "Выберите пики для ввода названий и концентраций",
+      "tr": "Ad ve konsantrasyon girmek için pikleri seçin"
+    },
+    {
+      "en": "Theoretical plate data is missing.",
+      "ru": "Данные теоретических тарелок отсутствуют.",
+      "tr": "Teorik tabaka verisi eksik."
+    },
+    {
+      "en": "Upload Custom Logo",
+      "ru": "Загрузить пользовательский логотип",
+      "tr": "Özel Logo Yükle"
+    },
+    {
+      "en": "Warning: Invalid peak indices entered:",
+      "ru": "Предупреждение: Введены неверные индексы пиков:",
+      "tr": "Uyarı: Geçersiz pik indeksleri girildi:"
+    }
+  ]
+}

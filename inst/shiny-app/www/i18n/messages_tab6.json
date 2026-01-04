@@ -1,0 +1,39 @@
+{
+  "translation": [
+    {
+      "en": "Applying Deconvolution",
+      "ru": "Применение деконволюции",
+      "tr": "Dekonvolüsyon Uygulanıyor"
+    },
+    {
+      "en": "Deconvolution completed successfully.",
+      "ru": "Деконволюция успешно завершена.",
+      "tr": "Dekonvolüsyon başarıyla tamamlandı."
+    },
+    {
+      "en": "Deconvolution completed, but no detailed summary information was provided in the results.",
+      "ru": "Деконволюция завершена, но подробная сводная информация не была предоставлена в результатах.",
+      "tr": "Dekonvolüsyon tamamlandı, ancak sonuçlarda ayrıntılı özet bilgisi sağlanmadı."
+    },
+    {
+      "en": "Performing deconvolution",
+      "ru": "Выполнение деконволюции",
+      "tr": "Dekonvolüsyon yapılıyor"
+    },
+    {
+      "en": "Warning",
+      "ru": "Предупреждение",
+      "tr": "Uyarı"
+    },
+    {
+      "en": "Warning: Expected ggplot object for plot 1, but 'modplot' element is not a ggplot object.",
+      "ru": "Предупреждение: Ожидался объект ggplot для графика 1, но элемент 'modplot' не является объектом ggplot.",
+      "tr": "Uyarı: Grafik 1 için ggplot nesnesi bekleniyordu, ancak 'modplot' öğesi bir ggplot nesnesi değil."
+    },
+    {
+      "en": "Warning: Expected ggplot object for plot 2, but 'modplot' element is not a ggplot object.",
+      "ru": "Предупреждение: Ожидался объект ggplot для графика 2, но элемент 'modplot' не является объектом ggplot.",
+      "tr": "Uyarı: Grafik 2 için ggplot nesnesi bekleniyordu, ancak 'modplot' öğesi bir ggplot nesnesi değil."
+    }
+  ]
+}

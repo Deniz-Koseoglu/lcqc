@@ -1,0 +1,74 @@
+{
+  "translation": [
+    {
+      "en": "tab1_help_en",
+      "ru": "tab1_help_ru",
+      "tr": "tab1_help_tr"
+    },
+    {
+      "en": "tab2_help_en",
+      "ru": "tab2_help_ru",
+      "tr": "tab2_help_tr"
+    },
+    {
+      "en": "tab3_help_en",
+      "ru": "tab3_help_ru",
+      "tr": "tab3_help_tr"
+    },
+    {
+      "en": "tab4_help_en",
+      "ru": "tab4_help_ru",
+      "tr": "tab4_help_tr"
+    },
+    {
+      "en": "tab5_help_en",
+      "ru": "tab5_help_ru",
+      "tr": "tab5_help_tr"
+    },
+    {
+      "en": "tab6_help_en",
+      "ru": "tab6_help_ru",
+      "tr": "tab6_help_tr"
+    },
+    {
+      "en": "tab7_help_en",
+      "ru": "tab7_help_ru",
+      "tr": "tab7_help_tr"
+    },
+    {
+      "en": "tab8_help_tplate_en",
+      "ru": "tab8_help_tplate_ru",
+      "tr": "tab8_help_tplate_tr"
+    },
+    {
+      "en": "tab8_help_res_en",
+      "ru": "tab8_help_res_ru",
+      "tr": "tab8_help_res_tr"
+    },
+    {
+      "en": "tab8_help_retf_en",
+      "ru": "tab8_help_retf_ru",
+      "tr": "tab8_help_retf_tr"
+    },
+    {
+      "en": "tab8_help_sepf_en",
+      "ru": "tab8_help_sepf_ru",
+      "tr": "tab8_help_sepf_tr"
+    },
+    {
+      "en": "tab8_help_addmets_en",
+      "ru": "tab8_help_addmets_ru",
+      "tr": "tab8_help_addmets_tr"
+    },
+    {
+      "en": "tab8_help_visc_en",
+      "ru": "tab8_help_visc_ru",
+      "tr": "tab8_help_visc_tr"
+    },
+    {
+      "en": "tab9_help_en",
+      "ru": "tab9_help_ru",
+      "tr": "tab9_help_tr"
+    }
+  ]
+}

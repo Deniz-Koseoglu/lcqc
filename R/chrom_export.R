@@ -24,6 +24,7 @@
 #' One or more of \code{"w"} (width, in cm), \code{"h"} (height, in cm), \code{"psize"} (point size), and \code{"res"} (resolution).
 #' When set to \code{"default"}, the set of parameters are \code{c(w = 10, h = 12, psize = 12, res = 300)}.
 #' @param plot_format A \code{character} specifying which format to export plots in. One of \code{"png"} or \code{"pdf"}.
+#' @param expfun A \code{logical} specifying whether function calls should be exported. Defaults to \code{FALSE}.
 #'
 #' @return A timestamped folder is created inside \code{expath} containing the compiled results in a
 #' \strong{LCQC_Results.csv} file, and .png/.pdf visualizations contained in a separate \strong{Plots} directory.
@@ -54,7 +55,7 @@
 #' @importFrom grDevices pdf
 #' @importFrom grDevices dev.off
 #' @importFrom data.table fwrite
-chrom_export <- function(input_list, expath = getwd(), plotpars = "default", plot_format = "png") {
+chrom_export <- function(input_list, expath = getwd(), plotpars = "default", plot_format = "png", expfun = FALSE) {
 
   #Set separator value
   fwsep <- "\t"
@@ -177,14 +178,16 @@ chrom_export <- function(input_list, expath = getwd(), plotpars = "default", plo
     }
   }
 
-  #EXPORT FUNCTION CALLS
-  cat("FUNCTION CALLS\n", file = fpath, append = TRUE)
-  for(i in names(input_list)[!names(input_list) %in% "acctops"]) {
-    #cat(funcnames[i], "\n", file = fpath, append = TRUE)
-    curcall <- if(i=="pks") input_list[[i]][["results"]][["call"]] else input_list[[i]][["call"]]
-    #Collapse the function call
-    curcall <- paste0(format(curcall), "\n", collapse = "") #Can use 'deparse()' in place of 'format()'
-    cat(curcall, "\n", file = fpath, append = TRUE)
+  #EXPORT FUNCTION CALLS (OPTIONALLY)
+  if(expfun) {
+    cat("FUNCTION CALLS\n", file = fpath, append = TRUE)
+    for(i in names(input_list)[!names(input_list) %in% "acctops"]) {
+      #cat(funcnames[i], "\n", file = fpath, append = TRUE)
+      curcall <- if(i=="pks") input_list[[i]][["results"]][["call"]] else input_list[[i]][["call"]]
+      #Collapse the function call
+      curcall <- paste0(format(curcall), "\n", collapse = "") #Can use 'deparse()' in place of 'format()'
+      cat(curcall, "\n", file = fpath, append = TRUE)
+    }
   }
 
   #FINALLY, EXPORT CHROMATOGRAM DATA (IF AVAILABLE)

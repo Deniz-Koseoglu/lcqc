@@ -1,0 +1,139 @@
+{
+  "translation": [
+    {
+      "en": "Adjust the aspect ratio for TPA plots.",
+      "ru": "Настройте соотношение сторон для графиков TPA.",
+      "tr": "TPA grafikleri için en-boy oranını ayarlayın."
+    },
+    {
+      "en": "Adjust the chromatogram aspect ratio.",
+      "ru": "Настройте соотношение сторон хроматограммы.",
+      "tr": "Kromatogram en-boy oranını ayarlayın."
+    },
+    {
+      "en": "Choose the export directory.",
+      "ru": "Выберите директорию для экспорта.",
+      "tr": "Dışa aktarma dizinini seçin."
+    },
+    {
+      "en": "Enter the back pressure.",
+      "ru": "Введите обратное давление.",
+      "tr": "Geri basıncı girin."
+    },
+    {
+      "en": "Enter the batch number.",
+      "ru": "Введите номер партии.",
+      "tr": "Parti numarasını girin."
+    },
+    {
+      "en": "Enter the column part number.",
+      "ru": "Введите номер детали колонки.",
+      "tr": "Kolon parça numarasını girin."
+    },
+    {
+      "en": "Enter the column serial number.",
+      "ru": "Введите серийный номер колонки.",
+      "tr": "Kolon seri numarasını girin."
+    },
+    {
+      "en": "Enter the column temperature.",
+      "ru": "Введите температуру колонки.",
+      "tr": "Kolon sıcaklığını girin."
+    },
+    {
+      "en": "Enter the concentration units to display in the report.",
+      "ru": "Введите единицы концентрации для отображения в отчете.",
+      "tr": "Raporda görüntülenecek konsantrasyon birimlerini girin."
+    },
+    {
+      "en": "Enter the concentrations corresponding to the selected peaks.",
+      "ru": "Введите концентрации, соответствующие выбранным пикам.",
+      "tr": "Seçilen piklere karşılık gelen konsantrasyonları girin."
+    },
+    {
+      "en": "Enter the document number for the report.",
+      "ru": "Введите номер документа для отчета.",
+      "tr": "Rapor için belge numarasını girin."
+    },
+    {
+      "en": "Enter the flow rate.",
+      "ru": "Введите скорость потока.",
+      "tr": "Akış hızını girin."
+    },
+    {
+      "en": "Enter the injection volume.",
+      "ru": "Введите объем инъекции.",
+      "tr": "Enjeksiyon hacmini girin."
+    },
+    {
+      "en": "Enter the mobile phase composition.",
+      "ru": "Введите состав подвижной фазы.",
+      "tr": "Mobil faz bileşimini girin."
+    },
+    {
+      "en": "Enter the name of the operator.",
+      "ru": "Введите имя оператора.",
+      "tr": "Operatör adını girin."
+    },
+    {
+      "en": "Enter the names of the peaks to be displayed.",
+      "ru": "Введите названия пиков для отображения.",
+      "tr": "Görüntülenecek pik adlarını girin."
+    },
+    {
+      "en": "Enter the shipment solvent composition.",
+      "ru": "Введите состав растворителя поставки.",
+      "tr": "Sevkiyat çözücü bileşimini girin."
+    },
+    {
+      "en": "Generate the PDF report.",
+      "ru": "Сгенерируйте PDF-отчет.",
+      "tr": "PDF raporunu oluşturun."
+    },
+    {
+      "en": "Manually or interactively select specific peaks to include in the report.",
+      "ru": "Вручную или интерактивно выберите конкретные пики для включения в отчет.",
+      "tr": "Rapora dahil edilecek belirli pikleri manuel veya etkileşimli olarak seçin."
+    },
+    {
+      "en": "Provide a brief description of the column.",
+      "ru": "Предоставьте краткое описание колонки.",
+      "tr": "Kolonun kısa bir açıklamasını sağlayın."
+    },
+    {
+      "en": "Select which additional performance metrics to include.",
+      "ru": "Выберите, какие дополнительные метрики производительности включить.",
+      "tr": "Hangi ek performans metriklerinin dahil edileceğini seçin."
+    },
+    {
+      "en": "Select which theoretical plate metrics to use and specify their QC limits.",
+      "ru": "Выберите, какие метрики теоретических тарелок использовать, и укажите их пределы QC.",
+      "tr": "Hangi teorik tabaka metriklerinin kullanılacağını seçin ve QC sınırlarını belirtin."
+    },
+    {
+      "en": "Select which type of chromatogram chart to include in the report.",
+      "ru": "Выберите, какой тип диаграммы хроматограммы включить в отчет.",
+      "tr": "Rapora hangi tür kromatogram grafiğinin dahil edileceğini seçin."
+    },
+    {
+      "en": "Set the report font size.",
+      "ru": "Установите размер шрифта отчета.",
+      "tr": "Rapor yazı tipi boyutunu ayarlayın."
+    },
+    {
+      "en": "This module allows you to generate a comprehensive HPLC column performance report in PDF format.",
+      "ru": "Этот модуль позволяет создавать комплексный отчет о производительности ВЭЖХ-колонки в формате PDF.",
+      "tr": "Bu modül, PDF formatında kapsamlı bir HPLC kolon performans raporu oluşturmanızı sağlar."
+    },
+    {
+      "en": "Upload a custom logo.",
+      "ru": "Загрузите пользовательский логотип.",
+      "tr": "Özel bir logo yükleyin."
+    },
+    {
+      "en": "View report generation messages.",
+      "ru": "Просмотрите сообщения о генерации отчета.",
+      "tr": "Rapor oluşturma mesajlarını görüntüleyin."
+    }
+  ]
+}

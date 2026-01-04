@@ -46,8 +46,8 @@ Outliers are then removed from the resulting vector of noise using \strong{one o
 }
 Inferior and superior (i.e. low and high) peak detection thresholds are then calculated from the remaining data using one of three methods.
 \strong{Method \code{"vaz"}} is based on the work of Vaz et al. (2016). Differences between the global median of derivative signal \eqn{M_D}
-and the derivative signal are calculated and a new median \eqn{M_new} calculated from these results. Finally, the inferior and superior thresholds \eqn{T} are calculated as follows:
-\deqn{T=M_D\pm sens1\times M_new/sens2}
+and the derivative signal are calculated and a new median \eqn{M_{new}} calculated from these results. Finally, the inferior and superior thresholds \eqn{T} are calculated as follows:
+\deqn{T=M_D\pm sens1\times M_{new}/sens2}
 Here, \eqn{sens1} (given in \code{sens[1]}) is an empirical factor with which the threshold range widens/increases.
 Conversely, \eqn{sens2} (given in \code{sens[2]}) is inversely related to the threshold range.
 

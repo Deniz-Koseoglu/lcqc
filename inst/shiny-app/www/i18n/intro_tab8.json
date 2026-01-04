@@ -1,0 +1,174 @@
+{
+  "translation": [
+    {
+      "en": "Calculate chromatographic resolution.",
+      "ru": "Рассчитайте хроматографическое разрешение.",
+      "tr": "Kromatografik çözünürlüğü hesaplayın."
+    },
+    {
+      "en": "Calculate the retention factor.",
+      "ru": "Рассчитайте фактор удерживания.",
+      "tr": "Alıkonma faktörünü hesaplayın."
+    },
+    {
+      "en": "Calculate the separation factor.",
+      "ru": "Рассчитайте фактор разделения.",
+      "tr": "Ayırma faktörünü hesaplayın."
+    },
+    {
+      "en": "Calculate theoretical plates and related metrics.",
+      "ru": "Рассчитайте теоретические тарелки и связанные метрики.",
+      "tr": "Teorik tabakaları ve ilgili metrikleri hesaplayın."
+    },
+    {
+      "en": "Choose the resolution calculation method.",
+      "ru": "Выберите метод расчета разрешения.",
+      "tr": "Çözünürlük hesaplama yöntemini seçin."
+    },
+    {
+      "en": "Choose whether critical width should be determined automatically.",
+      "ru": "Выберите, должна ли критическая ширина определяться автоматически.",
+      "tr": "Kritik genişliğin otomatik olarak belirlenmesi gerekip gerekmediğini seçin."
+    },
+    {
+      "en": "Click this button to calculate dynamic viscosity.",
+      "ru": "Нажмите эту кнопку, чтобы рассчитать динамическую вязкость.",
+      "tr": "Dinamik viskoziteyi hesaplamak için bu düğmeye tıklayın."
+    },
+    {
+      "en": "Click this button to calculate the selected additional column performance metrics.",
+      "ru": "Нажмите эту кнопку, чтобы рассчитать выбранные дополнительные метрики производительности колонки.",
+      "tr": "Seçilen ek kolon performans metriklerini hesaplamak için bu düğmeye tıklayın."
+    },
+    {
+      "en": "Enter a manual critical width value.",
+      "ru": "Введите ручное значение критической ширины.",
+      "tr": "Manuel kritik genişlik değeri girin."
+    },
+    {
+      "en": "Enter a manual critical width.",
+      "ru": "Введите ручную критическую ширину.",
+      "tr": "Manuel kritik genişlik girin."
+    },
+    {
+      "en": "Enter dead time manually.",
+      "ru": "Введите мертвое время вручную.",
+      "tr": "Ölü zamanı manuel olarak girin."
+    },
+    {
+      "en": "Enter the back pressure observed for the column in bar. This is required for permeability, specific permeability, and flow resistance calculations.",
+      "ru": "Введите наблюдаемое обратное давление колонки в барах. Это необходимо для расчета проницаемости, удельной проницаемости и сопротивления потоку.",
+      "tr": "Kolon için gözlemlenen geri basıncı bar cinsinden girin. Bu, geçirgenlik, özgül geçirgenlik ve akış direnci hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the column dead time manually.",
+      "ru": "Введите мертвое время колонки вручную.",
+      "tr": "Kolon ölü zamanını manuel olarak girin."
+    },
+    {
+      "en": "Enter the column length in millimeters.",
+      "ru": "Введите длину колонки в миллиметрах.",
+      "tr": "Kolon uzunluğunu milimetre cinsinden girin."
+    },
+    {
+      "en": "Enter the dead time manually.",
+      "ru": "Введите мертвое время вручную.",
+      "tr": "Ölü zamanı manuel olarak girin."
+    },
+    {
+      "en": "Enter the dynamic viscosity of the mobile phase in mPas. This is required for specific permeability and flow resistance calculations.",
+      "ru": "Введите динамическую вязкость подвижной фазы в мПа·с. Это необходимо для расчета удельной проницаемости и сопротивления потоку.",
+      "tr": "Mobil fazın dinamik viskozitesini mPas cinsinden girin. Bu, özgül geçirgenlik ve akış direnci hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the flow rate of the mobile phase in mL/min. This is required for packing porosity, specific permeability, and flow resistance calculations.",
+      "ru": "Введите скорость потока подвижной фазы в мл/мин. Это необходимо для расчета пористости упаковки, удельной проницаемости и сопротивления потоку.",
+      "tr": "Mobil fazın akış hızını mL/dk cinsinden girin. Bu, dolgu gözenekliliği, özgül geçirgenlik ve akış direnci hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the mobile phase viscosity.",
+      "ru": "Введите вязкость подвижной фазы.",
+      "tr": "Mobil faz viskozitesini girin."
+    },
+    {
+      "en": "Enter the observed back pressure.",
+      "ru": "Введите наблюдаемое обратное давление.",
+      "tr": "Gözlemlenen geri basıncı girin."
+    },
+    {
+      "en": "Enter the stationary phase particle size in micrometers.",
+      "ru": "Введите размер частиц стационарной фазы в микрометрах.",
+      "tr": "Sabit faz partikül boyutunu mikrometre cinsinden girin."
+    },
+    {
+      "en": "Enter the temperature at which to calculate dynamic viscosity.",
+      "ru": "Введите температуру, при которой рассчитывается динамическая вязкость.",
+      "tr": "Dinamik viskozitenin hesaplanacağı sıcaklığı girin."
+    },
+    {
+      "en": "Include peak width measurements in the results table.",
+      "ru": "Включите измерения ширины пиков в таблицу результатов.",
+      "tr": "Sonuç tablosuna pik genişliği ölçümlerini dahil edin."
+    },
+    {
+      "en": "Interactively select peaks to use for the calculation.",
+      "ru": "Интерактивно выберите пики для использования в расчете.",
+      "tr": "Hesaplama için kullanılacak pikleri etkileşimli olarak seçin."
+    },
+    {
+      "en": "Select methods for calculating separation impedance.",
+      "ru": "Выберите методы для расчета импеданса разделения.",
+      "tr": "Ayırma empedansını hesaplamak için yöntemleri seçin."
+    },
+    {
+      "en": "Select mobile phase mixture components to calculate viscosity for.",
+      "ru": "Выберите компоненты смеси подвижной фазы для расчета вязкости.",
+      "tr": "Viskozite hesaplamak için mobil faz karışım bileşenlerini seçin."
+    },
+    {
+      "en": "Select the first set of peaks.",
+      "ru": "Выберите первый набор пиков.",
+      "tr": "İlk pik setini seçin."
+    },
+    {
+      "en": "Select the peak representing dead time.",
+      "ru": "Выберите пик, представляющий мертвое время.",
+      "tr": "Ölü zamanı temsil eden piki seçin."
+    },
+    {
+      "en": "Select the peak used to estimate dead time.",
+      "ru": "Выберите пик, используемый для оценки мертвого времени.",
+      "tr": "Ölü zamanı tahmin etmek için kullanılan piki seçin."
+    },
+    {
+      "en": "Select the second set of peaks.",
+      "ru": "Выберите второй набор пиков.",
+      "tr": "İkinci pik setini seçin."
+    },
+    {
+      "en": "Select which additional column-specific performance metrics to calculate.",
+      "ru": "Выберите, какие дополнительные метрики производительности колонки рассчитывать.",
+      "tr": "Hangi ek kolona özgü performans metriklerinin hesaplanacağını seçin."
+    },
+    {
+      "en": "Specify the type of fraction to use. Choices include volumetric, mass, or mole fractions.",
+      "ru": "Укажите тип используемой доли. Варианты включают объемные, массовые или мольные доли.",
+      "tr": "Kullanılacak kesir türünü belirtin. Seçenekler hacimsel, kütle veya mol kesirlerini içerir."
+    },
+    {
+      "en": "Specify which peak represents the dead time.",
+      "ru": "Укажите, какой пик представляет мертвое время.",
+      "tr": "Hangi pikin ölü zamanı temsil ettiğini belirtin."
+    },
+    {
+      "en": "Toggle automatic critical width.",
+      "ru": "Переключите автоматическую критическую ширину.",
+      "tr": "Otomatik kritik genişliği açın/kapatın."
+    },
+    {
+      "en": "mL/min",
+      "ru": "мл/мин",
+      "tr": "mL/dk"
+    }
+  ]
+}

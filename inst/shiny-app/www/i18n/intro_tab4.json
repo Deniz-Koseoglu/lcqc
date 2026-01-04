@@ -1,0 +1,74 @@
+{
+  "translation": [
+    {
+      "en": "Adjust sensitivity parameters that control how aggressively peaks are detected.",
+      "ru": "Настройте параметры чувствительности, которые контролируют, насколько агрессивно обнаруживаются пики.",
+      "tr": "Piklerin ne kadar agresif tespit edildiğini kontrol eden hassasiyet parametrelerini ayarlayın."
+    },
+    {
+      "en": "Adjust the amplitude fraction used by the selected thresholding method.",
+      "ru": "Настройте долю амплитуды, используемую выбранным методом пороговой обработки.",
+      "tr": "Seçilen eşikleme yöntemi tarafından kullanılan genlik oranını ayarlayın."
+    },
+    {
+      "en": "Apply all advanced peak detection parameters and update the results.",
+      "ru": "Примените все расширенные параметры обнаружения пиков и обновите результаты.",
+      "tr": "Tüm gelişmiş pik tespit parametrelerini uygulayın ve sonuçları güncelleyin."
+    },
+    {
+      "en": "Apply the basic peak detection parameters and visualize the detected peaks.",
+      "ru": "Примените базовые параметры обнаружения пиков и визуализируйте обнаруженные пики.",
+      "tr": "Temel pik tespit parametrelerini uygulayın ve tespit edilen pikleri görselleştirin."
+    },
+    {
+      "en": "Choose whether to use an automatic or manual amplitude threshold for peak detection.",
+      "ru": "Выберите, использовать ли автоматический или ручной порог амплитуды для обнаружения пиков.",
+      "tr": "Pik tespiti için otomatik veya manuel genlik eşiği kullanılıp kullanılmayacağını seçin."
+    },
+    {
+      "en": "Configure Z-score specific parameters used for amplitude thresholding.",
+      "ru": "Настройте параметры Z-оценки, используемые для пороговой обработки амплитуды.",
+      "tr": "Genlik eşiklemesi için kullanılan Z-skoru özel parametrelerini yapılandırın."
+    },
+    {
+      "en": "Configure parameters that verify peak boundaries using signal and derivative confirmation.",
+      "ru": "Настройте параметры, которые проверяют границы пиков с использованием подтверждения сигнала и производной.",
+      "tr": "Sinyal ve türev doğrulaması kullanarak pik sınırlarını doğrulayan parametreleri yapılandırın."
+    },
+    {
+      "en": "Define filters to reject peaks based on signal-to-noise ratio, height, width, or area.",
+      "ru": "Определите фильтры для отклонения пиков на основе отношения сигнал/шум, высоты, ширины или площади.",
+      "tr": "Sinyal-gürültü oranı, yükseklik, genişlik veya alana göre pikleri reddetmek için filtreler tanımlayın."
+    },
+    {
+      "en": "Enable or disable FastChrom baseline correction for complex chromatograms.",
+      "ru": "Включите или отключите коррекцию базовой линии FastChrom для сложных хроматограмм.",
+      "tr": "Karmaşık kromatogramlar için FastChrom baz çizgisi düzeltmesini etkinleştirin veya devre dışı bırakın."
+    },
+    {
+      "en": "Manually specify a fixed amplitude threshold for peak detection.",
+      "ru": "Вручную укажите фиксированный порог амплитуды для обнаружения пиков.",
+      "tr": "Pik tespiti için sabit bir genlik eşiğini manuel olarak belirtin."
+    },
+    {
+      "en": "Optionally combine a second derivative-based method to improve robustness.",
+      "ru": "При необходимости объедините метод на основе второй производной для повышения устойчивости.",
+      "tr": "İsteğe bağlı olarak sağlamlığı artırmak için ikinci türev tabanlı bir yöntemi birleştirin."
+    },
+    {
+      "en": "Select the automatic method used to determine the amplitude threshold.",
+      "ru": "Выберите автоматический метод, используемый для определения порога амплитуды.",
+      "tr": "Genlik eşiğini belirlemek için kullanılan otomatik yöntemi seçin."
+    },
+    {
+      "en": "Select the primary derivative-based method for detecting peak boundaries.",
+      "ru": "Выберите основной метод на основе производной для обнаружения границ пиков.",
+      "tr": "Pik sınırlarını tespit etmek için birincil türev tabanlı yöntemi seçin."
+    },
+    {
+      "en": "Specify the critical width used by FastChrom for baseline correction.",
+      "ru": "Укажите критическую ширину, используемую FastChrom для коррекции базовой линии.",
+      "tr": "FastChrom tarafından baz çizgisi düzeltmesi için kullanılan kritik genişliği belirtin."
+    }
+  ]
+}

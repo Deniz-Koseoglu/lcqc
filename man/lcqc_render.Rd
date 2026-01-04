@@ -20,11 +20,13 @@ lcqc_render(
   add_tpa = FALSE,
   expath = getwd(),
   asprat = 0.4,
+  asprat_tpa = 0.55,
   pnms = NA,
   pconcs = NA,
   add_pnums = TRUE,
   fontsize = 10,
-  which_pks = "all"
+  which_pks = "all",
+  addpars = "default"
 )
 }
 \arguments{
@@ -48,8 +50,8 @@ Values may include (also run \code{\link{render_defs}} for examples):
 \item Flow rate \code{"flow"}
 \item Column temperature \code{"temp"}
 \item Injection volume \code{"inj"}
-\item Analyte concentration unit \code{"unit_c"}
-\item Timestamp for the report genesis \code{"tform"} (\code{"auto"} by default)
+\item Analyte concentration unit \code{"unitc"}
+\item Timestamp for the report genesis \code{"tform"} (set to \code{"default"})
 }}
 
 \item{spec}{A \strong{named} \code{list} of QC specifications to display in the report. Names \strong{must match}
@@ -76,7 +78,7 @@ Possible values are \code{"Linear Velocity"}, \code{"Packing Porosity"}, \code{"
 
 \item{expath}{A \code{character} directory path into which to export the .PDF report.}
 
-\item{asprat}{Aspect ratio of the chromatogram plot (\code{0.4} by default).}
+\item{asprat, asprat_tpa}{Aspect ratio of the chromatogram plot (\code{0.4} by default) and TPA plots (\code{0.55} by default), respectively.}
 
 \item{pnms}{Either \code{NA} (default) or a \code{character} vector of peak names to include in the report.
 Must be equal in length to the total number of peaks in the input data, or to \code{which_pks} if these are specified.}
@@ -90,6 +92,10 @@ Defaults to \code{TRUE}.}
 \item{fontsize}{The font size to use for main text of the report (\code{10} by default).}
 
 \item{which_pks}{Either \code{"all"} (default) or a \code{numeric} vector of peak indices to include in the report.}
+
+\item{addpars}{A named \code{list} Report filename (without .qmd extension). Elements include \code{nametag} (peak name column label string),
+\code{replabel} (basename of the QMD template file), \code{tpa_labs} and \code{chrom_labs} (plot and axis titles for TPA plots and the
+chromatogram plot, respectively). May also be set to \code{"default"} to revert to starting values.}
 }
 \value{
 The column performance report .PDF file is exported to the directory specified in \code{expath}.
@@ -127,11 +133,11 @@ tpars = c(sn = "C18-2024000001",
          oper = "Deniz Can Koseoglu",
          mp = "70:30 MeOH:Water",
          sp = "80:20 (volumetric) IPA:Water",
-         bp = "126 bar",
-         flow = "1.0 mL/min",
-         temp = "30 degC",
-         inj = "20 microL",
-         unit_c = "ppm",
+         bp = "126",
+         flow = "1.0",
+         temp = "30",
+         inj = "20",
+         unitc = "ppm",
          tform = "default"),
 expath = getwd(),
 asprat = 0.4,

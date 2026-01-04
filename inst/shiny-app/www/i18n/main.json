@@ -1,0 +1,374 @@
+{
+  "translation": [
+    {
+      "en": "Okay",
+      "ru": "Окей",
+      "tr": "Tamam"
+    },
+    {
+      "en": "Back",
+      "ru": "Предыдущая",
+      "tr": "Önceki"
+    },
+    {
+      "en": "Done",
+      "ru": "Закрыть",
+      "tr": "Kapat"
+    },
+    {
+      "en": "Peak Information",
+      "ru": "Информация о пиках",
+      "tr": "Pik Bilgileri"
+    },
+    {
+      "en": "Peak Selection",
+      "ru": "Меню выбора пиков",
+      "tr": "Pik Şeçim Menüsü"
+    },
+    {
+      "en": "Apply",
+      "ru": "Применить",
+      "tr": "Uygula"
+    },
+    {
+      "en": "No file selected",
+      "ru": "Файл не выбран",
+      "tr": "Dosya henüz seçilmedi"
+    },
+    {
+      "en": "1. File Data Import",
+      "ru": "1. Импортирование данных",
+      "tr": "1. Dosya Yükleme"
+    },
+    {
+      "en": "Export",
+      "ru": "Экспорт",
+      "tr": "Dışa Aktar"
+    },
+    {
+      "en": "Save/load method",
+      "ru": "Сохранить/загрузить метод",
+      "tr": "Parametre kaydet/yükle"
+    },
+    {
+      "en": "2. Baseline Correction",
+      "ru": "2. Коррекция базовой линии",
+      "tr": "2. Temel Çizgi Düzeltme"
+    },
+    {
+      "en": "3. Smoothing",
+      "ru": "3. Сглаживание",
+      "tr": "3. Yumuşatma"
+    },
+    {
+      "en": "4. Peak Detection",
+      "ru": "4. Обнаружение пиков",
+      "tr": "4. Pik Algılama"
+    },
+    {
+      "en": "5. Integration",
+      "ru": "5. Интеграция",
+      "tr": "5. Entegrasyon"
+    },
+    {
+      "en": "6. Deconvolution",
+      "ru": "6. Деконволюция",
+      "tr": "6. Dekonvolüsyon"
+    },
+    {
+      "en": "7. Peak Symmetry",
+      "ru": "7. Симметрия пиков",
+      "tr": "7. Pik Simetrisi"
+    },
+    {
+      "en": "8. Performance Metrics",
+      "ru": "8. Показатели производительности",
+      "tr": "8. Performans Metrikleri"
+    },
+    {
+      "en": "9. Reporting",
+      "ru": "9. Отчетность",
+      "tr": "9. Raporlama"
+    },
+    {
+      "en": "Current File:",
+      "ru": "Текущий файл:",
+      "tr": "Mevcut Dosya:"
+    },
+    {
+      "en": "Loaded Settings:",
+      "ru": "Загруженные настройки:",
+      "tr": "Yüklenen Ayarlar:"
+    },
+    {
+      "en": "No file loaded",
+      "ru": "Файл не загружен",
+      "tr": "Dosya yüklenmedi"
+    },
+    {
+      "en": "No settings loaded",
+      "ru": "Настройки не загружены",
+      "tr": "Ayarlar yüklenmedi"
+    },
+    {
+      "en": "Intro",
+      "ru": "Справка",
+      "tr": "Tur at"
+    },
+    {
+      "en": "General Tour",
+      "ru": "Общий тур",
+      "tr": "Genel Bilgi"
+    },
+    {
+      "en": "Current Tab",
+      "ru": "Текущий модуль",
+      "tr": "Aktif Sekme"
+    },
+    {
+      "en": "'. Use numbers and ranges (e.g., 1,2,5:7) or 'all'",
+      "ru": "'. Используйте числа и диапазоны (например, 1,2,5:7) или 'all'",
+      "tr": "'. Sayılar ve aralıklar kullanın (örn., 1,2,5:7) veya 'all'"
+    },
+    {
+      "en": ") does not match the number of selected peaks (",
+      "ru": ") не соответствует количеству выбранных пиков (",
+      "tr": ") seçilen pik sayısıyla eşleşmiyor ("
+    },
+    {
+      "en": ") for this metric does not match the number of selected peaks (",
+      "ru": ") для этой метрики не соответствует количеству выбранных пиков (",
+      "tr": ") bu metrik için seçilen pik sayısıyla eşleşmiyor ("
+    },
+    {
+      "en": "). Peak concentrations will be ignored.",
+      "ru": "). Концентрации пиков будут проигнорированы.",
+      "tr": "). Pik konsantrasyonları göz ardı edilecektir."
+    },
+    {
+      "en": "). Peak names will be ignored.",
+      "ru": "). Названия пиков будут проигнорированы.",
+      "tr": "). Pik adları göz ardı edilecektir."
+    },
+    {
+      "en": "). Please provide one value or one value per peak.",
+      "ru": "). Укажите одно значение или одно значение на пик.",
+      "tr": "). Lütfen bir değer veya pik başına bir değer sağlayın."
+    },
+    {
+      "en": "). Valid range: 1-",
+      "ru": "). Допустимый диапазон: 1-",
+      "tr": "). Geçerli aralık: 1-"
+    },
+    {
+      "en": "Activate this checkbox to make all column names syntactically correct (for easier plotting and further processing outside of LCQC).",
+      "ru": "Активируйте этот флажок, чтобы сделать все имена столбцов синтаксически правильными (для более легкого построения графиков и дальнейшей обработки вне LCQC).",
+      "tr": "Tüm sütun adlarını sözdizimsel olarak doğru yapmak için bu onay kutusunu etkinleştirin (LCQC dışında daha kolay grafik çizimi ve işleme için)."
+    },
+    {
+      "en": "Adjust the 'Threshold' parameter, which defines the position of the baseline relative to the noise component of the signal (between 0 and 1).",
+      "ru": "Настройте параметр 'Порог', который определяет положение базовой линии относительно шумовой составляющей сигнала (между 0 и 1).",
+      "tr": "Sinyalin gürültü bileşenine göre baz çizgisinin konumunu tanımlayan 'Eşik' parametresini ayarlayın (0 ile 1 arasında)."
+    },
+    {
+      "en": "Amplitude Fraction (0.001-50%)",
+      "ru": "Доля амплитуды (0.001-50%)",
+      "tr": "Genlik Oranı (%0.001-50)"
+    },
+    {
+      "en": "Choose how dead time (t₀) is determined.",
+      "ru": "Выберите, как определяется мертвое время (t₀).",
+      "tr": "Ölü zamanın (t₀) nasıl belirleneceğini seçin."
+    },
+    {
+      "en": "Choose the column from your CSV file that contains the intensity (or abundance) values corresponding to your chromatogram signal.",
+      "ru": "Выберите столбец из CSV-файла, содержащий значения интенсивности (или обилия), соответствующие сигналу хроматограммы.",
+      "tr": "CSV dosyanızdan kromatogram sinyalinize karşılık gelen yoğunluk (veya bolluk) değerlerini içeren sütunu seçin."
+    },
+    {
+      "en": "Choose whether to retrieve and list peak names (GC-MS only).",
+      "ru": "Выберите, следует ли получать и отображать названия пиков (только для ГХ-МС).",
+      "tr": "Pik adlarının alınıp listelenmesinin gerekip gerekmediğini seçin (yalnızca GC-MS)."
+    },
+    {
+      "en": "DEBUG: ERROR - The chromatogram plotting data (chrom_plot) is NULL.",
+      "ru": "ОТЛАДКА: ОШИБКА - Данные для построения хроматограммы (chrom_plot) равны NULL.",
+      "tr": "DEBUG: HATA - Kromatogram çizim verisi (chrom_plot) NULL."
+    },
+    {
+      "en": "Dead time (t0) is required for Separation Impedance calculation when in manual mode.",
+      "ru": "При ручном режиме для расчета импеданса разделения требуется мертвое время (t0).",
+      "tr": "Manuel modda Ayırma Empedansı hesaplaması için ölü zaman (t0) gereklidir."
+    },
+    {
+      "en": "Dead time (t0) peak index is required for Separation Impedance calculation when in peak mode.",
+      "ru": "При пиковом режиме для расчета импеданса разделения требуется индекс пика мертвого времени (t0).",
+      "tr": "Pik modunda Ayırma Empedansı hesaplaması için ölü zaman (t0) pik indeksi gereklidir."
+    },
+    {
+      "en": "Enable detection and mitigation of closely eluting (bunched) peaks.",
+      "ru": "Включите обнаружение и смягчение близко элюирующих (сгруппированных) пиков.",
+      "tr": "Yakın çıkış yapan (toplu) piklerin tespitini ve azaltılmasını etkinleştirin."
+    },
+    {
+      "en": "Enter the dead time (t0) of the column in minutes. This is required for linear velocity and permeability calculations.",
+      "ru": "Введите мертвое время (t0) колонки в минутах. Это необходимо для расчета линейной скорости и проницаемости.",
+      "tr": "Kolonun ölü zamanını (t0) dakika cinsinden girin. Bu, doğrusal hız ve geçirgenlik hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the fraction(s) of specified mobile phase components within the mixture.",
+      "ru": "Введите доли указанных компонентов подвижной фазы в смеси.",
+      "tr": "Karışım içindeki belirtilen mobil faz bileşenlerinin kesir(ler)ini girin."
+    },
+    {
+      "en": "Enter the internal diameter of the column in millimeters (mm). This is required for packing porosity, specific permeability, and flow resistance calculations.",
+      "ru": "Введите внутренний диаметр колонки в миллиметрах (мм). Это необходимо для расчета пористости упаковки, удельной проницаемости и сопротивления потоку.",
+      "tr": "Kolonun iç çapını milimetre (mm) cinsinden girin. Bu, dolgu gözenekliliği, özgül geçirgenlik ve akış direnci hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the length of your chromatographic column in millimeters (mm). This is required for linear velocity and permeability calculations.",
+      "ru": "Введите длину хроматографической колонки в миллиметрах (мм). Это необходимо для расчета линейной скорости и проницаемости.",
+      "tr": "Kromatografik kolonunuzun uzunluğunu milimetre (mm) cinsinden girin. Bu, doğrusal hız ve geçirgenlik hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the stationary phase particle size in micrometers (µm). This is required for flow resistance calculations.",
+      "ru": "Введите размер частиц стационарной фазы в микрометрах (мкм). Это необходимо для расчета сопротивления потоку.",
+      "tr": "Sabit faz partikül boyutunu mikrometre (µm) cinsinden girin. Bu, akış direnci hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Invalid format for peak indices. Please use comma-separated numbers or ranges (e.g., '1,3:5,8') or 'all'.",
+      "ru": "Неверный формат индексов пиков. Используйте числа или диапазоны, разделенные запятыми (например, '1,3:5,8') или 'all'.",
+      "tr": "Pik indeksleri için geçersiz format. Lütfen virgülle ayrılmış sayılar veya aralıklar (örn., '1,3:5,8') veya 'all' kullanın."
+    },
+    {
+      "en": "Missing required analytical results (theoretical plates or chromatogram plot).",
+      "ru": "Отсутствуют необходимые аналитические результаты (теоретические тарелки или график хроматограммы).",
+      "tr": "Gerekli analitik sonuçlar eksik (teorik tabakalar veya kromatogram grafiği)."
+    },
+    {
+      "en": "Peak indices out of range (",
+      "ru": "Индексы пиков вне диапазона (",
+      "tr": "Pik indeksleri aralık dışında ("
+    },
+    {
+      "en": "Select how dead time (t₀) will be determined.",
+      "ru": "Выберите, как будет определяться мертвое время (t₀).",
+      "tr": "Ölü zamanın (t₀) nasıl belirleneceğini seçin."
+    },
+    {
+      "en": "Select the character used as the decimal point in your CSV file (e.g., period or comma).",
+      "ru": "Выберите символ, используемый в качестве десятичной точки в вашем CSV-файле (например, точка или запятая).",
+      "tr": "CSV dosyanızda ondalık nokta olarak kullanılan karakteri seçin (örn., nokta veya virgül)."
+    },
+    {
+      "en": "Select the column from your CSV file that represents the time (or retention time) values for your chromatogram.",
+      "ru": "Выберите столбец из CSV-файла, представляющий значения времени (или времени удерживания) для вашей хроматограммы.",
+      "tr": "CSV dosyanızdan kromatogramınız için zaman (veya alıkonma zamanı) değerlerini temsil eden sütunu seçin."
+    },
+    {
+      "en": "Select the first peak(s) for separation factor calculation.",
+      "ru": "Выберите первый пик(и) для расчета фактора разделения.",
+      "tr": "Ayırma faktörü hesaplaması için ilk pik(ler)i seçin."
+    },
+    {
+      "en": "Select the method(s) for calculating the number of theoretical plates (N).",
+      "ru": "Выберите метод(ы) для расчета числа теоретических тарелок (N).",
+      "tr": "Teorik tabaka sayısını (N) hesaplamak için yöntem(ler)i seçin."
+    },
+    {
+      "en": "Select the peaks used to calculate the retention factor (k′).",
+      "ru": "Выберите пики, используемые для расчета фактора удерживания (k′).",
+      "tr": "Alıkonma faktörünü (k′) hesaplamak için kullanılan pikleri seçin."
+    },
+    {
+      "en": "Select the second peak(s) for separation factor calculation.",
+      "ru": "Выберите второй пик(и) для расчета фактора разделения.",
+      "tr": "Ayırma faktörü hesaplaması için ikinci pik(ler)i seçin."
+    },
+    {
+      "en": "Select the type of chromatogram acquisition mode (e.g., GC-FID, GC-MS, or HPLC) from this dropdown. This helps the application correctly parse your data.",
+      "ru": "Выберите тип режима получения хроматограммы (например, ГХ-ПИД, ГХ-МС или ВЭЖХ) из этого выпадающего списка. Это помогает приложению правильно анализировать ваши данные.",
+      "tr": "Bu açılır menüden kromatogram edinim modu türünü (örn., GC-FID, GC-MS veya HPLC) seçin. Bu, uygulamanın verilerinizi doğru şekilde ayrıştırmasına yardımcı olur."
+    },
+    {
+      "en": "Set the 'Precision' (error tolerance) required for the baseline correction algorithm to reach convergence. Smaller values lead to higher precision but longer computation times.",
+      "ru": "Установите 'Точность' (допуск ошибки), необходимую для сходимости алгоритма коррекции базовой линии. Меньшие значения приводят к более высокой точности, но более длительному времени вычислений.",
+      "tr": "Baz çizgisi düzeltme algoritmasının yakınsamaya ulaşması için gereken 'Hassasiyeti' (hata toleransı) ayarlayın. Daha küçük değerler daha yüksek hassasiyete ancak daha uzun hesaplama sürelerine yol açar."
+    },
+    {
+      "en": "Specify the character used to separate columns in your CSV file (e.g., comma, semicolon, or tab).",
+      "ru": "Укажите символ, используемый для разделения столбцов в вашем CSV-файле (например, запятая, точка с запятой или табуляция).",
+      "tr": "CSV dosyanızda sütunları ayırmak için kullanılan karakteri belirtin (örn., virgül, noktalı virgül veya sekme)."
+    },
+    {
+      "en": "Temperature (°C)",
+      "ru": "Температура (°C)",
+      "tr": "Sıcaklık (°C)"
+    },
+    {
+      "en": "This field shows the currently imported data (.CSV/.TXT) and/or settings (.JSON) file.",
+      "ru": "В этом поле показан текущий импортированный файл данных (.CSV/.TXT) и/или настроек (.JSON).",
+      "tr": "Bu alan şu anda içe aktarılan veri (.CSV/.TXT) ve/veya ayarlar (.JSON) dosyasını gösterir."
+    },
+    {
+      "en": "This module allows for modular export of all data (currently only in English).",
+      "ru": "Этот модуль позволяет модульный экспорт всех данных (в настоящее время только на английском языке).",
+      "tr": "Bu modül, tüm verilerin modüler dışa aktarımına izin verir (şu anda yalnızca İngilizce)."
+    },
+    {
+      "en": "This module is used for importing chromatographic data either as a simple two-column .CSV file or as part of a vendor-specific ASCII file (e.g. Shimadzu).",
+      "ru": "Этот модуль используется для импорта хроматографических данных либо в виде простого двухстолбцового CSV-файла, либо как часть ASCII-файла конкретного производителя (например, Shimadzu).",
+      "tr": "Bu modül, kromatografik verileri basit iki sütunlu bir .CSV dosyası olarak veya satıcıya özgü bir ASCII dosyasının (örn. Shimadzu) parçası olarak içe aktarmak için kullanılır."
+    },
+    {
+      "en": "This module saves or loads processing settings (i.e. methods).",
+      "ru": "Этот модуль сохраняет или загружает настройки обработки (т.е. методы).",
+      "tr": "Bu modül işleme ayarlarını (yani yöntemleri) kaydeder veya yükler."
+    },
+    {
+      "en": "Warning: Main results table element ('result' or 'integ_res') not found in deconvolution results.",
+      "ru": "Предупреждение: Основной элемент таблицы результатов ('result' или 'integ_res') не найден в результатах деконволюции.",
+      "tr": "Uyarı: Ana sonuç tablosu öğesi ('result' veya 'integ_res') dekonvolüsyon sonuçlarında bulunamadı."
+    },
+    {
+      "en": "Warning: Number of peak concentrations (",
+      "ru": "Предупреждение: Количество концентраций пиков (",
+      "tr": "Uyarı: Pik konsantrasyonları sayısı ("
+    },
+    {
+      "en": "Warning: Number of peak names (",
+      "ru": "Предупреждение: Количество названий пиков (",
+      "tr": "Uyarı: Pik adları sayısı ("
+    },
+    {
+      "en": "Warning: Number of specifications (",
+      "ru": "Предупреждение: Количество спецификаций (",
+      "tr": "Uyarı: Spesifikasyon sayısı ("
+    },
+    {
+      "en": "µL",
+      "ru": "мкл",
+      "tr": "µL"
+    },
+    {
+      "en": "Header Text",
+      "ru": "Текст заголовка",
+      "tr": "Başlık Metni"
+    },
+    {
+      "en": "LCQC is loading...",
+      "ru": "LCQC загружается...",
+      "tr": "LCQC yükleniyor..."
+    },
+    {
+      "en": "Yardım",
+      "ru": "Помощь",
+      "tr": "Yardım"
+    },
+    {
+      "en": "°C",
+      "ru": "°C",
+      "tr": "°C"
+    }
+  ]
+}

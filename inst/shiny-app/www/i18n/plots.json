@@ -1,0 +1,149 @@
+{
+  "translation": [
+    {
+      "en": "Apex",
+      "ru": "Вершина",
+      "tr": "Pik tepesi"
+    },
+    {
+      "en": "Inflection",
+      "ru": "Точка перегиба",
+      "tr": "Bükülme noktası"
+    },   
+    {
+      "en": "Upslope",
+      "ru": "Точка подъёма",
+      "tr": "Yokuş noktası"
+    },   
+    {
+      "en": "Boundary",
+      "ru": "Граница",
+      "tr": "Sınır"
+    },       
+    {
+      "en": "Signal",
+      "ru": "Сигнал",
+      "tr": "Sinyal"
+    },
+    {
+      "en": "Peaks",
+      "ru": "Пики",
+      "tr": "Pikler"
+    },
+    {
+      "en": "Chromatogram",
+      "ru": "Хроматограмма",
+      "tr": "Kromatogram"
+    },
+    {
+      "en": "Retention Time (min)",
+      "ru": "Время удерживания (мин)",
+      "tr": "Alıkonma zamanı (dk)"
+    },
+    {
+      "en": "Signal Intensity",
+      "ru": "Интенсивность сигнала",
+      "tr": "Sinyal Yoğunluğu"
+    },
+    {
+      "en": "Chromatogram (No Peak Detection Results Yet)",
+      "ru": "Хроматограмма (результаты обнаружения пиков пока отсутствуют)",
+      "tr": "Kromatogram (Henüz Pik Tespit Sonucu Yok)"
+    },
+    {
+      "en": "Corrected Signal",
+      "ru": "Скорректированный сигнал",
+      "tr": "Düzeltilmiş Sinyal"
+    },
+    {
+      "en": "Derivative Limits",
+      "ru": "Пределы производных",
+      "tr": "Türev Sınırları"
+    },
+    {
+      "en": "First Derivative (Noise)",
+      "ru": "Первая производная (шум)",
+      "tr": "Birinci Türev (Gürültü)"
+    },
+    {
+      "en": "First Derivative Peak Detection Threshold",
+      "ru": "Порог обнаружения пиков первой производной",
+      "tr": "Birinci Türev Pik Tespit Eşiği"
+    },
+    {
+      "en": "No TPA plots generated (check peak suitability)",
+      "ru": "Графики TPA не созданы (проверьте пригодность пиков)",
+      "tr": "TPA grafikleri oluşturulmadı (pik uygunluğunu kontrol edin)"
+    },
+    {
+      "en": "Original Signal",
+      "ru": "Исходный сигнал",
+      "tr": "Orijinal Sinyal"
+    },
+    {
+      "en": "Peak detection chromatogram (with peak markers)",
+      "ru": "Хроматограмма с обнаруженными пиками (с маркерами пиков)",
+      "tr": "Pik tespitli kromatogram (pik işaretleriyle)"
+    },
+    {
+      "en": "Savitsky-Golay smoothing is not supported for derivatives! Use methods 'Triangular' or 'Rectangular' instead.",
+      "ru": "Сглаживание Савицкого-Голея не поддерживается для производных! Вместо этого используйте методы 'Треугольный' или 'Прямоугольный'.",
+      "tr": "Savitzky-Golay yumuşatması türevler için desteklenmiyor! Bunun yerine 'Üçgen' veya 'Dikdörtgen' yöntemlerini kullanın."
+    },
+    {
+      "en": "Second Derivative (Noise)",
+      "ru": "Вторая производная (шум)",
+      "tr": "İkinci Türev (Gürültü)"
+    },
+    {
+      "en": "Second Derivative Peak Detection Threshold",
+      "ru": "Порог обнаружения пиков второй производной",
+      "tr": "İkinci Türev Pik Tespit Eşiği"
+    },
+    {
+      "en": "Signal (pre-processed)",
+      "ru": "Сигнал (предобработанный)",
+      "tr": "Sinyal (ön işlenmiş)"
+    },
+    {
+      "en": "Smoothed Signal",
+      "ru": "Сглаженный сигнал",
+      "tr": "Yumuşatılmış Sinyal"
+    },
+    {
+      "en": "TPA Plot Aspect Ratio",
+      "ru": "Соотношение сторон графика TPA",
+      "tr": "TPA Grafik En-Boy Oranı"
+    },
+    {
+      "en": "Time (min)",
+      "ru": "Время (мин)",
+      "tr": "Zaman (dk)"
+    },
+    {
+      "en": "Baseline",
+      "ru": "Базовая линия",
+      "tr": "Baz Çizgisi"
+    },
+    {
+      "en": "Intensity",
+      "ru": "Интенсивность",
+      "tr": "Yoğunluk"
+    },
+    {
+      "en": "Applying Baseline Correction",
+      "ru": "Применение коррекции базовой линии",
+      "tr": "Baz Çizgisi Düzeltmesi Uygulanıyor"
+    },
+    {
+      "en": "Could not identify Time or Signal column for fallback plot.",
+      "ru": "Не удалось определить столбец времени или сигнала для резервного графика.",
+      "tr": "Yedek grafik için Zaman veya Sinyal sütunu belirlenemedi."
+    },
+    {
+      "en": "Peak detection returned unexpected results structure.",
+      "ru": "Обнаружение пиков вернуло неожиданную структуру результатов.",
+      "tr": "Pik tespiti beklenmeyen sonuç yapısı döndürdü."
+    }
+  ]
+}

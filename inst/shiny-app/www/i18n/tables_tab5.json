@@ -1,0 +1,44 @@
+{
+  "translation": [
+    {
+      "en": "Left Boundary Retention Time",
+      "tr": "Sol Sınır Alıkonma Zamanı",
+      "ru": "Время удерживания левой границы"
+    },
+    {
+      "en": "Right Boundary Retention Time",
+      "tr": "Sağ Sınır Alıkonma Zamanı",
+      "ru": "Время удерживания правой границы"
+    },
+    {
+      "en": "Initial Peak Apex Retention Time",
+      "tr": "Pik Alıkonma Zamanı",
+      "ru": "Время удерживания пика"
+    },
+    {
+      "en": "Accurate Peak Apex Retention Time",
+      "tr": "Doğru Pik Alıkonma Zamanı",
+      "ru": "Точное время удерживания пика"
+    },
+    {
+      "en": "Left Boundary Integration Type",
+      "tr": "Sol Sınır Entegrasyon Tipi",
+      "ru": "Тип интеграции левой границы"
+    },
+    {
+      "en": "Right Boundary Integration Type",
+      "tr": "Sağ Sınır Entegrasyon Tipi",
+      "ru": "Тип интеграции правой границы"
+    },
+    {
+      "en": "Peak Area",
+      "tr": "Pik Alanı",
+      "ru": "Площадь Пика"
+    },
+    {
+      "en": "Peak Integration Type",
+      "tr": "Pik İntegrasyon Türü",
+      "ru": "Тип пиковой интеграции"
+    }
+  ]
+}

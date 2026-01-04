@@ -1,0 +1,79 @@
+{
+  "translation": [
+    {
+      "en": "Width A at 5%",
+      "tr": "A genişliği (%5)",
+      "ru": "Ширина А при 5%"
+    },
+    {
+      "en": "Width B at 5%",
+      "tr": "B genişliği (%5)",
+      "ru": "Ширина B при 5%"
+    },
+    {
+      "en": "Width A at 10%",
+      "tr": "A genişliği (%10)",
+      "ru": "Ширина А при 10%"
+    },
+    {
+      "en": "Width B at 10%",
+      "tr": "B genişliği (%10)",
+      "ru": "Ширина B при 10%"
+    },
+    {
+      "en": "Width A at 85%",
+      "tr": "A genişliği (%85)",
+      "ru": "Ширина А при 85%"
+    },
+    {
+      "en": "Width B at 85%",
+      "tr": "B genişliği (%85)",
+      "ru": "Ширина B при 85%"
+    },
+    {
+      "en": "USP Tailing Factor",
+      "tr": "USP Kuyruklama Faktörü",
+      "ru": "Коэффициент асимметрии (USP)"
+    },
+    {
+      "en": "Asymmetry Factor",
+      "tr": "Asimmetri Faktörü",
+      "ru": "Коэффициент асимметрии (As)"
+    },
+    {
+      "en": "Full Width at 85%",
+      "tr": "Tam Genişlik (%85)",
+      "ru": "Полная ширина при 85%"
+    },
+    {
+      "en": "Sigma (Width at 10%)",
+      "tr": "Sigma (%10'da tam genişlik)",
+      "ru": "Сигма (ширина при 10%)"
+    },
+    {
+      "en": "TPA Residual Sum (Total)",
+      "tr": "TPA Artanları (Toplam)",
+      "ru": "Сумма остатков TPA (общая)"
+    },
+    {
+      "en": "TPA Residual Sum (Front)",
+      "tr": "TPA Artanları (ilk yarıda)",
+      "ru": "Сумма остатков TPA (1я половина)"
+    },
+    {
+      "en": "TPA Residual Sum (Back)",
+      "tr": "TPA Artanları (son yarıda)",
+      "ru": "Сумма остатков TPA (2я половина)"
+    },
+    {
+      "en": "Percent Fronting",
+      "tr": "Fronting yüzdesi",
+      "ru": "Процент фронтальности"
+    },
+    {
+      "en": "Percent Tailing",
+      "tr": "Tailing yüzdesi",
+      "ru": "Процент хвостатости"
+    }
+  ]
+}

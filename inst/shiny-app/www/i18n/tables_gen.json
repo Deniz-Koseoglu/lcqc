@@ -1,0 +1,89 @@
+{
+  "translation": [
+    {
+      "en": ".",
+      "tr": ",",
+      "ru": ","
+    },
+    {
+      "en": ",",
+      "tr": ".",
+      "ru": "."
+    },
+    {
+      "en": "No data available in table",
+      "tr": "Tabloda herhangi bir veri mevcut değil",
+      "ru": "В таблице отсутствуют данные"
+    },
+    {
+      "en": "Showing _START_ to _END_ of _TOTAL_ entries",
+      "tr": "_TOTAL_ kayıttan _START_ - _END_ arasındaki kayıtlar gösteriliyor",
+      "ru": "Записи с _START_ до _END_ из _TOTAL_ записей"
+    },
+    {
+      "en": "Showing 0 to 0 of 0 entries",
+      "tr": "0 kayıttan 0 ile 0 arasındakiler gösterilmektedir",
+      "ru": "Записи с 0 до 0 из 0 записей"
+    },
+    {
+      "en": "(filtered from _MAX_ total entries)",
+      "tr": "(_MAX_ kayıt içerisinden bulunan)",
+      "ru": "(отфильтровано из _MAX_ записей)"
+    },
+    {
+      "en": "Show _MENU_ entries",
+      "tr": "Sayfada _MENU_ kayıt göster",
+      "ru": "Показать _MENU_ записей"
+    },
+    {
+      "en": "Loading...",
+      "tr": "Yükleniyor...",
+      "ru": "Загрузка записей..."
+    },
+    {
+      "en": "Processing...",
+      "tr": "İşleniyor...",
+      "ru": "Подождите..."
+    },
+    {
+      "en": "Search:",
+      "tr": "Ara:",
+      "ru": "Поиск:"
+    },
+    {
+      "en": "No matching records found",
+      "tr": "Eşleşen kayıt bulunamadı",
+      "ru": "Подходящие записи не найдены"
+    },
+    {
+      "en": "First",
+      "tr": "İlk",
+      "ru": "Первая"
+    },
+    {
+      "en": "Last",
+      "tr": "Son",
+      "ru": "Предыдущая"
+    },
+    {
+      "en": "Next",
+      "tr": "Sonraki",
+      "ru": "Следующая"
+    },
+    {
+      "en": "Previous",
+      "tr": "Önceki",
+      "ru": "Последняя"
+    },
+    {
+      "en": ": activate to sort column ascending",
+      "tr": ": artan sütun sıralamasını aktifleştir",
+      "ru": ": активировать для сортировки столбца по возрастанию"
+    },
+    {
+      "en": ": activate to sort column descending",
+      "tr": ": azalan sütun soralamasını aktifleştir",
+      "ru": ": активировать для сортировки столбца по убыванию"
+    }
+  ]
+}

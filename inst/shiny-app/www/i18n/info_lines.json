@@ -1,0 +1,654 @@
+{
+  "languages": [
+    "en",
+    "ru",
+    "tr"
+  ],
+  "translation": [
+    {
+      "en": "The chromatogram was truncated between RT thresholds: %s, %s.",
+      "ru": "Хроматограмма была обрезана между RT порогами: %s, %s.",
+      "tr": "Kromatogram RT eşikleri arasında kırpıldı: %s, %s."
+    },
+    {
+      "en": "An average inflection point width of %s points was calculated and later used for width-based peak filtering.",
+      "ru": "Средняя ширина точки перегиба в %s точках была рассчитана и использована для фильтрации пиков по ширине.",
+      "tr": "%s nokta genişliğinde ortalama bükülme noktası genişliği hesaplandı ve genişlik tabanlı pik filtreleme için kullanıldı."
+    },
+    {
+      "en": "Initial background correction was done via method: %s.",
+      "ru": "Начальная коррекция фона была выполнена методом: %s.",
+      "tr": "Başlangıç arka plan düzeltmesi şu yöntemle yapıldı: %s."
+    },
+    {
+      "en": "No initial baseline correction was applied.",
+      "ru": "Начальная коррекция базовой линии не применялась.",
+      "tr": "Başlangıç baz çizgisi düzeltmesi uygulanmadı."
+    },
+    {
+      "en": "The chromatogram signal was smoothed using method: %s with %s points and %s passes.",
+      "ru": "Сигнал хроматограммы был сглажен методом: %s с %s точками и %s проходами.",
+      "tr": "Kromatogram sinyali şu yöntemle yumuşatıldı: %s, %s nokta ve %s geçiş ile."
+    },
+    {
+      "en": "The chromatogram signal was not smoothed.",
+      "ru": "Сигнал хроматограммы не был сглажен.",
+      "tr": "Kromatogram sinyali yumuşatılmadı."
+    },
+    {
+      "en": "First and second derivative signals were smoothed using method: %s with %s points and %s passes.",
+      "ru": "Сигналы первой и второй производных были сглажены методом: %s с %s точками и %s проходами.",
+      "tr": "Birinci ve ikinci türev sinyalleri şu yöntemle yumuşatıldı: %s, %s nokta ve %s geçiş ile."
+    },
+    {
+      "en": "First and second derivatives were not smoothed.",
+      "ru": "Первая и вторая производные не были сглажены.",
+      "tr": "Birinci ve ikinci türevler yumuşatılmadı."
+    },
+    {
+      "en": "A signal amplitude threshold was set at %s manually.",
+      "ru": "Порог амплитуды сигнала был установлен вручную на %s.",
+      "tr": "Sinyal genlik eşiği manuel olarak %s olarak ayarlandı."
+    },
+    {
+      "en": "A signal amplitude threshold of %s was determined using %s.",
+      "ru": "Порог амплитуды сигнала %s был определен с использованием %s.",
+      "tr": "%s sinyal genlik eşiği %s kullanılarak belirlendi."
+    },
+    {
+      "en": ", and ",
+      "ru": " и ",
+      "tr": " ve "
+    },
+    {
+      "en": "Inferior and superior first- (%s, %s) and second- (%s, %s) derivative thresholds were determined via the %s method.",
+      "ru": "Нижние и верхние пороги первой (%s, %s) и второй (%s, %s) производных были определены методом %s.",
+      "tr": "Alt ve üst birinci (%s, %s) ve ikinci (%s, %s) türev eşikleri %s yöntemiyle belirlendi."
+    },
+    {
+      "en": "Outliers for this procedure were handled via %s method(s).",
+      "ru": "Выбросы для этой процедуры были обработаны методом(ами) %s.",
+      "tr": "Bu prosedür için aykırı değerler %s yöntem(ler)i ile işlendi."
+    },
+    {
+      "en": "Outlier handling for this procedure was not carried out.",
+      "ru": "Обработка выбросов для этой процедуры не проводилась.",
+      "tr": "Bu prosedür için aykırı değer işleme yapılmadı."
+    },
+    {
+      "en": "FastChrom baseline correction was carried out with a critical width of %s.",
+      "ru": "Коррекция базовой линии FastChrom была выполнена с критической шириной %s.",
+      "tr": "FastChrom baz çizgisi düzeltmesi %s kritik genişlik ile gerçekleştirildi."
+    },
+    {
+      "en": "Following peak picking and removal, a total of %s peaks were detected:",
+      "ru": "После выбора и удаления пиков было обнаружено всего %s пиков:",
+      "tr": "Pik seçimi ve kaldırma işlemlerinin ardından toplam %s pik tespit edildi:"
+    },
+    {
+      "en": "%s baseline-resolved peaks.",
+      "ru": "%s пиков с разрешенной базовой линией.",
+      "tr": "%s taban çizgisi çözünürlüklü pik."
+    },
+    {
+      "en": "%s fused peaks.",
+      "ru": "%s слитых пиков.",
+      "tr": "%s kaynaşmış pik."
+    },
+    {
+      "en": "%s shoulder peaks.",
+      "ru": "%s плечевых пиков.",
+      "tr": "%s omuz piki."
+    },
+    {
+      "en": "%s round peaks.",
+      "ru": "%s округлых пиков.",
+      "tr": "%s yuvarlak pik."
+    },
+    {
+      "en": "Asymmetry metric calculation was attempted for all of %s peaks.",
+      "ru": "Расчет метрики асимметрии был выполнен для всех %s пиков.",
+      "tr": "Asimetri metriği hesaplaması tüm %s pik için denendi."
+    },
+    {
+      "en": "Asymmetry metric calculation was attempted for %s out of %s peaks.",
+      "ru": "Расчет метрики асимметрии был выполнен для %s из %s пиков.",
+      "tr": "Asimetri metriği hesaplaması %s pik için %s pik arasından denendi."
+    },
+    {
+      "en": "The following methods were used: %s.",
+      "ru": "Использовались следующие методы: %s.",
+      "tr": "Şu yöntemler kullanıldı: %s."
+    },
+    {
+      "en": "Total Peak Analysis (TPA) was carried out on %s baseline-resolved peaks out of %s total peaks (or %s baseline-resolved peaks).",
+      "ru": "Общий анализ пиков (TPA) был проведен для %s пиков с разрешенной базовой линией из %s общего числа пиков (или %s пиков с разрешенной базовой линией).",
+      "tr": "Toplam Pik Analizi (TPA), %s toplam pik arasından %s taban çizgisi çözünürlüklü pik için (veya %s taban çizgisi çözünürlüklü pik) gerçekleştirildi."
+    },
+    {
+      "en": "Baselines for %s resolved and %s fused peaks spread across %s groups were determined via the FastChrom algorithm.",
+      "ru": "Базовые линии для %s разрешенных и %s слитых пиков, распределенных по %s группам, были определены с помощью алгоритма FastChrom.",
+      "tr": "%s çözünmüş ve %s kaynaşmış pik için taban çizgileri, %s gruba dağılmış olarak FastChrom algoritması ile belirlendi."
+    },
+    {
+      "en": "%s was selected as the peak skimming method.",
+      "ru": "%s был выбран в качестве метода скимминга пиков.",
+      "tr": "Pik ayıklama yöntemi olarak %s seçildi."
+    },
+    {
+      "en": "The following Non-Linear Least-Squares Curve Fitting model(s) was/were applied: %s.",
+      "ru": "Были применены следующие модели нелинейной аппроксимации методом наименьших квадратов: %s.",
+      "tr": "Şu Doğrusal Olmayan En Küçük Kareler Eğri Uydurma model(ler)i uygulandı: %s."
+    },
+    {
+      "en": "Baseline-resolved peak modeling was carried out.",
+      "ru": "Моделирование пиков с разрешенной базовой линией было выполнено.",
+      "tr": "Taban çizgisi çözünürlüklü pik modellemesi gerçekleştirildi."
+    },
+    {
+      "en": "Baseline-resolved peak modeling was NOT carried out.",
+      "ru": "Моделирование пиков с разрешенной базовой линией НЕ было выполнено.",
+      "tr": "Taban çizgisi çözünürlüklü pik modellemesi gerçekleştirilMEDİ."
+    },
+    {
+      "en": "A critical width equal to the smallest inflection point distance was used for baseline adjustment in the peak regions.",
+      "ru": "Критическая ширина, равная наименьшему расстоянию точки перегиба, была использована для корректировки базовой линии в областях пиков.",
+      "tr": "Pik bölgelerinde taban çizgisi ayarlaması için en küçük bükülme noktası mesafesine eşit kritik genişlik kullanıldı."
+    },
+    {
+      "en": "A critical width equal to %s was used for baseline adjustment in the peak regions.",
+      "ru": "Критическая ширина, равная %s, была использована для корректировки базовой линии в областях пиков.",
+      "tr": "Pik bölgelerinde taban çizgisi ayarlaması için %s'ye eşit kritik genişlik kullanıldı."
+    },
+    {
+      "en": "The Skim-Valley Ratio and Dyson (Parent-to-Child Peak Ratio) criteria were set at %s and %s, respectively.",
+      "ru": "Критерии Skim-Valley Ratio и Dyson (соотношение родительского и дочернего пиков) были установлены на %s и %s соответственно.",
+      "tr": "Skim-Valley Ratio ve Dyson (Ana-Alt Pik Oranı) kriterleri sırasıyla %s ve %s olarak ayarlandı."
+    },
+    {
+      "en": "Peaks were integrated using the Trapezoidal Rule.",
+      "ru": "Пики были интегрированы с использованием правила трапеций.",
+      "tr": "Pikler Yamuk Kuralı kullanılarak entegre edildi."
+    },
+    {
+      "en": "Theoretical Plate number calculation was attempted for all of %s peaks.",
+      "ru": "Расчет числа теоретических тарелок был выполнен для всех %s пиков.",
+      "tr": "Teorik Tabaka sayısı hesaplaması tüm %s pik için denendi."
+    },
+    {
+      "en": "Theoretical Plate number calculation was attempted for %s out of %s peaks.",
+      "ru": "Расчет числа теоретических тарелок был выполнен для %s из %s пиков.",
+      "tr": "Teorik Tabaka sayısı hesaplaması %s pik için %s pik arasından denendi."
+    },
+    {
+      "en": "Dead time was equal to the retention time of peak %s (%s %s).",
+      "ru": "Мертвое время было равно времени удерживания пика %s (%s %s).",
+      "tr": "Ölü zaman, pik %s'nin alıkonma süresine (%s %s) eşitti."
+    },
+    {
+      "en": "Dead time was equal to %s %s.",
+      "ru": "Мертвое время было равно %s %s.",
+      "tr": "Ölü zaman %s %s'ye eşitti."
+    },
+    {
+      "en": "Dead time was not determined/provided.",
+      "ru": "Мертвое время не было определено/предоставлено.",
+      "tr": "Ölü zaman belirlenmedi/sağlanmadı."
+    },
+    {
+      "en": "The following additional parameters were provided: %s.",
+      "ru": "Были предоставлены следующие дополнительные параметры: %s.",
+      "tr": "Şu ek parametreler sağlandı: %s."
+    },
+    {
+      "en": "Peak areas were also provided.",
+      "ru": "Площади пиков также были предоставлены.",
+      "tr": "Pik alanları da sağlandı."
+    },
+    {
+      "en": "Height Equivalents to a Theoretical Plate (HETP) and reduced plate heights (h) were calculated.",
+      "ru": "Были рассчитаны высотные эквиваленты теоретической тарелки (HETP) и приведенные высоты тарелок (h).",
+      "tr": "Teorik Tabaka Yükseklik Eşdeğerleri (HETP) ve indirgenmiş tabaka yükseklikleri (h) hesaplandı."
+    },
+    {
+      "en": "Separation Impedance (E) was calculated.",
+      "ru": "Импеданс разделения (E) был рассчитан.",
+      "tr": "Ayırma Empedansı (E) hesaplandı."
+    },
+    {
+      "en": "Resolution was calculated via the %s methods.",
+      "ru": "Разрешение было рассчитано методами %s.",
+      "tr": "Çözünürlük %s yöntemleri ile hesaplandı."
+    },
+    {
+      "en": "Resolution was calculated via all available methods.",
+      "ru": "Разрешение было рассчитано всеми доступными методами.",
+      "tr": "Çözünürlük tüm mevcut yöntemler ile hesaplandı."
+    },
+    {
+      "en": "Retention factors (k) were calculated for %s out of %s peaks (1 peak used for t0 estimation).",
+      "ru": "Факторы удерживания (k) были рассчитаны для %s из %s пиков (1 пик использован для оценки t0).",
+      "tr": "Alıkonma faktörleri (k), %s pik için %s pik arasından hesaplandı (t0 tahmini için 1 pik kullanıldı)."
+    },
+    {
+      "en": "Retention factors (k) were calculated for %s out of %s peaks.",
+      "ru": "Факторы удерживания (k) были рассчитаны для %s из %s пиков.",
+      "tr": "Alıkonma faktörleri (k), %s pik için %s pik arasından hesaplandı."
+    },
+    {
+      "en": "The following parameters were provided for column performance calculations: %s.",
+      "ru": "Для расчетов производительности колонки были предоставлены следующие параметры: %s.",
+      "tr": "Kolon performans hesaplamaları için şu parametreler sağlandı: %s."
+    },
+    {
+      "en": "Dynamic viscosity was calculated for the single component: %s at %s degC.",
+      "ru": "Динамическая вязкость была рассчитана для одного компонента: %s при %s °C.",
+      "tr": "Dinamik viskozite tek bileşen için hesaplandı: %s, %s °C'de."
+    },
+    {
+      "en": "Dynamic viscosity was calculated for the mixture: %s at %s degC.",
+      "ru": "Динамическая вязкость была рассчитана для смеси: %s при %s °C.",
+      "tr": "Dinamik viskozite karışım için hesaplandı: %s, %s °C'de."
+    },
+    {
+      "en": "Viscosities of pure components were calculated via the Vogel equation.",
+      "ru": "Вязкости чистых компонентов были рассчитаны по уравнению Фогеля.",
+      "tr": "Saf bileşenlerin viskoziteleri Vogel denklemi ile hesaplandı."
+    },
+    {
+      "en": "Densities were similarly calculated via the DIPPR105 equation.",
+      "ru": "Плотности были аналогично рассчитаны по уравнению DIPPR105.",
+      "tr": "Yoğunluklar benzer şekilde DIPPR105 denklemi ile hesaplandı."
+    },
+    {
+      "en": "Finally, the Linear Blend Rule was used to obtain mixture viscosity.",
+      "ru": "Наконец, для получения вязкости смеси было использовано правило линейного смешивания.",
+      "tr": "Son olarak, karışım viskozitesini elde etmek için Doğrusal Karışım Kuralı kullanıldı."
+    },
+    {
+      "en": "%s fraction(s) of %s was/were specified for %s, respectively.",
+      "ru": "%s фракция(и) %s была/были указаны для %s соответственно.",
+      "tr": "%s kesir(ler)i %s, sırasıyla %s için belirtildi."
+    },
+    {
+      "en": "%s fraction of %s was specified for %s.",
+      "ru": "%s фракция %s была указана для %s.",
+      "tr": "%s kesiri %s, %s için belirtildi."
+    },
+    {
+      "en": "(auto-estimated)",
+      "ru": "(авто-оценка)",
+      "tr": "(otomatik tahmin)"
+    },
+    {
+      "en": "all available methods",
+      "ru": "все доступные методы",
+      "tr": "tüm mevcut yöntemler"
+    },
+    {
+      "en": "all available models",
+      "ru": "все доступные модели",
+      "tr": "tüm mevcut modeller"
+    },
+    {
+      "en": "all available",
+      "ru": "все доступные",
+      "tr": "tüm mevcut"
+    },
+    {
+      "en": "USP Tailing Factor",
+      "ru": "Коэффициент хвоста USP",
+      "tr": "USP Kuyruk Faktörü"
+    },
+    {
+      "en": "Asymmetry Factor",
+      "ru": "Фактор асимметрии",
+      "tr": "Asimetri Faktörü"
+    },
+    {
+      "en": "Total Peak Analysis",
+      "ru": "Полный анализ пиков",
+      "tr": "Toplam Pik Analizi"
+    },
+    {
+      "en": "differences between quantiles",
+      "ru": "разности между квантилями",
+      "tr": "kantiller arasındaki farklar"
+    },
+    {
+      "en": "z-scores",
+      "ru": "z-оценки",
+      "tr": "z-skorları"
+    },
+    {
+      "en": "Vaz et al. (2016)",
+      "ru": "Ваз и др. (2016)",
+      "tr": "Vaz ve ark. (2016)"
+    },
+    {
+      "en": "noise-core",
+      "ru": "шумовое ядро",
+      "tr": "gürültü çekirdeği"
+    },
+    {
+      "en": "z-score",
+      "ru": "z-оценка",
+      "tr": "z-skoru"
+    },
+    {
+      "en": "inter-quartile range",
+      "ru": "межквартильный размах",
+      "tr": "çeyrekler arası aralık"
+    },
+    {
+      "en": "quantile",
+      "ru": "квантиль",
+      "tr": "kantil"
+    },
+    {
+      "en": "standard deviation",
+      "ru": "стандартное отклонение",
+      "tr": "standart sapma"
+    },
+    {
+      "en": "inter-quartile range, quantile, and standard deviation",
+      "ru": "межквартильный размах, квантиль и стандартное отклонение",
+      "tr": "çeyrekler arası aralık, kantil ve standart sapma"
+    },
+    {
+      "en": "Triangular",
+      "ru": "Треугольный",
+      "tr": "Üçgen"
+    },
+    {
+      "en": "Simple Moving Average",
+      "ru": "Простое скользящее среднее",
+      "tr": "Basit Hareketli Ortalama"
+    },
+    {
+      "en": "Savitzky-Golay",
+      "ru": "Савицкий-Голай",
+      "tr": "Savitzky-Golay"
+    },
+    {
+      "en": "Asymmetric Least Squares",
+      "ru": "Асимметричные наименьшие квадраты",
+      "tr": "Asimetrik En Küçük Kareler"
+    },
+    {
+      "en": "Chang/Zhong 2nd Order Polynomial",
+      "ru": "Полином 2-го порядка Чанга/Чжуна",
+      "tr": "Chang/Zhong 2. Derece Polinom"
+    },
+    {
+      "en": "Polynomial",
+      "ru": "Полиномиальный",
+      "tr": "Polinom"
+    },
+    {
+      "en": "Perpendicular Drop (PD)",
+      "ru": "Перпендикулярный спуск (PD)",
+      "tr": "Dik Düşüm (PD)"
+    },
+    {
+      "en": "Tangent Skim (TS)",
+      "ru": "Тангенциальный скимминг (TS)",
+      "tr": "Teğet Ayıklama (TS)"
+    },
+    {
+      "en": "Exponential Skim (ES)",
+      "ru": "Экспоненциальный скимминг (ES)",
+      "tr": "Üstel Ayıklama (ES)"
+    },
+    {
+      "en": "Gaussian Skim (GS)",
+      "ru": "Гауссов скимминг (GS)",
+      "tr": "Gauss Ayıklama (GS)"
+    },
+    {
+      "en": "Simple Gaussian",
+      "ru": "Простой гауссов",
+      "tr": "Basit Gauss"
+    },
+    {
+      "en": "Gaussian",
+      "ru": "Гауссов",
+      "tr": "Gauss"
+    },
+    {
+      "en": "Exponentially-Modified Gaussian (EMG)",
+      "ru": "Экспоненциально-модифицированный Гауссов (EMG)",
+      "tr": "Üstel Modifiyeli Gauss (EMG)"
+    },
+    {
+      "en": "Exponential-Gaussian Hybrid",
+      "ru": "Экспоненциально-Гауссов гибрид",
+      "tr": "Üstel-Gauss Hibrit"
+    },
+    {
+      "en": "Empirically-Transformed Gaussian",
+      "ru": "Эмпирически-преобразованный Гауссов",
+      "tr": "Deneysel Dönüştürülmüş Gauss"
+    },
+    {
+      "en": "Full-Width",
+      "ru": "Полная ширина",
+      "tr": "Tam Genişlik"
+    },
+    {
+      "en": "Half-Width (variant 1)",
+      "ru": "Полуширина (вариант 1)",
+      "tr": "Yarı Genişlik (varyant 1)"
+    },
+    {
+      "en": "Half-Width (variant 2)",
+      "ru": "Полуширина (вариант 2)",
+      "tr": "Yarı Genişlik (varyant 2)"
+    },
+    {
+      "en": "Separation/Retention Factor",
+      "ru": "Фактор разделения/удерживания",
+      "tr": "Ayırma/Alıkonma Faktörü"
+    },
+    {
+      "en": "Dead Time",
+      "ru": "Мертвое время",
+      "tr": "Ölü Zaman"
+    },
+    {
+      "en": "Column Length",
+      "ru": "Длина колонки",
+      "tr": "Kolon Uzunluğu"
+    },
+    {
+      "en": "Flow",
+      "ru": "Поток",
+      "tr": "Akış"
+    },
+    {
+      "en": "Internal Diameter",
+      "ru": "Внутренний диаметр",
+      "tr": "İç Çap"
+    },
+    {
+      "en": "Back Pressure",
+      "ru": "Обратное давление",
+      "tr": "Geri Basınç"
+    },
+    {
+      "en": "Dynamic Viscosity",
+      "ru": "Динамическая вязкость",
+      "tr": "Dinamik Viskozite"
+    },
+    {
+      "en": "Particle Size",
+      "ru": "Размер частиц",
+      "tr": "Partikül Boyutu"
+    },
+    {
+      "en": "Volume",
+      "ru": "Объем",
+      "tr": "Hacim"
+    },
+    {
+      "en": "Mass",
+      "ru": "Масса",
+      "tr": "Kütle"
+    },
+    {
+      "en": "Mol",
+      "ru": "Моль",
+      "tr": "Mol"
+    },
+    {
+      "en": "min",
+      "ru": "мин",
+      "tr": "dk"
+    },
+    {
+      "en": "bar",
+      "ru": "бар",
+      "tr": "bar"
+    },
+    {
+      "en": "microns",
+      "ru": "микрон",
+      "tr": "mikron"
+    },
+    {
+      "en": "mm",
+      "ru": "мм",
+      "tr": "mm"
+    },
+    {
+      "en": "mPas",
+      "ru": "мПа·с",
+      "tr": "mPas"
+    },
+    {
+      "en": "mLmin^-1",
+      "ru": "мл/мин",
+      "tr": "mL/dk"
+    },
+    {
+      "en": "Methanol",
+      "ru": "Метанол",
+      "tr": "Metanol"
+    },
+    {
+      "en": "Acetonitrile",
+      "ru": "Ацетонитрил",
+      "tr": "Asetonitril"
+    },
+    {
+      "en": "Water",
+      "ru": "Вода",
+      "tr": "Su"
+    },
+    {
+      "en": "Ethanol",
+      "ru": "Этанол",
+      "tr": "Etanol"
+    },
+    {
+      "en": "Isopropanol",
+      "ru": "Изопропанол",
+      "tr": "İzopropanol"
+    },
+    {
+      "en": "Acetone",
+      "ru": "Ацетон",
+      "tr": "Aseton"
+    },
+    {
+      "en": "Ethyl Acetate",
+      "ru": "Этилацетат",
+      "tr": "Etil Asetat"
+    },
+    {
+      "en": "Tetrahydrofuran",
+      "ru": "Тетрагидрофуран",
+      "tr": "Tetrahidrofuran"
+    },
+    {
+      "en": "Chloroform",
+      "ru": "Хлороформ",
+      "tr": "Kloroform"
+    },
+    {
+      "en": "Benzene",
+      "ru": "Бензол",
+      "tr": "Benzen"
+    },
+    {
+      "en": "Cyclohexane",
+      "ru": "Циклогексан",
+      "tr": "Siklohekzan"
+    },
+    {
+      "en": "Diethyl Ether",
+      "ru": "Диэтиловый эфир",
+      "tr": "Dietil Eter"
+    },
+    {
+      "en": "Butanol",
+      "ru": "Бутанол",
+      "tr": "Bütanol"
+    },
+    {
+      "en": "Peak Detection Summary Information",
+      "ru": "Сводная информация об обнаружении пиков",
+      "tr": "Pik Tespiti Özet Bilgisi"
+    },
+    {
+      "en": "Integration Summary Information",
+      "ru": "Сводная информация об интеграции",
+      "tr": "Entegrasyon Özet Bilgisi"
+    },
+    {
+      "en": "Deconvolution Summary Information",
+      "ru": "Сводная информация о деконволюции",
+      "tr": "Dekonvolüsyon Özet Bilgisi"
+    },
+    {
+      "en": "Peak Symmetry Summary Information",
+      "ru": "Сводная информация о симметрии пиков",
+      "tr": "Pik Simetrisi Özet Bilgisi"
+    },
+    {
+      "en": "Resolution Summary Information",
+      "ru": "Сводная информация о разрешении",
+      "tr": "Çözünürlük Özet Bilgisi"
+    },
+    {
+      "en": "Retention Factor Summary Information",
+      "ru": "Сводная информация о факторе удерживания",
+      "tr": "Alıkonma Faktörü Özet Bilgisi"
+    },
+    {
+      "en": "Separation Factor Summary Information",
+      "ru": "Сводная информация о факторе разделения",
+      "tr": "Ayırma Faktörü Özet Bilgisi"
+    },
+    {
+      "en": "Theoretical Plates Summary Information",
+      "ru": "Сводная информация о теоретических тарелках",
+      "tr": "Teorik Tabakalar Özet Bilgisi"
+    },
+    {
+      "en": "Additional Metrics Summary Information",
+      "ru": "Сводная информация о дополнительных метриках",
+      "tr": "Ek Metrikler Özet Bilgisi"
+    },
+    {
+      "en": "Viscosity Summary Information",
+      "ru": "Сводная информация о вязкости",
+      "tr": "Viskozite Özet Bilgisi"
+    },
+    {
+      "en": "ISREA",
+      "ru": "ISREA",
+      "tr": "ISREA"
+    }
+  ]
+}

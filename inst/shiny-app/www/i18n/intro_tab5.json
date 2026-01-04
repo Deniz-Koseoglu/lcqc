@@ -1,0 +1,44 @@
+{
+  "translation": [
+    {
+      "en": "Adjust the Skim Ratio criterion to control how aggressively parent-child peak pairs are skimmed.",
+      "ru": "Настройте критерий Skim Ratio для контроля того, насколько агрессивно скиммируются пары родительских и дочерних пиков.",
+      "tr": "Ana-alt pik çiftlerinin ne kadar agresif ayıklandığını kontrol etmek için Skim Ratio kriterini ayarlayın."
+    },
+    {
+      "en": "Apply the advanced integration parameters to process your data.",
+      "ru": "Примените расширенные параметры интеграции для обработки ваших данных.",
+      "tr": "Verilerinizi işlemek için gelişmiş entegrasyon parametrelerini uygulayın."
+    },
+    {
+      "en": "Choose whether the critical width should be determined automatically or specified manually.",
+      "ru": "Выберите, должна ли критическая ширина определяться автоматически или указываться вручную.",
+      "tr": "Kritik genişliğin otomatik olarak belirlenmesi mi yoksa manuel olarak belirtilmesi mi gerektiğini seçin."
+    },
+    {
+      "en": "Click this button to apply the selected integration settings to your data.",
+      "ru": "Нажмите эту кнопку, чтобы применить выбранные настройки интеграции к вашим данным.",
+      "tr": "Seçilen entegrasyon ayarlarını verilerinize uygulamak için bu düğmeye tıklayın."
+    },
+    {
+      "en": "Enter a manual value for the critical width used during integration.",
+      "ru": "Введите ручное значение критической ширины, используемой при интеграции.",
+      "tr": "Entegrasyon sırasında kullanılan kritik genişlik için manuel bir değer girin."
+    },
+    {
+      "en": "Select the desired integration method from the dropdown. Options include Gaussian skim, perpendicular drop, tangent skim, and exponential skim.",
+      "ru": "Выберите желаемый метод интеграции из выпадающего списка. Варианты включают гауссов скимминг, перпендикулярный спуск, тангенциальный скимминг и экспоненциальный скимминг.",
+      "tr": "Açılır menüden istenen entegrasyon yöntemini seçin. Seçenekler Gauss ayıklama, dik düşüm, teğet ayıklama ve üstel ayıklamayı içerir."
+    },
+    {
+      "en": "Set the Dyson Criterion used to resolve overlapping peaks during integration.",
+      "ru": "Установите критерий Дайсона, используемый для разрешения перекрывающихся пиков во время интеграции.",
+      "tr": "Entegrasyon sırasında örtüşen pikleri çözmek için kullanılan Dyson Kriterini ayarlayın."
+    },
+    {
+      "en": "This displays the currently selected integration method from the Basic tab.",
+      "ru": "Здесь отображается текущий выбранный метод интеграции из вкладки 'Базовые'.",
+      "tr": "Bu, Temel sekmesinden seçili mevcut entegrasyon yöntemini görüntüler."
+    }
+  ]
+}

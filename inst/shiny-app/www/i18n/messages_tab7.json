@@ -1,0 +1,49 @@
+{
+  "translation": [
+    {
+      "en": "Calculating Peak Symmetry",
+      "ru": "Расчет симметрии пиков",
+      "tr": "Pik Simetrisi Hesaplanıyor"
+    },
+    {
+      "en": "Error calculating peak symmetry:",
+      "ru": "Ошибка при расчете симметрии пиков:",
+      "tr": "Pik simetrisi hesaplama hatası:"
+    },
+    {
+      "en": "Error displaying plot.",
+      "ru": "Ошибка при отображении графика.",
+      "tr": "Grafik görüntüleme hatası."
+    },
+    {
+      "en": "Invalid format: '",
+      "ru": "Неверный формат: '",
+      "tr": "Geçersiz format: '"
+    },
+    {
+      "en": "Invalid plot index selected.",
+      "ru": "Выбран неверный индекс графика.",
+      "tr": "Geçersiz grafik indeksi seçildi."
+    },
+    {
+      "en": "Invalid range format: ",
+      "ru": "Неверный формат диапазона: ",
+      "tr": "Geçersiz aralık formatı: "
+    },
+    {
+      "en": "No peaks detected. Please perform peak detection first.",
+      "ru": "Пики не обнаружены. Сначала выполните обнаружение пиков.",
+      "tr": "Pik tespit edilmedi. Lütfen önce pik tespiti yapın."
+    },
+    {
+      "en": "Peaks error:",
+      "ru": "Ошибка пиков:",
+      "tr": "Pik hatası:"
+    },
+    {
+      "en": "Select at least one peak",
+      "ru": "Выберите хотя бы один пик",
+      "tr": "En az bir pik seçin"
+    }
+  ]
+}

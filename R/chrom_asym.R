@@ -9,7 +9,7 @@
 #'
 #' @param input The output data from function \code{\link{chrom_detect}}.
 #' @param method A \code{character} vector of method(s) to apply for asymmetry calculations. One or more of: \code{"all"} (default),
-#' \code{"Tf"} (USP \eqn{T_f}), \code{"As"} (\eqn{A_s}), and/or \code{"TPA"} (Total Peak Analysis).
+#' \code{"Tf"} (USP \eqn{T_f}), \code{"As"} (\eqn{A_s}), and/or \code{"tpa"} (Total Peak Analysis).
 #' @param which_peaks Selects specific peaks from \code{input} to process. Either \code{"all"} (default) or a \code{numeric} vector
 #' of peak indices included in \code{input}.
 #' @param show_widths A \code{logical} specifying whether the various peak half-widths at specific heights required for the
@@ -80,8 +80,8 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
   #Perform checks
   input <- chkdt(input)
 
-  if(!any(c("all", "Tf", "As", "TPA") %in% method)) stop("Method must be one or more of: 'all', 'Tf', 'As', and/or 'TPA'!")
-  if(any(method %in% "all")) method <- c("Tf", "As", "TPA")
+  if(!any(c("all", "Tf", "As", "tpa") %in% method)) stop("Method must be one or more of: 'all', 'Tf', 'As', and/or 'tpa'!")
+  if(any(method %in% "all")) method <- c("Tf", "As", "tpa")
   if(any(which_peaks %in% "all")) which_peaks <- seq(nrow(input[["acc_tops"]]))
   if(is.numeric(which_peaks)) {
     if(max(which_peaks)>nrow(input[["Peak_Extents"]])) stop("At least one of the chosen peak indices exceeds the number of peaks in the input data!")
@@ -113,7 +113,7 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
     tpa_suffix <- if(any(colnames(acc) %in% "Compound")) paste0(i, " (", acc[i,"Compound"], ")") else acc[i,"peak"]
     trmax <- acc[i,"rt_max"]
     sigmax <- acc[i,"sig_max"]
-    fracs <- if(any(method %in% "TPA")) c(0.05, 0.10, tpa_thres) else c(0.05, 0.10)
+    fracs <- if(any(method %in% "tpa")) c(0.05, 0.10, tpa_thres) else c(0.05, 0.10)
 
     #Calculate peak half-widths
     hws <- peak_hw(pklst[[i]], accmax = c(trmax, sigmax), frac = fracs, resolved = if(!is.na(ptypes[i]) & ptypes[i]=="B") TRUE else FALSE, slnt = TRUE)
@@ -121,7 +121,7 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
     #Retrieve peak widths and half-widths
     wvec <- c(hws[1,"A"], hws[1,"B"], hws[2,"A"], hws[2,"B"], rep(NA, 2))
     suf <- if(nchar(tpa_thres*100)==1) "0" else ""
-    if(any(method %in% "TPA") & !is.na(ptypes[i]) & ptypes[i]=="B") {
+    if(any(method %in% "tpa") & !is.na(ptypes[i]) & ptypes[i]=="B") {
       wvec[c(5,6)] <- c(hws[3, "A"], hws[3, "B"])
     }
     wnms <- c("A05", "B05", "A10", "B10", paste0(c("A","B"), suf, tpa_thres*100))
@@ -138,7 +138,7 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
         asyms[j] <- wvec["B10"]/wvec["A10"]
       } else if(j=="Tf") {
         asyms[j] <- (wvec["A05"]+wvec["B05"])/(2*wvec["A05"])
-      } else if(j=="TPA") {
+      } else if(j=="tpa") {
         if(!is.na(hws[3,"W"]) & !is.na(ptypes[i]) & ptypes[i]=="B") {
           tpa_out <- chrom_tpa(input = pklst[[i]], width = hws[3,"W"], accmax = c(trmax, sigmax), thres = tpa_thres, asprat = asprat,
                                pknum = tpa_suffix, opt = optmet, print_plot = FALSE, plot_info = FALSE)
@@ -148,6 +148,8 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
 
         asyms[c(paste0(if(nchar(tpa_thres*100)==1) "W0" else "W", tpa_thres*100), "sigma", "resid_sum",
                 "resid_front", "resid_back", "percent_fronting", "percent_tailing", "tpa_suitability")] <- tpa_res
+        #Change TPA suitability results to be more intelligible
+        asyms["tpa_suitability"] <- ifelse(asyms["tpa_suitability"]==0, "\u2716", "\u2714")
       }
     }
     output[[paste0("peak_",i)]] <- unlist(c(acc[i,c("group","peak")], asyms))
@@ -162,16 +164,16 @@ chrom_asym <- function(input, method = "all", which_peaks = "all", show_widths =
 
   #Compile plots
   fout <- list(results = output, call = cl_rec)
-  if(any(method %in% "TPA") & plotset!="none") {
+  if(any(method %in% "tpa") & plotset!="none") {
     fout[["plots"]] <- plotlist
     if(plotset=="print") print(plotlist)
   }
 
   #Compile information about function
-  metnms <- c(Tf = "USP Tailing Factor", As = "Asymmetry Factor", TPA = "Total Peak Analysis")
+  metnms <- c(Tf = "USP Tailing Factor", As = "Asymmetry Factor", tpa = "Total Peak Analysis")
   fout[["information"]] <- paste0("Asymmetry metric calculation was attempted for ", ifelse(is.numeric(which_peaks), paste0(length(which_peaks), " out of "), "all of "), peaknum, " peaks.",
                                   "\nThe following methods were used: ", paste0(metnms[names(metnms) %in% method], " ('", method, "')", collapse = ", "),".",
-                                  ifelse(any(method=="TPA"), paste0("\nTotal Peak Analysis (TPA) was carried out on ", length(plotlist), " baseline-resolved peaks out of ", peaknum, " total peaks (or ",
+                                  ifelse(any(method=="tpa"), paste0("\nTotal Peak Analysis (TPA) was carried out on ", length(plotlist), " baseline-resolved peaks out of ", peaknum, " total peaks (or ",
                                                                     blinenum, " baseline-resolved peaks)."),""))
 
   return(fout)

@@ -1,0 +1,139 @@
+{
+  "translation": [
+    {
+      "en": "Back pressure and mobile phase viscosity are required for Separation Impedance calculation.",
+      "ru": "Для расчета импеданса разделения требуются обратное давление и вязкость подвижной фазы.",
+      "tr": "Ayırma Empedansı hesaplaması için geri basınç ve mobil faz viskozitesi gereklidir."
+    },
+    {
+      "en": "Calculating Additional Metrics",
+      "ru": "Расчет дополнительных метрик",
+      "tr": "Ek Metrikler Hesaplanıyor"
+    },
+    {
+      "en": "Calculating Resolution",
+      "ru": "Расчет разрешения",
+      "tr": "Çözünürlük Hesaplanıyor"
+    },
+    {
+      "en": "Calculating Retention Factors",
+      "ru": "Расчет факторов удерживания",
+      "tr": "Alıkonma Faktörleri Hesaplanıyor"
+    },
+    {
+      "en": "Calculating Separation Factors",
+      "ru": "Расчет факторов разделения",
+      "tr": "Ayırma Faktörleri Hesaplanıyor"
+    },
+    {
+      "en": "Column length is required for HETP and h calculation.",
+      "ru": "Для расчета ВЭТТ и h требуется длина колонки.",
+      "tr": "HETP ve h hesaplaması için kolon uzunluğu gereklidir."
+    },
+    {
+      "en": "Dead time and Column length are required.",
+      "ru": "Требуются мертвое время и длина колонки.",
+      "tr": "Ölü zaman ve Kolon uzunluğu gereklidir."
+    },
+    {
+      "en": "Each component must have a fraction.",
+      "ru": "Каждый компонент должен иметь долю.",
+      "tr": "Her bileşenin bir kesiri olmalıdır."
+    },
+    {
+      "en": "Error calculating additional metrics:",
+      "ru": "Ошибка при расчете дополнительных метрик:",
+      "tr": "Ek metrikler hesaplama hatası:"
+    },
+    {
+      "en": "Error calculating resolution:",
+      "ru": "Ошибка при расчете разрешения:",
+      "tr": "Çözünürlük hesaplama hatası:"
+    },
+    {
+      "en": "Error calculating retention factors:",
+      "ru": "Ошибка при расчете факторов удерживания:",
+      "tr": "Alıkonma faktörleri hesaplama hatası:"
+    },
+    {
+      "en": "Error calculating separation factors:",
+      "ru": "Ошибка при расчете факторов разделения:",
+      "tr": "Ayırma faktörleri hesaplama hatası:"
+    },
+    {
+      "en": "Flow rate, Column Internal Diameter, Back Pressure, Mobile Phase Viscosity, and Particle Size are required for the selected metrics.",
+      "ru": "Для выбранных метрик требуются скорость потока, внутренний диаметр колонки, обратное давление, вязкость подвижной фазы и размер частиц.",
+      "tr": "Seçilen metrikler için Akış hızı, Kolon İç Çapı, Geri Basınç, Mobil Faz Viskozitesi ve Partikül Boyutu gereklidir."
+    },
+    {
+      "en": "Formatting results",
+      "ru": "Форматирование результатов",
+      "tr": "Sonuçlar biçimlendiriliyor"
+    },
+    {
+      "en": "Fraction Type",
+      "ru": "Тип доли",
+      "tr": "Kesir Türü"
+    },
+    {
+      "en": "Fractions must sum to exactly 1.",
+      "ru": "Сумма долей должна быть равна 1.",
+      "tr": "Kesirlerin toplamı tam olarak 1 olmalıdır."
+    },
+    {
+      "en": "Invalid dead time peak index for Theoretical Plates.",
+      "ru": "Неверный индекс пика мертвого времени для теоретических тарелок.",
+      "tr": "Teorik Tabakalar için geçersiz ölü zaman pik indeksi."
+    },
+    {
+      "en": "Mobile phase components",
+      "ru": "Компоненты подвижной фазы",
+      "tr": "Mobil faz bileşenleri"
+    },
+    {
+      "en": "Only MeOH-H2O and MeCN-H2O aqueous mixtures are presently allowed!",
+      "ru": "В настоящее время допускаются только водные смеси MeOH-H2O и MeCN-H2O!",
+      "tr": "Şu anda yalnızca MeOH-H2O ve MeCN-H2O sulu karışımlarına izin verilmektedir!"
+    },
+    {
+      "en": "Particle diameter is required for HETP calculation.",
+      "ru": "Для расчета ВЭТТ требуется диаметр частицы.",
+      "tr": "HETP hesaplaması için partikül çapı gereklidir."
+    },
+    {
+      "en": "Peaks 1 and Peaks 2 must have equal length!",
+      "ru": "Пики 1 и Пики 2 должны иметь одинаковую длину!",
+      "tr": "Pikler 1 ve Pikler 2 eşit uzunlukta olmalıdır!"
+    },
+    {
+      "en": "Peaks 2 error:",
+      "ru": "Ошибка пиков 2:",
+      "tr": "Pikler 2 hatası:"
+    },
+    {
+      "en": "Performing calculation",
+      "ru": "Выполнение расчета",
+      "tr": "Hesaplama yapılıyor"
+    },
+    {
+      "en": "Preparing inputs",
+      "ru": "Подготовка входных данных",
+      "tr": "Girdiler hazırlanıyor"
+    },
+    {
+      "en": "Select at least one peak from each group",
+      "ru": "Выберите хотя бы один пик из каждой группы",
+      "tr": "Her gruptan en az bir pik seçin"
+    },
+    {
+      "en": "Unequal selection: %d vs %d peaks. Must be equal!",
+      "ru": "Неравный выбор: %d против %d пиков. Должно быть равное количество!",
+      "tr": "Eşit olmayan seçim: %d vs %d pik. Eşit olmalı!"
+    },
+    {
+      "en": "Viscosity Calculation",
+      "ru": "Расчет вязкости",
+      "tr": "Viskozite Hesaplaması"
+    }
+  ]
+}

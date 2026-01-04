@@ -76,7 +76,7 @@
 #' \deqn{h = HETP/d_p}
 #' Finally, Separation Impedance \eqn{E} is a measure of column "quality" (efficiency) that incorporates back pressure (\eqn{\Delta p}),
 #' number of theoretical plates, dynamic viscosity of the mobile phase (\eqn{\eta}, in mPas), and breakthrough time.
-#' Values of \strong{<10000} are imperative for a liquid chromatography process to be considered "high performance" (Meyer, 2010).
+#' Values of \strong{>10000} are imperative for a liquid chromatography process to be considered "high performance" (Meyer, 2010).
 #' In \pkg{lcqc}, \eqn{E} may either be calculated separately for each individual value of \eqn{N} (much like \eqn{HETP} and \eqn{h})
 #' when \code{imped_met} includes \code{"indiv"}. In this case, the following equation is used:
 #' \deqn{E = (\Delta p t_0)/(N^2\eta)}
@@ -240,7 +240,7 @@ chrom_tplate <- function(input, method = "all", pa = NA, len = NA, dp = NA, show
   parlst <- setNames(c(len, dp, deltap, round(visc,3)), names(parnms))
   parunits <- setNames(c("mm", "microns", "bar", "mPas"), names(parnms))
   parlst <- parlst[!is.na(parlst)]
-  t0_state <- if(!is.na(t0)) paste0("\nDead time was equal to ", ifelse(t0_mode=="peak", paste0("the retention time of peak ", t_bckp, " (", t0/60, "min)"), paste0(t0/60, " min")),".") else "\nDead time was not determined/provided."
+  t0_state <- if(!is.na(t0)) paste0("\nDead time was equal to ", ifelse(t0_mode=="peak", paste0("the retention time of peak ", round(t_bckp,3), " (", round(t0/60,3), " min)"), paste0(round(t0/60,3), " min")),".") else "\nDead time was not determined/provided."
   add_state <- if(length(parlst)>0) paste0("\nThe following additional parameters were provided: ", paste0(parnms[names(parlst)], " (", parlst, " ", parunits[names(parlst)], ")", collapse = ", "), ".") else ""
   information <- paste0("Theoretical Plate number calculation was attempted for ", ifelse(is.numeric(which_peaks), paste0(length(which_peaks), " out of "), "all of "), length(pklst), " peaks.",
                         "\nThe following methods were used: ", paste0(metnms[method], " (", method, ")", collapse = ", "),".",

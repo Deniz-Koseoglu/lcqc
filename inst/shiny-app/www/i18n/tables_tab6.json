@@ -1,0 +1,39 @@
+{
+  "translation": [
+    {
+      "en": "Retention Time (Start)",
+      "tr": "Alıkonma Zamanı (Başlangıç)",
+      "ru": "Время удерживания (Начало)"
+    },
+    {
+      "en": "Retention Time (Apex)",
+      "tr": "Alıkonma Zamanı (Tepe)",
+      "ru": "Время удерживания (Вершина)"
+    },
+    {
+      "en": "Accurate Retention Time (Apex)",
+      "tr": "İsabetli Alıkonma Zamanı (Tepe)",
+      "ru": "Точное время удерживания (Вершина)"
+    },
+    {
+      "en": "Retention Time (End)",
+      "tr": "Alıkonma Zamanı (Son)",
+      "ru": "Время удерживания (Конец)"
+    },
+    {
+      "en": "Model Type",
+      "tr": "Model Tipi",
+      "ru": "Тип модели"
+    },
+    {
+      "en": "RMSE (Error)",
+      "tr": "RMSE hatası",
+      "ru": "Ошибка RMSE"
+    },
+    {
+      "en": "Peak Area",
+      "tr": "Pik Alanı",
+      "ru": "Площадь Пика"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "translation": [
+    {
+      "en": "Group ID",
+      "tr": "Grup endeksi",
+      "ru": "Индекс группы"
+    },
+    {
+      "en": "Peak ID",
+      "tr": "Pik endeksi",
+      "ru": "Индекс пика"
+    },
+    {
+      "en": "Inflection width",
+      "tr": "Bükülme genişliği",
+      "ru": "Ширина точек перегиба"
+    },
+    {
+      "en": "Area of peak top",
+      "tr": "Pik tepesinin alanı",
+      "ru": "Площадь верхушки пика"
+    },
+    {
+      "en": "Signal-to-Noise Ratio",
+      "tr": "Sinyal-Gürültü Oranı",
+      "ru": "Сигнал/Шум"
+    },
+    {
+      "en": "Peak type",
+      "tr": "Pik türü",
+      "ru": "Тип пика"
+    },
+    {
+      "en": "Left boundary type",
+      "tr": "Sol sınır türü",
+      "ru": "Тип левой границы"
+    },
+    {
+      "en": "Right boundary type",
+      "tr": "Sağ sınır türü",
+      "ru": "Тип правой границы"
+    },
+    {
+      "en": "Index of derivative maximum",
+      "tr": "Türeve dayalı pik maksimumu",
+      "ru": "Индекс максимума по производной"
+    },
+    {
+      "en": "Index of signal maximum",
+      "tr": "Sinyala dayalı pik maksimumu",
+      "ru": "Индекс пика по сигналу"
+    },
+    {
+      "en": "Index of final maximum",
+      "tr": "Nihai maksimum endeksi",
+      "ru": "Индекс конечного максимума"
+    },
+    {
+      "en": "Index of peak start",
+      "tr": "Pik başlangıç endeksi",
+      "ru": "Индекс начала пика"
+    },
+    {
+      "en": "Index of peak end",
+      "tr": "Pik bitiş endeksi",
+      "ru": "Индекс конца пика"
+    },
+    {
+      "en": "Index of left upslope",
+      "tr": "Sol yukarı eğim noktasının indeksi",
+      "ru": "Индекс точки подъема слева"
+    },
+    {
+      "en": "Index of right upslope",
+      "tr": "Sağ yukarı eğim noktasının indeksi",
+      "ru": "Индекс точки подъема справа"
+    },
+    {
+      "en": "Index of left inflection point",
+      "tr": "Sol bükülme noktasının indeksi",
+      "ru": "Индекс левой точки перегиба"
+    },
+    {
+      "en": "Index of right inflection point",
+      "tr": "Sağ bükülme noktasının indeksi",
+      "ru": "Индекс правой точки перегиба"
+    },
+    {
+      "en": "RT at derivative maximum",
+      "tr": "Türev maksimumunda AZ",
+      "ru": "ВУ максимума по производной"
+    },
+    {
+      "en": "RT at signal maximum",
+      "tr": "Sinyal maksimumunda AZ",
+      "ru": "ВУ максимума по сигналу"
+    },
+    {
+      "en": "RT at final maximum",
+      "tr": "Son maksimumunda AZ",
+      "ru": "ВУ конечного максимума"
+    },
+    {
+      "en": "RT at peak start",
+      "tr": "Pik başında AZ",
+      "ru": "ВУ на старте пика"
+    },
+    {
+      "en": "RT at peak end",
+      "tr": "Pik başında AZ",
+      "ru": "ВУ в конце пика"
+    },
+    {
+      "en": "RT at left upslope",
+      "tr": "Sol yukarı eğim noktasında AZ",
+      "ru": "ВУ левой точки подъёма"
+    },
+    {
+      "en": "RT at right upslope",
+      "tr": "Sol yukarı eğim noktasında AZ",
+      "ru": "ВУ правой точки подъёма"
+    },
+    {
+      "en": "RT at left inflection point",
+      "tr": "Sol bükülme noktasında AZ",
+      "ru": "ВУ левой точки перегиба"
+    },
+    {
+      "en": "RT at right inflection point",
+      "tr": "Sağ bükülme noktasında AZ",
+      "ru": "ВУ правой точки перегиба"
+    }
+  ]
+}

@@ -105,7 +105,7 @@ of 3, complete chromatographic equilibrium is obtained over 3 layers of stationa
 \deqn{h = HETP/d_p}
 Finally, Separation Impedance \eqn{E} is a measure of column "quality" (efficiency) that incorporates back pressure (\eqn{\Delta p}),
 number of theoretical plates, dynamic viscosity of the mobile phase (\eqn{\eta}, in mPas), and breakthrough time.
-Values of \strong{<10000} are imperative for a liquid chromatography process to be considered "high performance" (Meyer, 2010).
+Values of \strong{>10000} are imperative for a liquid chromatography process to be considered "high performance" (Meyer, 2010).
 In \pkg{lcqc}, \eqn{E} may either be calculated separately for each individual value of \eqn{N} (much like \eqn{HETP} and \eqn{h})
 when \code{imped_met} includes \code{"indiv"}. In this case, the following equation is used:
 \deqn{E = (\Delta p t_0)/(N^2\eta)}

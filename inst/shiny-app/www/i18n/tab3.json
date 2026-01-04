@@ -1,0 +1,89 @@
+{
+  "translation": [
+    {
+      "en": "Smoothing",
+      "ru": "Сглаживание",
+      "tr": "Yumuşatma"
+    },
+    {
+      "en": "None",
+      "ru": "Не выбран",
+      "tr": "Seçilmedi"
+    },
+    {
+      "en": "Rectangular",
+      "ru": "Обычное",
+      "tr": "Geleneksel"
+    },
+    {
+      "en": "Triangular",
+      "ru": "Треугольное",
+      "tr": "Üçgen"
+    },
+    {
+      "en": "Savitsky-Golay (Quadratic)",
+      "ru": "Фильтр Савицкого-Голея (квадратичный)",
+      "tr": "Savitsky-Golay (karesel)"
+    },
+    {
+      "en": "Savitsky-Golay (Quartic)",
+      "ru": "Фильтр Савицкого-Голея (4го порядка)",
+      "tr": "Savitsky-Golay (4cü dereceden)"
+    },
+    {
+      "en": "Signal Smoothing Method",
+      "ru": "Метод сглаживания сигнала",
+      "tr": "Sinyal Yumuşatma Yöntemi"
+    },
+    {
+      "en": "Derivative Smoothing Method",
+      "ru": "Метод Сглаживания Производной",
+      "tr": "Türev Yumuşatma Yöntemi"
+    },
+    {
+      "en": "Current Signal Smoothing Method:",
+      "ru": "Текущий Метод Сглаживания Сигнала:",
+      "tr": "Seçili Sinyal Yumuşatma Yöntemi:"
+    },
+    {
+      "en": "Current Derivative Smoothing Method:",
+      "ru": "Текущий Метод Сглаживания Производных:",
+      "tr": "Seçili Türev Yumuşatma Yöntemi:"
+    },
+    {
+      "en": "Smoothing Method",
+      "ru": "Метод Cглаживания",
+      "tr": "Yumuşatma Yöntemi"
+    },
+    {
+      "en": "Apply Smoothing",
+      "ru": "Применить Cглаживание",
+      "tr": "Yumuşatma Uygula"
+    },
+    {
+      "en": "Points",
+      "ru": "Точки",
+      "tr": "Noktalar"
+    },
+    {
+      "en": "Passes",
+      "ru": "Повторения",
+      "tr": "Geçişler"
+    },
+    {
+      "en": "Automatically Estimate Smoothing Points and Passes",
+      "ru": "Автоматически определять кол-во точек и повторений",
+      "tr": "Yumuşatma nokta ve geçiş sayısını otomatik olarak belirle"
+    },
+    {
+      "en": "Starting Points for Auto-Smoothing",
+      "ru": "Стартовое Количество Точек",
+      "tr": "Yumuşatma noktaların başlangıç sayısı"
+    },
+    {
+      "en": "Starting Passes for Auto-Smoothing",
+      "ru": "Стартовое Количество Повторений",
+      "tr": "Yumuşatma geçişlerin başlangıç sayısı"
+    }
+  ]
+}

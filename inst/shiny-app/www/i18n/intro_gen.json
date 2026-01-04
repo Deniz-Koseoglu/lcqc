@@ -1,0 +1,69 @@
+{
+  "translation": [
+    {
+      "en": "Skip Tour",
+      "ru": "Пропустить тур",
+      "tr": "Turu Atla"
+    },
+    {
+      "en": "LCQC is designed to pre-process, detect, integrate, model, and calculate domain-specific performance metrics for HPLC columns from simple chromatographic data. The application includes modules for data import, baseline correction, smoothing, peak detection, integration, modeling, peak symmetry and performance metrics calculation, and reporting of all data in .PDF format.",
+      "ru": "LCQC предназначен для предварительной обработки, обнаружения, интеграции, моделирования и расчета специфических для данной области показателей эффективности хроматографических колонок ВЭЖХ на основе простых хроматографических данных. Приложение включает модули для импорта данных, коррекции базовой линии, сглаживания, обнаружения пиков, интеграции, моделирования, расчета симметрии пиков и показателей эффективности, а также для формирования отчетов по всем данным в формате .PDF.",
+      "tr": "LCQC, basit kromatografik verilerden HPLC kolonları için alana özgü performans metriklerini ön işleme, tespit, entegrasyon, modelleme ve hesaplama amacıyla tasarlanmıştır. Uygulama, veri içe aktarma, temel çizgi düzeltmesi, yumuşatma, tepe noktası tespiti, entegrasyon, modelleme, tepe noktası simetrisi ve performans metrikleri hesaplama ve tüm verilerin .PDF formatında raporlanması için modüller içermektedir."
+    },
+    {
+      "en": "This module is used for flexible, derivative-based peak detection using the optionally pre-processed chromatographic signal. Accurate peak apices, inflection points, upslope points, and peak boundaries are detected using various algorithms.",
+      "ru": "Этот модуль используется для гибкого обнаружения пиков на основе производных с использованием опционально предварительно обработанного хроматографического сигнала. Точные вершины пиков, точки перегиба, точки подъема и границы пиков определяются с помощью различных алгоритмов.",
+      "tr": "Bu modül, isteğe bağlı olarak önceden işlenmiş kromatografik sinyal kullanılarak esnek, türev tabanlı tepe noktası tespiti için kullanılır. Çeşitli algoritmalar kullanılarak doğru tepe noktaları, bükülme noktaları, yükseliş noktaları ve tepe sınırları tespit edilir."
+    },
+    {
+      "en": "This module allows you to calculate various performance metrics for your HPLC column, including theoretical plates, resolution, retention factor, separation factor, and additional column-specific metrics.",
+      "ru": "Этот модуль позволяет рассчитывать различные показатели производительности вашей ВЭЖХ-колонки, включая теоретические тарелки, разрешение, коэффициент удерживания, коэффициент разделения и дополнительные показатели, специфичные для данной колонки.",
+      "tr": "Bu modül, teorik plaka sayısı, çözünürlük, tutunma faktörü, ayırma faktörü ve kolona özgü ek ölçümler de dahil olmak üzere HPLC kolonunuz için çeşitli performans ölçümlerini hesaplamanıza olanak tanır."
+    },
+    {
+      "en": "The functionality of LCQC is encompassed in these 9 tabs.",
+      "ru": "Функциональность LCQC охватывается этими 9 вкладками.",
+      "tr": "LCQC'nin işlevselliği bu 9 sekmede kapsanmaktadır."
+    },
+    {
+      "en": "This module allows you to apply various baseline correction methods to your chromatographic data.",
+      "ru": "Этот модуль позволяет применять различные методы коррекции базовой линии к вашим хроматографическим данным.",
+      "tr": "Bu modül, kromatografik verilerinize çeşitli baz çizgisi düzeltme yöntemleri uygulamanızı sağlar."
+    },
+    {
+      "en": "This module allows you to calculate various peak symmetry metrics for your chromatographic data.",
+      "ru": "Этот модуль позволяет рассчитывать различные метрики симметрии пиков для ваших хроматографических данных.",
+      "tr": "Bu modül, kromatografik verileriniz için çeşitli pik simetri metriklerini hesaplamanızı sağlar."
+    },
+    {
+      "en": "This module allows you to generate a comprehensive HPLC column performance report in PDF format and several languages.",
+      "ru": "Этот модуль позволяет создавать комплексный отчет о производительности ВЭЖХ-колонки в формате PDF на нескольких языках.",
+      "tr": "Bu modül, PDF formatında ve çeşitli dillerde kapsamlı bir HPLC kolon performans raporu oluşturmanızı sağlar."
+    },
+    {
+      "en": "This module allows you to perform peak deconvolution on your chromatographic data.",
+      "ru": "Этот модуль позволяет выполнять деконволюцию пиков на ваших хроматографических данных.",
+      "tr": "Bu modül, kromatografik verileriniz üzerinde pik dekonvolüsyonu yapmanızı sağlar."
+    },
+    {
+      "en": "This module allows you to perform peak integration on your chromatographic data.",
+      "ru": "Этот модуль позволяет выполнять интеграцию пиков на ваших хроматографических данных.",
+      "tr": "Bu modül, kromatografik verileriniz üzerinde pik entegrasyonu yapmanızı sağlar."
+    },
+    {
+      "en": "This module is used to apply smoothing methods to refine your chromatogram signal.",
+      "ru": "Этот модуль используется для применения методов сглаживания для улучшения сигнала хроматограммы.",
+      "tr": "Bu modül, kromatogram sinyalinizi iyileştirmek için yumuşatma yöntemleri uygulamak için kullanılır."
+    },
+    {
+      "en": "Use this to import chromatographic data in .CSV or .TXT format.",
+      "ru": "Используйте это для импорта хроматографических данных в формате .CSV или .TXT.",
+      "tr": "Kromatografik verileri .CSV veya .TXT formatında içe aktarmak için bunu kullanın."
+    },
+    {
+      "en": "Use this to select the language of the interface and the .PDF report.",
+      "ru": "Используйте это для выбора языка интерфейса и отчета .PDF.",
+      "tr": "Arayüz ve .PDF raporu dilini seçmek için bunu kullanın."
+    }
+  ]
+}

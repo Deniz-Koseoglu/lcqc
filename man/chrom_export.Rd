@@ -8,7 +8,8 @@ chrom_export(
   input_list,
   expath = getwd(),
   plotpars = "default",
-  plot_format = "png"
+  plot_format = "png",
+  expfun = FALSE
 )
 }
 \arguments{
@@ -34,6 +35,8 @@ One or more of \code{"w"} (width, in cm), \code{"h"} (height, in cm), \code{"psi
 When set to \code{"default"}, the set of parameters are \code{c(w = 10, h = 12, psize = 12, res = 300)}.}
 
 \item{plot_format}{A \code{character} specifying which format to export plots in. One of \code{"png"} or \code{"pdf"}.}
+
+\item{expfun}{A \code{logical} specifying whether function calls should be exported. Defaults to \code{FALSE}.}
 }
 \value{
 A timestamped folder is created inside \code{expath} containing the compiled results in a

@@ -1,0 +1,199 @@
+{
+  "translation": [
+    {
+      "en": "File Data Import",
+      "ru": "Импортирование Данных",
+      "tr": "Veri Yükleme"
+    },
+    {
+      "en": "GC-FID",
+      "ru": "ГХ-ПИД",
+      "tr": "GC-FID"
+    },
+    {
+      "en": "GC-MS",
+      "ru": "ГХ-МС",
+      "tr": "GC-MS"
+    },
+    {
+      "en": "HPLC",
+      "ru": "ВЭЖХ",
+      "tr": "HPLC"
+    },
+    {
+      "en": "Chromatogram Mode",
+      "ru": "Режим хроматограммы",
+      "tr": "Kromatogram Modu"
+    },
+    {
+      "en": "Choose Data",
+      "ru": "Выберите тип данных",
+      "tr": "Veri türünü seçin"
+    },
+    {
+      "en": "Shimadzu TXT",
+      "ru": "Файл ТХТ Shimadzu",
+      "tr": "Shimadzu TXT dosyası"
+    },
+    {
+      "en": "CSV File",
+      "ru": "Файл CSV",
+      "tr": "CSV Dosyası"
+    },
+    {
+      "en": "Basic",
+      "ru": "Базовый",
+      "tr": "Temel"
+    },
+    {
+      "en": "Advanced",
+      "ru": "Расширенные",
+      "tr": "Gelişmiş"
+    },
+    {
+      "en": "Choose TXT File",
+      "ru": "Выбрать TXT файл",
+      "tr": "TXT Dosyası Seç"
+    },
+    {
+      "en": "Choose Chromatogram",
+      "ru": "Выбрать хроматограмму",
+      "tr": "Kromatogram Seç"
+    },
+    {
+      "en": "Choose Peak Table",
+      "ru": "Выбрать таблицу пиков",
+      "tr": "Pik Tablosu Seç"
+    },
+    {
+      "en": "RT Lower",
+      "ru": "Минимальное ВУ",
+      "tr": "RT Alt Sınır"
+    },
+    {
+      "en": "RT Upper",
+      "ru": "Максимальное ВУ",
+      "tr": "RT Üst Sınır"
+    },
+    {
+      "en": "Time Column",
+      "ru": "Столбец времени",
+      "tr": "Zaman Sütunu"
+    },
+    {
+      "en": "Intensity Column",
+      "ru": "Столбец интенсивности",
+      "tr": "Yoğunluk Sütunu"
+    },
+    {
+      "en": "Extract Similarity Table (GC-MS only)",
+      "ru": "Извлечь таблицу сходства (только ГХ-МС)",
+      "tr": "Benzerlik Tablosu Çıkar (GC-MS Sadece)"
+    },
+    {
+      "en": "Extract Peak Table",
+      "ru": "Извлечь таблицу пиков",
+      "tr": "Pik Tablosu Çıkar"
+    },
+    {
+      "en": "Retrieve Peak Names",
+      "ru": "Получить названия пиков",
+      "tr": "Pik Adlarını Al"
+    },
+    {
+      "en": "Retrieve CAS Numbers (GC-MS only)",
+      "ru": "Получить номера CAS (только ГХ-МС)",
+      "tr": "CAS Numaralarını Al (GC-MS Sadece)"
+    },
+    {
+      "en": "Retrieve Metadata",
+      "ru": "Получить метаданные",
+      "tr": "Meta Verileri Al"
+    },
+    {
+      "en": "Column Separator",
+      "ru": "Разделитель столбцов",
+      "tr": "Sütun Ayırıcı"
+    },
+    {
+      "en": "Decimal Separator",
+      "ru": "Десятичный разделитель",
+      "tr": "Ondalık Ayırıcı"
+    },
+    {
+      "en": "Fix Column Names",
+      "ru": "Исправить названия столбцов",
+      "tr": "Sütun Adlarını Düzelt"
+    },
+    {
+      "en": "Filter Columns",
+      "ru": "Фильтровать столбцы",
+      "tr": "Sütunları Filtrele"
+    },
+    {
+      "en": "Choose CSV File",
+      "ru": "Выбрать CSV файл",
+      "tr": "CSV Dosyası Seç"
+    },
+    {
+      "en": "Retention Time Lower Limit",
+      "ru": "Нижний предел времени удерживания",
+      "tr": "Alıkonma Süresi Alt Sınırı"
+    },
+    {
+      "en": "Retention Time Upper Limit",
+      "ru": "Верхний предел времени удерживания",
+      "tr": "Alıkonma Süresi Üst Sınırı"
+    },
+    {
+      "en": "Header Row",
+      "ru": "Строка заголовка",
+      "tr": "Başlık Satırı"
+    },
+    {
+      "en": "Chromatogram",
+      "ru": "Хроматограмма",
+      "tr": "Kromatogram"
+    },
+    {
+      "en": "Show Peak Markers and Names",
+      "ru": "Показать названия пиков",
+      "tr": "Pik Adlarını Göster"
+    },
+    {
+      "en": "Metadata",
+      "ru": "Метаданные",
+      "tr": "Meta Verileri"
+    },
+    {
+      "en": "Chromatogram Data",
+      "ru": "Данные хроматограммы",
+      "tr": "Kromatogram Verileri"
+    },
+    {
+      "en": "Peak Table",
+      "ru": "Таблица пиков",
+      "tr": "Pik Tablosu"
+    },
+    {
+      "en": "Similarity Table",
+      "ru": "Таблица сходства",
+      "tr": "Benzerlik Tablosu"
+    },
+    {
+      "en": "Peak Names",
+      "ru": "Названия пиков",
+      "tr": "Pik adları"
+    },
+    {
+      "en": "Data Source",
+      "ru": "Источник данных",
+      "tr": "Veri Kaynağı"
+    },
+    {
+      "en": "pcas",
+      "ru": "pcas",
+      "tr": "pcas"
+    }
+  ]
+}

@@ -1,0 +1,5030 @@
+{
+  "cultural_date_format": "%d-%m-%Y",
+  "languages": [
+    "en",
+    "ru",
+    "tr"
+  ],
+  "translation": [
+    {
+      "en": " (not available)",
+      "tr": " (mevcut değil)",
+      "ru": " (недоступно)"
+    },
+    {
+      "en": "Export button inside modal clicked!",
+      "tr": "Modal içindeki dışa aktarma düğmesine tıklandı!",
+      "ru": "Нажата кнопка экспорта внутри модального окна!"
+    },
+    {
+      "en": "Please select at least one data type to export.",
+      "tr": "Lütfen dışa aktarmak için en az bir veri türü seçin.",
+      "ru": "Пожалуйста, выберите хотя бы один тип данных для экспорта."
+    },
+    {
+      "en": "No valid data selected for export.",
+      "tr": "Dışa aktarmak için geçerli veri seçilmedi.",
+      "ru": "Не выбраны действительные данные для экспорта."
+    },
+    {
+      "en": "Please select a valid export directory.",
+      "tr": "Lütfen geçerli bir dışa aktarma dizini seçin.",
+      "ru": "Пожалуйста, выберите действительный путь экспорта."
+    },
+    {
+      "en": "Exporting Data",
+      "tr": "Veriler Dışa Aktarılıyor",
+      "ru": "Экспорт данных"
+    },
+    {
+      "en": "Preparing data...",
+      "tr": "Veriler hazırlanıyor...",
+      "ru": "Подготовка данных..."
+    },
+    {
+      "en": "Running export function...",
+      "tr": "Dışa aktarma fonksiyonu çalıştırılıyor...",
+      "ru": "Запуск функции экспорта..."
+    },
+    {
+      "en": "No valid data for selected types to export.",
+      "tr": "Seçilen türler için dışa aktarılacak geçerli veri yok.",
+      "ru": "Нет действительных данных для выбранных типов для экспорта."
+    },
+    {
+      "en": "Export complete.",
+      "tr": "Dışa aktarma tamamlandı.",
+      "ru": "Экспорт завершен."
+    },
+    {
+      "en": "Data exported successfully to ",
+      "tr": "Veriler başarıyla dışa aktarıldı: ",
+      "ru": "Данные успешно экспортированы в "
+    },
+    {
+      "en": "Export failed:",
+      "tr": "Dışa aktarma başarısız oldu:",
+      "ru": "Экспорт не удался:"
+    },
+    {
+      "en": "Export Error:",
+      "tr": "Dışa Aktarma Hatası:",
+      "ru": "Ошибка экспорта:"
+    },
+    {
+      "en": "Peak Detection",
+      "tr": "Pik Algılama",
+      "ru": "Обнаружение пиков"
+    },
+    {
+      "en": "Integration",
+      "tr": "Entegrasyon",
+      "ru": "Интеграция"
+    },
+    {
+      "en": "Iterative Curve Fitting",
+      "tr": "İteratif Dekonvolüsyon",
+      "ru": "Итеративная Деконволюция Пиков"
+    },
+    {
+      "en": "Peak Symmetry",
+      "tr": "Pik Simetrisi",
+      "ru": "Симметрия пиков"
+    },
+    {
+      "en": "Theoretical Plates",
+      "tr": "Teorik Plakalar",
+      "ru": "Теоретические тарелки"
+    },
+    {
+      "en": "Resolution",
+      "tr": "Çözünürlük",
+      "ru": "Разрешение"
+    },
+    {
+      "en": "Retention Factors",
+      "tr": "Alıkonma Faktörleri",
+      "ru": "Факторы удерживания"
+    },
+    {
+      "en": "Separation Factors",
+      "tr": "Ayırma Faktörleri",
+      "ru": "Факторы разделения"
+    },
+    {
+      "en": "Additional Performance Metrics",
+      "tr": "Ek Performans Metrikleri",
+      "ru": "Дополнительные показатели производительности"
+    },
+    {
+      "en": "Export LCQC Data and Visualizations",
+      "tr": "LCQC Verilerini ve Görselleştirmelerini Dışa Aktar",
+      "ru": "Экспорт данных и визуализаций LCQC"
+    },
+    {
+      "en": "Select Data to Export",
+      "tr": "Dışa Aktarılacak Veriyi Seçin",
+      "ru": "Выберите данные для экспорта"
+    },
+    {
+      "en": "Output Settings",
+      "tr": "Çıktı Ayarları",
+      "ru": "Настройки экспорта"
+    },
+    {
+      "en": "Plot Format:",
+      "tr": "Çizim Formatı:",
+      "ru": "Формат графика:"
+    },
+    {
+      "en": "Browse",
+      "tr": "Gözat",
+      "ru": "Обзор"
+    },
+    {
+      "en": "Select export directory",
+      "tr": "Dışa aktarma dizinini seçin",
+      "ru": "Выберите путь экспорта"
+    },
+    {
+      "en": "Cancel",
+      "tr": "İptal",
+      "ru": "Отмена"
+    },
+    {
+      "en": "Export",
+      "tr": "Dışa Aktar",
+      "ru": "Экcпорт"
+    },
+    {
+      "en": "tab1_help_en",
+      "ru": "tab1_help_ru",
+      "tr": "tab1_help_tr"
+    },
+    {
+      "en": "tab2_help_en",
+      "ru": "tab2_help_ru",
+      "tr": "tab2_help_tr"
+    },
+    {
+      "en": "tab3_help_en",
+      "ru": "tab3_help_ru",
+      "tr": "tab3_help_tr"
+    },
+    {
+      "en": "tab4_help_en",
+      "ru": "tab4_help_ru",
+      "tr": "tab4_help_tr"
+    },
+    {
+      "en": "tab5_help_en",
+      "ru": "tab5_help_ru",
+      "tr": "tab5_help_tr"
+    },
+    {
+      "en": "tab6_help_en",
+      "ru": "tab6_help_ru",
+      "tr": "tab6_help_tr"
+    },
+    {
+      "en": "tab7_help_en",
+      "ru": "tab7_help_ru",
+      "tr": "tab7_help_tr"
+    },
+    {
+      "en": "tab8_help_tplate_en",
+      "ru": "tab8_help_tplate_ru",
+      "tr": "tab8_help_tplate_tr"
+    },
+    {
+      "en": "tab8_help_res_en",
+      "ru": "tab8_help_res_ru",
+      "tr": "tab8_help_res_tr"
+    },
+    {
+      "en": "tab8_help_retf_en",
+      "ru": "tab8_help_retf_ru",
+      "tr": "tab8_help_retf_tr"
+    },
+    {
+      "en": "tab8_help_sepf_en",
+      "ru": "tab8_help_sepf_ru",
+      "tr": "tab8_help_sepf_tr"
+    },
+    {
+      "en": "tab8_help_addmets_en",
+      "ru": "tab8_help_addmets_ru",
+      "tr": "tab8_help_addmets_tr"
+    },
+    {
+      "en": "tab8_help_visc_en",
+      "ru": "tab8_help_visc_ru",
+      "tr": "tab8_help_visc_tr"
+    },
+    {
+      "en": "tab9_help_en",
+      "ru": "tab9_help_ru",
+      "tr": "tab9_help_tr"
+    },
+    {
+      "en": "The chromatogram was truncated between RT thresholds: %s, %s.",
+      "ru": "Хроматограмма была обрезана между RT порогами: %s, %s.",
+      "tr": "Kromatogram RT eşikleri arasında kırpıldı: %s, %s."
+    },
+    {
+      "en": "An average inflection point width of %s points was calculated and later used for width-based peak filtering.",
+      "ru": "Средняя ширина точки перегиба в %s точках была рассчитана и использована для фильтрации пиков по ширине.",
+      "tr": "%s nokta genişliğinde ortalama bükülme noktası genişliği hesaplandı ve genişlik tabanlı pik filtreleme için kullanıldı."
+    },
+    {
+      "en": "Initial background correction was done via method: %s.",
+      "ru": "Начальная коррекция фона была выполнена методом: %s.",
+      "tr": "Başlangıç arka plan düzeltmesi şu yöntemle yapıldı: %s."
+    },
+    {
+      "en": "No initial baseline correction was applied.",
+      "ru": "Начальная коррекция базовой линии не применялась.",
+      "tr": "Başlangıç baz çizgisi düzeltmesi uygulanmadı."
+    },
+    {
+      "en": "The chromatogram signal was smoothed using method: %s with %s points and %s passes.",
+      "ru": "Сигнал хроматограммы был сглажен методом: %s с %s точками и %s проходами.",
+      "tr": "Kromatogram sinyali şu yöntemle yumuşatıldı: %s, %s nokta ve %s geçiş ile."
+    },
+    {
+      "en": "The chromatogram signal was not smoothed.",
+      "ru": "Сигнал хроматограммы не был сглажен.",
+      "tr": "Kromatogram sinyali yumuşatılmadı."
+    },
+    {
+      "en": "First and second derivative signals were smoothed using method: %s with %s points and %s passes.",
+      "ru": "Сигналы первой и второй производных были сглажены методом: %s с %s точками и %s проходами.",
+      "tr": "Birinci ve ikinci türev sinyalleri şu yöntemle yumuşatıldı: %s, %s nokta ve %s geçiş ile."
+    },
+    {
+      "en": "First and second derivatives were not smoothed.",
+      "ru": "Первая и вторая производные не были сглажены.",
+      "tr": "Birinci ve ikinci türevler yumuşatılmadı."
+    },
+    {
+      "en": "A signal amplitude threshold was set at %s manually.",
+      "ru": "Порог амплитуды сигнала был установлен вручную на %s.",
+      "tr": "Sinyal genlik eşiği manuel olarak %s olarak ayarlandı."
+    },
+    {
+      "en": "A signal amplitude threshold of %s was determined using %s.",
+      "ru": "Порог амплитуды сигнала %s был определен с использованием %s.",
+      "tr": "%s sinyal genlik eşiği %s kullanılarak belirlendi."
+    },
+    {
+      "en": ", and ",
+      "ru": " и ",
+      "tr": " ve "
+    },
+    {
+      "en": "Inferior and superior first- (%s, %s) and second- (%s, %s) derivative thresholds were determined via the %s method.",
+      "ru": "Нижние и верхние пороги первой (%s, %s) и второй (%s, %s) производных были определены методом %s.",
+      "tr": "Alt ve üst birinci (%s, %s) ve ikinci (%s, %s) türev eşikleri %s yöntemiyle belirlendi."
+    },
+    {
+      "en": "Outliers for this procedure were handled via %s method(s).",
+      "ru": "Выбросы для этой процедуры были обработаны методом(ами) %s.",
+      "tr": "Bu prosedür için aykırı değerler %s yöntem(ler)i ile işlendi."
+    },
+    {
+      "en": "Outlier handling for this procedure was not carried out.",
+      "ru": "Обработка выбросов для этой процедуры не проводилась.",
+      "tr": "Bu prosedür için aykırı değer işleme yapılmadı."
+    },
+    {
+      "en": "FastChrom baseline correction was carried out with a critical width of %s.",
+      "ru": "Коррекция базовой линии FastChrom была выполнена с критической шириной %s.",
+      "tr": "FastChrom baz çizgisi düzeltmesi %s kritik genişlik ile gerçekleştirildi."
+    },
+    {
+      "en": "Following peak picking and removal, a total of %s peaks were detected:",
+      "ru": "После выбора и удаления пиков было обнаружено всего %s пиков:",
+      "tr": "Pik seçimi ve kaldırma işlemlerinin ardından toplam %s pik tespit edildi:"
+    },
+    {
+      "en": "%s baseline-resolved peaks.",
+      "ru": "%s пиков с разрешенной базовой линией.",
+      "tr": "%s taban çizgisi çözünürlüklü pik."
+    },
+    {
+      "en": "%s fused peaks.",
+      "ru": "%s слитых пиков.",
+      "tr": "%s kaynaşmış pik."
+    },
+    {
+      "en": "%s shoulder peaks.",
+      "ru": "%s плечевых пиков.",
+      "tr": "%s omuz piki."
+    },
+    {
+      "en": "%s round peaks.",
+      "ru": "%s округлых пиков.",
+      "tr": "%s yuvarlak pik."
+    },
+    {
+      "en": "Asymmetry metric calculation was attempted for all of %s peaks.",
+      "ru": "Расчет метрики асимметрии был выполнен для всех %s пиков.",
+      "tr": "Asimetri metriği hesaplaması tüm %s pik için denendi."
+    },
+    {
+      "en": "Asymmetry metric calculation was attempted for %s out of %s peaks.",
+      "ru": "Расчет метрики асимметрии был выполнен для %s из %s пиков.",
+      "tr": "Asimetri metriği hesaplaması %s pik için %s pik arasından denendi."
+    },
+    {
+      "en": "The following methods were used: %s.",
+      "ru": "Использовались следующие методы: %s.",
+      "tr": "Şu yöntemler kullanıldı: %s."
+    },
+    {
+      "en": "Total Peak Analysis (TPA) was carried out on %s baseline-resolved peaks out of %s total peaks (or %s baseline-resolved peaks).",
+      "ru": "Общий анализ пиков (TPA) был проведен для %s пиков с разрешенной базовой линией из %s общего числа пиков (или %s пиков с разрешенной базовой линией).",
+      "tr": "Toplam Pik Analizi (TPA), %s toplam pik arasından %s taban çizgisi çözünürlüklü pik için (veya %s taban çizgisi çözünürlüklü pik) gerçekleştirildi."
+    },
+    {
+      "en": "Baselines for %s resolved and %s fused peaks spread across %s groups were determined via the FastChrom algorithm.",
+      "ru": "Базовые линии для %s разрешенных и %s слитых пиков, распределенных по %s группам, были определены с помощью алгоритма FastChrom.",
+      "tr": "%s çözünmüş ve %s kaynaşmış pik için taban çizgileri, %s gruba dağılmış olarak FastChrom algoritması ile belirlendi."
+    },
+    {
+      "en": "%s was selected as the peak skimming method.",
+      "ru": "%s был выбран в качестве метода скимминга пиков.",
+      "tr": "Pik ayıklama yöntemi olarak %s seçildi."
+    },
+    {
+      "en": "The following Non-Linear Least-Squares Curve Fitting model(s) was/were applied: %s.",
+      "ru": "Были применены следующие модели нелинейной аппроксимации методом наименьших квадратов: %s.",
+      "tr": "Şu Doğrusal Olmayan En Küçük Kareler Eğri Uydurma model(ler)i uygulandı: %s."
+    },
+    {
+      "en": "Baseline-resolved peak modeling was carried out.",
+      "ru": "Моделирование пиков с разрешенной базовой линией было выполнено.",
+      "tr": "Taban çizgisi çözünürlüklü pik modellemesi gerçekleştirildi."
+    },
+    {
+      "en": "Baseline-resolved peak modeling was NOT carried out.",
+      "ru": "Моделирование пиков с разрешенной базовой линией НЕ было выполнено.",
+      "tr": "Taban çizgisi çözünürlüklü pik modellemesi gerçekleştirilMEDİ."
+    },
+    {
+      "en": "A critical width equal to the smallest inflection point distance was used for baseline adjustment in the peak regions.",
+      "ru": "Критическая ширина, равная наименьшему расстоянию точки перегиба, была использована для корректировки базовой линии в областях пиков.",
+      "tr": "Pik bölgelerinde taban çizgisi ayarlaması için en küçük bükülme noktası mesafesine eşit kritik genişlik kullanıldı."
+    },
+    {
+      "en": "A critical width equal to %s was used for baseline adjustment in the peak regions.",
+      "ru": "Критическая ширина, равная %s, была использована для корректировки базовой линии в областях пиков.",
+      "tr": "Pik bölgelerinde taban çizgisi ayarlaması için %s'ye eşit kritik genişlik kullanıldı."
+    },
+    {
+      "en": "The Skim-Valley Ratio and Dyson (Parent-to-Child Peak Ratio) criteria were set at %s and %s, respectively.",
+      "ru": "Критерии Skim-Valley Ratio и Dyson (соотношение родительского и дочернего пиков) были установлены на %s и %s соответственно.",
+      "tr": "Skim-Valley Ratio ve Dyson (Ana-Alt Pik Oranı) kriterleri sırasıyla %s ve %s olarak ayarlandı."
+    },
+    {
+      "en": "Peaks were integrated using the Trapezoidal Rule.",
+      "ru": "Пики были интегрированы с использованием правила трапеций.",
+      "tr": "Pikler Yamuk Kuralı kullanılarak entegre edildi."
+    },
+    {
+      "en": "Theoretical Plate number calculation was attempted for all of %s peaks.",
+      "ru": "Расчет числа теоретических тарелок был выполнен для всех %s пиков.",
+      "tr": "Teorik Tabaka sayısı hesaplaması tüm %s pik için denendi."
+    },
+    {
+      "en": "Theoretical Plate number calculation was attempted for %s out of %s peaks.",
+      "ru": "Расчет числа теоретических тарелок был выполнен для %s из %s пиков.",
+      "tr": "Teorik Tabaka sayısı hesaplaması %s pik için %s pik arasından denendi."
+    },
+    {
+      "en": "Dead time was equal to the retention time of peak %s (%s %s).",
+      "ru": "Мертвое время было равно времени удерживания пика %s (%s %s).",
+      "tr": "Ölü zaman, pik %s'nin alıkonma süresine (%s %s) eşitti."
+    },
+    {
+      "en": "Dead time was equal to %s %s.",
+      "ru": "Мертвое время было равно %s %s.",
+      "tr": "Ölü zaman %s %s'ye eşitti."
+    },
+    {
+      "en": "Dead time was not determined/provided.",
+      "ru": "Мертвое время не было определено/предоставлено.",
+      "tr": "Ölü zaman belirlenmedi/sağlanmadı."
+    },
+    {
+      "en": "The following additional parameters were provided: %s.",
+      "ru": "Были предоставлены следующие дополнительные параметры: %s.",
+      "tr": "Şu ek parametreler sağlandı: %s."
+    },
+    {
+      "en": "Peak areas were also provided.",
+      "ru": "Площади пиков также были предоставлены.",
+      "tr": "Pik alanları da sağlandı."
+    },
+    {
+      "en": "Height Equivalents to a Theoretical Plate (HETP) and reduced plate heights (h) were calculated.",
+      "ru": "Были рассчитаны высотные эквиваленты теоретической тарелки (HETP) и приведенные высоты тарелок (h).",
+      "tr": "Teorik Tabaka Yükseklik Eşdeğerleri (HETP) ve indirgenmiş tabaka yükseklikleri (h) hesaplandı."
+    },
+    {
+      "en": "Separation Impedance (E) was calculated.",
+      "ru": "Импеданс разделения (E) был рассчитан.",
+      "tr": "Ayırma Empedansı (E) hesaplandı."
+    },
+    {
+      "en": "Resolution was calculated via the %s methods.",
+      "ru": "Разрешение было рассчитано методами %s.",
+      "tr": "Çözünürlük %s yöntemleri ile hesaplandı."
+    },
+    {
+      "en": "Resolution was calculated via all available methods.",
+      "ru": "Разрешение было рассчитано всеми доступными методами.",
+      "tr": "Çözünürlük tüm mevcut yöntemler ile hesaplandı."
+    },
+    {
+      "en": "Retention factors (k) were calculated for %s out of %s peaks (1 peak used for t0 estimation).",
+      "ru": "Факторы удерживания (k) были рассчитаны для %s из %s пиков (1 пик использован для оценки t0).",
+      "tr": "Alıkonma faktörleri (k), %s pik için %s pik arasından hesaplandı (t0 tahmini için 1 pik kullanıldı)."
+    },
+    {
+      "en": "Retention factors (k) were calculated for %s out of %s peaks.",
+      "ru": "Факторы удерживания (k) были рассчитаны для %s из %s пиков.",
+      "tr": "Alıkonma faktörleri (k), %s pik için %s pik arasından hesaplandı."
+    },
+    {
+      "en": "The following parameters were provided for column performance calculations: %s.",
+      "ru": "Для расчетов производительности колонки были предоставлены следующие параметры: %s.",
+      "tr": "Kolon performans hesaplamaları için şu parametreler sağlandı: %s."
+    },
+    {
+      "en": "Dynamic viscosity was calculated for the single component: %s at %s degC.",
+      "ru": "Динамическая вязкость была рассчитана для одного компонента: %s при %s °C.",
+      "tr": "Dinamik viskozite tek bileşen için hesaplandı: %s, %s °C'de."
+    },
+    {
+      "en": "Dynamic viscosity was calculated for the mixture: %s at %s degC.",
+      "ru": "Динамическая вязкость была рассчитана для смеси: %s при %s °C.",
+      "tr": "Dinamik viskozite karışım için hesaplandı: %s, %s °C'de."
+    },
+    {
+      "en": "Viscosities of pure components were calculated via the Vogel equation.",
+      "ru": "Вязкости чистых компонентов были рассчитаны по уравнению Фогеля.",
+      "tr": "Saf bileşenlerin viskoziteleri Vogel denklemi ile hesaplandı."
+    },
+    {
+      "en": "Densities were similarly calculated via the DIPPR105 equation.",
+      "ru": "Плотности были аналогично рассчитаны по уравнению DIPPR105.",
+      "tr": "Yoğunluklar benzer şekilde DIPPR105 denklemi ile hesaplandı."
+    },
+    {
+      "en": "Finally, the Linear Blend Rule was used to obtain mixture viscosity.",
+      "ru": "Наконец, для получения вязкости смеси было использовано правило линейного смешивания.",
+      "tr": "Son olarak, karışım viskozitesini elde etmek için Doğrusal Karışım Kuralı kullanıldı."
+    },
+    {
+      "en": "%s fraction(s) of %s was/were specified for %s, respectively.",
+      "ru": "%s фракция(и) %s была/были указаны для %s соответственно.",
+      "tr": "%s kesir(ler)i %s, sırasıyla %s için belirtildi."
+    },
+    {
+      "en": "%s fraction of %s was specified for %s.",
+      "ru": "%s фракция %s была указана для %s.",
+      "tr": "%s kesiri %s, %s için belirtildi."
+    },
+    {
+      "en": "(auto-estimated)",
+      "ru": "(авто-оценка)",
+      "tr": "(otomatik tahmin)"
+    },
+    {
+      "en": "all available methods",
+      "ru": "все доступные методы",
+      "tr": "tüm mevcut yöntemler"
+    },
+    {
+      "en": "all available models",
+      "ru": "все доступные модели",
+      "tr": "tüm mevcut modeller"
+    },
+    {
+      "en": "all available",
+      "ru": "все доступные",
+      "tr": "tüm mevcut"
+    },
+    {
+      "en": "USP Tailing Factor",
+      "ru": "Коэффициент хвоста USP",
+      "tr": "USP Kuyruk Faktörü"
+    },
+    {
+      "en": "Asymmetry Factor",
+      "ru": "Фактор асимметрии",
+      "tr": "Asimetri Faktörü"
+    },
+    {
+      "en": "Total Peak Analysis",
+      "ru": "Полный анализ пиков",
+      "tr": "Toplam Pik Analizi"
+    },
+    {
+      "en": "differences between quantiles",
+      "ru": "разности между квантилями",
+      "tr": "kantiller arasındaki farklar"
+    },
+    {
+      "en": "z-scores",
+      "ru": "z-оценки",
+      "tr": "z-skorları"
+    },
+    {
+      "en": "Vaz et al. (2016)",
+      "ru": "Ваз и др. (2016)",
+      "tr": "Vaz ve ark. (2016)"
+    },
+    {
+      "en": "noise-core",
+      "ru": "шумовое ядро",
+      "tr": "gürültü çekirdeği"
+    },
+    {
+      "en": "z-score",
+      "ru": "z-оценка",
+      "tr": "z-skoru"
+    },
+    {
+      "en": "inter-quartile range",
+      "ru": "межквартильный размах",
+      "tr": "çeyrekler arası aralık"
+    },
+    {
+      "en": "quantile",
+      "ru": "квантиль",
+      "tr": "kantil"
+    },
+    {
+      "en": "standard deviation",
+      "ru": "стандартное отклонение",
+      "tr": "standart sapma"
+    },
+    {
+      "en": "inter-quartile range, quantile, and standard deviation",
+      "ru": "межквартильный размах, квантиль и стандартное отклонение",
+      "tr": "çeyrekler arası aralık, kantil ve standart sapma"
+    },
+    {
+      "en": "Triangular",
+      "ru": "Треугольный",
+      "tr": "Üçgen"
+    },
+    {
+      "en": "Simple Moving Average",
+      "ru": "Простое скользящее среднее",
+      "tr": "Basit Hareketli Ortalama"
+    },
+    {
+      "en": "Savitzky-Golay",
+      "ru": "Савицкий-Голай",
+      "tr": "Savitzky-Golay"
+    },
+    {
+      "en": "Asymmetric Least Squares",
+      "ru": "Асимметричные наименьшие квадраты",
+      "tr": "Asimetrik En Küçük Kareler"
+    },
+    {
+      "en": "Chang/Zhong 2nd Order Polynomial",
+      "ru": "Полином 2-го порядка Чанга/Чжуна",
+      "tr": "Chang/Zhong 2. Derece Polinom"
+    },
+    {
+      "en": "Polynomial",
+      "ru": "Полиномиальный",
+      "tr": "Polinom"
+    },
+    {
+      "en": "Perpendicular Drop (PD)",
+      "ru": "Перпендикулярный спуск (PD)",
+      "tr": "Dik Düşüm (PD)"
+    },
+    {
+      "en": "Tangent Skim (TS)",
+      "ru": "Тангенциальный скимминг (TS)",
+      "tr": "Teğet Ayıklama (TS)"
+    },
+    {
+      "en": "Exponential Skim (ES)",
+      "ru": "Экспоненциальный скимминг (ES)",
+      "tr": "Üstel Ayıklama (ES)"
+    },
+    {
+      "en": "Gaussian Skim (GS)",
+      "ru": "Гауссов скимминг (GS)",
+      "tr": "Gauss Ayıklama (GS)"
+    },
+    {
+      "en": "Simple Gaussian",
+      "ru": "Простой гауссов",
+      "tr": "Basit Gauss"
+    },
+    {
+      "en": "Gaussian",
+      "ru": "Гауссов",
+      "tr": "Gauss"
+    },
+    {
+      "en": "Exponentially-Modified Gaussian (EMG)",
+      "ru": "Экспоненциально-модифицированный Гауссов (EMG)",
+      "tr": "Üstel Modifiyeli Gauss (EMG)"
+    },
+    {
+      "en": "Exponential-Gaussian Hybrid",
+      "ru": "Экспоненциально-Гауссов гибрид",
+      "tr": "Üstel-Gauss Hibrit"
+    },
+    {
+      "en": "Empirically-Transformed Gaussian",
+      "ru": "Эмпирически-преобразованный Гауссов",
+      "tr": "Deneysel Dönüştürülmüş Gauss"
+    },
+    {
+      "en": "Full-Width",
+      "ru": "Полная ширина",
+      "tr": "Tam Genişlik"
+    },
+    {
+      "en": "Half-Width (variant 1)",
+      "ru": "Полуширина (вариант 1)",
+      "tr": "Yarı Genişlik (varyant 1)"
+    },
+    {
+      "en": "Half-Width (variant 2)",
+      "ru": "Полуширина (вариант 2)",
+      "tr": "Yarı Genişlik (varyant 2)"
+    },
+    {
+      "en": "Separation/Retention Factor",
+      "ru": "Фактор разделения/удерживания",
+      "tr": "Ayırma/Alıkonma Faktörü"
+    },
+    {
+      "en": "Dead Time",
+      "ru": "Мертвое время",
+      "tr": "Ölü Zaman"
+    },
+    {
+      "en": "Column Length",
+      "ru": "Длина колонки",
+      "tr": "Kolon Uzunluğu"
+    },
+    {
+      "en": "Flow",
+      "ru": "Поток",
+      "tr": "Akış"
+    },
+    {
+      "en": "Internal Diameter",
+      "ru": "Внутренний диаметр",
+      "tr": "İç Çap"
+    },
+    {
+      "en": "Back Pressure",
+      "ru": "Обратное давление",
+      "tr": "Geri Basınç"
+    },
+    {
+      "en": "Dynamic Viscosity",
+      "ru": "Динамическая вязкость",
+      "tr": "Dinamik Viskozite"
+    },
+    {
+      "en": "Particle Size",
+      "ru": "Размер частиц",
+      "tr": "Partikül Boyutu"
+    },
+    {
+      "en": "Volume",
+      "ru": "Объем",
+      "tr": "Hacim"
+    },
+    {
+      "en": "Mass",
+      "ru": "Масса",
+      "tr": "Kütle"
+    },
+    {
+      "en": "Mol",
+      "ru": "Моль",
+      "tr": "Mol"
+    },
+    {
+      "en": "min",
+      "ru": "мин",
+      "tr": "dk"
+    },
+    {
+      "en": "bar",
+      "ru": "бар",
+      "tr": "bar"
+    },
+    {
+      "en": "microns",
+      "ru": "микрон",
+      "tr": "mikron"
+    },
+    {
+      "en": "mm",
+      "ru": "мм",
+      "tr": "mm"
+    },
+    {
+      "en": "mPas",
+      "ru": "мПа·с",
+      "tr": "mPas"
+    },
+    {
+      "en": "mLmin^-1",
+      "ru": "мл/мин",
+      "tr": "mL/dk"
+    },
+    {
+      "en": "Methanol",
+      "ru": "Метанол",
+      "tr": "Metanol"
+    },
+    {
+      "en": "Acetonitrile",
+      "ru": "Ацетонитрил",
+      "tr": "Asetonitril"
+    },
+    {
+      "en": "Water",
+      "ru": "Вода",
+      "tr": "Su"
+    },
+    {
+      "en": "Ethanol",
+      "ru": "Этанол",
+      "tr": "Etanol"
+    },
+    {
+      "en": "Isopropanol",
+      "ru": "Изопропанол",
+      "tr": "İzopropanol"
+    },
+    {
+      "en": "Acetone",
+      "ru": "Ацетон",
+      "tr": "Aseton"
+    },
+    {
+      "en": "Ethyl Acetate",
+      "ru": "Этилацетат",
+      "tr": "Etil Asetat"
+    },
+    {
+      "en": "Tetrahydrofuran",
+      "ru": "Тетрагидрофуран",
+      "tr": "Tetrahidrofuran"
+    },
+    {
+      "en": "Chloroform",
+      "ru": "Хлороформ",
+      "tr": "Kloroform"
+    },
+    {
+      "en": "Benzene",
+      "ru": "Бензол",
+      "tr": "Benzen"
+    },
+    {
+      "en": "Cyclohexane",
+      "ru": "Циклогексан",
+      "tr": "Siklohekzan"
+    },
+    {
+      "en": "Diethyl Ether",
+      "ru": "Диэтиловый эфир",
+      "tr": "Dietil Eter"
+    },
+    {
+      "en": "Butanol",
+      "ru": "Бутанол",
+      "tr": "Bütanol"
+    },
+    {
+      "en": "Peak Detection Summary Information",
+      "ru": "Сводная информация об обнаружении пиков",
+      "tr": "Pik Tespiti Özet Bilgisi"
+    },
+    {
+      "en": "Integration Summary Information",
+      "ru": "Сводная информация об интеграции",
+      "tr": "Entegrasyon Özet Bilgisi"
+    },
+    {
+      "en": "Deconvolution Summary Information",
+      "ru": "Сводная информация о деконволюции",
+      "tr": "Dekonvolüsyon Özet Bilgisi"
+    },
+    {
+      "en": "Peak Symmetry Summary Information",
+      "ru": "Сводная информация о симметрии пиков",
+      "tr": "Pik Simetrisi Özet Bilgisi"
+    },
+    {
+      "en": "Resolution Summary Information",
+      "ru": "Сводная информация о разрешении",
+      "tr": "Çözünürlük Özet Bilgisi"
+    },
+    {
+      "en": "Retention Factor Summary Information",
+      "ru": "Сводная информация о факторе удерживания",
+      "tr": "Alıkonma Faktörü Özet Bilgisi"
+    },
+    {
+      "en": "Separation Factor Summary Information",
+      "ru": "Сводная информация о факторе разделения",
+      "tr": "Ayırma Faktörü Özet Bilgisi"
+    },
+    {
+      "en": "Theoretical Plates Summary Information",
+      "ru": "Сводная информация о теоретических тарелках",
+      "tr": "Teorik Tabakalar Özet Bilgisi"
+    },
+    {
+      "en": "Additional Metrics Summary Information",
+      "ru": "Сводная информация о дополнительных метриках",
+      "tr": "Ek Metrikler Özet Bilgisi"
+    },
+    {
+      "en": "Viscosity Summary Information",
+      "ru": "Сводная информация о вязкости",
+      "tr": "Viskozite Özet Bilgisi"
+    },
+    {
+      "en": "ISREA",
+      "ru": "ISREA",
+      "tr": "ISREA"
+    },
+    {
+      "en": "Skip Tour",
+      "ru": "Пропустить тур",
+      "tr": "Turu Atla"
+    },
+    {
+      "en": "The functionality of LCQC is encompassed in these 9 tabs.",
+      "ru": "Функциональность LCQC охватывается этими 9 вкладками.",
+      "tr": "LCQC'nin işlevselliği bu 9 sekmede kapsanmaktadır."
+    },
+    {
+      "en": "This module allows you to apply various baseline correction methods to your chromatographic data.",
+      "ru": "Этот модуль позволяет применять различные методы коррекции базовой линии к вашим хроматографическим данным.",
+      "tr": "Bu modül, kromatografik verilerinize çeşitli baz çizgisi düzeltme yöntemleri uygulamanızı sağlar."
+    },
+    {
+      "en": "This module allows you to calculate various peak symmetry metrics for your chromatographic data.",
+      "ru": "Этот модуль позволяет рассчитывать различные метрики симметрии пиков для ваших хроматографических данных.",
+      "tr": "Bu modül, kromatografik verileriniz için çeşitli pik simetri metriklerini hesaplamanızı sağlar."
+    },
+    {
+      "en": "This module allows you to generate a comprehensive HPLC column performance report in PDF format and several languages.",
+      "ru": "Этот модуль позволяет создавать комплексный отчет о производительности ВЭЖХ-колонки в формате PDF на нескольких языках.",
+      "tr": "Bu modül, PDF formatında ve çeşitli dillerde kapsamlı bir HPLC kolon performans raporu oluşturmanızı sağlar."
+    },
+    {
+      "en": "This module allows you to perform peak deconvolution on your chromatographic data.",
+      "ru": "Этот модуль позволяет выполнять деконволюцию пиков на ваших хроматографических данных.",
+      "tr": "Bu modül, kromatografik verileriniz üzerinde pik dekonvolüsyonu yapmanızı sağlar."
+    },
+    {
+      "en": "This module allows you to perform peak integration on your chromatographic data.",
+      "ru": "Этот модуль позволяет выполнять интеграцию пиков на ваших хроматографических данных.",
+      "tr": "Bu modül, kromatografik verileriniz üzerinde pik entegrasyonu yapmanızı sağlar."
+    },
+    {
+      "en": "This module is used to apply smoothing methods to refine your chromatogram signal.",
+      "ru": "Этот модуль используется для применения методов сглаживания для улучшения сигнала хроматограммы.",
+      "tr": "Bu modül, kromatogram sinyalinizi iyileştirmek için yumuşatma yöntemleri uygulamak için kullanılır."
+    },
+    {
+      "en": "Use this to import chromatographic data in .CSV or .TXT format.",
+      "ru": "Используйте это для импорта хроматографических данных в формате .CSV или .TXT.",
+      "tr": "Kromatografik verileri .CSV veya .TXT formatında içe aktarmak için bunu kullanın."
+    },
+    {
+      "en": "Use this to select the language of the interface and the .PDF report.",
+      "ru": "Используйте это для выбора языка интерфейса и отчета .PDF.",
+      "tr": "Arayüz ve .PDF raporu dilini seçmek için bunu kullanın."
+    },
+    {
+      "en": "After uploading your file, select the specific chromatogram you wish to analyze from this list. For GC-MS, you might see TIC or SIM chromatograms here.",
+      "ru": "После загрузки файла выберите конкретную хроматограмму для анализа из этого списка. Для ГХ-МС здесь могут отображаться хроматограммы TIC или SIM.",
+      "tr": "Dosyanızı yükledikten sonra, bu listeden analiz etmek istediğiniz belirli kromatogramı seçin. GC-MS için burada TIC veya SIM kromatogramlarını görebilirsiniz."
+    },
+    {
+      "en": "Check this box if the first row of your CSV file contains column headers. This helps the application correctly identify your data.",
+      "ru": "Установите этот флажок, если первая строка вашего CSV-файла содержит заголовки столбцов.",
+      "tr": "CSV dosyanızın ilk satırı sütun başlıkları içeriyorsa bu kutuyu işaretleyin."
+    },
+    {
+      "en": "Check this box to extract the Similarity Table, which is relevant for GC-MS data and provides information on compound identification based on spectral similarity.",
+      "ru": "Установите этот флажок для извлечения таблицы сходства для данных ГХ-МС.",
+      "tr": "GC-MS verileri için Benzerlik Tablosunu çıkarmak için bu kutuyu işaretleyin."
+    },
+    {
+      "en": "Choose whether to retrieve CAS numbers for identified peaks.",
+      "ru": "Выберите, следует ли получать номера CAS для идентифицированных пиков.",
+      "tr": "Tanımlanan pikler için CAS numaralarının alınıp alınmayacağını seçin."
+    },
+    {
+      "en": "Click here to upload your Shimadzu ASCII text file containing chromatography data.",
+      "ru": "Нажмите здесь, чтобы загрузить ASCII-текстовый файл Shimadzu.",
+      "tr": "Shimadzu ASCII metin dosyanızı yüklemek için buraya tıklayın."
+    },
+    {
+      "en": "Define a retention time range to display or process only a specific portion of your chromatogram. Enter the lower and/or upper limits.",
+      "ru": "Определите диапазон времени удерживания для отображения или обработки только определенной части хроматограммы.",
+      "tr": "Kromatogramınızın belirli bir bölümünü görüntülemek için alıkonma süresi aralığı tanımlayın."
+    },
+    {
+      "en": "Enable this option to extract the peak table from your Shimadzu file, which contains details about detected peaks like retention time, area, and height.",
+      "ru": "Включите эту опцию для извлечения таблицы пиков из файла Shimadzu.",
+      "tr": "Shimadzu dosyanızdan pik tablosunu çıkarmak için bu seçeneği etkinleştirin."
+    },
+    {
+      "en": "Once a Gc-MS chromatogram is processed, all detected Peak Tables will be listed here for selection.",
+      "ru": "После обработки хроматограммы ГХ-МС все обнаруженные таблицы пиков будут перечислены здесь.",
+      "tr": "GC-MS kromatogramı işlendikten sonra tespit edilen Pik Tabloları burada listelenecektir."
+    },
+    {
+      "en": "Optionally, enter the lower and/or upper retention time limits to focus your analysis on a specific range of the chromatogram. Data outside this range will be excluded.",
+      "ru": "При необходимости введите пределы времени удерживания, чтобы сфокусировать анализ на определенном диапазоне.",
+      "tr": "Analizinizi belirli bir aralığa odaklamak için alıkonma süresi sınırlarını girin."
+    },
+    {
+      "en": "Removes all analytically unimportant columns from input. Use with caution as the definition of 'unimportant' is subjective.",
+      "ru": "Удаляет все аналитически незначимые столбцы из входных данных.",
+      "tr": "Girişten tüm analitik olarak önemsiz sütunları kaldırır."
+    },
+    {
+      "en": "Select Columns for 'Time' and 'Intensity",
+      "ru": "Выберите столбцы для 'Времени' и 'Интенсивности'",
+      "tr": "'Zaman' ve 'Yoğunluk' için Sütunları Seçin"
+    },
+    {
+      "en": "Select column and decimal separators here. These are normally detected automatically where set to 'auto'.",
+      "ru": "Выберите разделители столбцов и десятичные разделители здесь.",
+      "tr": "Sütun ve ondalık ayırıcıları burada seçin."
+    },
+    {
+      "en": "Select this to retrieve additional experimental metadata embedded within your Shimadzu file, such as sample names, injection volume, or acquisition parameters.",
+      "ru": "Выберите это для извлечения дополнительных экспериментальных метаданных из файла Shimadzu.",
+      "tr": "Shimadzu dosyanızda gömülü ek deneysel meta verileri almak için bunu seçin."
+    },
+    {
+      "en": "Upload your chromatography data here in CSV format. Ensure your file contains columns for both time and intensity.",
+      "ru": "Загрузите ваши хроматографические данные в формате CSV.",
+      "tr": "Kromatografi verilerinizi CSV formatında yükleyin."
+    },
+    {
+      "en": "Adjust the 'Alpha' parameter, which is a high-pass filter parameter controlling the smoothness of the baseline.",
+      "ru": "Настройте параметр 'Alpha', контролирующий гладкость базовой линии.",
+      "tr": "Baz çizgisinin yumuşaklığını kontrol eden 'Alpha' parametresini ayarlayın."
+    },
+    {
+      "en": "Adjust the 'Eta' parameter, which is a convergence criterion. Lower values lead to higher precision but longer computation times.",
+      "ru": "Настройте параметр 'Eta', который является критерием сходимости.",
+      "tr": "Yakınsama kriteri olan 'Eta' parametresini ayarlayın."
+    },
+    {
+      "en": "Adjust the 'Lambda' parameter, which controls the smoothness of the baseline. Higher values result in a smoother baseline.",
+      "ru": "Настройте параметр 'Lambda', который контролирует гладкость базовой линии.",
+      "tr": "Baz çizgisinin yumuşaklığını kontrol eden 'Lambda' parametresini ayarlayın."
+    },
+    {
+      "en": "Adjust the 'bfrac' parameter, representing the fraction of low-intensity fragments assumed to be part of the baseline.",
+      "ru": "Настройте параметр 'bfrac', представляющий долю фрагментов низкой интенсивности.",
+      "tr": "Düşük yoğunluklu fragmanların oranını temsil eden 'bfrac' parametresini ayarlayın."
+    },
+    {
+      "en": "Adjust the 'p' parameter, which controls the asymmetry of the weighting. Values closer to 0.001 are suitable for positive peaks, and values closer to 0.999 for negative peaks.",
+      "ru": "Настройте параметр 'p', который контролирует асимметрию взвешивания.",
+      "tr": "Ağırlıklandırmanın asimetrisini kontrol eden 'p' parametresini ayarlayın."
+    },
+    {
+      "en": "Check this box to remove negative values from the corrected signal, ensuring the baseline does not go above the original signal.",
+      "ru": "Установите этот флажок, чтобы удалить отрицательные значения из скорректированного сигнала.",
+      "tr": "Düzeltilmiş sinyalden negatif değerleri kaldırmak için bu kutuyu işaretleyin."
+    },
+    {
+      "en": "Click this button to apply the selected baseline correction method or to skip it if 'None' is chosen.",
+      "ru": "Нажмите эту кнопку, чтобы применить метод коррекции базовой линии.",
+      "tr": "Baz çizgisi düzeltme yöntemini uygulamak için bu düğmeye tıklayın."
+    },
+    {
+      "en": "Define the signal window size in data points. This influences how local features are considered.",
+      "ru": "Определите размер окна сигнала в точках данных.",
+      "tr": "Sinyal pencere boyutunu veri noktaları cinsinden tanımlayın."
+    },
+    {
+      "en": "Select the desired baseline correction method from the dropdown. Choose 'None' to skip baseline correction.",
+      "ru": "Выберите метод коррекции базовой линии из выпадающего списка.",
+      "tr": "Açılır menüden baz çizgisi düzeltme yöntemini seçin."
+    },
+    {
+      "en": "Select the fitting method for the baseline: 'linear' for faster computation or 'cubic' for a more flexible fit.",
+      "ru": "Выберите метод аппроксимации базовой линии: 'линейный' или 'кубический'.",
+      "tr": "Baz çizgisi için uydurma yöntemini seçin: 'doğrusal' veya 'kübik'."
+    },
+    {
+      "en": "Set the 'Degree' of the polynomial fit. A higher degree allows for more complex baseline shapes but can also lead to overfitting.",
+      "ru": "Установите 'Степень' полиномиальной аппроксимации.",
+      "tr": "Polinom uydurmasının 'Derecesini' ayarlayın."
+    },
+    {
+      "en": "Set the maximum number of iterations for the algorithm to run. Increase this if the baseline is not converging properly.",
+      "ru": "Установите максимальное количество итераций для алгоритма.",
+      "tr": "Algoritma için maksimum iterasyon sayısını ayarlayın."
+    },
+    {
+      "en": "Set the number of segments to divide the filtered signal into for baseline calculation.",
+      "ru": "Установите количество сегментов для разделения сигнала.",
+      "tr": "Sinyalin bölüneceği segment sayısını ayarlayın."
+    },
+    {
+      "en": "This displays the currently selected baseline correction method from the Basic tab.",
+      "ru": "Здесь отображается текущий метод коррекции базовой линии.",
+      "tr": "Seçili baz çizgisi düzeltme yöntemini görüntüler."
+    },
+    {
+      "en": "Eta",
+      "ru": "Eta",
+      "tr": "Eta"
+    },
+    {
+      "en": "After selecting your desired method, click this button to apply smoothing. If 'None' is selected, this button will allow you to skip the smoothing step and proceed to peak detection.",
+      "ru": "После выбора метода нажмите эту кнопку для применения сглаживания.",
+      "tr": "Yumuşatma uygulamak için bu düğmeye tıklayın."
+    },
+    {
+      "en": "Apply or skip smoothing using these settings.",
+      "ru": "Примените или пропустите сглаживание, используя эти настройки.",
+      "tr": "Bu ayarları kullanarak yumuşatmayı uygulayın veya atlayın."
+    },
+    {
+      "en": "Configure the starting parameters for auto-smoothing.",
+      "ru": "Настройте начальные параметры для автоматического сглаживания.",
+      "tr": "Otomatik yumuşatma için başlangıç parametrelerini yapılandırın."
+    },
+    {
+      "en": "Manually adjust smoothing points and passes.",
+      "ru": "Вручную настройте точки и проходы сглаживания.",
+      "tr": "Yumuşatma noktalarını ve geçişleri manuel olarak ayarlayın."
+    },
+    {
+      "en": "Select a derivative smoothing method from this dropdown. Options include 'None', 'Rectangular', or 'Triangular'. Your selection here will determine the smoothing algorithm applied.",
+      "ru": "Выберите метод сглаживания производной из этого списка.",
+      "tr": "Bu açılır menüden bir türev yumuşatma yöntemi seçin."
+    },
+    {
+      "en": "Select a signal smoothing method from this dropdown. Options include 'None', 'Rectangular', 'Triangular', and two types of Savitzky-Golay filters. Your selection here will determine the smoothing algorithm applied.",
+      "ru": "Выберите метод сглаживания сигнала из этого списка.",
+      "tr": "Bu açılır menüden bir sinyal yumuşatma yöntemi seçin."
+    },
+    {
+      "en": "This displays the currently selected smoothing method. You can change the method in the 'Basic' tab.",
+      "ru": "Здесь отображается текущий метод сглаживания.",
+      "tr": "Seçili mevcut yumuşatma yöntemini görüntüler."
+    },
+    {
+      "en": "Toggle this on to automatically estimate the optimal number of smoothing points and passes based on average peak width and other factors.",
+      "ru": "Включите это для автоматической оценки оптимального количества точек сглаживания.",
+      "tr": "Optimal yumuşatma noktası sayısını otomatik olarak tahmin etmek için bunu açın."
+    },
+    {
+      "en": "Adjust sensitivity parameters that control how aggressively peaks are detected.",
+      "ru": "Настройте параметры чувствительности, которые контролируют, насколько агрессивно обнаруживаются пики.",
+      "tr": "Piklerin ne kadar agresif tespit edildiğini kontrol eden hassasiyet parametrelerini ayarlayın."
+    },
+    {
+      "en": "Adjust the amplitude fraction used by the selected thresholding method.",
+      "ru": "Настройте долю амплитуды, используемую выбранным методом пороговой обработки.",
+      "tr": "Seçilen eşikleme yöntemi tarafından kullanılan genlik oranını ayarlayın."
+    },
+    {
+      "en": "Apply all advanced peak detection parameters and update the results.",
+      "ru": "Примените все расширенные параметры обнаружения пиков и обновите результаты.",
+      "tr": "Tüm gelişmiş pik tespit parametrelerini uygulayın ve sonuçları güncelleyin."
+    },
+    {
+      "en": "Apply the basic peak detection parameters and visualize the detected peaks.",
+      "ru": "Примените базовые параметры обнаружения пиков и визуализируйте обнаруженные пики.",
+      "tr": "Temel pik tespit parametrelerini uygulayın ve tespit edilen pikleri görselleştirin."
+    },
+    {
+      "en": "Choose whether to use an automatic or manual amplitude threshold for peak detection.",
+      "ru": "Выберите, использовать ли автоматический или ручной порог амплитуды для обнаружения пиков.",
+      "tr": "Pik tespiti için otomatik veya manuel genlik eşiği kullanılıp kullanılmayacağını seçin."
+    },
+    {
+      "en": "Configure Z-score specific parameters used for amplitude thresholding.",
+      "ru": "Настройте параметры Z-оценки, используемые для пороговой обработки амплитуды.",
+      "tr": "Genlik eşiklemesi için kullanılan Z-skoru özel parametrelerini yapılandırın."
+    },
+    {
+      "en": "Configure parameters that verify peak boundaries using signal and derivative confirmation.",
+      "ru": "Настройте параметры, которые проверяют границы пиков с использованием подтверждения сигнала и производной.",
+      "tr": "Sinyal ve türev doğrulaması kullanarak pik sınırlarını doğrulayan parametreleri yapılandırın."
+    },
+    {
+      "en": "Define filters to reject peaks based on signal-to-noise ratio, height, width, or area.",
+      "ru": "Определите фильтры для отклонения пиков на основе отношения сигнал/шум, высоты, ширины или площади.",
+      "tr": "Sinyal-gürültü oranı, yükseklik, genişlik veya alana göre pikleri reddetmek için filtreler tanımlayın."
+    },
+    {
+      "en": "Enable or disable FastChrom baseline correction for complex chromatograms.",
+      "ru": "Включите или отключите коррекцию базовой линии FastChrom для сложных хроматограмм.",
+      "tr": "Karmaşık kromatogramlar için FastChrom baz çizgisi düzeltmesini etkinleştirin veya devre dışı bırakın."
+    },
+    {
+      "en": "Manually specify a fixed amplitude threshold for peak detection.",
+      "ru": "Вручную укажите фиксированный порог амплитуды для обнаружения пиков.",
+      "tr": "Pik tespiti için sabit bir genlik eşiğini manuel olarak belirtin."
+    },
+    {
+      "en": "Optionally combine a second derivative-based method to improve robustness.",
+      "ru": "При необходимости объедините метод на основе второй производной для повышения устойчивости.",
+      "tr": "İsteğe bağlı olarak sağlamlığı artırmak için ikinci türev tabanlı bir yöntemi birleştirin."
+    },
+    {
+      "en": "Select the automatic method used to determine the amplitude threshold.",
+      "ru": "Выберите автоматический метод, используемый для определения порога амплитуды.",
+      "tr": "Genlik eşiğini belirlemek için kullanılan otomatik yöntemi seçin."
+    },
+    {
+      "en": "Select the primary derivative-based method for detecting peak boundaries.",
+      "ru": "Выберите основной метод на основе производной для обнаружения границ пиков.",
+      "tr": "Pik sınırlarını tespit etmek için birincil türev tabanlı yöntemi seçin."
+    },
+    {
+      "en": "Specify the critical width used by FastChrom for baseline correction.",
+      "ru": "Укажите критическую ширину, используемую FastChrom для коррекции базовой линии.",
+      "tr": "FastChrom tarafından baz çizgisi düzeltmesi için kullanılan kritik genişliği belirtin."
+    },
+    {
+      "en": "Adjust the Skim Ratio criterion to control how aggressively parent-child peak pairs are skimmed.",
+      "ru": "Настройте критерий Skim Ratio для контроля того, насколько агрессивно скиммируются пары родительских и дочерних пиков.",
+      "tr": "Ana-alt pik çiftlerinin ne kadar agresif ayıklandığını kontrol etmek için Skim Ratio kriterini ayarlayın."
+    },
+    {
+      "en": "Apply the advanced integration parameters to process your data.",
+      "ru": "Примените расширенные параметры интеграции для обработки ваших данных.",
+      "tr": "Verilerinizi işlemek için gelişmiş entegrasyon parametrelerini uygulayın."
+    },
+    {
+      "en": "Choose whether the critical width should be determined automatically or specified manually.",
+      "ru": "Выберите, должна ли критическая ширина определяться автоматически или указываться вручную.",
+      "tr": "Kritik genişliğin otomatik olarak belirlenmesi mi yoksa manuel olarak belirtilmesi mi gerektiğini seçin."
+    },
+    {
+      "en": "Click this button to apply the selected integration settings to your data.",
+      "ru": "Нажмите эту кнопку, чтобы применить выбранные настройки интеграции к вашим данным.",
+      "tr": "Seçilen entegrasyon ayarlarını verilerinize uygulamak için bu düğmeye tıklayın."
+    },
+    {
+      "en": "Enter a manual value for the critical width used during integration.",
+      "ru": "Введите ручное значение критической ширины, используемой при интеграции.",
+      "tr": "Entegrasyon sırasında kullanılan kritik genişlik için manuel bir değer girin."
+    },
+    {
+      "en": "Select the desired integration method from the dropdown. Options include Gaussian skim, perpendicular drop, tangent skim, and exponential skim.",
+      "ru": "Выберите желаемый метод интеграции из выпадающего списка. Варианты включают гауссов скимминг, перпендикулярный спуск, тангенциальный скимминг и экспоненциальный скимминг.",
+      "tr": "Açılır menüden istenen entegrasyon yöntemini seçin. Seçenekler Gauss ayıklama, dik düşüm, teğet ayıklama ve üstel ayıklamayı içerir."
+    },
+    {
+      "en": "Set the Dyson Criterion used to resolve overlapping peaks during integration.",
+      "ru": "Установите критерий Дайсона, используемый для разрешения перекрывающихся пиков во время интеграции.",
+      "tr": "Entegrasyon sırasında örtüşen pikleri çözmek için kullanılan Dyson Kriterini ayarlayın."
+    },
+    {
+      "en": "This displays the currently selected integration method from the Basic tab.",
+      "ru": "Здесь отображается текущий выбранный метод интеграции из вкладки 'Базовые'.",
+      "tr": "Bu, Temel sekmesinden seçili mevcut entegrasyon yöntemini görüntüler."
+    },
+    {
+      "en": "Calculate chromatographic resolution.",
+      "ru": "Рассчитайте хроматографическое разрешение.",
+      "tr": "Kromatografik çözünürlüğü hesaplayın."
+    },
+    {
+      "en": "Calculate the retention factor.",
+      "ru": "Рассчитайте фактор удерживания.",
+      "tr": "Alıkonma faktörünü hesaplayın."
+    },
+    {
+      "en": "Calculate the separation factor.",
+      "ru": "Рассчитайте фактор разделения.",
+      "tr": "Ayırma faktörünü hesaplayın."
+    },
+    {
+      "en": "Calculate theoretical plates and related metrics.",
+      "ru": "Рассчитайте теоретические тарелки и связанные метрики.",
+      "tr": "Teorik tabakaları ve ilgili metrikleri hesaplayın."
+    },
+    {
+      "en": "Choose the resolution calculation method.",
+      "ru": "Выберите метод расчета разрешения.",
+      "tr": "Çözünürlük hesaplama yöntemini seçin."
+    },
+    {
+      "en": "Choose whether critical width should be determined automatically.",
+      "ru": "Выберите, должна ли критическая ширина определяться автоматически.",
+      "tr": "Kritik genişliğin otomatik olarak belirlenmesi gerekip gerekmediğini seçin."
+    },
+    {
+      "en": "Click this button to calculate dynamic viscosity.",
+      "ru": "Нажмите эту кнопку, чтобы рассчитать динамическую вязкость.",
+      "tr": "Dinamik viskoziteyi hesaplamak için bu düğmeye tıklayın."
+    },
+    {
+      "en": "Click this button to calculate the selected additional column performance metrics.",
+      "ru": "Нажмите эту кнопку, чтобы рассчитать выбранные дополнительные метрики производительности колонки.",
+      "tr": "Seçilen ek kolon performans metriklerini hesaplamak için bu düğmeye tıklayın."
+    },
+    {
+      "en": "Enter a manual critical width value.",
+      "ru": "Введите ручное значение критической ширины.",
+      "tr": "Manuel kritik genişlik değeri girin."
+    },
+    {
+      "en": "Enter a manual critical width.",
+      "ru": "Введите ручную критическую ширину.",
+      "tr": "Manuel kritik genişlik girin."
+    },
+    {
+      "en": "Enter dead time manually.",
+      "ru": "Введите мертвое время вручную.",
+      "tr": "Ölü zamanı manuel olarak girin."
+    },
+    {
+      "en": "Enter the back pressure observed for the column in bar. This is required for permeability, specific permeability, and flow resistance calculations.",
+      "ru": "Введите наблюдаемое обратное давление колонки в барах. Это необходимо для расчета проницаемости, удельной проницаемости и сопротивления потоку.",
+      "tr": "Kolon için gözlemlenen geri basıncı bar cinsinden girin. Bu, geçirgenlik, özgül geçirgenlik ve akış direnci hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the column dead time manually.",
+      "ru": "Введите мертвое время колонки вручную.",
+      "tr": "Kolon ölü zamanını manuel olarak girin."
+    },
+    {
+      "en": "Enter the column length in millimeters.",
+      "ru": "Введите длину колонки в миллиметрах.",
+      "tr": "Kolon uzunluğunu milimetre cinsinden girin."
+    },
+    {
+      "en": "Enter the dead time manually.",
+      "ru": "Введите мертвое время вручную.",
+      "tr": "Ölü zamanı manuel olarak girin."
+    },
+    {
+      "en": "Enter the dynamic viscosity of the mobile phase in mPas. This is required for specific permeability and flow resistance calculations.",
+      "ru": "Введите динамическую вязкость подвижной фазы в мПа·с. Это необходимо для расчета удельной проницаемости и сопротивления потоку.",
+      "tr": "Mobil fazın dinamik viskozitesini mPas cinsinden girin. Bu, özgül geçirgenlik ve akış direnci hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the flow rate of the mobile phase in mL/min. This is required for packing porosity, specific permeability, and flow resistance calculations.",
+      "ru": "Введите скорость потока подвижной фазы в мл/мин. Это необходимо для расчета пористости упаковки, удельной проницаемости и сопротивления потоку.",
+      "tr": "Mobil fazın akış hızını mL/dk cinsinden girin. Bu, dolgu gözenekliliği, özgül geçirgenlik ve akış direnci hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the mobile phase viscosity.",
+      "ru": "Введите вязкость подвижной фазы.",
+      "tr": "Mobil faz viskozitesini girin."
+    },
+    {
+      "en": "Enter the observed back pressure.",
+      "ru": "Введите наблюдаемое обратное давление.",
+      "tr": "Gözlemlenen geri basıncı girin."
+    },
+    {
+      "en": "Enter the stationary phase particle size in micrometers.",
+      "ru": "Введите размер частиц стационарной фазы в микрометрах.",
+      "tr": "Sabit faz partikül boyutunu mikrometre cinsinden girin."
+    },
+    {
+      "en": "Enter the temperature at which to calculate dynamic viscosity.",
+      "ru": "Введите температуру, при которой рассчитывается динамическая вязкость.",
+      "tr": "Dinamik viskozitenin hesaplanacağı sıcaklığı girin."
+    },
+    {
+      "en": "Include peak width measurements in the results table.",
+      "ru": "Включите измерения ширины пиков в таблицу результатов.",
+      "tr": "Sonuç tablosuna pik genişliği ölçümlerini dahil edin."
+    },
+    {
+      "en": "Interactively select peaks to use for the calculation.",
+      "ru": "Интерактивно выберите пики для использования в расчете.",
+      "tr": "Hesaplama için kullanılacak pikleri etkileşimli olarak seçin."
+    },
+    {
+      "en": "Select methods for calculating separation impedance.",
+      "ru": "Выберите методы для расчета импеданса разделения.",
+      "tr": "Ayırma empedansını hesaplamak için yöntemleri seçin."
+    },
+    {
+      "en": "Select mobile phase mixture components to calculate viscosity for.",
+      "ru": "Выберите компоненты смеси подвижной фазы для расчета вязкости.",
+      "tr": "Viskozite hesaplamak için mobil faz karışım bileşenlerini seçin."
+    },
+    {
+      "en": "Select the first set of peaks.",
+      "ru": "Выберите первый набор пиков.",
+      "tr": "İlk pik setini seçin."
+    },
+    {
+      "en": "Select the peak representing dead time.",
+      "ru": "Выберите пик, представляющий мертвое время.",
+      "tr": "Ölü zamanı temsil eden piki seçin."
+    },
+    {
+      "en": "Select the peak used to estimate dead time.",
+      "ru": "Выберите пик, используемый для оценки мертвого времени.",
+      "tr": "Ölü zamanı tahmin etmek için kullanılan piki seçin."
+    },
+    {
+      "en": "Select the second set of peaks.",
+      "ru": "Выберите второй набор пиков.",
+      "tr": "İkinci pik setini seçin."
+    },
+    {
+      "en": "Select which additional column-specific performance metrics to calculate.",
+      "ru": "Выберите, какие дополнительные метрики производительности колонки рассчитывать.",
+      "tr": "Hangi ek kolona özgü performans metriklerinin hesaplanacağını seçin."
+    },
+    {
+      "en": "Specify the type of fraction to use. Choices include volumetric, mass, or mole fractions.",
+      "ru": "Укажите тип используемой доли. Варианты включают объемные, массовые или мольные доли.",
+      "tr": "Kullanılacak kesir türünü belirtin. Seçenekler hacimsel, kütle veya mol kesirlerini içerir."
+    },
+    {
+      "en": "Specify which peak represents the dead time.",
+      "ru": "Укажите, какой пик представляет мертвое время.",
+      "tr": "Hangi pikin ölü zamanı temsil ettiğini belirtin."
+    },
+    {
+      "en": "Toggle automatic critical width.",
+      "ru": "Переключите автоматическую критическую ширину.",
+      "tr": "Otomatik kritik genişliği açın/kapatın."
+    },
+    {
+      "en": "mL/min",
+      "ru": "мл/мин",
+      "tr": "mL/dk"
+    },
+    {
+      "en": "Adjust the aspect ratio for TPA plots.",
+      "ru": "Настройте соотношение сторон для графиков TPA.",
+      "tr": "TPA grafikleri için en-boy oranını ayarlayın."
+    },
+    {
+      "en": "Adjust the chromatogram aspect ratio.",
+      "ru": "Настройте соотношение сторон хроматограммы.",
+      "tr": "Kromatogram en-boy oranını ayarlayın."
+    },
+    {
+      "en": "Choose the export directory.",
+      "ru": "Выберите директорию для экспорта.",
+      "tr": "Dışa aktarma dizinini seçin."
+    },
+    {
+      "en": "Enter the back pressure.",
+      "ru": "Введите обратное давление.",
+      "tr": "Geri basıncı girin."
+    },
+    {
+      "en": "Enter the batch number.",
+      "ru": "Введите номер партии.",
+      "tr": "Parti numarasını girin."
+    },
+    {
+      "en": "Enter the column part number.",
+      "ru": "Введите номер детали колонки.",
+      "tr": "Kolon parça numarasını girin."
+    },
+    {
+      "en": "Enter the column serial number.",
+      "ru": "Введите серийный номер колонки.",
+      "tr": "Kolon seri numarasını girin."
+    },
+    {
+      "en": "Enter the column temperature.",
+      "ru": "Введите температуру колонки.",
+      "tr": "Kolon sıcaklığını girin."
+    },
+    {
+      "en": "Enter the concentration units to display in the report.",
+      "ru": "Введите единицы концентрации для отображения в отчете.",
+      "tr": "Raporda görüntülenecek konsantrasyon birimlerini girin."
+    },
+    {
+      "en": "Enter the concentrations corresponding to the selected peaks.",
+      "ru": "Введите концентрации, соответствующие выбранным пикам.",
+      "tr": "Seçilen piklere karşılık gelen konsantrasyonları girin."
+    },
+    {
+      "en": "Enter the document number for the report.",
+      "ru": "Введите номер документа для отчета.",
+      "tr": "Rapor için belge numarasını girin."
+    },
+    {
+      "en": "Enter the flow rate.",
+      "ru": "Введите скорость потока.",
+      "tr": "Akış hızını girin."
+    },
+    {
+      "en": "Enter the injection volume.",
+      "ru": "Введите объем инъекции.",
+      "tr": "Enjeksiyon hacmini girin."
+    },
+    {
+      "en": "Enter the mobile phase composition.",
+      "ru": "Введите состав подвижной фазы.",
+      "tr": "Mobil faz bileşimini girin."
+    },
+    {
+      "en": "Enter the name of the operator.",
+      "ru": "Введите имя оператора.",
+      "tr": "Operatör adını girin."
+    },
+    {
+      "en": "Enter the names of the peaks to be displayed.",
+      "ru": "Введите названия пиков для отображения.",
+      "tr": "Görüntülenecek pik adlarını girin."
+    },
+    {
+      "en": "Enter the shipment solvent composition.",
+      "ru": "Введите состав растворителя поставки.",
+      "tr": "Sevkiyat çözücü bileşimini girin."
+    },
+    {
+      "en": "Generate the PDF report.",
+      "ru": "Сгенерируйте PDF-отчет.",
+      "tr": "PDF raporunu oluşturun."
+    },
+    {
+      "en": "Manually or interactively select specific peaks to include in the report.",
+      "ru": "Вручную или интерактивно выберите конкретные пики для включения в отчет.",
+      "tr": "Rapora dahil edilecek belirli pikleri manuel veya etkileşimli olarak seçin."
+    },
+    {
+      "en": "Provide a brief description of the column.",
+      "ru": "Предоставьте краткое описание колонки.",
+      "tr": "Kolonun kısa bir açıklamasını sağlayın."
+    },
+    {
+      "en": "Select which additional performance metrics to include.",
+      "ru": "Выберите, какие дополнительные метрики производительности включить.",
+      "tr": "Hangi ek performans metriklerinin dahil edileceğini seçin."
+    },
+    {
+      "en": "Select which theoretical plate metrics to use and specify their QC limits.",
+      "ru": "Выберите, какие метрики теоретических тарелок использовать, и укажите их пределы QC.",
+      "tr": "Hangi teorik tabaka metriklerinin kullanılacağını seçin ve QC sınırlarını belirtin."
+    },
+    {
+      "en": "Select which type of chromatogram chart to include in the report.",
+      "ru": "Выберите, какой тип диаграммы хроматограммы включить в отчет.",
+      "tr": "Rapora hangi tür kromatogram grafiğinin dahil edileceğini seçin."
+    },
+    {
+      "en": "Set the report font size.",
+      "ru": "Установите размер шрифта отчета.",
+      "tr": "Rapor yazı tipi boyutunu ayarlayın."
+    },
+    {
+      "en": "This module allows you to generate a comprehensive HPLC column performance report in PDF format.",
+      "ru": "Этот модуль позволяет создавать комплексный отчет о производительности ВЭЖХ-колонки в формате PDF.",
+      "tr": "Bu modül, PDF formatında kapsamlı bir HPLC kolon performans raporu oluşturmanızı sağlar."
+    },
+    {
+      "en": "Upload a custom logo.",
+      "ru": "Загрузите пользовательский логотип.",
+      "tr": "Özel bir logo yükleyin."
+    },
+    {
+      "en": "View report generation messages.",
+      "ru": "Просмотрите сообщения о генерации отчета.",
+      "tr": "Rapor oluşturma mesajlarını görüntüleyin."
+    },
+    {
+      "en": "Okay",
+      "ru": "Окей",
+      "tr": "Tamam"
+    },
+    {
+      "en": "Back",
+      "ru": "Предыдущая",
+      "tr": "Önceki"
+    },
+    {
+      "en": "Done",
+      "ru": "Закрыть",
+      "tr": "Kapat"
+    },
+    {
+      "en": "Peak Information",
+      "ru": "Информация о пиках",
+      "tr": "Pik Bilgileri"
+    },
+    {
+      "en": "Peak Selection",
+      "ru": "Меню выбора пиков",
+      "tr": "Pik Şeçim Menüsü"
+    },
+    {
+      "en": "Apply",
+      "ru": "Применить",
+      "tr": "Uygula"
+    },
+    {
+      "en": "No file selected",
+      "ru": "Файл не выбран",
+      "tr": "Dosya henüz seçilmedi"
+    },
+    {
+      "en": "1. File Data Import",
+      "ru": "1. Импортирование данных",
+      "tr": "1. Dosya Yükleme"
+    },
+    {
+      "en": "Save/load method",
+      "ru": "Сохранить/загрузить метод",
+      "tr": "Parametre kaydet/yükle"
+    },
+    {
+      "en": "2. Baseline Correction",
+      "ru": "2. Коррекция базовой линии",
+      "tr": "2. Temel Çizgi Düzeltme"
+    },
+    {
+      "en": "3. Smoothing",
+      "ru": "3. Сглаживание",
+      "tr": "3. Yumuşatma"
+    },
+    {
+      "en": "4. Peak Detection",
+      "ru": "4. Обнаружение пиков",
+      "tr": "4. Pik Algılama"
+    },
+    {
+      "en": "5. Integration",
+      "ru": "5. Интеграция",
+      "tr": "5. Entegrasyon"
+    },
+    {
+      "en": "6. Deconvolution",
+      "ru": "6. Деконволюция",
+      "tr": "6. Dekonvolüsyon"
+    },
+    {
+      "en": "7. Peak Symmetry",
+      "ru": "7. Симметрия пиков",
+      "tr": "7. Pik Simetrisi"
+    },
+    {
+      "en": "8. Performance Metrics",
+      "ru": "8. Показатели производительности",
+      "tr": "8. Performans Metrikleri"
+    },
+    {
+      "en": "9. Reporting",
+      "ru": "9. Отчетность",
+      "tr": "9. Raporlama"
+    },
+    {
+      "en": "Current File:",
+      "ru": "Текущий файл:",
+      "tr": "Mevcut Dosya:"
+    },
+    {
+      "en": "Loaded Settings:",
+      "ru": "Загруженные настройки:",
+      "tr": "Yüklenen Ayarlar:"
+    },
+    {
+      "en": "No file loaded",
+      "ru": "Файл не загружен",
+      "tr": "Dosya yüklenmedi"
+    },
+    {
+      "en": "No settings loaded",
+      "ru": "Настройки не загружены",
+      "tr": "Ayarlar yüklenmedi"
+    },
+    {
+      "en": "Intro",
+      "ru": "Справка",
+      "tr": "Tur at"
+    },
+    {
+      "en": "General Tour",
+      "ru": "Общий тур",
+      "tr": "Genel Bilgi"
+    },
+    {
+      "en": "Current Tab",
+      "ru": "Текущий модуль",
+      "tr": "Aktif Sekme"
+    },
+    {
+      "en": "'. Use numbers and ranges (e.g., 1,2,5:7) or 'all'",
+      "ru": "'. Используйте числа и диапазоны (например, 1,2,5:7) или 'all'",
+      "tr": "'. Sayılar ve aralıklar kullanın (örn., 1,2,5:7) veya 'all'"
+    },
+    {
+      "en": ") does not match the number of selected peaks (",
+      "ru": ") не соответствует количеству выбранных пиков (",
+      "tr": ") seçilen pik sayısıyla eşleşmiyor ("
+    },
+    {
+      "en": ") for this metric does not match the number of selected peaks (",
+      "ru": ") для этой метрики не соответствует количеству выбранных пиков (",
+      "tr": ") bu metrik için seçilen pik sayısıyla eşleşmiyor ("
+    },
+    {
+      "en": "). Peak concentrations will be ignored.",
+      "ru": "). Концентрации пиков будут проигнорированы.",
+      "tr": "). Pik konsantrasyonları göz ardı edilecektir."
+    },
+    {
+      "en": "). Peak names will be ignored.",
+      "ru": "). Названия пиков будут проигнорированы.",
+      "tr": "). Pik adları göz ardı edilecektir."
+    },
+    {
+      "en": "). Please provide one value or one value per peak.",
+      "ru": "). Укажите одно значение или одно значение на пик.",
+      "tr": "). Lütfen bir değer veya pik başına bir değer sağlayın."
+    },
+    {
+      "en": "). Valid range: 1-",
+      "ru": "). Допустимый диапазон: 1-",
+      "tr": "). Geçerli aralık: 1-"
+    },
+    {
+      "en": "Activate this checkbox to make all column names syntactically correct (for easier plotting and further processing outside of LCQC).",
+      "ru": "Активируйте этот флажок, чтобы сделать все имена столбцов синтаксически правильными (для более легкого построения графиков и дальнейшей обработки вне LCQC).",
+      "tr": "Tüm sütun adlarını sözdizimsel olarak doğru yapmak için bu onay kutusunu etkinleştirin (LCQC dışında daha kolay grafik çizimi ve işleme için)."
+    },
+    {
+      "en": "Adjust the 'Threshold' parameter, which defines the position of the baseline relative to the noise component of the signal (between 0 and 1).",
+      "ru": "Настройте параметр 'Порог', который определяет положение базовой линии относительно шумовой составляющей сигнала (между 0 и 1).",
+      "tr": "Sinyalin gürültü bileşenine göre baz çizgisinin konumunu tanımlayan 'Eşik' parametresini ayarlayın (0 ile 1 arasında)."
+    },
+    {
+      "en": "Amplitude Fraction (0.001-50%)",
+      "ru": "Доля амплитуды (0.001-50%)",
+      "tr": "Genlik Oranı (%0.001-50)"
+    },
+    {
+      "en": "Choose how dead time (t₀) is determined.",
+      "ru": "Выберите, как определяется мертвое время (t₀).",
+      "tr": "Ölü zamanın (t₀) nasıl belirleneceğini seçin."
+    },
+    {
+      "en": "Choose the column from your CSV file that contains the intensity (or abundance) values corresponding to your chromatogram signal.",
+      "ru": "Выберите столбец из CSV-файла, содержащий значения интенсивности (или обилия), соответствующие сигналу хроматограммы.",
+      "tr": "CSV dosyanızdan kromatogram sinyalinize karşılık gelen yoğunluk (veya bolluk) değerlerini içeren sütunu seçin."
+    },
+    {
+      "en": "Choose whether to retrieve and list peak names (GC-MS only).",
+      "ru": "Выберите, следует ли получать и отображать названия пиков (только для ГХ-МС).",
+      "tr": "Pik adlarının alınıp listelenmesinin gerekip gerekmediğini seçin (yalnızca GC-MS)."
+    },
+    {
+      "en": "DEBUG: ERROR - The chromatogram plotting data (chrom_plot) is NULL.",
+      "ru": "ОТЛАДКА: ОШИБКА - Данные для построения хроматограммы (chrom_plot) равны NULL.",
+      "tr": "DEBUG: HATA - Kromatogram çizim verisi (chrom_plot) NULL."
+    },
+    {
+      "en": "Dead time (t0) is required for Separation Impedance calculation when in manual mode.",
+      "ru": "При ручном режиме для расчета импеданса разделения требуется мертвое время (t0).",
+      "tr": "Manuel modda Ayırma Empedansı hesaplaması için ölü zaman (t0) gereklidir."
+    },
+    {
+      "en": "Dead time (t0) peak index is required for Separation Impedance calculation when in peak mode.",
+      "ru": "При пиковом режиме для расчета импеданса разделения требуется индекс пика мертвого времени (t0).",
+      "tr": "Pik modunda Ayırma Empedansı hesaplaması için ölü zaman (t0) pik indeksi gereklidir."
+    },
+    {
+      "en": "Enable detection and mitigation of closely eluting (bunched) peaks.",
+      "ru": "Включите обнаружение и смягчение близко элюирующих (сгруппированных) пиков.",
+      "tr": "Yakın çıkış yapan (toplu) piklerin tespitini ve azaltılmasını etkinleştirin."
+    },
+    {
+      "en": "Enter the dead time (t0) of the column in minutes. This is required for linear velocity and permeability calculations.",
+      "ru": "Введите мертвое время (t0) колонки в минутах. Это необходимо для расчета линейной скорости и проницаемости.",
+      "tr": "Kolonun ölü zamanını (t0) dakika cinsinden girin. Bu, doğrusal hız ve geçirgenlik hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the fraction(s) of specified mobile phase components within the mixture.",
+      "ru": "Введите доли указанных компонентов подвижной фазы в смеси.",
+      "tr": "Karışım içindeki belirtilen mobil faz bileşenlerinin kesir(ler)ini girin."
+    },
+    {
+      "en": "Enter the internal diameter of the column in millimeters (mm). This is required for packing porosity, specific permeability, and flow resistance calculations.",
+      "ru": "Введите внутренний диаметр колонки в миллиметрах (мм). Это необходимо для расчета пористости упаковки, удельной проницаемости и сопротивления потоку.",
+      "tr": "Kolonun iç çapını milimetre (mm) cinsinden girin. Bu, dolgu gözenekliliği, özgül geçirgenlik ve akış direnci hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the length of your chromatographic column in millimeters (mm). This is required for linear velocity and permeability calculations.",
+      "ru": "Введите длину хроматографической колонки в миллиметрах (мм). Это необходимо для расчета линейной скорости и проницаемости.",
+      "tr": "Kromatografik kolonunuzun uzunluğunu milimetre (mm) cinsinden girin. Bu, doğrusal hız ve geçirgenlik hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Enter the stationary phase particle size in micrometers (µm). This is required for flow resistance calculations.",
+      "ru": "Введите размер частиц стационарной фазы в микрометрах (мкм). Это необходимо для расчета сопротивления потоку.",
+      "tr": "Sabit faz partikül boyutunu mikrometre (µm) cinsinden girin. Bu, akış direnci hesaplamaları için gereklidir."
+    },
+    {
+      "en": "Invalid format for peak indices. Please use comma-separated numbers or ranges (e.g., '1,3:5,8') or 'all'.",
+      "ru": "Неверный формат индексов пиков. Используйте числа или диапазоны, разделенные запятыми (например, '1,3:5,8') или 'all'.",
+      "tr": "Pik indeksleri için geçersiz format. Lütfen virgülle ayrılmış sayılar veya aralıklar (örn., '1,3:5,8') veya 'all' kullanın."
+    },
+    {
+      "en": "Missing required analytical results (theoretical plates or chromatogram plot).",
+      "ru": "Отсутствуют необходимые аналитические результаты (теоретические тарелки или график хроматограммы).",
+      "tr": "Gerekli analitik sonuçlar eksik (teorik tabakalar veya kromatogram grafiği)."
+    },
+    {
+      "en": "Peak indices out of range (",
+      "ru": "Индексы пиков вне диапазона (",
+      "tr": "Pik indeksleri aralık dışında ("
+    },
+    {
+      "en": "Select how dead time (t₀) will be determined.",
+      "ru": "Выберите, как будет определяться мертвое время (t₀).",
+      "tr": "Ölü zamanın (t₀) nasıl belirleneceğini seçin."
+    },
+    {
+      "en": "Select the character used as the decimal point in your CSV file (e.g., period or comma).",
+      "ru": "Выберите символ, используемый в качестве десятичной точки в вашем CSV-файле (например, точка или запятая).",
+      "tr": "CSV dosyanızda ondalık nokta olarak kullanılan karakteri seçin (örn., nokta veya virgül)."
+    },
+    {
+      "en": "Select the column from your CSV file that represents the time (or retention time) values for your chromatogram.",
+      "ru": "Выберите столбец из CSV-файла, представляющий значения времени (или времени удерживания) для вашей хроматограммы.",
+      "tr": "CSV dosyanızdan kromatogramınız için zaman (veya alıkonma zamanı) değerlerini temsil eden sütunu seçin."
+    },
+    {
+      "en": "Select the first peak(s) for separation factor calculation.",
+      "ru": "Выберите первый пик(и) для расчета фактора разделения.",
+      "tr": "Ayırma faktörü hesaplaması için ilk pik(ler)i seçin."
+    },
+    {
+      "en": "Select the method(s) for calculating the number of theoretical plates (N).",
+      "ru": "Выберите метод(ы) для расчета числа теоретических тарелок (N).",
+      "tr": "Teorik tabaka sayısını (N) hesaplamak için yöntem(ler)i seçin."
+    },
+    {
+      "en": "Select the peaks used to calculate the retention factor (k′).",
+      "ru": "Выберите пики, используемые для расчета фактора удерживания (k′).",
+      "tr": "Alıkonma faktörünü (k′) hesaplamak için kullanılan pikleri seçin."
+    },
+    {
+      "en": "Select the second peak(s) for separation factor calculation.",
+      "ru": "Выберите второй пик(и) для расчета фактора разделения.",
+      "tr": "Ayırma faktörü hesaplaması için ikinci pik(ler)i seçin."
+    },
+    {
+      "en": "Select the type of chromatogram acquisition mode (e.g., GC-FID, GC-MS, or HPLC) from this dropdown. This helps the application correctly parse your data.",
+      "ru": "Выберите тип режима получения хроматограммы (например, ГХ-ПИД, ГХ-МС или ВЭЖХ) из этого выпадающего списка. Это помогает приложению правильно анализировать ваши данные.",
+      "tr": "Bu açılır menüden kromatogram edinim modu türünü (örn., GC-FID, GC-MS veya HPLC) seçin. Bu, uygulamanın verilerinizi doğru şekilde ayrıştırmasına yardımcı olur."
+    },
+    {
+      "en": "Set the 'Precision' (error tolerance) required for the baseline correction algorithm to reach convergence. Smaller values lead to higher precision but longer computation times.",
+      "ru": "Установите 'Точность' (допуск ошибки), необходимую для сходимости алгоритма коррекции базовой линии. Меньшие значения приводят к более высокой точности, но более длительному времени вычислений.",
+      "tr": "Baz çizgisi düzeltme algoritmasının yakınsamaya ulaşması için gereken 'Hassasiyeti' (hata toleransı) ayarlayın. Daha küçük değerler daha yüksek hassasiyete ancak daha uzun hesaplama sürelerine yol açar."
+    },
+    {
+      "en": "Specify the character used to separate columns in your CSV file (e.g., comma, semicolon, or tab).",
+      "ru": "Укажите символ, используемый для разделения столбцов в вашем CSV-файле (например, запятая, точка с запятой или табуляция).",
+      "tr": "CSV dosyanızda sütunları ayırmak için kullanılan karakteri belirtin (örn., virgül, noktalı virgül veya sekme)."
+    },
+    {
+      "en": "Temperature (°C)",
+      "ru": "Температура (°C)",
+      "tr": "Sıcaklık (°C)"
+    },
+    {
+      "en": "This field shows the currently imported data (.CSV/.TXT) and/or settings (.JSON) file.",
+      "ru": "В этом поле показан текущий импортированный файл данных (.CSV/.TXT) и/или настроек (.JSON).",
+      "tr": "Bu alan şu anda içe aktarılan veri (.CSV/.TXT) ve/veya ayarlar (.JSON) dosyasını gösterir."
+    },
+    {
+      "en": "This module allows for modular export of all data (currently only in English).",
+      "ru": "Этот модуль позволяет модульный экспорт всех данных (в настоящее время только на английском языке).",
+      "tr": "Bu modül, tüm verilerin modüler dışa aktarımına izin verir (şu anda yalnızca İngilizce)."
+    },
+    {
+      "en": "This module is used for importing chromatographic data either as a simple two-column .CSV file or as part of a vendor-specific ASCII file (e.g. Shimadzu).",
+      "ru": "Этот модуль используется для импорта хроматографических данных либо в виде простого двухстолбцового CSV-файла, либо как часть ASCII-файла конкретного производителя (например, Shimadzu).",
+      "tr": "Bu modül, kromatografik verileri basit iki sütunlu bir .CSV dosyası olarak veya satıcıya özgü bir ASCII dosyasının (örn. Shimadzu) parçası olarak içe aktarmak için kullanılır."
+    },
+    {
+      "en": "This module saves or loads processing settings (i.e. methods).",
+      "ru": "Этот модуль сохраняет или загружает настройки обработки (т.е. методы).",
+      "tr": "Bu modül işleme ayarlarını (yani yöntemleri) kaydeder veya yükler."
+    },
+    {
+      "en": "Warning: Main results table element ('result' or 'integ_res') not found in deconvolution results.",
+      "ru": "Предупреждение: Основной элемент таблицы результатов ('result' или 'integ_res') не найден в результатах деконволюции.",
+      "tr": "Uyarı: Ana sonuç tablosu öğesi ('result' veya 'integ_res') dekonvolüsyon sonuçlarında bulunamadı."
+    },
+    {
+      "en": "Warning: Number of peak concentrations (",
+      "ru": "Предупреждение: Количество концентраций пиков (",
+      "tr": "Uyarı: Pik konsantrasyonları sayısı ("
+    },
+    {
+      "en": "Warning: Number of peak names (",
+      "ru": "Предупреждение: Количество названий пиков (",
+      "tr": "Uyarı: Pik adları sayısı ("
+    },
+    {
+      "en": "Warning: Number of specifications (",
+      "ru": "Предупреждение: Количество спецификаций (",
+      "tr": "Uyarı: Spesifikasyon sayısı ("
+    },
+    {
+      "en": "µL",
+      "ru": "мкл",
+      "tr": "µL"
+    },
+    {
+      "en": "Header Text",
+      "ru": "Текст заголовка",
+      "tr": "Başlık Metni"
+    },
+    {
+      "en": "LCQC is loading...",
+      "ru": "LCQC загружается...",
+      "tr": "LCQC yükleniyor..."
+    },
+    {
+      "en": "Yardım",
+      "ru": "Помощь",
+      "tr": "Yardım"
+    },
+    {
+      "en": "°C",
+      "ru": "°C",
+      "tr": "°C"
+    },
+    {
+      "en": "Time range cannot be constrainted since the corresponding column was not found in the data.",
+      "ru": "Ограничение временного диапазона невозможно, поскольку соответствующий столбец не найден в данных.",
+      "tr": "İlgili sütun verilerde bulunmadığı için zaman aralığı sınırlandırılamıyor."
+    },
+    {
+      "en": "Selected time or intensity columns not found in the data.",
+      "ru": "Выбранные столбцы времени или интенсивности сигнала не найдены в данных.",
+      "tr": "Seçilen zaman veya sinyal sütunları verilerde bulunamadı."
+    },
+    {
+      "en": "Data Preview for: ",
+      "ru": "Предварительный просмотр данных для: ",
+      "tr": "Veri Önizlemesi: "
+    },
+    {
+      "en": "Error creating plot:",
+      "ru": "Ошибка при создании графика:",
+      "tr": "Grafik oluşturma hatası:"
+    },
+    {
+      "en": "Select a Data Source",
+      "ru": "Выберите источник данных",
+      "tr": "Veri Kaynağı Seçin"
+    },
+    {
+      "en": "No similarity table data available.",
+      "ru": "Нет данных таблицы сходства.",
+      "tr": "Benzerlik tablosu bulunamadı."
+    },
+    {
+      "en": "No peak names data available.",
+      "ru": "Нет данных названий пиков.",
+      "tr": "Pik adlari bulunamadı."
+    },
+    {
+      "en": "Copied!",
+      "ru": "Скопировано!",
+      "tr": "Kopyalandı!"
+    },
+    {
+      "en": "Copy",
+      "ru": "Копировать",
+      "tr": "Kopyala"
+    },
+    {
+      "en": "Creating output",
+      "ru": "Создание выходных данных",
+      "tr": "Çıktı oluşturuluyor"
+    },
+    {
+      "en": "Error in",
+      "ru": "Ошибка в",
+      "tr": "Hata:"
+    },
+    {
+      "en": "Fraction",
+      "ru": "Доля",
+      "tr": "Kesir"
+    },
+    {
+      "en": "Invalid baseline correction method",
+      "ru": "Неверный метод коррекции базовой линии",
+      "tr": "Geçersiz baz çizgisi düzeltme yöntemi"
+    },
+    {
+      "en": "No chromatogram data loaded. Please load a file first.",
+      "ru": "Данные хроматограммы не загружены. Сначала загрузите файл.",
+      "tr": "Kromatogram verisi yüklenmedi. Lütfen önce bir dosya yükleyin."
+    },
+    {
+      "en": "Processing data",
+      "ru": "Обработка данных",
+      "tr": "Veri işleniyor"
+    },
+    {
+      "en": "Applying Smoothing",
+      "ru": "Применение сглаживания",
+      "tr": "Yumuşatma Uygulanıyor"
+    },
+    {
+      "en": "Error in automatic smoothing parameter determination:",
+      "ru": "Ошибка при автоматическом определении параметров сглаживания:",
+      "tr": "Otomatik yumuşatma parametresi belirleme hatası:"
+    },
+    {
+      "en": "Error in smoothing:",
+      "ru": "Ошибка при сглаживании:",
+      "tr": "Yumuşatma hatası:"
+    },
+    {
+      "en": "No baseline corrected data available. Please perform baseline correction first.",
+      "ru": "Нет данных с коррекцией базовой линии. Сначала выполните коррекцию базовой линии.",
+      "tr": "Baz çizgisi düzeltilmiş veri mevcut değil. Lütfen önce baz çizgisi düzeltmesi yapın."
+    },
+    {
+      "en": "Call:",
+      "ru": "Вызов:",
+      "tr": "Çağrı:"
+    },
+    {
+      "en": "Error.",
+      "ru": "Ошибка.",
+      "tr": "Hata."
+    },
+    {
+      "en": "Index",
+      "ru": "Индекс",
+      "tr": "İndeks"
+    },
+    {
+      "en": "Message:",
+      "ru": "Сообщение:",
+      "tr": "Mesaj:"
+    },
+    {
+      "en": "No original chromatogram data available for peak detection. Please import data in the first tab.",
+      "ru": "Нет исходных данных хроматограммы для обнаружения пиков. Импортируйте данные на первой вкладке.",
+      "tr": "Pik tespiti için orijinal kromatogram verisi mevcut değil. Lütfen ilk sekmede veri içe aktarın."
+    },
+    {
+      "en": "Performing Peak Detection...",
+      "ru": "Выполняется обнаружение пиков...",
+      "tr": "Pik Tespiti Yapılıyor..."
+    },
+    {
+      "en": "Preparing parameters...",
+      "ru": "Подготовка параметров...",
+      "tr": "Parametreler hazırlanıyor..."
+    },
+    {
+      "en": "Processing results...",
+      "ru": "Обработка результатов...",
+      "tr": "Sonuçlar işleniyor..."
+    },
+    {
+      "en": "Running chrom_detect...",
+      "ru": "Запуск chrom_detect...",
+      "tr": "chrom_detect çalıştırılıyor..."
+    },
+    {
+      "en": "Z-score Limits",
+      "ru": "Пределы Z-оценки",
+      "tr": "Z-skoru Sınırları"
+    },
+    {
+      "en": "Applying Integration",
+      "ru": "Применение интеграции",
+      "tr": "Entegrasyon Uygulanıyor"
+    },
+    {
+      "en": "Error in integration:",
+      "ru": "Ошибка при интеграции:",
+      "tr": "Entegrasyon hatası:"
+    },
+    {
+      "en": "Generating outputs",
+      "ru": "Генерация выходных данных",
+      "tr": "Çıktılar oluşturuluyor"
+    },
+    {
+      "en": "Integration plot could not be generated.",
+      "ru": "Не удалось создать график интеграции.",
+      "tr": "Entegrasyon grafiği oluşturulamadı."
+    },
+    {
+      "en": "No peak detection data available. Please perform peak detection first.",
+      "ru": "Нет данных обнаружения пиков. Сначала выполните обнаружение пиков.",
+      "tr": "Pik tespit verisi mevcut değil. Lütfen önce pik tespiti yapın."
+    },
+    {
+      "en": "Performing integration",
+      "ru": "Выполнение интеграции",
+      "tr": "Entegrasyon yapılıyor"
+    },
+    {
+      "en": "Preparing data",
+      "ru": "Подготовка данных",
+      "tr": "Veri hazırlanıyor"
+    },
+    {
+      "en": "Applying Deconvolution",
+      "ru": "Применение деконволюции",
+      "tr": "Dekonvolüsyon Uygulanıyor"
+    },
+    {
+      "en": "Deconvolution completed successfully.",
+      "ru": "Деконволюция успешно завершена.",
+      "tr": "Dekonvolüsyon başarıyla tamamlandı."
+    },
+    {
+      "en": "Deconvolution completed, but no detailed summary information was provided in the results.",
+      "ru": "Деконволюция завершена, но подробная сводная информация не была предоставлена в результатах.",
+      "tr": "Dekonvolüsyon tamamlandı, ancak sonuçlarda ayrıntılı özet bilgisi sağlanmadı."
+    },
+    {
+      "en": "Performing deconvolution",
+      "ru": "Выполнение деконволюции",
+      "tr": "Dekonvolüsyon yapılıyor"
+    },
+    {
+      "en": "Warning",
+      "ru": "Предупреждение",
+      "tr": "Uyarı"
+    },
+    {
+      "en": "Warning: Expected ggplot object for plot 1, but 'modplot' element is not a ggplot object.",
+      "ru": "Предупреждение: Ожидался объект ggplot для графика 1, но элемент 'modplot' не является объектом ggplot.",
+      "tr": "Uyarı: Grafik 1 için ggplot nesnesi bekleniyordu, ancak 'modplot' öğesi bir ggplot nesnesi değil."
+    },
+    {
+      "en": "Warning: Expected ggplot object for plot 2, but 'modplot' element is not a ggplot object.",
+      "ru": "Предупреждение: Ожидался объект ggplot для графика 2, но элемент 'modplot' не является объектом ggplot.",
+      "tr": "Uyarı: Grafik 2 için ggplot nesnesi bekleniyordu, ancak 'modplot' öğesi bir ggplot nesnesi değil."
+    },
+    {
+      "en": "Calculating Peak Symmetry",
+      "ru": "Расчет симметрии пиков",
+      "tr": "Pik Simetrisi Hesaplanıyor"
+    },
+    {
+      "en": "Error calculating peak symmetry:",
+      "ru": "Ошибка при расчете симметрии пиков:",
+      "tr": "Pik simetrisi hesaplama hatası:"
+    },
+    {
+      "en": "Error displaying plot.",
+      "ru": "Ошибка при отображении графика.",
+      "tr": "Grafik görüntüleme hatası."
+    },
+    {
+      "en": "Invalid format: '",
+      "ru": "Неверный формат: '",
+      "tr": "Geçersiz format: '"
+    },
+    {
+      "en": "Invalid plot index selected.",
+      "ru": "Выбран неверный индекс графика.",
+      "tr": "Geçersiz grafik indeksi seçildi."
+    },
+    {
+      "en": "Invalid range format: ",
+      "ru": "Неверный формат диапазона: ",
+      "tr": "Geçersiz aralık formatı: "
+    },
+    {
+      "en": "No peaks detected. Please perform peak detection first.",
+      "ru": "Пики не обнаружены. Сначала выполните обнаружение пиков.",
+      "tr": "Pik tespit edilmedi. Lütfen önce pik tespiti yapın."
+    },
+    {
+      "en": "Peaks error:",
+      "ru": "Ошибка пиков:",
+      "tr": "Pik hatası:"
+    },
+    {
+      "en": "Select at least one peak",
+      "ru": "Выберите хотя бы один пик",
+      "tr": "En az bir pik seçin"
+    },
+    {
+      "en": "Back pressure and mobile phase viscosity are required for Separation Impedance calculation.",
+      "ru": "Для расчета импеданса разделения требуются обратное давление и вязкость подвижной фазы.",
+      "tr": "Ayırma Empedansı hesaplaması için geri basınç ve mobil faz viskozitesi gereklidir."
+    },
+    {
+      "en": "Calculating Additional Metrics",
+      "ru": "Расчет дополнительных метрик",
+      "tr": "Ek Metrikler Hesaplanıyor"
+    },
+    {
+      "en": "Calculating Resolution",
+      "ru": "Расчет разрешения",
+      "tr": "Çözünürlük Hesaplanıyor"
+    },
+    {
+      "en": "Calculating Retention Factors",
+      "ru": "Расчет факторов удерживания",
+      "tr": "Alıkonma Faktörleri Hesaplanıyor"
+    },
+    {
+      "en": "Calculating Separation Factors",
+      "ru": "Расчет факторов разделения",
+      "tr": "Ayırma Faktörleri Hesaplanıyor"
+    },
+    {
+      "en": "Column length is required for HETP and h calculation.",
+      "ru": "Для расчета ВЭТТ и h требуется длина колонки.",
+      "tr": "HETP ve h hesaplaması için kolon uzunluğu gereklidir."
+    },
+    {
+      "en": "Dead time and Column length are required.",
+      "ru": "Требуются мертвое время и длина колонки.",
+      "tr": "Ölü zaman ve Kolon uzunluğu gereklidir."
+    },
+    {
+      "en": "Each component must have a fraction.",
+      "ru": "Каждый компонент должен иметь долю.",
+      "tr": "Her bileşenin bir kesiri olmalıdır."
+    },
+    {
+      "en": "Error calculating additional metrics:",
+      "ru": "Ошибка при расчете дополнительных метрик:",
+      "tr": "Ek metrikler hesaplama hatası:"
+    },
+    {
+      "en": "Error calculating resolution:",
+      "ru": "Ошибка при расчете разрешения:",
+      "tr": "Çözünürlük hesaplama hatası:"
+    },
+    {
+      "en": "Error calculating retention factors:",
+      "ru": "Ошибка при расчете факторов удерживания:",
+      "tr": "Alıkonma faktörleri hesaplama hatası:"
+    },
+    {
+      "en": "Error calculating separation factors:",
+      "ru": "Ошибка при расчете факторов разделения:",
+      "tr": "Ayırma faktörleri hesaplama hatası:"
+    },
+    {
+      "en": "Flow rate, Column Internal Diameter, Back Pressure, Mobile Phase Viscosity, and Particle Size are required for the selected metrics.",
+      "ru": "Для выбранных метрик требуются скорость потока, внутренний диаметр колонки, обратное давление, вязкость подвижной фазы и размер частиц.",
+      "tr": "Seçilen metrikler için Akış hızı, Kolon İç Çapı, Geri Basınç, Mobil Faz Viskozitesi ve Partikül Boyutu gereklidir."
+    },
+    {
+      "en": "Formatting results",
+      "ru": "Форматирование результатов",
+      "tr": "Sonuçlar biçimlendiriliyor"
+    },
+    {
+      "en": "Fraction Type",
+      "ru": "Тип доли",
+      "tr": "Kesir Türü"
+    },
+    {
+      "en": "Fractions must sum to exactly 1.",
+      "ru": "Сумма долей должна быть равна 1.",
+      "tr": "Kesirlerin toplamı tam olarak 1 olmalıdır."
+    },
+    {
+      "en": "Invalid dead time peak index for Theoretical Plates.",
+      "ru": "Неверный индекс пика мертвого времени для теоретических тарелок.",
+      "tr": "Teorik Tabakalar için geçersiz ölü zaman pik indeksi."
+    },
+    {
+      "en": "Mobile phase components",
+      "ru": "Компоненты подвижной фазы",
+      "tr": "Mobil faz bileşenleri"
+    },
+    {
+      "en": "Only MeOH-H2O and MeCN-H2O aqueous mixtures are presently allowed!",
+      "ru": "В настоящее время допускаются только водные смеси MeOH-H2O и MeCN-H2O!",
+      "tr": "Şu anda yalnızca MeOH-H2O ve MeCN-H2O sulu karışımlarına izin verilmektedir!"
+    },
+    {
+      "en": "Particle diameter is required for HETP calculation.",
+      "ru": "Для расчета ВЭТТ требуется диаметр частицы.",
+      "tr": "HETP hesaplaması için partikül çapı gereklidir."
+    },
+    {
+      "en": "Peaks 1 and Peaks 2 must have equal length!",
+      "ru": "Пики 1 и Пики 2 должны иметь одинаковую длину!",
+      "tr": "Pikler 1 ve Pikler 2 eşit uzunlukta olmalıdır!"
+    },
+    {
+      "en": "Peaks 2 error:",
+      "ru": "Ошибка пиков 2:",
+      "tr": "Pikler 2 hatası:"
+    },
+    {
+      "en": "Performing calculation",
+      "ru": "Выполнение расчета",
+      "tr": "Hesaplama yapılıyor"
+    },
+    {
+      "en": "Preparing inputs",
+      "ru": "Подготовка входных данных",
+      "tr": "Girdiler hazırlanıyor"
+    },
+    {
+      "en": "Select at least one peak from each group",
+      "ru": "Выберите хотя бы один пик из каждой группы",
+      "tr": "Her gruptan en az bir pik seçin"
+    },
+    {
+      "en": "Unequal selection: %d vs %d peaks. Must be equal!",
+      "ru": "Неравный выбор: %d против %d пиков. Должно быть равное количество!",
+      "tr": "Eşit olmayan seçim: %d vs %d pik. Eşit olmalı!"
+    },
+    {
+      "en": "Viscosity Calculation",
+      "ru": "Расчет вязкости",
+      "tr": "Viskozite Hesaplaması"
+    },
+    {
+      "en": ". Only valid indices will be used.",
+      "ru": ". Будут использованы только допустимые индексы.",
+      "tr": ". Yalnızca geçerli indeksler kullanılacaktır."
+    },
+    {
+      "en": "Error creating export directory:",
+      "ru": "Ошибка при создании директории экспорта:",
+      "tr": "Dışa aktarma dizini oluşturma hatası:"
+    },
+    {
+      "en": "Error generating report: ",
+      "ru": "Ошибка при создании отчета: ",
+      "tr": "Rapor oluşturma hatası: "
+    },
+    {
+      "en": "Error parsing peak concentrations. Please use comma-separated numbers.",
+      "ru": "Ошибка при разборе концентраций пиков. Используйте числа, разделенные запятыми.",
+      "tr": "Pik konsantrasyonları ayrıştırma hatası. Lütfen virgülle ayrılmış sayılar kullanın."
+    },
+    {
+      "en": "Error parsing peak indices:",
+      "ru": "Ошибка при разборе индексов пиков:",
+      "tr": "Pik indeksleri ayrıştırma hatası:"
+    },
+    {
+      "en": "Export directory is not writable. Please choose a different location.",
+      "ru": "Директория экспорта недоступна для записи. Выберите другое расположение.",
+      "tr": "Dışa aktarma dizini yazılabilir değil. Lütfen farklı bir konum seçin."
+    },
+    {
+      "en": "Generating Performance Report",
+      "ru": "Создание отчета о производительности",
+      "tr": "Performans Raporu Oluşturuluyor"
+    },
+    {
+      "en": "Generating report...",
+      "ru": "Создание отчета...",
+      "tr": "Rapor oluşturuluyor..."
+    },
+    {
+      "en": "Integration data is missing. Please carry out integration first!",
+      "ru": "Данные интеграции отсутствуют. Сначала выполните интеграцию!",
+      "tr": "Entegrasyon verisi eksik. Lütfen önce entegrasyon yapın!"
+    },
+    {
+      "en": "Peak selection with names and concentrations applied successfully",
+      "ru": "Выбор пиков с названиями и концентрациями успешно применен",
+      "tr": "Adları ve konsantrasyonları ile pik seçimi başarıyla uygulandı"
+    },
+    {
+      "en": "Please specify an export directory.",
+      "ru": "Укажите директорию для экспорта.",
+      "tr": "Lütfen bir dışa aktarma dizini belirtin."
+    },
+    {
+      "en": "Preparing data for render...",
+      "ru": "Подготовка данных для отрисовки...",
+      "tr": "Render için veri hazırlanıyor..."
+    },
+    {
+      "en": "Rendering...",
+      "ru": "Отрисовка...",
+      "tr": "Oluşturuluyor..."
+    },
+    {
+      "en": "Report generated successfully in ",
+      "ru": "Отчет успешно создан в ",
+      "tr": "Rapor başarıyla oluşturuldu: "
+    },
+    {
+      "en": "Report generation failed: ",
+      "ru": "Создание отчета не удалось: ",
+      "tr": "Rapor oluşturma başarısız: "
+    },
+    {
+      "en": "Report successfully generated at: ",
+      "ru": "Отчет успешно создан по адресу: ",
+      "tr": "Rapor başarıyla oluşturuldu: "
+    },
+    {
+      "en": "Select peaks to enter names and concentrations",
+      "ru": "Выберите пики для ввода названий и концентраций",
+      "tr": "Ad ve konsantrasyon girmek için pikleri seçin"
+    },
+    {
+      "en": "Theoretical plate data is missing.",
+      "ru": "Данные теоретических тарелок отсутствуют.",
+      "tr": "Teorik tabaka verisi eksik."
+    },
+    {
+      "en": "Upload Custom Logo",
+      "ru": "Загрузить пользовательский логотип",
+      "tr": "Özel Logo Yükle"
+    },
+    {
+      "en": "Warning: Invalid peak indices entered:",
+      "ru": "Предупреждение: Введены неверные индексы пиков:",
+      "tr": "Uyarı: Geçersiz pik indeksleri girildi:"
+    },
+    {
+      "en": "Signal",
+      "ru": "Сигнал",
+      "tr": "Sinyal"
+    },
+    {
+      "en": "Peaks",
+      "ru": "Пики",
+      "tr": "Pikler"
+    },
+    {
+      "en": "Chromatogram",
+      "ru": "Хроматограмма",
+      "tr": "Kromatogram"
+    },
+    {
+      "en": "Retention Time (min)",
+      "ru": "Время удерживания (мин)",
+      "tr": "Alıkonma zamanı (dk)"
+    },
+    {
+      "en": "Signal Intensity",
+      "ru": "Интенсивность сигнала",
+      "tr": "Sinyal Yoğunluğu"
+    },
+    {
+      "en": "Chromatogram (No Peak Detection Results Yet)",
+      "ru": "Хроматограмма (результаты обнаружения пиков пока отсутствуют)",
+      "tr": "Kromatogram (Henüz Pik Tespit Sonucu Yok)"
+    },
+    {
+      "en": "Corrected Signal",
+      "ru": "Скорректированный сигнал",
+      "tr": "Düzeltilmiş Sinyal"
+    },
+    {
+      "en": "Derivative Limits",
+      "ru": "Пределы производных",
+      "tr": "Türev Sınırları"
+    },
+    {
+      "en": "First Derivative (Noise)",
+      "ru": "Первая производная (шум)",
+      "tr": "Birinci Türev (Gürültü)"
+    },
+    {
+      "en": "First Derivative Peak Detection Threshold",
+      "ru": "Порог обнаружения пиков первой производной",
+      "tr": "Birinci Türev Pik Tespit Eşiği"
+    },
+    {
+      "en": "No TPA plots generated (check peak suitability)",
+      "ru": "Графики TPA не созданы (проверьте пригодность пиков)",
+      "tr": "TPA grafikleri oluşturulmadı (pik uygunluğunu kontrol edin)"
+    },
+    {
+      "en": "Original Signal",
+      "ru": "Исходный сигнал",
+      "tr": "Orijinal Sinyal"
+    },
+    {
+      "en": "Peak detection chromatogram (with peak markers)",
+      "ru": "Хроматограмма с обнаруженными пиками (с маркерами пиков)",
+      "tr": "Pik tespitli kromatogram (pik işaretleriyle)"
+    },
+    {
+      "en": "Savitsky-Golay smoothing is not supported for derivatives! Use methods 'Triangular' or 'Rectangular' instead.",
+      "ru": "Сглаживание Савицкого-Голея не поддерживается для производных! Вместо этого используйте методы 'Треугольный' или 'Прямоугольный'.",
+      "tr": "Savitzky-Golay yumuşatması türevler için desteklenmiyor! Bunun yerine 'Üçgen' veya 'Dikdörtgen' yöntemlerini kullanın."
+    },
+    {
+      "en": "Second Derivative (Noise)",
+      "ru": "Вторая производная (шум)",
+      "tr": "İkinci Türev (Gürültü)"
+    },
+    {
+      "en": "Second Derivative Peak Detection Threshold",
+      "ru": "Порог обнаружения пиков второй производной",
+      "tr": "İkinci Türev Pik Tespit Eşiği"
+    },
+    {
+      "en": "Signal (pre-processed)",
+      "ru": "Сигнал (предобработанный)",
+      "tr": "Sinyal (ön işlenmiş)"
+    },
+    {
+      "en": "Smoothed Signal",
+      "ru": "Сглаженный сигнал",
+      "tr": "Yumuşatılmış Sinyal"
+    },
+    {
+      "en": "TPA Plot Aspect Ratio",
+      "ru": "Соотношение сторон графика TPA",
+      "tr": "TPA Grafik En-Boy Oranı"
+    },
+    {
+      "en": "Time (min)",
+      "ru": "Время (мин)",
+      "tr": "Zaman (dk)"
+    },
+    {
+      "en": "Baseline",
+      "ru": "Базовая линия",
+      "tr": "Baz Çizgisi"
+    },
+    {
+      "en": "Intensity",
+      "ru": "Интенсивность",
+      "tr": "Yoğunluk"
+    },
+    {
+      "en": "Applying Baseline Correction",
+      "ru": "Применение коррекции базовой линии",
+      "tr": "Baz Çizgisi Düzeltmesi Uygulanıyor"
+    },
+    {
+      "en": "Could not identify Time or Signal column for fallback plot.",
+      "ru": "Не удалось определить столбец времени или сигнала для резервного графика.",
+      "tr": "Yedek grafik için Zaman veya Sinyal sütunu belirlenemedi."
+    },
+    {
+      "en": "Peak detection returned unexpected results structure.",
+      "ru": "Обнаружение пиков вернуло неожиданную структуру результатов.",
+      "tr": "Pik tespiti beklenmeyen sonuç yapısı döndürdü."
+    },
+    {
+      "en": "Select Settings",
+      "ru": "Выберите настройки",
+      "tr": "Ayarları Seç"
+    },
+    {
+      "en": "Error",
+      "ru": "Ошибка",
+      "tr": "Hata"
+    },
+    {
+      "en": "Please provide a name for the settings.",
+      "ru": "Пожалуйста, укажите имя для настроек.",
+      "tr": "Lütfen ayarlar için bir ad belirtin."
+    },
+    {
+      "en": "Success!",
+      "ru": "Успех!",
+      "tr": "Başarılı!"
+    },
+    {
+      "en": "Settings saved as",
+      "ru": "Настройки сохранены как",
+      "tr": "Ayarlar kaydedildi:"
+    },
+    {
+      "en": "Failed to save settings:",
+      "ru": "Не удалось сохранить настройки:",
+      "tr": "Ayarlar kaydedilemedi:"
+    },
+    {
+      "en": "No saved settings found.",
+      "ru": "Сохраненные настройки не найдены.",
+      "tr": "Kaydedilmiş ayar bulunamadı."
+    },
+    {
+      "en": "Settings loaded successfully.",
+      "ru": "Настройки успешно загружены.",
+      "tr": "Ayarlar başarıyla yüklendi."
+    },
+    {
+      "en": "Failed to load settings:",
+      "ru": "Не удалось загрузить настройки:",
+      "tr": "Ayarlar yüklenemedi:"
+    },
+    {
+      "en": "Settings imported successfully.",
+      "ru": "Настройки успешно импортированы.",
+      "tr": "Ayarlar başarıyla içe aktarıldı."
+    },
+    {
+      "en": "Failed to import file:",
+      "ru": "Не удалось импортировать файл:",
+      "tr": "Dosya içe aktarılamadı:"
+    },
+    {
+      "en": "Could not update all settings. The settings file might be outdated or corrupted. Error:",
+      "ru": "Не удалось обновить все настройки. Файл настроек может быть устаревшим или поврежденным. Ошибка:",
+      "tr": "Tüm ayarlar güncellenemedi. Ayarlar dosyası eski veya bozuk olabilir. Hata:"
+    },
+    {
+      "en": "Default settings file not found.",
+      "ru": "Файл настроек по умолчанию не найден.",
+      "tr": "Varsayılan ayarlar dosyası bulunamadı."
+    },
+    {
+      "en": "Default settings loaded for:",
+      "ru": "Настройки по умолчанию загружены для:",
+      "tr": "Varsayılan ayarlar yüklendi:"
+    },
+    {
+      "en": "Defaults",
+      "ru": "По умолчанию",
+      "tr": "Varsayılanlar"
+    },
+    {
+      "en": "Failed to load default settings:",
+      "ru": "Не удалось загрузить настройки по умолчанию:",
+      "tr": "Varsayılan ayarlar yüklenemedi:"
+    },
+    {
+      "en": "Load Defaults",
+      "ru": "Загрузить по умолчанию",
+      "tr": "Varsayılanları Yükle"
+    },
+    {
+      "en": "Please select a JSON file to import.",
+      "ru": "Выберите JSON-файл для импорта.",
+      "tr": "Lütfen içe aktarılacak bir JSON dosyası seçin."
+    },
+    {
+      "en": "Please select at least one module to import settings for.",
+      "ru": "Выберите хотя бы один модуль для импорта настроек.",
+      "tr": "Lütfen ayarları içe aktarmak için en az bir modül seçin."
+    },
+    {
+      "en": "Please select at least one module to load defaults for.",
+      "ru": "Выберите хотя бы один модуль для загрузки настроек по умолчанию.",
+      "tr": "Lütfen varsayılanları yüklemek için en az bir modül seçin."
+    },
+    {
+      "en": "Select Modules to Import or Load Defaults",
+      "ru": "Выберите модули для импорта или загрузки по умолчанию",
+      "tr": "İçe Aktarılacak veya Varsayılanları Yüklenecek Modülleri Seçin"
+    },
+    {
+      "en": "Settings imported successfully for:",
+      "ru": "Настройки успешно импортированы для:",
+      "tr": "Ayarlar başarıyla içe aktarıldı:"
+    },
+    {
+      "en": "Manage Settings",
+      "ru": "Управление настройками",
+      "tr": "Ayarları Yönet"
+    },
+    {
+      "en": "Save",
+      "ru": "Сохранить",
+      "tr": "Kaydet"
+    },
+    {
+      "en": "Save Current Settings",
+      "ru": "Сохранить текущие настройки",
+      "tr": "Mevcut Ayarları Kaydet"
+    },
+    {
+      "en": "Export Current Settings",
+      "ru": "Экспортировать текущие настройки",
+      "tr": "Mevcut Ayarları Dışarı Aktar"
+    },
+    {
+      "en": "Settings Name",
+      "ru": "Название настроек",
+      "tr": "Ayar Adı"
+    },
+    {
+      "en": "e.g., my_hplc_method",
+      "ru": "например, мой_метод_ВЭЖХ",
+      "tr": "örn., hplc_metodum"
+    },
+    {
+      "en": "Load Saved Settings",
+      "ru": "Загрузить сохраненные настройки",
+      "tr": "Kaydedilmiş Ayarları Yükle"
+    },
+    {
+      "en": "Load",
+      "ru": "Загрузить",
+      "tr": "Yükle"
+    },
+    {
+      "en": "Import Settings from File",
+      "ru": "Импортировать настройки из файла",
+      "tr": "Dosyadan Ayarları İçe Aktar"
+    },
+    {
+      "en": "Choose JSON File",
+      "ru": "Выберите файл JSON",
+      "tr": "JSON Dosyası Seç"
+    },
+    {
+      "en": "Import",
+      "ru": "Импорт",
+      "tr": "İçe Aktar"
+    },
+    {
+      "en": "Filename",
+      "ru": "Имя файла",
+      "tr": "Dosya Adı"
+    },
+    {
+      "en": "File Data Import",
+      "ru": "Импортирование Данных",
+      "tr": "Veri Yükleme"
+    },
+    {
+      "en": "GC-FID",
+      "ru": "ГХ-ПИД",
+      "tr": "GC-FID"
+    },
+    {
+      "en": "GC-MS",
+      "ru": "ГХ-МС",
+      "tr": "GC-MS"
+    },
+    {
+      "en": "HPLC",
+      "ru": "ВЭЖХ",
+      "tr": "HPLC"
+    },
+    {
+      "en": "Chromatogram Mode",
+      "ru": "Режим хроматограммы",
+      "tr": "Kromatogram Modu"
+    },
+    {
+      "en": "Choose Data",
+      "ru": "Выберите тип данных",
+      "tr": "Veri türünü seçin"
+    },
+    {
+      "en": "Shimadzu TXT",
+      "ru": "Файл ТХТ Shimadzu",
+      "tr": "Shimadzu TXT dosyası"
+    },
+    {
+      "en": "CSV File",
+      "ru": "Файл CSV",
+      "tr": "CSV Dosyası"
+    },
+    {
+      "en": "Basic",
+      "ru": "Базовый",
+      "tr": "Temel"
+    },
+    {
+      "en": "Advanced",
+      "ru": "Расширенные",
+      "tr": "Gelişmiş"
+    },
+    {
+      "en": "Choose TXT File",
+      "ru": "Выбрать TXT файл",
+      "tr": "TXT Dosyası Seç"
+    },
+    {
+      "en": "Choose Chromatogram",
+      "ru": "Выбрать хроматограмму",
+      "tr": "Kromatogram Seç"
+    },
+    {
+      "en": "Choose Peak Table",
+      "ru": "Выбрать таблицу пиков",
+      "tr": "Pik Tablosu Seç"
+    },
+    {
+      "en": "RT Lower",
+      "ru": "Минимальное ВУ",
+      "tr": "RT Alt Sınır"
+    },
+    {
+      "en": "RT Upper",
+      "ru": "Максимальное ВУ",
+      "tr": "RT Üst Sınır"
+    },
+    {
+      "en": "Time Column",
+      "ru": "Столбец времени",
+      "tr": "Zaman Sütunu"
+    },
+    {
+      "en": "Intensity Column",
+      "ru": "Столбец интенсивности",
+      "tr": "Yoğunluk Sütunu"
+    },
+    {
+      "en": "Extract Similarity Table (GC-MS only)",
+      "ru": "Извлечь таблицу сходства (только ГХ-МС)",
+      "tr": "Benzerlik Tablosu Çıkar (GC-MS Sadece)"
+    },
+    {
+      "en": "Extract Peak Table",
+      "ru": "Извлечь таблицу пиков",
+      "tr": "Pik Tablosu Çıkar"
+    },
+    {
+      "en": "Retrieve Peak Names",
+      "ru": "Получить названия пиков",
+      "tr": "Pik Adlarını Al"
+    },
+    {
+      "en": "Retrieve CAS Numbers (GC-MS only)",
+      "ru": "Получить номера CAS (только ГХ-МС)",
+      "tr": "CAS Numaralarını Al (GC-MS Sadece)"
+    },
+    {
+      "en": "Retrieve Metadata",
+      "ru": "Получить метаданные",
+      "tr": "Meta Verileri Al"
+    },
+    {
+      "en": "Column Separator",
+      "ru": "Разделитель столбцов",
+      "tr": "Sütun Ayırıcı"
+    },
+    {
+      "en": "Decimal Separator",
+      "ru": "Десятичный разделитель",
+      "tr": "Ondalık Ayırıcı"
+    },
+    {
+      "en": "Fix Column Names",
+      "ru": "Исправить названия столбцов",
+      "tr": "Sütun Adlarını Düzelt"
+    },
+    {
+      "en": "Filter Columns",
+      "ru": "Фильтровать столбцы",
+      "tr": "Sütunları Filtrele"
+    },
+    {
+      "en": "Choose CSV File",
+      "ru": "Выбрать CSV файл",
+      "tr": "CSV Dosyası Seç"
+    },
+    {
+      "en": "Retention Time Lower Limit",
+      "ru": "Нижний предел времени удерживания",
+      "tr": "Alıkonma Süresi Alt Sınırı"
+    },
+    {
+      "en": "Retention Time Upper Limit",
+      "ru": "Верхний предел времени удерживания",
+      "tr": "Alıkonma Süresi Üst Sınırı"
+    },
+    {
+      "en": "Header Row",
+      "ru": "Строка заголовка",
+      "tr": "Başlık Satırı"
+    },
+    {
+      "en": "Show Peak Markers and Names",
+      "ru": "Показать названия пиков",
+      "tr": "Pik Adlarını Göster"
+    },
+    {
+      "en": "Metadata",
+      "ru": "Метаданные",
+      "tr": "Meta Verileri"
+    },
+    {
+      "en": "Chromatogram Data",
+      "ru": "Данные хроматограммы",
+      "tr": "Kromatogram Verileri"
+    },
+    {
+      "en": "Peak Table",
+      "ru": "Таблица пиков",
+      "tr": "Pik Tablosu"
+    },
+    {
+      "en": "Similarity Table",
+      "ru": "Таблица сходства",
+      "tr": "Benzerlik Tablosu"
+    },
+    {
+      "en": "Peak Names",
+      "ru": "Названия пиков",
+      "tr": "Pik adları"
+    },
+    {
+      "en": "Data Source",
+      "ru": "Источник данных",
+      "tr": "Veri Kaynağı"
+    },
+    {
+      "en": "pcas",
+      "ru": "pcas",
+      "tr": "pcas"
+    },
+    {
+      "en": "Baseline Correction",
+      "ru": "Коррекция Базовой Линии",
+      "tr": "Temel Çizgi Düzeltme"
+    },
+    {
+      "en": "Baseline Fraction",
+      "ru": "Фракция базовой линии",
+      "tr": "Temel Çizgi Oranı"
+    },
+    {
+      "en": "Baseline Correction Method",
+      "ru": "Метод базовой коррекции",
+      "tr": "Temel Çizgi Düzeltme Yöntemi"
+    },
+    {
+      "en": "Linear",
+      "ru": "Линейный",
+      "tr": "Doğrusal"
+    },
+    {
+      "en": "Cubic",
+      "ru": "Кубический",
+      "tr": "Kübik"
+    },
+    {
+      "en": "None",
+      "ru": "Не выбран",
+      "tr": "Seçilmemiş"
+    },
+    {
+      "en": "Iterative Asymmetric Least Squares (ALS)",
+      "ru": "Итеративный Asymmetric Least Squares (ALS)",
+      "tr": "Iteratif Asymmetric Least Squares (ALS)"
+    },
+    {
+      "en": "Chang's method",
+      "ru": "Метод Чанга",
+      "tr": "Chang Metodu"
+    },
+    {
+      "en": "Iterative Smoothing-Splines with Root Error Adjustment (ISREA)",
+      "ru": "Итеративные Сглаживающие Сплайны (алгоритм ISREA)",
+      "tr": "Iteratif Düzeltme Eğrileri (ISREA algoritması)"
+    },
+    {
+      "en": "Modified Polynomial Fit (ModPolyFit)",
+      "ru": "Модифицированная Полиномиальная Аппроксимация (ModPolyFit)",
+      "tr": "Değiştirilmiş Polynom (ModPolyFit)"
+    },
+    {
+      "en": "Skip",
+      "ru": "Пропустить",
+      "tr": "Atla"
+    },
+    {
+      "en": "Calculate Baseline",
+      "ru": "Рассчитать базовую линию",
+      "tr": "Temel Çizgiyi Hesapla"
+    },
+    {
+      "en": "Current Method:",
+      "ru": "Текущий метод:",
+      "tr": "Mevcut Yöntem:"
+    },
+    {
+      "en": "Basics",
+      "ru": "Основы",
+      "tr": "Temel"
+    },
+    {
+      "en": "Lambda",
+      "ru": "Лямбда",
+      "tr": "Lambda"
+    },
+    {
+      "en": "Degree",
+      "ru": "Градус",
+      "tr": "Derece"
+    },
+    {
+      "en": "Precision",
+      "ru": "Точность",
+      "tr": "Hassasiyet"
+    },
+    {
+      "en": "Max Iterations",
+      "ru": "Максимальное количество итераций",
+      "tr": "Maksimum İterasyon"
+    },
+    {
+      "en": "Remove Negatives",
+      "ru": "Удалить отрицательные значения",
+      "tr": "Negatifleri Kaldır"
+    },
+    {
+      "en": "Threshold",
+      "ru": "Порог",
+      "tr": "Eşik"
+    },
+    {
+      "en": "Alpha",
+      "ru": "Альфа",
+      "tr": "Alfa"
+    },
+    {
+      "en": "Segments",
+      "ru": "Сегменты",
+      "tr": "Segmentler"
+    },
+    {
+      "en": "Signal Window",
+      "ru": "Окно сигнала",
+      "tr": "Sinyal Penceresi"
+    },
+    {
+      "en": "Fit Method",
+      "ru": "Метод подгонки",
+      "tr": "Uydurma Yöntemi"
+    },
+    {
+      "en": "p",
+      "ru": "p",
+      "tr": "p"
+    },
+    {
+      "en": "bfrac",
+      "ru": "bfrac",
+      "tr": "bfrac"
+    },
+    {
+      "en": "Smoothing",
+      "ru": "Сглаживание",
+      "tr": "Yumuşatma"
+    },
+    {
+      "en": "Rectangular",
+      "ru": "Обычное",
+      "tr": "Geleneksel"
+    },
+    {
+      "en": "Savitsky-Golay (Quadratic)",
+      "ru": "Фильтр Савицкого-Голея (квадратичный)",
+      "tr": "Savitsky-Golay (karesel)"
+    },
+    {
+      "en": "Savitsky-Golay (Quartic)",
+      "ru": "Фильтр Савицкого-Голея (4го порядка)",
+      "tr": "Savitsky-Golay (4cü dereceden)"
+    },
+    {
+      "en": "Signal Smoothing Method",
+      "ru": "Метод сглаживания сигнала",
+      "tr": "Sinyal Yumuşatma Yöntemi"
+    },
+    {
+      "en": "Derivative Smoothing Method",
+      "ru": "Метод Сглаживания Производной",
+      "tr": "Türev Yumuşatma Yöntemi"
+    },
+    {
+      "en": "Current Signal Smoothing Method:",
+      "ru": "Текущий Метод Сглаживания Сигнала:",
+      "tr": "Seçili Sinyal Yumuşatma Yöntemi:"
+    },
+    {
+      "en": "Current Derivative Smoothing Method:",
+      "ru": "Текущий Метод Сглаживания Производных:",
+      "tr": "Seçili Türev Yumuşatma Yöntemi:"
+    },
+    {
+      "en": "Smoothing Method",
+      "ru": "Метод Cглаживания",
+      "tr": "Yumuşatma Yöntemi"
+    },
+    {
+      "en": "Apply Smoothing",
+      "ru": "Применить Cглаживание",
+      "tr": "Yumuşatma Uygula"
+    },
+    {
+      "en": "Points",
+      "ru": "Точки",
+      "tr": "Noktalar"
+    },
+    {
+      "en": "Passes",
+      "ru": "Повторения",
+      "tr": "Geçişler"
+    },
+    {
+      "en": "Automatically Estimate Smoothing Points and Passes",
+      "ru": "Автоматически определять кол-во точек и повторений",
+      "tr": "Yumuşatma nokta ve geçiş sayısını otomatik olarak belirle"
+    },
+    {
+      "en": "Starting Points for Auto-Smoothing",
+      "ru": "Стартовое Количество Точек",
+      "tr": "Yumuşatma noktaların başlangıç sayısı"
+    },
+    {
+      "en": "Starting Passes for Auto-Smoothing",
+      "ru": "Стартовое Количество Повторений",
+      "tr": "Yumuşatma geçişlerin başlangıç sayısı"
+    },
+    {
+      "en": "Summary",
+      "ru": "Сводка",
+      "tr": "Özet"
+    },
+    {
+      "en": "Summary of thresholds",
+      "ru": "Сводка пороговых значений",
+      "tr": "Algılama Sınırların Özeti"
+    },
+    {
+      "en": "Detection Thresholds",
+      "ru": "Пороговые Значения",
+      "tr": "Algılama Sınırları"
+    },
+    {
+      "en": "No peak detection results available yet.",
+      "ru": "Определение пиков пока не было проведено.",
+      "tr": "Pik algılama işlemi henüz yapılmamıştır."
+    },
+    {
+      "en": "First Derivative (FD):",
+      "ru": "Первая Производная:",
+      "tr": "Birinci Türev:"
+    },
+    {
+      "en": "Second Derivative (SD):",
+      "ru": "Вторая Производная:",
+      "tr": "İkinci Türev:"
+    },
+    {
+      "en": "Superior:",
+      "ru": "Верхний порог:",
+      "tr": "Üst sınır:"
+    },
+    {
+      "en": "Inferior:",
+      "ru": "Нижний порог:",
+      "tr": "Alt sınır:"
+    },
+    {
+      "en": "Z-score Limits:",
+      "ru": "Пороговые значения Z-оценки:",
+      "tr": "Z-skor Sınırları:"
+    },
+    {
+      "en": "Peak Detection Summary",
+      "ru": "Сводка Определения Пиков",
+      "tr": "Pik Algılama Özeti"
+    },
+    {
+      "en": "Manual Amplitude Threshold",
+      "ru": "Введите порог амплитуды",
+      "tr": "Sinyal sınırını giriniz"
+    },
+    {
+      "en": "Methods for derivative threshold:",
+      "ru": "Методы обнаружения пиков из производных:",
+      "tr": "Türevlerden pik tespit etme metotları:"
+    },
+    {
+      "en": "Amplitude Limit:",
+      "ru": "Порог амплитуды:",
+      "tr": "Genlik Sınırı:"
+    },
+    {
+      "en": "Amplitude Limit",
+      "ru": "Порог амплитуды",
+      "tr": "Genlik Sınırı"
+    },
+    {
+      "en": "No amplitude limit data available yet.",
+      "ru": "Данные о пороге амплитуды пока отсутствуют.",
+      "tr": "Genlik sınırı verisi henüz oluşturulmadı."
+    },
+    {
+      "en": "Peak Detection Information:",
+      "ru": "Информация об обнаружении пиков:",
+      "tr": "Pik Algılama Bilgileri:"
+    },
+    {
+      "en": "No peak detection information available yet.",
+      "ru": "Информация об обнаружении пиков пока отсутствует.",
+      "tr": "Pik algılama bilgisi henüz mevcut değil."
+    },
+    {
+      "en": "Derivative Limits:",
+      "ru": "Пределы производных:",
+      "tr": "Türev Limitleri:"
+    },
+    {
+      "en": "No derivative limits data available yet.",
+      "ru": "Данные о лимитах производных пока отсутствуют.",
+      "tr": "Türev limitleri henüz hesaplanmamıştır."
+    },
+    {
+      "en": "No Z-score limits data available yet.",
+      "ru": "Данные о предельных значениях Z-оценки пока недоступны.",
+      "tr": "Henüz Z-skoru sınırlamalarına ilişkin veri mevcut değil."
+    },
+    {
+      "en": "Manual",
+      "ru": "Ручной",
+      "tr": "Manuel"
+    },
+    {
+      "en": "Manual amplitude threshold is active.",
+      "ru": "Пороговый уровень амплитуды был задан вручную.",
+      "tr": "Manuel genlik eşiği etkin durumda."
+    },
+    {
+      "en": "Quantile Probability:",
+      "ru": "Квантильная вероятность:",
+      "tr": "Kantil Olasılığı:"
+    },
+    {
+      "en": "Max Difference Percentage:",
+      "ru": "Максимальная разница в процентах:",
+      "tr": "Maksimum Fark Yüzdesi:"
+    },
+    {
+      "en": "Z-score Lag:",
+      "ru": "Задержка Z-оценки:",
+      "tr": "Z-skor Gecikmesi:"
+    },
+    {
+      "en": "Threshold:",
+      "ru": "Порог:",
+      "tr": "Eşik:"
+    },
+    {
+      "en": "Sensitivity:",
+      "ru": "Чувствительность:",
+      "tr": "Hassasiyet:"
+    },
+    {
+      "en": "Amplitude Fraction: Not applicable when using manual threshold.",
+      "ru": "Доля амплитуды: Неприменима при использовании ручного порогового значения.",
+      "tr": "Genlik Oranı: Manuel eşik değeri kullanılırken geçerli değildir."
+    },
+    {
+      "en": "Amplitude Fraction:",
+      "ru": "Доля амплитуды:",
+      "tr": "Genlik Oranı:"
+    },
+    {
+      "en": "Amplitude Fraction (Quantile):",
+      "ru": "Доля амплитуды (квантиль):",
+      "tr": "Genlik Kesri (Kantil):"
+    },
+    {
+      "en": "Amplitude Fraction (Max Difference):",
+      "ru": "Доля амплитуды (максимальная разница):",
+      "tr": "Genlik Oranı (Maksimum Fark):"
+    },
+    {
+      "en": "Amplitude Fraction: Not applicable or not set",
+      "ru": "Доля амплитуды: Неприменима или не установлена",
+      "tr": "Genlik Oranı: Uygulanamaz veya ayarlanmamış"
+    },
+    {
+      "en": "First Derivative Sensitivity:",
+      "ru": "Чувствительность первой производной:",
+      "tr": "Birinci Türev Duyarlılığı:"
+    },
+    {
+      "en": "Second Derivative Sensitivity:",
+      "ru": "Чувствительность второй производной:",
+      "tr": "İkinci Türev Duyarlılığı:"
+    },
+    {
+      "en": "Amplitude Limit Sensitivity (Z-score):",
+      "ru": "Чувствительность к предельному значению амплитуды (Z-оценка):",
+      "tr": "Genlik Sınırı Hassasiyeti (Z-skoru):"
+    },
+    {
+      "en": "Detect and mitigate peak bunching:",
+      "ru": "Выявление и предотвращение образования групп пиков:",
+      "tr": "Pik kümelenmesini tespit et ve azalt:"
+    },
+    {
+      "en": "Simple Quantiles",
+      "ru": "Простые квантили",
+      "tr": "Basit kantiller"
+    },
+    {
+      "en": "Relative Differences",
+      "ru": "Относительные различия",
+      "tr": "Bağıl Farklılıklar"
+    },
+    {
+      "en": "Z-scores",
+      "ru": "Z-оценки",
+      "tr": "Z-skorlar"
+    },
+    {
+      "en": "Noise core estimator",
+      "ru": "Оценка уровня шума",
+      "tr": "Gürültü çekirdeği algılama"
+    },
+    {
+      "en": "Z-score based",
+      "ru": "На основе Z-оценки",
+      "tr": "Z-skoruna dayalı"
+    },
+    {
+      "en": "Vaz et al. (2016) method",
+      "ru": "Метод Vaz et al. (2016)",
+      "tr": "Vaz vd. (2016) metodu"
+    },
+    {
+      "en": "No filtering",
+      "ru": "Не применять фильтрацию",
+      "tr": "Filtreleme yok"
+    },
+    {
+      "en": "All methods",
+      "ru": "Все методы",
+      "tr": "Tüm metotlar"
+    },
+    {
+      "en": "Interquartile range",
+      "ru": "Межквартильный размах",
+      "tr": "Çeyrekler açıklığı"
+    },
+    {
+      "en": "Quantile-based",
+      "ru": "На основе квантилей",
+      "tr": "Kantil tabanlı"
+    },
+    {
+      "en": "Standard deviation-based",
+      "ru": "На основе стандартного отклонения",
+      "tr": "Standart sapmaya dayalı"
+    },
+    {
+      "en": "ApexTrack Baseline Expansion Parameters",
+      "ru": "Парамерты Алгоритма Экспансии Пиков ApexTrack",
+      "tr": "ApexTrack Pik Algılama Ayarları"
+    },
+    {
+      "en": "Liftoff (%)",
+      "ru": "Левый порог (%)",
+      "tr": "Sol sınır (%)"
+    },
+    {
+      "en": "Touchdown (%)",
+      "ru": "Правый порог (%)",
+      "tr": "Sağ sınır (%)"
+    },
+    {
+      "en": "Moving Average/SD Lag (integer)",
+      "ru": "Отставание по скользящему среднему и стандартному отклонению (целое число)",
+      "tr": "Hareketli ortalama / Standart Sapma Gecikmesi (tam sayı)"
+    },
+    {
+      "en": "Threshold (factor of standard deviation)",
+      "ru": "Пороговое значение (коэфф. стандартного отклонения",
+      "tr": "Sınır (standart sapma faktörü)"
+    },
+    {
+      "en": "Sensitivity to average and SD",
+      "ru": "Чувствительность к среднему значению и отклонению",
+      "tr": "Ortalamaya ve standart sapmaya duyarlılık"
+    },
+    {
+      "en": "Enable FastChrom Baseline Correction",
+      "ru": "Включить коррекцию базовой линии FastChrom",
+      "tr": "FastChrom Temel Çizgi Düzeltmesini Etkinleştirin"
+    },
+    {
+      "en": "Reset Filters",
+      "ru": "Сбросить Фильтры",
+      "tr": "Filtreleri Sıfırla"
+    },
+    {
+      "en": "FastChrom critical width",
+      "ru": "Критическая ширина FastChrom",
+      "tr": "FastChrom kritik genişliği"
+    },
+    {
+      "en": "Z-score Parameters",
+      "ru": "Параметры Z-оценки",
+      "tr": "Z-skoru Parametreleri"
+    },
+    {
+      "en": "Use Manual Amplitude Threshold",
+      "ru": "Использовать ручной порог амплитуды",
+      "tr": "Manuel Sinyal Sınırı Kullan"
+    },
+    {
+      "en": "Amplitude Threshold Method",
+      "ru": "Метод определения пороговой амплитуды",
+      "tr": "Sinyal Sınır Belirleme Yöntemi"
+    },
+    {
+      "en": "Amplitude Threshold Method:",
+      "ru": "Метод определения пороговой амплитуды:",
+      "tr": "Sinyal Sınır Belirleme Yöntemi:"
+    },
+    {
+      "en": "Quantile Probability (0.001-50%)",
+      "ru": "Квантильная вероятность (0.001-50%)",
+      "tr": "Kantil Olasılık (0.001-50%)"
+    },
+    {
+      "en": "Max Difference Percentage (0.001-50%)",
+      "ru": "Максимальный процент разницы (0.001-50%)",
+      "tr": "Maksimum Fark Yüzdesi (0.001-50%)"
+    },
+    {
+      "en": "Sensitivity Parameters",
+      "ru": "Параметры чувствительности",
+      "tr": "Hassasiyet Parametreleri"
+    },
+    {
+      "en": "First Derivative Sensitivity",
+      "ru": "Чувствительность первой производной",
+      "tr": "Birinci Türev Hassasiyeti"
+    },
+    {
+      "en": "Second Derivative Sensitivity",
+      "ru": "Чувствительность второй производной",
+      "tr": "İkinci Türev Hassasiyeti"
+    },
+    {
+      "en": "Amplitude Limit Sensitivity (Z-score)",
+      "ru": "Чувствительность предела амплитуды (Z-оценка)",
+      "tr": "Genlik Limiti Hassasiyeti (Z-skoru)"
+    },
+    {
+      "en": "Detect and mitigate peak bunching",
+      "ru": "Обнаружение и удаление соэлюированных пиков",
+      "tr": "Pik kümelenmesini tespit et ve azalt"
+    },
+    {
+      "en": "Derivative-based peak detection method",
+      "ru": "Порог обнаружения пиков из производных",
+      "tr": "Türev bazlı pik algılama yöntemi"
+    },
+    {
+      "en": "Outlier detection method",
+      "ru": "Порог обнаружения исключений",
+      "tr": "İstisna değer algılama yöntemi"
+    },
+    {
+      "en": "Peak Rejection Filters",
+      "ru": "Фильтры пиков",
+      "tr": "Pik Reddetme Filtreleri"
+    },
+    {
+      "en": "Signal/Noise",
+      "ru": "Сигнал/Шум",
+      "tr": "Sinyal/Gürültü"
+    },
+    {
+      "en": "Minimum Height",
+      "ru": "Минимальная высота",
+      "tr": "Minimum Yükseklik"
+    },
+    {
+      "en": "Peak Width",
+      "ru": "Ширина пика",
+      "tr": "Pik Genişliği"
+    },
+    {
+      "en": "Peak Area",
+      "ru": "Площадь пика",
+      "tr": "Pik Alanı"
+    },
+    {
+      "en": "Boundary Verification Parameters",
+      "ru": "Параметры проверки границ",
+      "tr": "Sınır Doğrulama Parametreleri"
+    },
+    {
+      "en": "Signal Confirmation Points",
+      "ru": "Точки подтверждения сигнала",
+      "tr": "Sinyal Onay Noktaları"
+    },
+    {
+      "en": "Derivative Confirmation Points",
+      "ru": "Точки подтверждения производной",
+      "tr": "Türev Onay Noktaları"
+    },
+    {
+      "en": "Zero Crossing Parameters",
+      "ru": "Параметры пересечения нуля",
+      "tr": "Sıfır Geçiş Parametreleri"
+    },
+    {
+      "en": "Signal Zero Crossing Points",
+      "ru": "Точки пересечения нуля сигнала",
+      "tr": "Sinyal Sıfır Geçiş Noktaları"
+    },
+    {
+      "en": "Derivative Zero Crossing Points",
+      "ru": "Точки пересечения нуля производной",
+      "tr": "Türev Sıfır Geçiş Noktaları"
+    },
+    {
+      "en": "Apply Peak Detection",
+      "ru": "Применить Обнаружение Пиков",
+      "tr": "Pik Noktası Algılamayı Uygula"
+    },
+    {
+      "en": "Chromatogram Plot",
+      "ru": "Хроматограмма",
+      "tr": "Kromatogram Çizimi"
+    },
+    {
+      "en": "FD Noise Plot",
+      "ru": "График шума первой производной",
+      "tr": "Birinci Türev Gürültü Grafiği"
+    },
+    {
+      "en": "SD Noise Plot",
+      "ru": "График шума второй производной",
+      "tr": "İkinci Türev Gürültü Grafiği"
+    },
+    {
+      "en": "Information",
+      "ru": "Информация",
+      "tr": "Bilgi"
+    },
+    {
+      "en": "Peak Rejection Logic",
+      "ru": "Логика отбраковки пиков",
+      "tr": "Pik Reddetme Mantığı"
+    },
+    {
+      "en": "Pre-Classification Logic",
+      "ru": "Логика до классификации",
+      "tr": "Sınıflandırma Öncesi Mantık"
+    },
+    {
+      "en": "Post-Classification Logic",
+      "ru": "Логика после классификации",
+      "tr": "Sınıflandırma Sonrası Mantık"
+    },
+    {
+      "en": "Or (Disjunction)",
+      "ru": "Или (логика 'OR')",
+      "tr": "Veya ('OR' mantığı)"
+    },
+    {
+      "en": "And (Conjunction)",
+      "ru": "И (логика 'AND')",
+      "tr": "Ve ('AND' mantığı)"
+    },
+    {
+      "en": "Integration was not yet run. No summary information available.",
+      "tr": "Entegrasyon henüz başlatılmadı.",
+      "ru": "Интеграция еще не была выполнена. Информация отсутствует."
+    },
+    {
+      "en": "Perpendicular Drop",
+      "tr": "Dik Çizgi",
+      "ru": "Перпендикулярная линия"
+    },
+    {
+      "en": "Tangent Skim",
+      "tr": "Teğet Sıyırma",
+      "ru": "Отслаивание по касательной"
+    },
+    {
+      "en": "Exponential Skim",
+      "tr": "Üstel Sıyırma",
+      "ru": "Экспоненциальное отслаивание"
+    },
+    {
+      "en": "Gaussian Skim",
+      "tr": "Gauss Sıyırma",
+      "ru": "Отслаивание Гаусса"
+    },
+    {
+      "en": "Current Method",
+      "tr": "Güncel Yöntem",
+      "ru": "Текущий метод"
+    },
+    {
+      "en": "Integration Method",
+      "tr": "Entegrasyon Yöntemi",
+      "ru": "Метод Интеграции"
+    },
+    {
+      "en": "Apply Integration",
+      "tr": "Entegrasyonu Uygula",
+      "ru": "Применить Интеграцию"
+    },
+    {
+      "en": "Skim Ratio",
+      "tr": "Sıyırma Oranı",
+      "ru": "Коэффициент Отслаивания"
+    },
+    {
+      "en": "Dyson Criterion",
+      "tr": "Dyson Kriteri",
+      "ru": "Критерий Дайсона"
+    },
+    {
+      "en": "Critical Width",
+      "tr": "Kritik Genişlik",
+      "ru": "Критическая Ширина"
+    },
+    {
+      "en": "Determine critical width automatically",
+      "tr": "Kritik genişliği otomatik olarak belirle",
+      "ru": "Определить критическую ширину автоматически"
+    },
+    {
+      "en": "Integration Plot",
+      "tr": "Entegrasyon Grafiği",
+      "ru": "График Интеграции"
+    },
+    {
+      "en": "Results Table",
+      "tr": "Sonuç Tablosu",
+      "ru": "Таблица Результатов"
+    },
+    {
+      "en": "Summary Information",
+      "tr": "Özet Bilgiler",
+      "ru": "Сводная Информация"
+    },
+    {
+      "en": "Deconvolution",
+      "ru": "Деконволюция",
+      "tr": "Dekonvolüsyon"
+    },
+    {
+      "en": "Warning: Main results table element not found in deconvolution results.",
+      "tr": "Uyarı: Dekonvolüsyon sonuçlarında ana sonuç tablosu öğesi bulunamadı.",
+      "ru": "Предупреждение: Основной элемент таблицы результатов не найден в результатах деконволюции."
+    },
+    {
+      "en": "Main deconvolution results table not found in output.",
+      "tr": "Ana dekonvolüsyon sonuç tablosu çıktıda bulunamadı.",
+      "ru": "Основная таблица результатов деконволюции не найдена в выходных данных."
+    },
+    {
+      "en": "No integration data available. Please perform integration first.",
+      "tr": "Entegrasyon verisi mevcut değil. Lütfen önce entegrasyonu gerçekleştirin.",
+      "ru": "Данные интеграции отсутствуют. Пожалуйста, сначала выполните интеграцию."
+    },
+    {
+      "en": "All Available",
+      "tr": "Tüm yöntemler",
+      "ru": "Все доступные"
+    },
+    {
+      "en": "Nelder-Mead",
+      "tr": "Nelder-Mead",
+      "ru": "Нелдер-Мид"
+    },
+    {
+      "en": "Broyden-Fletcher-Goldfarb-Shanno (BFGS)",
+      "tr": "Broyden-Fletcher-Goldfarb-Shanno (BFGS)",
+      "ru": "Бройден-Флетчер-Гольдфарб-Шанно (BFGS)"
+    },
+    {
+      "en": "Box-Constrained BFGS",
+      "tr": "Sınırlı BFGS",
+      "ru": "Ограниченный BFGS"
+    },
+    {
+      "en": "Simulated Annealing",
+      "tr": "Benzetilmiş Tavlama",
+      "ru": "Имитация отжига"
+    },
+    {
+      "en": "Exponential-Gaussian Hybrid (EGH)",
+      "tr": "Üstel-Gauss Hibrit (EGH)",
+      "ru": "Гибридный Экспоненциально-Гауссовый (EGH)"
+    },
+    {
+      "en": "Empirically-Transformed Gaussian (ETG)",
+      "tr": "Ampirik Olarak Dönüştürülmüş Gauss (ETG)",
+      "ru": "Эмпирически Преобразованный Гауссовый (ETG)"
+    },
+    {
+      "en": "Optimization Method",
+      "tr": "Optimizasyon Metodu",
+      "ru": "Метод Оптимизации"
+    },
+    {
+      "en": "Deconvolution Method",
+      "tr": "Dekonvolüsyon Yöntemi",
+      "ru": "Метод Деконволюции"
+    },
+    {
+      "en": "Model baseline-resolved peaks",
+      "tr": "Tam Çözünürlüklü Pikleri Modelle",
+      "ru": "Моделировать пики разрешённые по базовой линии"
+    },
+    {
+      "en": "Apply Deconvolution",
+      "tr": "Dekonvolüsyon Uygula",
+      "ru": "Применить Деконволюцию"
+    },
+    {
+      "en": "Selected Method:",
+      "tr": "Seçilen Yöntem:",
+      "ru": "Выбранный Метод:"
+    },
+    {
+      "en": "EMG representation",
+      "tr": "EMG versiyonu",
+      "ru": "Алгоритм EMG"
+    },
+    {
+      "en": "Modeled Groups",
+      "tr": "Modellenmiş Gruplar",
+      "ru": "Моделированные Группы"
+    },
+    {
+      "en": "Modeled Peaks",
+      "tr": "Modellenmiş Pikler",
+      "ru": "Моделированные Пики"
+    },
+    {
+      "en": "Baseline-Adjusted Peak",
+      "ru": "Пик (разрешенный)",
+      "tr": "Pik (çözülmüş)"
+    },
+    {
+      "en": "Absolute Residuals",
+      "ru": "Абсолютные остатки",
+      "tr": "Kalıntılar"
+    },
+    {
+      "en": "Gaussian Model",
+      "ru": "Гауссова модель",
+      "tr": "Gauss Modeli"
+    },
+    {
+      "en": "Absolute Residual Sum",
+      "ru": "Остатки",
+      "tr": "Kalıntı Toplamı"
+    },
+    {
+      "en": "Fronting",
+      "ru": "Фронтальность",
+      "tr": "Fronting"
+    },
+    {
+      "en": "Tailing",
+      "ru": "Хвостатость",
+      "tr": "Tailing"
+    },
+    {
+      "en": "Choose Plots:",
+      "tr": "Grafik Seç:",
+      "ru": "Выбор графика:"
+    },
+    {
+      "en": "TPA Suitability",
+      "tr": "TPA Uygunluğu",
+      "ru": "Пригодность для TPA"
+    },
+    {
+      "en": "Asymmetry Factor (As)",
+      "tr": "Asimmetri Faktörü (As)",
+      "ru": "Коэффициент асимметрии (As)"
+    },
+    {
+      "en": "USP Tailing Factor (Tf)",
+      "tr": "USP Kuyruklama Faktörü (Tf)",
+      "ru": "Коэффициент асимметрии USP (Tf)"
+    },
+    {
+      "en": "Total Peak Analysis (TPA)",
+      "tr": "Kapsamlı Pik Analizi (TPA)",
+      "ru": "Полный Анализ Пиков (TPA)"
+    },
+    {
+      "en": "Select Peaks for Peak Symmetry",
+      "tr": "Pik simetrisi için seçim yapın",
+      "ru": "Выберите пики для определения симметрии"
+    },
+    {
+      "en": "Peaks (e.g. 1:3 or comma-separated)",
+      "tr": "Pikler (ör. 1:3 veya virgülle ayrılmış)",
+      "ru": "Пики (напр. 1:3 или через запятую)"
+    },
+    {
+      "en": "Visual Select",
+      "tr": "Detaylı Seçim",
+      "ru": "Визуальный выбор"
+    },
+    {
+      "en": "Non-Linear Programming",
+      "tr": "Doğrusal Olmayan Programlama",
+      "ru": "Нелинейное программирование"
+    },
+    {
+      "en": "Peak",
+      "tr": "Pik",
+      "ru": "Пик"
+    },
+    {
+      "en": "Modelling Method",
+      "tr": "Modelleme Yöntemi",
+      "ru": "Метод Моделирования"
+    },
+    {
+      "en": "Peaks to Model",
+      "tr": "Modellenecek Pikler",
+      "ru": "Пики для Моделирования"
+    },
+    {
+      "en": "Start",
+      "tr": "Başlangıç",
+      "ru": "Начало"
+    },
+    {
+      "en": "End",
+      "tr": "Bitiş",
+      "ru": "Конец"
+    },
+    {
+      "en": "Show widths",
+      "tr": "Genişlikleri Göster",
+      "ru": "Включить значения ширины пиков в результаты"
+    },
+    {
+      "en": "Apply Modelling",
+      "tr": "Modellemeyi Uygula",
+      "ru": "Применить Моделирование"
+    },
+    {
+      "en": "Modelled Peaks Plot",
+      "tr": "Modellenmiş Pik Grafiği",
+      "ru": "График Моделированных Пиков"
+    },
+    {
+      "en": "Dynamic Viscosity (mPas)",
+      "ru": "Динамическая Вязкость (мПа·с)",
+      "tr": "Dinamik Vizkozite (mPas)"
+    },
+    {
+      "en": " (mol)",
+      "ru": " (моль)",
+      "tr": " (mol)"
+    },
+    {
+      "en": " (mass)",
+      "ru": " (по массе)",
+      "tr": " (kütlesel)"
+    },
+    {
+      "en": " (vol)",
+      "ru": " (по объёму)",
+      "tr": " (hacimsel)"
+    },
+    {
+      "en": "Volume fraction",
+      "ru": "Объёмная доля",
+      "tr": "Hacimsel fraksiyon"
+    },
+    {
+      "en": "Mass fraction",
+      "ru": "Массовая доля",
+      "tr": "Kütle fraksiyon"
+    },
+    {
+      "en": "Mole fraction",
+      "ru": "Мольная доля",
+      "tr": "Mol kesri"
+    },
+    {
+      "en": "Temperature (&deg;C)",
+      "ru": "Температура (&deg;C)",
+      "tr": "Sıcaklık (&deg;C)"
+    },
+    {
+      "en": "Performance Metrics",
+      "ru": "Показатели производительности",
+      "tr": "Performans Metrikleri"
+    },
+    {
+      "en": "Ready: Will create %d peak pairs",
+      "tr": "Hazır: %d pik çifti işlenecek",
+      "ru": "Готово: Будет обработано %d пар(ы) пиков"
+    },
+    {
+      "en": "Ready: %d peaks selected",
+      "tr": "Hazır: %d pik seçildi",
+      "ru": "Готово: Выбрано %d пиков"
+    },
+    {
+      "en": "Linear Velocity",
+      "tr": "Lineer Hız",
+      "ru": "Линейная скорость"
+    },
+    {
+      "en": "Packing Porosity",
+      "tr": "Sabit Faz Porozitesi",
+      "ru": "Пористость стационарной фазы"
+    },
+    {
+      "en": "Flow Resistance",
+      "tr": "Akış Direnci",
+      "ru": "Сопротивление потоку"
+    },
+    {
+      "en": "Permeability",
+      "tr": "Geçirgenlik",
+      "ru": "Проницаемость"
+    },
+    {
+      "en": "Specific Permeability",
+      "tr": "Özgül Geçirgenlik",
+      "ru": "Удельная проницаемость"
+    },
+    {
+      "en": "Full Width",
+      "tr": "Tam genişlik",
+      "ru": "Полная ширина"
+    },
+    {
+      "en": "Fundamental Resolution Equation",
+      "tr": "Temel Çözünürlük Denklemi",
+      "ru": "Фундаментальное уравнение разрешения"
+    },
+    {
+      "en": "Individual",
+      "tr": "Her pik için ayrı",
+      "ru": "Индивидуальный"
+    },
+    {
+      "en": "Universal",
+      "tr": "Bütünleşik",
+      "ru": "Универсальный"
+    },
+    {
+      "en": "Based on Peak",
+      "tr": "Pik Endeksinden",
+      "ru": "Использовать ВУ пика"
+    },
+    {
+      "en": "Select Peaks for Resolution",
+      "tr": "Pik çözünürlüğü için seçim yapın",
+      "ru": "Выберите пики для определения разрешения"
+    },
+    {
+      "en": "Select Peaks for Retention Factor",
+      "tr": "Tutma faktörü için seçim yapın",
+      "ru": "Выберите пики для определения фактора удерживания"
+    },
+    {
+      "en": "Select Peaks for Separation Factor",
+      "tr": "Ayırma faktörü için seçim yapın",
+      "ru": "Выберите пики для определения фактора разделения"
+    },
+    {
+      "en": "Full Width (FW)",
+      "ru": "Полная Ширина (FW)",
+      "tr": "Tam Genişlik (FW)"
+    },
+    {
+      "en": "5-Sigma (S5)",
+      "ru": "5-Сигма (S5)",
+      "tr": "5-Sigma (S5)"
+    },
+    {
+      "en": "European Pharmacopoeia (EP)",
+      "ru": "Европейская фармакопея (ЕP)",
+      "tr": "Avrupa Farmakopesi (EP)"
+    },
+    {
+      "en": "Inflection Point Width (inf)",
+      "ru": "Ширина точки перегиба (inf)",
+      "tr": "Bükülme Noktası Genişliği (inf)"
+    },
+    {
+      "en": "Area-Height (AH)",
+      "ru": "Площадь-Высота (AH)",
+      "tr": "Alan-Yükseklik (AH)"
+    },
+    {
+      "en": "Peaks 1 (e.g. 1:3 or comma-separated)",
+      "ru": "Пики 1 (напр. 1:3 или через запятую)",
+      "tr": "Pikler 1 (ör. 1:3 veya virgülle ayrılmış)"
+    },
+    {
+      "en": "Peaks 2 (e.g. 1:3 or comma-separated)",
+      "ru": "Пики 2 (напр. 1:3 или через запятую)",
+      "tr": "Pikler 2 (ör. 1:3 veya virgülle ayrılmış)"
+    },
+    {
+      "en": "All",
+      "ru": "Все доступные",
+      "tr": "Tüm metotlar"
+    },
+    {
+      "en": "Calculation Method",
+      "ru": "Метод Вычисления",
+      "tr": "Hesaplama Yöntemi"
+    },
+    {
+      "en": "Dead Time (minutes)",
+      "ru": "Мертвое время (минуты)",
+      "tr": "Ölü Zaman (dakika)"
+    },
+    {
+      "en": "Dead Time Peak Index",
+      "ru": "Индекс пика мертвого времени",
+      "tr": "Ölü Zaman Pik İndeksi"
+    },
+    {
+      "en": "Dead Time (t0) Mode",
+      "ru": "Режим вычисления мёртвого времени (t0)",
+      "tr": "Ölü Zaman Hesaplama Modu"
+    },
+    {
+      "en": "Calculate",
+      "ru": "Рассчитать",
+      "tr": "Hesapla"
+    },
+    {
+      "en": "Separation Factor",
+      "ru": "Фактор разделения",
+      "tr": "Ayırma Faktörü"
+    },
+    {
+      "en": "Theoretical Plates (N)",
+      "ru": "Теоретические тарелки (N)",
+      "tr": "Teorik Plakalar (N)"
+    },
+    {
+      "en": "Theoretical Plates Information",
+      "ru": "Информация о Теоретических Тарелках",
+      "tr": "Teorik Plaka Bilgileri"
+    },
+    {
+      "en": "Column Length (mm)",
+      "ru": "Длина колонки (мм)",
+      "tr": "Kolon Uzunluğu (mm)"
+    },
+    {
+      "en": "Flow Rate (mL/min)",
+      "ru": "Скорость тока (мл/мин)",
+      "tr": "Akış Hızı (mL/dk)"
+    },
+    {
+      "en": "Show Widths",
+      "ru": "Показать ширины",
+      "tr": "Genişlikleri Göster"
+    },
+    {
+      "en": "Back Pressure (bar)",
+      "ru": "Обратное давление (бар)",
+      "tr": "Geri Basınç (bar)"
+    },
+    {
+      "en": "Mobile Phase Viscosity (mPas)",
+      "ru": "Вязкость подвижной фазы (мПа·с)",
+      "tr": "Mobil Faz Viskozitesi (mPas)"
+    },
+    {
+      "en": "Impedance Calculation Method",
+      "ru": "Метод вычисления импеданса",
+      "tr": "Empedans Hesaplama Yöntemi"
+    },
+    {
+      "en": "Metrics to Calculate",
+      "ru": "Метрики для расчета",
+      "tr": "Hesaplanacak Metrikler"
+    },
+    {
+      "en": "Column Internal Diameter (mm)",
+      "ru": "Внутренний диаметр колонки (мм)",
+      "tr": "Kolon İç Çapı (mm)"
+    },
+    {
+      "en": "Particle Size (µm)",
+      "ru": "Размер частиц (мкм)",
+      "tr": "Partikül Boyutu (µm)"
+    },
+    {
+      "en": "Column-Specific Metrics Information",
+      "ru": "Информация о дополнительных метриках",
+      "tr": "Kolona Özel Metrik Bilgileri"
+    },
+    {
+      "en": "Retention Factor (k)",
+      "ru": "Фактор удерживания (k)",
+      "tr": "Tutma Faktörü (k)"
+    },
+    {
+      "en": "Column-Specific Metrics",
+      "ru": "Доп. Метрики Колонки",
+      "tr": "Kolona Özel Metrikler"
+    },
+    {
+      "en": "Calculate Viscosity",
+      "ru": "Рассчитать Вязкость",
+      "tr": "Viskoziteyi Hesapla"
+    },
+    {
+      "en": "HPLC_QC_REPORT_1_en",
+      "ru": "HPLC_QC_REPORT_1_ru",
+      "tr": "HPLC_QC_REPORT_1_tr"
+    },
+    {
+      "en": "Reporting",
+      "ru": "Отчетность",
+      "tr": "Raporlama"
+    },
+    {
+      "en": "Resolution Information",
+      "ru": "Информация о разрешении",
+      "tr": "Çözünürlük Bilgileri"
+    },
+    {
+      "en": "Retention Factor Information",
+      "ru": "Информация о факторе удержания",
+      "tr": "Tutma Faktörü Bilgileri"
+    },
+    {
+      "en": "Separation Factor Information",
+      "ru": "Информация о факторе разделения",
+      "tr": "Ayırma Faktörü Bilgileri"
+    },
+    {
+      "en": "2:5 or all",
+      "ru": "2:5 или через запятую",
+      "tr": "2:5 veya virgülle ayrılmış"
+    },
+    {
+      "en": "Visual Peak Selection with Names & Concentrations",
+      "ru": "Визуальный выбор пиков с указанием названий и концентраций",
+      "tr": "Pik Seçimi (pik adı ve derişim belirlemesiyle)"
+    },
+    {
+      "en": "Select Peaks",
+      "ru": "Выбор Пиков",
+      "tr": "Pikleri Seç"
+    },
+    {
+      "en": "Names & Concentrations",
+      "ru": "Названия и концентрации",
+      "tr": "Pik Adı ve Derişimler"
+    },
+    {
+      "en": "Peak Integration",
+      "ru": "Интеграция пиков",
+      "tr": "Pik İntegrasyonu"
+    },
+    {
+      "en": "Peak Deconvolution",
+      "ru": "Деконволюция пиков",
+      "tr": "Pik Dekonvolüsyonu"
+    },
+    {
+      "en": "Concentration units",
+      "ru": "Единицы измерения концентрации",
+      "tr": "Konsantrasyon birimi"
+    },
+    {
+      "en": "Include TPA Plots",
+      "ru": "Включить графики TPA",
+      "tr": "TPA Grafiklerini Ekle"
+    },
+    {
+      "en": "Asymmetry Metrics",
+      "ru": "Метрики Асимметрии",
+      "tr": "Asimetri Metrikleri"
+    },
+    {
+      "en": "Report Options",
+      "ru": "Параметры отчета",
+      "tr": "Rapor Seçenekleri"
+    },
+    {
+      "en": "Chart Selection",
+      "ru": "Выбор графика",
+      "tr": "Grafik Seçimi"
+    },
+    {
+      "en": "Peaks to Include",
+      "ru": "Включаемые пики",
+      "tr": "Dahil Edilecek Pikler"
+    },
+    {
+      "en": "Enter Peak Indices",
+      "ru": "Введите индексы пиков",
+      "tr": "Pik İndekslerini Girin"
+    },
+    {
+      "en": "Enter Peak Names",
+      "ru": "Введите названия пиков",
+      "tr": "Pik Adlarını Girin"
+    },
+    {
+      "en": "Enter Peak Concentrations",
+      "ru": "Введите концентрации пиков",
+      "tr": "Pik Konsantrasyonlarını Girin"
+    },
+    {
+      "en": "Add Additional Performance Metrics ",
+      "ru": "Добавить дополнительные показатели",
+      "tr": "Ek Performans Metrikleri Ekle"
+    },
+    {
+      "en": "Add Asymmetry metrics",
+      "ru": "Добавить метрики асимметрии",
+      "tr": "Asimetri Metrikleri Ekle"
+    },
+    {
+      "en": "Add TPA Plots",
+      "ru": "Добавить графики TPA",
+      "tr": "TPA Grafikleri Ekle"
+    },
+    {
+      "en": "Metrics and Specifications",
+      "ru": "Метрики и спецификации",
+      "tr": "Metrikler ve Spesifikasyonlar"
+    },
+    {
+      "en": "Report Content",
+      "ru": "Содержание отчета",
+      "tr": "Rapor İçeriği"
+    },
+    {
+      "en": "Document Number",
+      "ru": "Номер документа",
+      "tr": "Belge Numarası"
+    },
+    {
+      "en": "Operator",
+      "ru": "Оператор",
+      "tr": "Operatör"
+    },
+    {
+      "en": "Product Information",
+      "ru": "Информация о продукте",
+      "tr": "Ürün Bilgileri"
+    },
+    {
+      "en": "Column Serial Number",
+      "ru": "Серийный номер колонки",
+      "tr": "Kolon Seri Numarası"
+    },
+    {
+      "en": "Column Part Number",
+      "ru": "Номер детали колонки",
+      "tr": "Kolon Parça Numarası"
+    },
+    {
+      "en": "Column Description",
+      "ru": "Описание колонки",
+      "tr": "Kolon Açıklaması"
+    },
+    {
+      "en": "Batch Number",
+      "ru": "Номер партии",
+      "tr": "Parti Numarası"
+    },
+    {
+      "en": "Analytical Method",
+      "ru": "Метод анализа",
+      "tr": "Analitik Yöntem"
+    },
+    {
+      "en": "Mobile Phase",
+      "ru": "Подвижная фаза",
+      "tr": "Mobil Faz"
+    },
+    {
+      "en": "Shipment Phase",
+      "ru": "Изначальная фаза",
+      "tr": "Saklama fazi"
+    },
+    {
+      "en": "Column Temperature (°C)",
+      "ru": "Температура колонки (°C)",
+      "tr": "Kolon Sıcaklığı (°C)"
+    },
+    {
+      "en": "Injection Volume (µL)",
+      "ru": "Объем инъекции (мкл)",
+      "tr": "Enjeksiyon Hacmi (µL)"
+    },
+    {
+      "en": "Chromatogram Aspect Ratio",
+      "ru": "Соотношение сторон хроматограммы",
+      "tr": "Kromatogram En Boy Oranı"
+    },
+    {
+      "en": "Report Font Size",
+      "ru": "Размер шрифта отчета",
+      "tr": "Rapor Yazı Tipi Boyutu"
+    },
+    {
+      "en": "Upload Custom Logo (.jpg or .png)",
+      "ru": "Загрузить логотип (.jpg или .png)",
+      "tr": "Özel Logo Yükle (.jpg ve .png)"
+    },
+    {
+      "en": "Report Generation",
+      "ru": "Генерация отчета",
+      "tr": "Rapor Oluşturma"
+    },
+    {
+      "en": "Export Directory",
+      "ru": "Путь экспорта",
+      "tr": "Dışa Aktarma Dizini"
+    },
+    {
+      "en": "Generate Report",
+      "ru": "Сгенерировать отчет",
+      "tr": "Rapor Oluştur"
+    },
+    {
+      "en": "2:5 or comma-separated",
+      "ru": "2:5 или через запятую",
+      "tr": "2:5 veya virgülle ayrılmış"
+    },
+    {
+      "en": ".",
+      "tr": ",",
+      "ru": ","
+    },
+    {
+      "en": ",",
+      "tr": ".",
+      "ru": "."
+    },
+    {
+      "en": "No data available in table",
+      "tr": "Tabloda herhangi bir veri mevcut değil",
+      "ru": "В таблице отсутствуют данные"
+    },
+    {
+      "en": "Showing _START_ to _END_ of _TOTAL_ entries",
+      "tr": "_TOTAL_ kayıttan _START_ - _END_ arasındaki kayıtlar gösteriliyor",
+      "ru": "Записи с _START_ до _END_ из _TOTAL_ записей"
+    },
+    {
+      "en": "Showing 0 to 0 of 0 entries",
+      "tr": "0 kayıttan 0 ile 0 arasındakiler gösterilmektedir",
+      "ru": "Записи с 0 до 0 из 0 записей"
+    },
+    {
+      "en": "(filtered from _MAX_ total entries)",
+      "tr": "(_MAX_ kayıt içerisinden bulunan)",
+      "ru": "(отфильтровано из _MAX_ записей)"
+    },
+    {
+      "en": "Show _MENU_ entries",
+      "tr": "Sayfada _MENU_ kayıt göster",
+      "ru": "Показать _MENU_ записей"
+    },
+    {
+      "en": "Loading...",
+      "tr": "Yükleniyor...",
+      "ru": "Загрузка записей..."
+    },
+    {
+      "en": "Processing...",
+      "tr": "İşleniyor...",
+      "ru": "Подождите..."
+    },
+    {
+      "en": "Search:",
+      "tr": "Ara:",
+      "ru": "Поиск:"
+    },
+    {
+      "en": "No matching records found",
+      "tr": "Eşleşen kayıt bulunamadı",
+      "ru": "Подходящие записи не найдены"
+    },
+    {
+      "en": "First",
+      "tr": "İlk",
+      "ru": "Первая"
+    },
+    {
+      "en": "Last",
+      "tr": "Son",
+      "ru": "Предыдущая"
+    },
+    {
+      "en": "Next",
+      "tr": "Sonraki",
+      "ru": "Следующая"
+    },
+    {
+      "en": "Previous",
+      "tr": "Önceki",
+      "ru": "Последняя"
+    },
+    {
+      "en": ": activate to sort column ascending",
+      "tr": ": artan sütun sıralamasını aktifleştir",
+      "ru": ": активировать для сортировки столбца по возрастанию"
+    },
+    {
+      "en": ": activate to sort column descending",
+      "tr": ": azalan sütun soralamasını aktifleştir",
+      "ru": ": активировать для сортировки столбца по убыванию"
+    },
+    {
+      "en": "RT (min)",
+      "tr": "AZ (dk)",
+      "ru": "ВУ (мин)"
+    },
+    {
+      "en": "Area",
+      "tr": "Pik Alanı",
+      "ru": "Область пиков"
+    },
+    {
+      "en": "Width",
+      "tr": "Genişlik",
+      "ru": "Ширина"
+    },
+    {
+      "en": "Peaks 1 (Earlier-Eluting)",
+      "tr": "Pikler 1",
+      "ru": "Пики 1 (элюирующие раньше)"
+    },
+    {
+      "en": "Peaks 2 (Later-Eluting)",
+      "tr": "Pikler 2",
+      "ru": "Пики 2 (элюирующие позже)"
+    },
+    {
+      "en": "Name",
+      "tr": "Pik adı",
+      "ru": "Название"
+    },
+    {
+      "en": "Conc.",
+      "tr": "Derişim",
+      "ru": "Концентрация"
+    },
+    {
+      "en": "Group ID",
+      "tr": "Grup endeksi",
+      "ru": "Индекс группы"
+    },
+    {
+      "en": "Peak ID",
+      "tr": "Pik endeksi",
+      "ru": "Индекс пика"
+    },
+    {
+      "en": "Inflection width",
+      "tr": "Bükülme genişliği",
+      "ru": "Ширина точек перегиба"
+    },
+    {
+      "en": "Area of peak top",
+      "tr": "Pik tepesinin alanı",
+      "ru": "Площадь верхушки пика"
+    },
+    {
+      "en": "Signal-to-Noise Ratio",
+      "tr": "Sinyal-Gürültü Oranı",
+      "ru": "Сигнал/Шум"
+    },
+    {
+      "en": "Peak type",
+      "tr": "Pik türü",
+      "ru": "Тип пика"
+    },
+    {
+      "en": "Left boundary type",
+      "tr": "Sol sınır türü",
+      "ru": "Тип левой границы"
+    },
+    {
+      "en": "Right boundary type",
+      "tr": "Sağ sınır türü",
+      "ru": "Тип правой границы"
+    },
+    {
+      "en": "Index of derivative maximum",
+      "tr": "Türeve dayalı pik maksimumu",
+      "ru": "Индекс максимума по производной"
+    },
+    {
+      "en": "Index of signal maximum",
+      "tr": "Sinyala dayalı pik maksimumu",
+      "ru": "Индекс пика по сигналу"
+    },
+    {
+      "en": "Index of final maximum",
+      "tr": "Nihai maksimum endeksi",
+      "ru": "Индекс конечного максимума"
+    },
+    {
+      "en": "Index of peak start",
+      "tr": "Pik başlangıç endeksi",
+      "ru": "Индекс начала пика"
+    },
+    {
+      "en": "Index of peak end",
+      "tr": "Pik bitiş endeksi",
+      "ru": "Индекс конца пика"
+    },
+    {
+      "en": "Index of left upslope",
+      "tr": "Sol yukarı eğim noktasının indeksi",
+      "ru": "Индекс точки подъема слева"
+    },
+    {
+      "en": "Index of right upslope",
+      "tr": "Sağ yukarı eğim noktasının indeksi",
+      "ru": "Индекс точки подъема справа"
+    },
+    {
+      "en": "Index of left inflection point",
+      "tr": "Sol bükülme noktasının indeksi",
+      "ru": "Индекс левой точки перегиба"
+    },
+    {
+      "en": "Index of right inflection point",
+      "tr": "Sağ bükülme noktasının indeksi",
+      "ru": "Индекс правой точки перегиба"
+    },
+    {
+      "en": "RT at derivative maximum",
+      "tr": "Türev maksimumunda AZ",
+      "ru": "ВУ максимума по производной"
+    },
+    {
+      "en": "RT at signal maximum",
+      "tr": "Sinyal maksimumunda AZ",
+      "ru": "ВУ максимума по сигналу"
+    },
+    {
+      "en": "RT at final maximum",
+      "tr": "Son maksimumunda AZ",
+      "ru": "ВУ конечного максимума"
+    },
+    {
+      "en": "RT at peak start",
+      "tr": "Pik başında AZ",
+      "ru": "ВУ на старте пика"
+    },
+    {
+      "en": "RT at peak end",
+      "tr": "Pik başında AZ",
+      "ru": "ВУ в конце пика"
+    },
+    {
+      "en": "RT at left upslope",
+      "tr": "Sol yukarı eğim noktasında AZ",
+      "ru": "ВУ левой точки подъёма"
+    },
+    {
+      "en": "RT at right upslope",
+      "tr": "Sol yukarı eğim noktasında AZ",
+      "ru": "ВУ правой точки подъёма"
+    },
+    {
+      "en": "RT at left inflection point",
+      "tr": "Sol bükülme noktasında AZ",
+      "ru": "ВУ левой точки перегиба"
+    },
+    {
+      "en": "RT at right inflection point",
+      "tr": "Sağ bükülme noktasında AZ",
+      "ru": "ВУ правой точки перегиба"
+    },
+    {
+      "en": "Left Boundary Retention Time",
+      "tr": "Sol Sınır Alıkonma Zamanı",
+      "ru": "Время удерживания левой границы"
+    },
+    {
+      "en": "Right Boundary Retention Time",
+      "tr": "Sağ Sınır Alıkonma Zamanı",
+      "ru": "Время удерживания правой границы"
+    },
+    {
+      "en": "Initial Peak Apex Retention Time",
+      "tr": "Pik Alıkonma Zamanı",
+      "ru": "Время удерживания пика"
+    },
+    {
+      "en": "Accurate Peak Apex Retention Time",
+      "tr": "Doğru Pik Alıkonma Zamanı",
+      "ru": "Точное время удерживания пика"
+    },
+    {
+      "en": "Left Boundary Integration Type",
+      "tr": "Sol Sınır Entegrasyon Tipi",
+      "ru": "Тип интеграции левой границы"
+    },
+    {
+      "en": "Right Boundary Integration Type",
+      "tr": "Sağ Sınır Entegrasyon Tipi",
+      "ru": "Тип интеграции правой границы"
+    },
+    {
+      "en": "Peak Integration Type",
+      "tr": "Pik İntegrasyon Türü",
+      "ru": "Тип пиковой интеграции"
+    },
+    {
+      "en": "Retention Time (Start)",
+      "tr": "Alıkonma Zamanı (Başlangıç)",
+      "ru": "Время удерживания (Начало)"
+    },
+    {
+      "en": "Retention Time (Apex)",
+      "tr": "Alıkonma Zamanı (Tepe)",
+      "ru": "Время удерживания (Вершина)"
+    },
+    {
+      "en": "Accurate Retention Time (Apex)",
+      "tr": "İsabetli Alıkonma Zamanı (Tepe)",
+      "ru": "Точное время удерживания (Вершина)"
+    },
+    {
+      "en": "Retention Time (End)",
+      "tr": "Alıkonma Zamanı (Son)",
+      "ru": "Время удерживания (Конец)"
+    },
+    {
+      "en": "Model Type",
+      "tr": "Model Tipi",
+      "ru": "Тип модели"
+    },
+    {
+      "en": "RMSE (Error)",
+      "tr": "RMSE hatası",
+      "ru": "Ошибка RMSE"
+    },
+    {
+      "en": "Width A at 5%",
+      "tr": "A genişliği (%5)",
+      "ru": "Ширина А при 5%"
+    },
+    {
+      "en": "Width B at 5%",
+      "tr": "B genişliği (%5)",
+      "ru": "Ширина B при 5%"
+    },
+    {
+      "en": "Width A at 10%",
+      "tr": "A genişliği (%10)",
+      "ru": "Ширина А при 10%"
+    },
+    {
+      "en": "Width B at 10%",
+      "tr": "B genişliği (%10)",
+      "ru": "Ширина B при 10%"
+    },
+    {
+      "en": "Width A at 85%",
+      "tr": "A genişliği (%85)",
+      "ru": "Ширина А при 85%"
+    },
+    {
+      "en": "Width B at 85%",
+      "tr": "B genişliği (%85)",
+      "ru": "Ширина B при 85%"
+    },
+    {
+      "en": "Full Width at 85%",
+      "tr": "Tam Genişlik (%85)",
+      "ru": "Полная ширина при 85%"
+    },
+    {
+      "en": "Sigma (Width at 10%)",
+      "tr": "Sigma (%10'da tam genişlik)",
+      "ru": "Сигма (ширина при 10%)"
+    },
+    {
+      "en": "TPA Residual Sum (Total)",
+      "tr": "TPA Artanları (Toplam)",
+      "ru": "Сумма остатков TPA (общая)"
+    },
+    {
+      "en": "TPA Residual Sum (Front)",
+      "tr": "TPA Artanları (ilk yarıda)",
+      "ru": "Сумма остатков TPA (1я половина)"
+    },
+    {
+      "en": "TPA Residual Sum (Back)",
+      "tr": "TPA Artanları (son yarıda)",
+      "ru": "Сумма остатков TPA (2я половина)"
+    },
+    {
+      "en": "Percent Fronting",
+      "tr": "Fronting yüzdesi",
+      "ru": "Процент фронтальности"
+    },
+    {
+      "en": "Percent Tailing",
+      "tr": "Tailing yüzdesi",
+      "ru": "Процент хвостатости"
+    },
+    {
+      "en": "E (Universal)",
+      "tr": "E (Bütünleşik)",
+      "ru": "E (Универсальный)"
+    },
+    {
+      "en": "Peak ID 1",
+      "tr": "Pik 1",
+      "ru": "Пик 1"
+    },
+    {
+      "en": "Peak ID 2",
+      "tr": "Pik 2",
+      "ru": "Пик 2"
+    },
+    {
+      "en": "Peak Type 1",
+      "tr": "Pik 1 türü",
+      "ru": "Тип Пика 1"
+    },
+    {
+      "en": "Peak Type 2",
+      "tr": "Pik 2 türü",
+      "ru": "Тип Пика 2"
+    },
+    {
+      "en": "Half Width 1 (HW1)",
+      "tr": "Yarı Geniş. 1 (HW1)",
+      "ru": "50% Ширины 1 (HW1)"
+    },
+    {
+      "en": "Half Width 2 (HW2)",
+      "tr": "Yarı Geniş. 2 (HW2)",
+      "ru": "50% Ширины 2 (HW2)"
+    },
+    {
+      "en": "Fundamental Resolution (FRE)",
+      "tr": "Temel Çözünürlük (FRE)",
+      "ru": "Фундаментальное Разрешение (FRE)"
+    },
+    {
+      "en": "Ret. Time (min)",
+      "tr": "Alıkonma Zamanı (dk)",
+      "ru": "Время удерживания (мин)"
+    },
+    {
+      "en": "Ret. Time 1 (min)",
+      "tr": "Alıkonma Zamanı 1 (dk)",
+      "ru": "Время удерживания 1 (мин)"
+    },
+    {
+      "en": "Ret. Time 2 (min)",
+      "tr": "Alıkonma Zamanı 2 (dk)",
+      "ru": "Время удерживания 2 (мин)"
+    },
+    {
+      "en": "Peak Type",
+      "tr": "Pik türü",
+      "ru": "Тип Пика"
+    },
+    {
+      "en": "Dead Time t0 (min)",
+      "tr": "Ölü Zaman t0 (dk)",
+      "ru": "Мёртвое Время t0 (мин)"
+    },
+    {
+      "en": "Ret. Factor k (Peak 1)",
+      "tr": "Tutma Faktörü k (Pik 1)",
+      "ru": "Фактор удерж. (Пик 1)"
+    },
+    {
+      "en": "Ret. Factor k (Peak 2)",
+      "tr": "Tutma Faktörü k (Pik 2)",
+      "ru": "Фактор удерж. (Пик 2)"
+    },
+    {
+      "en": "Ret. Factor (k)",
+      "tr": "Tutma Faktörü (k)",
+      "ru": "Фактор удерж. (k)"
+    },
+    {
+      "en": "Metric",
+      "tr": "Metrik",
+      "ru": "Метрика"
+    },
+    {
+      "en": "Value",
+      "tr": "Sonuç",
+      "ru": "Значение"
+    },
+    {
+      "en": "Units",
+      "tr": "Birim",
+      "ru": "Единицы Измерения"
+    },
+    {
+      "en": "dimensionless",
+      "tr": "boyutsuz",
+      "ru": "безразмерная величина"
+    },
+    {
+      "en": "mm sec<sup>-1<\/sup>",
+      "tr": "mm saniye<sup>-1<\/sup>",
+      "ru": "мм сек<sup>-1<\/sup>"
+    },
+    {
+      "en": "mm<sup>2<\/sup> sec<sup>-1<\/sup> bar<sup>-1<\/sup>",
+      "tr": "mm<sup>2<\/sup> saniye<sup>-1<\/sup> bar<sup>-1<\/sup>",
+      "ru": "мм<sup>2<\/sup> сек<sup>-1<\/sup> бар<sup>-1<\/sup>"
+    },
+    {
+      "en": "mm<sup>2<\/sup>",
+      "tr": "mm<sup>2<\/sup>",
+      "ru": "мм<sup>2<\/sup>"
+    },
+    {
+      "en": "W (44%)",
+      "ru": "W (44%)",
+      "tr": "W (44%)"
+    },
+    {
+      "en": "A (44%)",
+      "ru": "A (44%)",
+      "tr": "A (44%)"
+    },
+    {
+      "en": "B (44%)",
+      "ru": "B (44%)",
+      "tr": "B (44%)"
+    },
+    {
+      "en": "W (10%)",
+      "ru": "W (10%)",
+      "tr": "W (10%)"
+    },
+    {
+      "en": "A (10%)",
+      "ru": "A (10%)",
+      "tr": "A (10%)"
+    },
+    {
+      "en": "B (10%)",
+      "ru": "B (10%)",
+      "tr": "B (10%)"
+    },
+    {
+      "en": "W (13%)",
+      "ru": "W (13%)",
+      "tr": "W (13%)"
+    },
+    {
+      "en": "A (13%)",
+      "ru": "A (13%)",
+      "tr": "A (13%)"
+    },
+    {
+      "en": "B (13%)",
+      "ru": "B (13%)",
+      "tr": "B (13%)"
+    },
+    {
+      "en": "W (50%)",
+      "ru": "W (50%)",
+      "tr": "W (50%)"
+    },
+    {
+      "en": "A (50%)",
+      "ru": "A (50%)",
+      "tr": "A (50%)"
+    },
+    {
+      "en": "B (50%)",
+      "ru": "B (50%)",
+      "tr": "B (50%)"
+    },
+    {
+      "en": "W (60%)",
+      "ru": "W (60%)",
+      "tr": "W (60%)"
+    },
+    {
+      "en": "A (60%)",
+      "ru": "A (60%)",
+      "tr": "A (60%)"
+    },
+    {
+      "en": "B (60%)",
+      "ru": "B (60%)",
+      "tr": "B (60%)"
+    },
+    {
+      "en": "N (FW)",
+      "ru": "N (FW)",
+      "tr": "N (FW)"
+    },
+    {
+      "en": "N (S5)",
+      "ru": "N (S5)",
+      "tr": "N (S5)"
+    },
+    {
+      "en": "N (EP)",
+      "ru": "N (EP)",
+      "tr": "N (EP)"
+    },
+    {
+      "en": "N (Inf.)",
+      "ru": "N (Inf.)",
+      "tr": "N (Inf.)"
+    },
+    {
+      "en": "N (AH)",
+      "ru": "N (AH)",
+      "tr": "N (AH)"
+    },
+    {
+      "en": "N (EMG)",
+      "ru": "N (EMG)",
+      "tr": "N (EMG)"
+    },
+    {
+      "en": "HETP (FW)",
+      "ru": "HETP (FW)",
+      "tr": "HETP (FW)"
+    },
+    {
+      "en": "HETP (S5)",
+      "ru": "HETP (S5)",
+      "tr": "HETP (S5)"
+    },
+    {
+      "en": "HETP (EP)",
+      "ru": "HETP (EP)",
+      "tr": "HETP (EP)"
+    },
+    {
+      "en": "HETP (Inf.)",
+      "ru": "HETP (Inf.)",
+      "tr": "HETP (Inf.)"
+    },
+    {
+      "en": "HETP (AH)",
+      "ru": "HETP (AH)",
+      "tr": "HETP (AH)"
+    },
+    {
+      "en": "HETP (EMG)",
+      "ru": "HETP (EMG)",
+      "tr": "HETP (EMG)"
+    },
+    {
+      "en": "h (FW)",
+      "ru": "h (FW)",
+      "tr": "h (FW)"
+    },
+    {
+      "en": "h (S5)",
+      "ru": "h (S5)",
+      "tr": "h (S5)"
+    },
+    {
+      "en": "h (EP)",
+      "ru": "h (EP)",
+      "tr": "h (EP)"
+    },
+    {
+      "en": "h (Inf.)",
+      "ru": "h (Inf.)",
+      "tr": "h (Inf.)"
+    },
+    {
+      "en": "h (AH)",
+      "ru": "h (AH)",
+      "tr": "h (AH)"
+    },
+    {
+      "en": "h (EMG)",
+      "ru": "h (EMG)",
+      "tr": "h (EMG)"
+    },
+    {
+      "en": "E (FW)",
+      "ru": "E (FW)",
+      "tr": "E (FW)"
+    },
+    {
+      "en": "E (S5)",
+      "ru": "E (S5)",
+      "tr": "E (S5)"
+    },
+    {
+      "en": "E (EP)",
+      "ru": "E (EP)",
+      "tr": "E (EP)"
+    },
+    {
+      "en": "E (Inf.)",
+      "ru": "E (Inf.)",
+      "tr": "E (Inf.)"
+    },
+    {
+      "en": "E (AH)",
+      "ru": "E (AH)",
+      "tr": "E (AH)"
+    },
+    {
+      "en": "E (EMG)",
+      "ru": "E (EMG)",
+      "tr": "E (EMG)"
+    },
+    {
+      "en": "Parameter",
+      "ru": "Параметр",
+      "tr": "Parametre"
+    },
+    {
+      "en": "Chromatogram with integration baselines",
+      "ru": "Хроматограмма с линиями интегрирования",
+      "tr": "Entegrasyon çizgileriyle kromatogram"
+    },
+    {
+      "en": "LCQC is designed to pre-process, detect, integrate, model, and calculate domain-specific performance metrics for HPLC columns from simple chromatographic data. The application includes modules for data import, baseline correction, smoothing, peak detection, integration, modeling, peak symmetry and performance metrics calculation, and reporting of all data in .PDF format.",
+      "ru": "LCQC предназначен для предварительной обработки, обнаружения, интеграции, моделирования и расчета специфических для данной области показателей эффективности хроматографических колонок ВЭЖХ на основе простых хроматографических данных. Приложение включает модули для импорта данных, коррекции базовой линии, сглаживания, обнаружения пиков, интеграции, моделирования, расчета симметрии пиков и показателей эффективности, а также для формирования отчетов по всем данным в формате .PDF.",
+      "tr": "LCQC, basit kromatografik verilerden HPLC kolonları için alana özgü performans metriklerini ön işleme, tespit, entegrasyon, modelleme ve hesaplama amacıyla tasarlanmıştır. Uygulama, veri içe aktarma, temel çizgi düzeltmesi, yumuşatma, tepe noktası tespiti, entegrasyon, modelleme, tepe noktası simetrisi ve performans metrikleri hesaplama ve tüm verilerin .PDF formatında raporlanması için modüller içermektedir."
+    },
+    {
+      "en": "This module is used for flexible, derivative-based peak detection using the optionally pre-processed chromatographic signal. Accurate peak apices, inflection points, upslope points, and peak boundaries are detected using various algorithms.",
+      "ru": "Этот модуль используется для гибкого обнаружения пиков на основе производных с использованием опционально предварительно обработанного хроматографического сигнала. Точные вершины пиков, точки перегиба, точки подъема и границы пиков определяются с помощью различных алгоритмов.",
+      "tr": "Bu modül, isteğe bağlı olarak önceden işlenmiş kromatografik sinyal kullanılarak esnek, türev tabanlı tepe noktası tespiti için kullanılır. Çeşitli algoritmalar kullanılarak doğru tepe noktaları, bükülme noktaları, yükseliş noktaları ve tepe sınırları tespit edilir."
+    },
+    {
+      "en": "This module allows you to calculate various performance metrics for your HPLC column, including theoretical plates, resolution, retention factor, separation factor, and additional column-specific metrics.",
+      "ru": "Этот модуль позволяет рассчитывать различные показатели производительности вашей ВЭЖХ-колонки, включая теоретические тарелки, разрешение, коэффициент удерживания, коэффициент разделения и дополнительные показатели, специфичные для данной колонки.",
+      "tr": "Bu modül, teorik plaka sayısı, çözünürlük, tutunma faktörü, ayırma faktörü ve kolona özgü ek ölçümler de dahil olmak üzere HPLC kolonunuz için çeşitli performans ölçümlerini hesaplamanıza olanak tanır."
+    },
+    {
+      "en": "Apex",
+      "ru": "Вершина",
+      "tr": "Pik tepesi"
+    },
+    {
+      "en": "Inflection",
+      "ru": "Точка перегиба",
+      "tr": "Bükülme noktası"
+    },
+    {
+      "en": "Upslope",
+      "ru": "Точка подъёма",
+      "tr": "Yokuş noktası"
+    },
+    {
+      "en": "Boundary",
+      "ru": "Граница",
+      "tr": "Sınır"
+    }
+  ]
+}

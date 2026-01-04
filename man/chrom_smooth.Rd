@@ -39,6 +39,8 @@ chrom_smooth(lcqc::simlc5[,"Signal"], method = "tri")
 O'Haver, T. (2023), \emph{A Pragmatic Introduction to Signal Processing with Applications in Scientific Measurement}, independently published, Maryland, USA, available at: \url{https://terpconnect.umd.edu/~toh/spectrum/} (last accessed 16.04.2024).
 
 Isnanto, R. Rizal (2011), 'Comparison of Several Smoothing Methods in Nonparametric Regression', \emph{Jurnal Sistem Komputer} \strong{1} (1), pp. 41-47.
+
+Savitsky, A., Golay, J.E. (1964), 'Smoothing and Differentiation of Data by Simplified Least Squares Procedures', \emph{Analytical Chemistry} \strong{36} (8), pp. 1627-1639, DOI: \url{https://doi.org/10.1021/ac60214a047}.
 }
 \seealso{
 \code{\link{chrom_width}}

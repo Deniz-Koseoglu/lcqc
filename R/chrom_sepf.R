@@ -70,16 +70,25 @@ chrom_sepf <- function(input, peaks1 = "all", peaks2 = "all", ks = c(1,"peak"), 
   ks_num <- as.numeric(ks[!is.na(suppressWarnings(as.numeric(ks)))])
   if(any(ks %in% "peak") & any(ks_num>max(pids)|ks_num<1)) stop("When a peak index is used to derive dead time, it must be within the range of the input data!")
 
+
   #Combine peaks1 and peaks2, remove all peaks eluting earlier than t0, and check for duplicates
   if(any(c(peaks1, peaks2) %in% "all")) {
-    if(any(c("peak","manual") %in% ks)) {
-      pk_rm <- if(any(ks %in% "peak")) which(pids<=ks[ks_num]) else if(any(ks %in% "manual")) which(rts<=ks[ks_num])
-      if(length(pk_rm)>0) pids <- pids[-pk_rm]
-      if(length(pk_rm)>1) cat("\nA total of ", length(pk_rm), " peaks were removed due to eluting earlier than t0!", sep = "")
-    }
-    peaks1 <- pids[-length(pids)]
-    peaks2 <- pids[-1] #Retrieve adjacent later-eluting peaks for each id in peaks1
+    if(any(peaks1 %in% "all")) peaks1 <- pids[-length(pids)]
+    if(any(peaks2 %in% "all")) peaks2 <- pids[-1]
   }
+  if(any(c("peak","manual") %in% ks)) {
+    new_pids <- pids[pids %in% peaks1]
+    new_rts <- rts[pids %in% peaks1]
+    pk_rm <- if(any(ks %in% "peak")) which(new_pids<=ks_num) else if(any(ks %in% "manual")) which(new_rts<=ks_num)
+    if(length(pk_rm)>0) {
+      new_pids <- new_pids[-pk_rm]
+      cat("\nA total of ", length(pk_rm), " peaks were removed due to eluting earlier than t0!", sep = "")
+    }
+    peaks_sub <- peaks1 %in% new_pids
+    peaks1 <- peaks1[peaks_sub]
+    peaks2 <- peaks2[peaks_sub]
+  }
+
   dupchk <- c()
   for(i in seq_along(peaks1)) {
     dupchk[i] <- peaks2[i]==peaks1[i]
@@ -90,7 +99,10 @@ chrom_sepf <- function(input, peaks1 = "all", peaks2 = "all", ks = c(1,"peak"), 
   #Additional checks
   if(length(upeaks)<=1) stop("At least two peaks must be provided to calculate separation factors!")
   if(any(ks=="peak") & length(upeaks)<=2) stop("More than 2 total peaks must be present when dead time (t0) mode is set to 'peak'! Otherwise, provide t0 explicitly.")
-  if(any(ks %in% c("peak", "manual")) & any(upeaks %in% ks_num)) stop("The peak used to determine t0 for retention factor calculation must not be included in 'peaks1' or 'peaks2'!")
+  #if(any(ks %in% c("peak", "manual")) & any(upeaks %in% ks_num)) stop("The peak used to determine t0 for retention factor calculation must not be included in 'peaks1' or 'peaks2'!")
+
+
+
   if(length(peaks1)!=length(peaks2)) stop("Peak id vectors 'peaks1' and 'peaks2' must be equal in length!")
   if(!all(upeaks %in% pids)) stop(paste0("The following peak ids were not found in the input data: ", paste0(!upeaks %in% pids, collapse = ", "), "!"))
   if(!any(ks %in% c("peak","manual")) & length(ks)!=length(upeaks)) stop("When retention factors ('ks') are provided manually, their length must equal the total number of peaks ('peaks1', 'peaks2')!")

@@ -1,0 +1,139 @@
+{
+  "translation": [
+    {
+      "en": "Deconvolution",
+      "ru": "Деконволюция",
+      "tr": "Dekonvolüsyon"
+    },
+    {
+      "en": "Deconvolution Summary Information",
+      "tr": "Dekonvolüsyon Özet Bilgileri",
+      "ru": "Информация о Деконволюции"
+    },
+    {
+      "en": "Warning: Main results table element not found in deconvolution results.",
+      "tr": "Uyarı: Dekonvolüsyon sonuçlarında ana sonuç tablosu öğesi bulunamadı.",
+      "ru": "Предупреждение: Основной элемент таблицы результатов не найден в результатах деконволюции."
+    },
+    {
+      "en": "Main deconvolution results table not found in output.",
+      "tr": "Ana dekonvolüsyon sonuç tablosu çıktıda bulunamadı.",
+      "ru": "Основная таблица результатов деконволюции не найдена в выходных данных."
+    },
+    {
+      "en": "No integration data available. Please perform integration first.",
+      "tr": "Entegrasyon verisi mevcut değil. Lütfen önce entegrasyonu gerçekleştirin.",
+      "ru": "Данные интеграции отсутствуют. Пожалуйста, сначала выполните интеграцию."
+    },
+    {
+      "en": "All Available",
+      "tr": "Tüm yöntemler",
+      "ru": "Все доступные"
+    },
+    {
+      "en": "Nelder-Mead",
+      "tr": "Nelder-Mead",
+      "ru": "Нелдер-Мид"
+    },
+    {
+      "en": "Broyden-Fletcher-Goldfarb-Shanno (BFGS)",
+      "tr": "Broyden-Fletcher-Goldfarb-Shanno (BFGS)",
+      "ru": "Бройден-Флетчер-Гольдфарб-Шанно (BFGS)"
+    },
+    {
+      "en": "Box-Constrained BFGS",
+      "tr": "Sınırlı BFGS",
+      "ru": "Ограниченный BFGS"
+    },
+    {
+      "en": "Simulated Annealing",
+      "tr": "Benzetilmiş Tavlama",
+      "ru": "Имитация отжига"
+    },
+    {
+      "en": "Simple Gaussian",
+      "tr": "Basit Gauss",
+      "ru": "Гаусс (простой)"
+    },
+    {
+      "en": "Exponentially-Modified Gaussian (EMG)",
+      "tr": "Üstel Olarak Değiştirilmiş Gauss (EMG)",
+      "ru": "Экспоненциально-модифицированный Гаусс (EMG)"
+    },
+    {
+      "en": "Exponential-Gaussian Hybrid (EGH)",
+      "tr": "Üstel-Gauss Hibrit (EGH)",
+      "ru": "Гибридный Экспоненциально-Гауссовый (EGH)"
+    },
+    {
+      "en": "Empirically-Transformed Gaussian (ETG)",
+      "tr": "Ampirik Olarak Dönüştürülmüş Gauss (ETG)",
+      "ru": "Эмпирически Преобразованный Гауссовый (ETG)"
+    },
+    {
+      "en": "Optimization Method",
+      "tr": "Optimizasyon Metodu",
+      "ru": "Метод Оптимизации"
+    },
+    {
+      "en": "Basics",
+      "tr": "Temeller",
+      "ru": "Основы"
+    },
+    {
+      "en": "Deconvolution Method",
+      "tr": "Dekonvolüsyon Yöntemi",
+      "ru": "Метод Деконволюции"
+    },
+    {
+      "en": "Critical Width",
+      "tr": "Kritik Genişlik",
+      "ru": "Критическая Ширина"
+    },
+    {
+      "en": "Model baseline-resolved peaks",
+      "tr": "Tam Çözünürlüklü Pikleri Modelle",
+      "ru": "Моделировать пики разрешённые по базовой линии"
+    },
+    {
+      "en": "Apply Deconvolution",
+      "tr": "Dekonvolüsyon Uygula",
+      "ru": "Применить Деконволюцию"
+    },
+    {
+      "en": "Advanced",
+      "tr": "Gelişmiş",
+      "ru": "Расширенные"
+    },
+    {
+      "en": "Selected Method:",
+      "tr": "Seçilen Yöntem:",
+      "ru": "Выбранный Метод:"
+    },
+    {
+      "en": "EMG representation",
+      "tr": "EMG versiyonu",
+      "ru": "Алгоритм EMG"
+    },
+    {
+      "en": "Modeled Groups",
+      "tr": "Modellenmiş Gruplar",
+      "ru": "Моделированные Группы"
+    },
+    {
+      "en": "Modeled Peaks",
+      "tr": "Modellenmiş Pikler",
+      "ru": "Моделированные Пики"
+    },
+    {
+      "en": "Results Table",
+      "tr": "Sonuç Tablosu",
+      "ru": "Таблица Результатов"
+    },
+    {
+      "en": "Summary Information",
+      "tr": "Özet Bilgiler",
+      "ru": "Сводная Информация"
+    }
+  ]
+}

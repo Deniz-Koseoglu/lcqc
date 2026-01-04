@@ -1,0 +1,324 @@
+{
+  "translation": [
+    {
+      "en": "E (Universal)",
+      "tr": "E (Bütünleşik)",
+      "ru": "E (Универсальный)"
+    },
+    {
+      "en": "Peak ID 1",
+      "tr": "Pik 1",
+      "ru": "Пик 1"
+    },
+    {
+      "en": "Peak ID 2",
+      "tr": "Pik 2",
+      "ru": "Пик 2"
+    },
+    {
+      "en": "Peak Type 1",
+      "tr": "Pik 1 türü",
+      "ru": "Тип Пика 1"
+    },
+    {
+      "en": "Peak Type 2",
+      "tr": "Pik 2 türü",
+      "ru": "Тип Пика 2"
+    },
+    {
+      "en": "Full Width (FW)",
+      "tr": "Tam Geniş. (FW)",
+      "ru": "Полная ширина (FW)"
+    },
+    {
+      "en": "Half Width 1 (HW1)",
+      "tr": "Yarı Geniş. 1 (HW1)",
+      "ru": "50% Ширины 1 (HW1)"
+    },
+    {
+      "en": "Half Width 2 (HW2)",
+      "tr": "Yarı Geniş. 2 (HW2)",
+      "ru": "50% Ширины 2 (HW2)"
+    },
+    {
+      "en": "Fundamental Resolution (FRE)",
+      "tr": "Temel Çözünürlük (FRE)",
+      "ru": "Фундаментальное Разрешение (FRE)"
+    },
+    {
+      "en": "Ret. Time (min)",
+      "tr": "Alıkonma Zamanı (dk)",
+      "ru": "Время удерживания (мин)"
+    },
+    {
+      "en": "Ret. Time 1 (min)",
+      "tr": "Alıkonma Zamanı 1 (dk)",
+      "ru": "Время удерживания 1 (мин)"
+    },
+    {
+      "en": "Ret. Time 2 (min)",
+      "tr": "Alıkonma Zamanı 2 (dk)",
+      "ru": "Время удерживания 2 (мин)"
+    },
+    {
+      "en": "Peak Type",
+      "tr": "Pik türü",
+      "ru": "Тип Пика"
+    },
+    {
+      "en": "Dead Time t0 (min)",
+      "tr": "Ölü Zaman t0 (dk)",
+      "ru": "Мёртвое Время t0 (мин)"
+    },
+    {
+      "en": "Ret. Factor k (Peak 1)",
+      "tr": "Tutma Faktörü k (Pik 1)",
+      "ru": "Фактор удерж. (Пик 1)"
+    },
+    {
+      "en": "Ret. Factor k (Peak 2)",
+      "tr": "Tutma Faktörü k (Pik 2)",
+      "ru": "Фактор удерж. (Пик 2)"
+    },
+    {
+      "en": "Ret. Factor (k)",
+      "tr": "Tutma Faktörü (k)",
+      "ru": "Фактор удерж. (k)"
+    },
+    {
+      "en": "Separation Factor",
+      "tr": "Ayırma Faktörü",
+      "ru": "Фактор Разделения"
+    },
+    {
+      "en": "Metric",
+      "tr": "Metrik",
+      "ru": "Метрика"
+    },
+    {
+      "en": "Value",
+      "tr": "Sonuç",
+      "ru": "Значение"
+    },
+    {
+      "en": "Units",
+      "tr": "Birim",
+      "ru": "Единицы Измерения"
+    },
+    {
+      "en": "dimensionless",
+      "tr": "boyutsuz",
+      "ru": "безразмерная величина"
+    },
+    {
+      "en": "mm sec<sup>-1</sup>",
+      "tr": "mm saniye<sup>-1</sup>",
+      "ru": "мм сек<sup>-1</sup>"
+    },
+    {
+      "en": "mm<sup>2</sup> sec<sup>-1</sup> bar<sup>-1</sup>",
+      "tr": "mm<sup>2</sup> saniye<sup>-1</sup> bar<sup>-1</sup>",
+      "ru": "мм<sup>2</sup> сек<sup>-1</sup> бар<sup>-1</sup>"
+    },
+    {
+      "en": "mm<sup>2</sup>",
+      "tr": "mm<sup>2</sup>",
+      "ru": "мм<sup>2</sup>"
+    },
+    {
+      "en": "W (44%)",
+      "ru": "W (44%)",
+      "tr": "W (44%)"
+    },
+    {
+      "en": "A (44%)",
+      "ru": "A (44%)",
+      "tr": "A (44%)"
+    },
+    {
+      "en": "B (44%)",
+      "ru": "B (44%)",
+      "tr": "B (44%)"
+    },
+    {
+      "en": "W (10%)",
+      "ru": "W (10%)",
+      "tr": "W (10%)"
+    },
+    {
+      "en": "A (10%)",
+      "ru": "A (10%)",
+      "tr": "A (10%)"
+    },
+    {
+      "en": "B (10%)",
+      "ru": "B (10%)",
+      "tr": "B (10%)"
+    },
+    {
+      "en": "W (13%)",
+      "ru": "W (13%)",
+      "tr": "W (13%)"
+    },
+    {
+      "en": "A (13%)",
+      "ru": "A (13%)",
+      "tr": "A (13%)"
+    },
+    {
+      "en": "B (13%)",
+      "ru": "B (13%)",
+      "tr": "B (13%)"
+    },
+    {
+      "en": "W (50%)",
+      "ru": "W (50%)",
+      "tr": "W (50%)"
+    },
+    {
+      "en": "A (50%)",
+      "ru": "A (50%)",
+      "tr": "A (50%)"
+    },
+    {
+      "en": "B (50%)",
+      "ru": "B (50%)",
+      "tr": "B (50%)"
+    },
+    {
+      "en": "W (60%)",
+      "ru": "W (60%)",
+      "tr": "W (60%)"
+    },
+    {
+      "en": "A (60%)",
+      "ru": "A (60%)",
+      "tr": "A (60%)"
+    },
+    {
+      "en": "B (60%)",
+      "ru": "B (60%)",
+      "tr": "B (60%)"
+    },
+    {
+      "en": "N (FW)",
+      "ru": "N (FW)",
+      "tr": "N (FW)"
+    },
+    {
+      "en": "N (S5)",
+      "ru": "N (S5)",
+      "tr": "N (S5)"
+    },
+    {
+      "en": "N (EP)",
+      "ru": "N (EP)",
+      "tr": "N (EP)"
+    },
+    {
+      "en": "N (Inf.)",
+      "ru": "N (Inf.)",
+      "tr": "N (Inf.)"
+    },
+    {
+      "en": "N (AH)",
+      "ru": "N (AH)",
+      "tr": "N (AH)"
+    },
+    {
+      "en": "N (EMG)",
+      "ru": "N (EMG)",
+      "tr": "N (EMG)"
+    },
+    {
+      "en": "HETP (FW)",
+      "ru": "HETP (FW)",
+      "tr": "HETP (FW)"
+    },
+    {
+      "en": "HETP (S5)",
+      "ru": "HETP (S5)",
+      "tr": "HETP (S5)"
+    },
+    {
+      "en": "HETP (EP)",
+      "ru": "HETP (EP)",
+      "tr": "HETP (EP)"
+    },
+    {
+      "en": "HETP (Inf.)",
+      "ru": "HETP (Inf.)",
+      "tr": "HETP (Inf.)"
+    },
+    {
+      "en": "HETP (AH)",
+      "ru": "HETP (AH)",
+      "tr": "HETP (AH)"
+    },
+    {
+      "en": "HETP (EMG)",
+      "ru": "HETP (EMG)",
+      "tr": "HETP (EMG)"
+    },
+    {
+      "en": "h (FW)",
+      "ru": "h (FW)",
+      "tr": "h (FW)"
+    },
+    {
+      "en": "h (S5)",
+      "ru": "h (S5)",
+      "tr": "h (S5)"
+    },
+    {
+      "en": "h (EP)",
+      "ru": "h (EP)",
+      "tr": "h (EP)"
+    },
+    {
+      "en": "h (Inf.)",
+      "ru": "h (Inf.)",
+      "tr": "h (Inf.)"
+    },
+    {
+      "en": "h (AH)",
+      "ru": "h (AH)",
+      "tr": "h (AH)"
+    },
+    {
+      "en": "h (EMG)",
+      "ru": "h (EMG)",
+      "tr": "h (EMG)"
+    },
+    {
+      "en": "E (FW)",
+      "ru": "E (FW)",
+      "tr": "E (FW)"
+    },
+    {
+      "en": "E (S5)",
+      "ru": "E (S5)",
+      "tr": "E (S5)"
+    },
+    {
+      "en": "E (EP)",
+      "ru": "E (EP)",
+      "tr": "E (EP)"
+    },
+    {
+      "en": "E (Inf.)",
+      "ru": "E (Inf.)",
+      "tr": "E (Inf.)"
+    },
+    {
+      "en": "E (AH)",
+      "ru": "E (AH)",
+      "tr": "E (AH)"
+    },
+    {
+      "en": "E (EMG)",
+      "ru": "E (EMG)",
+      "tr": "E (EMG)"
+    }
+  ]
+}

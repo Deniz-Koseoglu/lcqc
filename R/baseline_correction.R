@@ -312,7 +312,7 @@ bline_poly <- function(input, deg = 4, prec = 0.001, maxit = 100, rm_neg = TRUE)
 bline_isrea <- function(input, eta = 10, maxit = 100, rm_neg = TRUE) {
   #Preliminary checks
   if(!is.atomic(input) & !is.numeric(input)) stop("The 'input' data must be a numeric vector!")
-  if(eta>10|eta<0.001) stop("The value of 'eta' must be between 0.001 and 10!")
+  if(eta>10|eta<000.1) stop("The value of 'eta' must be between 0.001 and 10!")
   if(!is.numeric(maxit)) stop("The maximum number of iterations 'maxit' must be a numeric value!")
 
   #Make backup of initial data
@@ -412,7 +412,7 @@ chrom_bline <- function(input, method = "als", pars = "default", plotres = "prin
     defpaste <- if(length(defchk)==0) "none" else defchk
     if(!slnt) cat("The following parameters were left at defaults for BG correction method '", method, "': ", paste0(defpaste, collapse= ", "), ".", sep = "")
     pars[!names(def_pars) %in% names(pars)] <- def_pars[!names(def_pars) %in% names(pars)]
-    names(pars) <- names(def_pars)
+    pars <- pars[names(def_pars)]
   }
 
   #Begin baseline correction

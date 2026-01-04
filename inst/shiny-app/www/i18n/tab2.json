@@ -1,0 +1,139 @@
+{
+  "translation": [
+    {
+      "en": "Baseline Correction",
+      "ru": "Коррекция Базовой Линии",
+      "tr": "Temel Çizgi Düzeltme"
+    },
+    {
+      "en": "Baseline Fraction",
+      "ru": "Фракция базовой линии",
+      "tr": "Temel Çizgi Oranı"
+    },
+    {
+      "en": "Baseline Correction Method",
+      "ru": "Метод базовой коррекции",
+      "tr": "Temel Çizgi Düzeltme Yöntemi"
+    },
+    {
+      "en": "Linear",
+      "ru": "Линейный",
+      "tr": "Doğrusal"
+    },
+    {
+      "en": "Cubic",
+      "ru": "Кубический",
+      "tr": "Kübik"
+    },
+    {
+      "en": "None",
+      "ru": "Не выбран",
+      "tr": "Seçilmemiş"
+    },
+    {
+      "en": "Iterative Asymmetric Least Squares (ALS)",
+      "ru": "Итеративный Asymmetric Least Squares (ALS)",
+      "tr": "Iteratif Asymmetric Least Squares (ALS)"
+    },
+    {
+      "en": "Chang's method",
+      "ru": "Метод Чанга",
+      "tr": "Chang Metodu"
+    },
+    {
+      "en": "Iterative Smoothing-Splines with Root Error Adjustment (ISREA)",
+      "ru": "Итеративные Сглаживающие Сплайны (алгоритм ISREA)",
+      "tr": "Iteratif Düzeltme Eğrileri (ISREA algoritması)"
+    },
+    {
+      "en": "Modified Polynomial Fit (ModPolyFit)",
+      "ru": "Модифицированная Полиномиальная Аппроксимация (ModPolyFit)",
+      "tr": "Değiştirilmiş Polynom (ModPolyFit)"
+    },
+    {
+      "en": "Skip",
+      "ru": "Пропустить",
+      "tr": "Atla"
+    },
+    {
+      "en": "Calculate Baseline",
+      "ru": "Рассчитать базовую линию",
+      "tr": "Temel Çizgiyi Hesapla"
+    },
+    {
+      "en": "Current Method:",
+      "ru": "Текущий метод:",
+      "tr": "Mevcut Yöntem:"
+    },
+    {
+      "en": "Basics",
+      "ru": "Основы",
+      "tr": "Temel"
+    },
+    {
+      "en": "Advanced",
+      "ru": "Продвинутый",
+      "tr": "Gelişmiş"
+    },
+    {
+      "en": "Lambda",
+      "ru": "Лямбда",
+      "tr": "Lambda"
+    },
+    {
+      "en": "Degree",
+      "ru": "Градус",
+      "tr": "Derece"
+    },
+    {
+      "en": "Precision",
+      "ru": "Точность",
+      "tr": "Hassasiyet"
+    },
+    {
+      "en": "Max Iterations",
+      "ru": "Максимальное количество итераций",
+      "tr": "Maksimum İterasyon"
+    },
+    {
+      "en": "Remove Negatives",
+      "ru": "Удалить отрицательные значения",
+      "tr": "Negatifleri Kaldır"
+    },
+    {
+      "en": "Threshold",
+      "ru": "Порог",
+      "tr": "Eşik"
+    },
+    {
+      "en": "Alpha",
+      "ru": "Альфа",
+      "tr": "Alfa"
+    },
+    {
+      "en": "Segments",
+      "ru": "Сегменты",
+      "tr": "Segmentler"
+    },
+    {
+      "en": "Signal Window",
+      "ru": "Окно сигнала",
+      "tr": "Sinyal Penceresi"
+    },
+    {
+      "en": "Fit Method",
+      "ru": "Метод подгонки",
+      "tr": "Uydurma Yöntemi"
+    },
+    {
+      "en": "p",
+      "ru": "p",
+      "tr": "p"
+    },
+    {
+      "en": "bfrac",
+      "ru": "bfrac",
+      "tr": "bfrac"
+    }
+  ]
+}

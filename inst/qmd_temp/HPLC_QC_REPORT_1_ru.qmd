@@ -1,0 +1,320 @@
+---
+meta-title: "HPLC_QC_Template"
+meta-author: NULL
+meta-date: \today
+date-format: MMM D, YYYY
+
+tbl-cap-location: top
+fig-cap-location: bottom
+fig-format: pdf #retina, png, jpeg, svg, pdf
+reference-location: document
+params:
+  clogo: NULL
+  tpa: NULL
+  tpars: NULL
+  tpath: NULL
+  mainmets:  NULL
+  spec: NULL
+  extmets: NULL
+  metfont: NULL
+  nametag: NULL
+  addpars: NULL
+geometry:
+  - top = 30mm
+  - bottom = 30mm
+  - left = 12mm
+  - right = 12mm
+  - heightrounded
+  #- footskip = 1.7cm
+execute:
+  evaluate: true
+  echo: false
+  warning: false
+  output: asis
+format: 
+  pdf:
+    pdf-engine: xelatex
+    mainfont: "Times New Roman"
+    sansfont: "Arial"
+    monofont: "Courier New"
+    page-layout: custom
+    include-in-header:
+      text: |
+        \pagenumbering{gobble}
+        \usepackage[headsepline=.25pt:\textwidth, footsepline = .25pt:\textwidth]{scrlayer-scrpage}
+        \setkomafont{pageheadfoot}{\normalfont\normalcolor\normalshape} <!-- \itshape \slshape \scshape -->
+        \addtokomafont{pagehead}{\normalsize}
+        \ModifyLayer[addvoffset=.6ex]{scrheadings.foot.odd}
+        \ModifyLayer[addvoffset=.6ex]{scrheadings.foot.even}
+        \ModifyLayer[addvoffset=.6ex]{scrheadings.foot.oneside}
+        \ModifyLayer[addvoffset=.6ex]{plain.scrheadings.foot.odd}
+        \ModifyLayer[addvoffset=.6ex]{plain.scrheadings.foot.even}
+        \ModifyLayer[addvoffset=.6ex]{plain.scrheadings.foot.oneside}
+        \ModifyLayer[addvoffset=-.6ex]{scrheadings.head.odd}
+        \ModifyLayer[addvoffset=-.6ex]{scrheadings.head.even}
+        \ModifyLayer[addvoffset=-.6ex]{scrheadings.head.oneside}
+        \ModifyLayer[addvoffset=-.6ex]{plain.scrheadings.head.odd}
+        \ModifyLayer[addvoffset=-.6ex]{plain.scrheadings.head.even}
+        \ModifyLayer[addvoffset=-.6ex]{plain.scrheadings.head.oneside}
+editor: visual
+---
+
+```{r}
+#tpars <- eval(parse(text=params$tpars))
+#mainmets <- eval(parse(text=params$mainmets))
+#spec <- eval(parse(text=params$spec))
+tpars <- params$tpars
+mainmets <- params$mainmets
+addpars <- params$addpars
+mainmets <- c(mainmets[addpars$nametag], lapply(mainmets[!names(mainmets) %in% addpars$nametag], as.numeric))
+spec <- params$spec
+
+#Extra column-specific parameters
+if(any(params$extmets!="false")) {
+  #extmets <- eval(parse(text=params$extmets))
+  extmets <- params$extmets
+  excond <- FALSE
+} else excond <- TRUE
+
+#Custom logo
+logocond <- if(!any(params$clogo=="false")) TRUE else FALSE
+
+#TPA plots (2nd page)
+tpacond <- if(any(params$tpath=="false")) TRUE else FALSE #COUNTER-INTUITIVE!
+```
+
+\cohead{\includegraphics[width=6cm]{"`r if(logocond) noquote("img/custom_logo.jpg") else noquote("img/sample_logo.jpg")`"}}
+
+<!-- \raisebox{\depth}{\leftmark}\hfill -->
+
+\rohead{\usekomafont{pagefoot}{`r tpars[["tform"]]` \\Оператор: `r tpars[["oper"]]`}} 
+\lohead{Отчёт о производительности\\ ЖХ-колонки} 
+\lofoot{Колонка поставляется в:\\ `r tpars[["sp"]]`.}
+
+<!-- [footheight=30pt] -->
+
+\rofoot{Номер документа:\\ `r tpars[["dnum"]]`}
+
+<!-- [footheight=30pt] -->
+
+```{r}
+library(flextable)
+library(tibble)
+library(ggplot2)
+library(knitr)
+```
+
+:::::::::::::: {layout="[[1,1],[1,1],[1],[57,43],[57,43],[1],[1]]" layout-valign="top"}
+::: {#first}
+## Информация о продукте
+:::
+
+::: {#second}
+## Аналитический метод
+:::
+
+::: {#third layout-valign = "top"}
+<!-- \vspace{-72pt} -->
+```{r, ft.align = "left", ft.valign = "top", ft.arraystretch = 1.3}
+#| layout-valign: bottom
+prodtbl <- tribble(~col1, ~col2,
+               "Серийный номер:", tpars[["sn"]],
+               "Номер детали:", tpars[["pn"]],
+               "Описание:", tpars[["desc"]],
+               "Номер партии:", tpars[["bn"]])
+flextable(prodtbl) |>
+  delete_part("header") |>
+  border_remove() |>
+  width(1,1.5) |>
+  width(2,3) |>
+  #fontsize(size=params$metfont, part = "all") |>
+  line_spacing(space = 1, part = "body") |>
+  valign(valign = "top", part = "all") |>
+  align(align = c("left", "left")) |>
+  autofit()
+```
+:::
+
+::: {#fourth layout-valign = "top"}
+<!-- \vspace{-13pt} -->
+```{r, ft.align = "left", ft.valign = "top", ft.arraystretch = 1.3}
+#| layout-valign: bottom
+mtbl <- tribble(~col1, ~col2,
+               "Подвижная фаза:", tpars[["mp"]],
+               "Обратное давление:", tpars[["bp"]],
+               "Скорость потока:", tpars[["flow"]],
+               "Температура:", tpars[["temp"]],
+               "Объём инжекции:", tpars[["inj"]],
+               "Тестовая смесь:", tpars[["tmix"]])
+flextable(mtbl) |>
+  delete_part("header") |>
+  border_remove() |>
+  width(1,1.5) |>
+  width(2,3) |>
+  #fontsize(size=params$metfont, part = "all") |>
+  line_spacing(space = 1, part = "body") |>
+  valign(valign = "top", part = "all") |>
+  align(align = c("left", "left")) |>
+  append_chunks(i = 1, j = 2, part = "body", as_chunk(" ("), as_i("v/v"), as_chunk(")")) |>
+  autofit()
+```
+:::
+
+::: {#fifth}
+\rule{\linewidth}{1pt}
+\textcolor{white}{\rule{\linewidth}{10pt}}
+
+![](img/qcplot.png){width="100%"} <!--\includegraphics[width=\linewidth, keepaspectratio]{qcplot.png} -->
+:::
+
+::: {#sixth}
+\vspace{10pt}
+
+## Наблюдаемые значения
+:::
+
+::: {#seventh}
+\vspace{10pt}
+
+## Спецификация
+:::
+
+::: {#eighth}
+\vspace{-10pt}
+
+```{r ft.align = "left", ft.valign = "top", ft.arraystretch = 1.1}
+which_plate <- which(names(mainmets) %in% c("EP","AH","EMG", "S5"))
+which_sym <- which(names(mainmets) %in% c("Tf","As"))
+mainmets[which_plate] <- lapply(mainmets[which_plate], function(x) sapply(x, function(y) if(is.numeric(y)) round(y, digits = 0) else ""))
+mainmets[which_sym] <- lapply(mainmets[which_sym], function(x) sapply(x, function(y) if(is.numeric(y)) round(y, digits = 2) else ""))
+obstbl <- data.frame(mainmets)
+obsflex <- flextable(obstbl) |>
+  #delete_part("header") |>
+  #border_remove() |>
+  #width(1,1.5) |>
+  #width(2,3) |>
+  fontsize(size=params$metfont, part = "all") |>
+  line_spacing(space = 0.8, part = "body") |>
+  valign(valign = "center", part = "all") |>
+  align(align = "center", part = "all")
+
+if(length(which_plate)>0) {
+     obsflex <- prepend_chunks(obsflex, i = 1, j = which_plate, part = "header", as_i("N "), as_chunk("(")) |>
+       append_chunks(i = 1, j = which_plate, part = "header", as_chunk(")"))
+  }
+if(length(which_sym)>0) obsflex <- italic(obsflex, i = 1, j = which_sym, part = "header")
+autofit(obsflex)
+```
+:::
+
+::: {#ninth}
+\vspace{-10pt}
+
+```{r ft.align = "left", ft.valign = "top", ft.arraystretch = 1.1}
+which_plate <- which(names(spec) %in% c("EP","AH","EMG", "S5"))
+which_sym <- which(names(spec) %in% c("Tf","As"))
+spectbl <- data.frame(spec)
+specflex <- flextable(spectbl) |>
+  #delete_part("header") |>
+  #border_remove() |>
+  #width(1,1.5) |>
+  #width(2,3) |>
+  fontsize(size=params$metfont, part = "all") |>
+  line_spacing(space = 0.8, part = "body") |>
+  valign(valign = "center", part = "all") |>
+  align(align = "center", part = "all")
+
+  if(length(which_plate)>0) {
+     specflex <- prepend_chunks(specflex, i = 1, j = which_plate, part = "header", as_i("N "), as_chunk("(")) |>
+       append_chunks(i = 1, j = which_plate, part = "header", as_chunk(")"))
+  }
+if(length(which_sym)>0) specflex <- italic(specflex, i = 1, j = which_sym, part = "header")
+autofit(specflex)
+```
+:::
+
+::: {#tenth}
+`r if (excond) "::: {.content-hidden}"`
+
+\vspace{20pt}
+
+## Специфические метрики колонки
+
+\vspace{-10pt}
+
+```{r}
+if (!excond) { # Only execute if extmets are provided
+  extbl <- data.frame(extmets, check.names = FALSE)
+  extbl <- round(extbl, 3)
+
+  exflex <- flextable(extbl) |>
+    bold(part = "header") |>
+    border_remove() |>
+    valign(valign = "center", part = "all") |>
+    align(align = "center", part = "all")
+
+  linvel <- which(colnames(extbl) %in% "Linear Velocity")
+  prm <- which(colnames(extbl) %in% "Permeability")
+  srm <- which(colnames(extbl) %in% "Specific Permeability")
+
+  if(length(linvel)>0) exflex <- append_chunks(exflex, part = "header", i = 1, j = linvel, as_chunk(" (mm s"), as_sup("-1"), as_chunk(")"))
+  if(length(prm)>0) exflex <- append_chunks(exflex, part = "header", i = 1, j = prm, as_chunk(" (mm"), as_sup("2"), as_chunk(" s"), as_sup("-1"), as_chunk(" bar"), as_sup("-1"), as_chunk(")"))
+  if(length(srm)>0) exflex <- append_chunks(exflex, part = "header", i = 1, j = srm, as_chunk(" (mm"), as_sup("2"))
+  autofit(exflex)
+}
+```
+
+`r if(excond) ":::"`
+:::
+
+::: {#final}
+![](img/whitespace.png){width="100%"}
+
+<!-- \textcolor{white}{\rule{\linewidth}{200pt}} -->
+:::
+::::::::::::::
+
+`r if (tpacond) "::: {.content-hidden}"`
+
+```{r}
+tpath_fin <- paste0("img/",unlist(params$tpath))
+layvec <- split(tpath_fin, ceiling(seq_along(tpath_fin)/2))
+layvec <- sapply(layvec, function(x) {
+  len <- ceiling(length(x))+ceiling(length(x))%%2
+  res <- paste0("[", paste0(rep(1,len),collapse = ","), "]")
+  return(res)})
+layvec <- paste0("[[1],", paste0(layvec, collapse = ","),",[1],[1]]") #Includes an initial whole-width panel (for title) and final (for plot whitespace and TPA plot legend)
+#Includes an initial whole-width panel (for title) and final (for plot whitespace and TPA plot legend)
+```
+
+\newpage
+
+:::::::: {layout=`r layvec` layout-valign="top"}
+
+::: {#thirdtolast}
+## Полный анализ пиков (TPA)
+:::
+
+```{r}
+#| output: asis
+tpath_fin <- paste0("img/",c(unlist(params$tpath), "whitespace.png"))
+if(ceiling(length(tpath_fin))%%2 != 0) tpath_fin <- tpath_fin[-length(tpath_fin)]
+open <- "\n:::{}\n"
+close <- "\n:::\n"
+dl <- "<<"
+dr <- ">>"
+cat(glue::glue("<<open>>![](<<tpath_fin>>)<<close>>", .open = "<<", .close = ">>"),
+    sep = "")
+```
+
+::: {#secondtolast}
+![](img/tpa_leg.png){width="100%" fig-align="center"}
+:::
+
+::: {#last}
+![](img/whitespace.png){width="100%"}
+:::
+
+::::::::
+
+`r if(tpacond) ":::"`

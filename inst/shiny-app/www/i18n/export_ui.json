@@ -1,0 +1,44 @@
+{
+  "translation": [
+    {
+      "en": "Export LCQC Data and Visualizations",
+      "tr": "LCQC Verilerini ve Görselleştirmelerini Dışa Aktar",
+      "ru": "Экспорт данных и визуализаций LCQC"
+    },
+    {
+      "en": "Select Data to Export",
+      "tr": "Dışa Aktarılacak Veriyi Seçin",
+      "ru": "Выберите данные для экспорта"
+    },
+    {
+      "en": "Output Settings",
+      "tr": "Çıktı Ayarları",
+      "ru": "Настройки экспорта"
+    },
+    {
+      "en": "Plot Format:",
+      "tr": "Çizim Formatı:",
+      "ru": "Формат графика:"
+    },
+    {
+      "en": "Browse",
+      "tr": "Gözat",
+      "ru": "Обзор"
+    },
+    {
+      "en": "Select export directory",
+      "tr": "Dışa aktarma dizinini seçin",
+      "ru": "Выберите путь экспорта"
+    },
+    {
+      "en": "Cancel",
+      "tr": "İptal",
+      "ru": "Отмена"
+    },
+    {
+      "en": "Export",
+      "tr": "Dışa Aktar",
+      "ru": "Экcпорт"
+    }
+  ]
+}

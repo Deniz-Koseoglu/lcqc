@@ -1,0 +1,49 @@
+{
+  "translation": [
+    {
+      "en": "Time range cannot be constrainted since the corresponding column was not found in the data.",
+      "ru": "Ограничение временного диапазона невозможно, поскольку соответствующий столбец не найден в данных.",
+      "tr": "İlgili sütun verilerde bulunmadığı için zaman aralığı sınırlandırılamıyor."
+    },
+    {
+      "en": "Selected time or intensity columns not found in the data.",
+      "ru": "Выбранные столбцы времени или интенсивности сигнала не найдены в данных.",
+      "tr": "Seçilen zaman veya sinyal sütunları verilerde bulunamadı."
+    },
+    {
+      "en": "Data Preview for: ",
+      "ru": "Предварительный просмотр данных для: ",
+      "tr": "Veri Önizlemesi: "
+    },
+    {
+      "en": "Error creating plot:",
+      "ru": "Ошибка при создании графика:",
+      "tr": "Grafik oluşturma hatası:"
+    },
+    {
+      "en": "Select a Data Source",
+      "ru": "Выберите источник данных",
+      "tr": "Veri Kaynağı Seçin"
+    },
+    {
+      "en": "No similarity table data available.",
+      "ru": "Нет данных таблицы сходства.",
+      "tr": "Benzerlik tablosu bulunamadı."
+    },
+    {
+      "en": "No peak names data available.",
+      "ru": "Нет данных названий пиков.",
+      "tr": "Pik adlari bulunamadı."
+    },
+    {
+      "en": "Copied!",
+      "ru": "Скопировано!",
+      "tr": "Kopyalandı!"
+    },
+    {
+      "en": "Copy",
+      "ru": "Копировать",
+      "tr": "Kopyala"
+    }
+  ]
+}

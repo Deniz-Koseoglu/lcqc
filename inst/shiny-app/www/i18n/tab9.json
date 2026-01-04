@@ -1,0 +1,274 @@
+{
+  "translation": [
+    {
+      "en": "HPLC_QC_REPORT_1_en",
+      "ru": "HPLC_QC_REPORT_1_ru",
+      "tr": "HPLC_QC_REPORT_1_tr"
+    },
+    {
+      "en": "Reporting",
+      "ru": "Отчетность",
+      "tr": "Raporlama"
+    },
+    {
+      "en": "Resolution Information",
+      "ru": "Информация о разрешении",
+      "tr": "Çözünürlük Bilgileri"
+    },
+    {
+      "en": "Retention Factor Information",
+      "ru": "Информация о факторе удержания",
+      "tr": "Tutma Faktörü Bilgileri"
+    },
+    {
+      "en": "Separation Factor Information",
+      "ru": "Информация о факторе разделения",
+      "tr": "Ayırma Faktörü Bilgileri"
+    },
+    {
+      "en": "2:5 or all",
+      "ru": "2:5 или через запятую",
+      "tr": "2:5 veya virgülle ayrılmış"
+    },
+    {
+      "en": "Visual Peak Selection with Names & Concentrations",
+      "ru": "Визуальный выбор пиков с указанием названий и концентраций",
+      "tr": "Pik Seçimi (pik adı ve derişim belirlemesiyle)"
+    },
+    {
+      "en": "Select Peaks",
+      "ru": "Выбор Пиков",
+      "tr": "Pikleri Seç"
+    },
+    {
+      "en": "Names & Concentrations",
+      "ru": "Названия и концентрации",
+      "tr": "Pik Adı ve Derişimler"
+    },
+    {
+      "en": "Peak Integration",
+      "ru": "Интеграция пиков",
+      "tr": "Pik İntegrasyonu"
+    },
+    {
+      "en": "Peak Deconvolution",
+      "ru": "Деконволюция пиков",
+      "tr": "Pik Dekonvolüsyonu"
+    },
+    {
+      "en": "Concentration units",
+      "ru": "Единицы измерения концентрации",
+      "tr": "Konsantrasyon birimi"
+    },
+    {
+      "en": "Include TPA Plots",
+      "ru": "Включить графики TPA",
+      "tr": "TPA Grafiklerini Ekle"
+    },
+    {
+      "en": "Asymmetry Metrics",
+      "ru": "Метрики Асимметрии",
+      "tr": "Asimetri Metrikleri"
+    },
+    {
+      "en": "Report Options",
+      "ru": "Параметры отчета",
+      "tr": "Rapor Seçenekleri"
+    },
+    {
+      "en": "Chart Selection",
+      "ru": "Выбор графика",
+      "tr": "Grafik Seçimi"
+    },
+    {
+      "en": "Peaks to Include",
+      "ru": "Включаемые пики",
+      "tr": "Dahil Edilecek Pikler"
+    },
+    {
+      "en": "Enter Peak Indices",
+      "ru": "Введите индексы пиков",
+      "tr": "Pik İndekslerini Girin"
+    },
+    {
+      "en": "Enter Peak Names",
+      "ru": "Введите названия пиков",
+      "tr": "Pik Adlarını Girin"
+    },
+    {
+      "en": "Enter Peak Concentrations",
+      "ru": "Введите концентрации пиков",
+      "tr": "Pik Konsantrasyonlarını Girin"
+    },
+    {
+      "en": "Add Additional Performance Metrics ",
+      "ru": "Добавить дополнительные показатели",
+      "tr": "Ek Performans Metrikleri Ekle"
+    },
+    {
+      "en": "Add Asymmetry metrics",
+      "ru": "Добавить метрики асимметрии",
+      "tr": "Asimetri Metrikleri Ekle"
+    },
+    {
+      "en": "Add TPA Plots",
+      "ru": "Добавить графики TPA",
+      "tr": "TPA Grafikleri Ekle"
+    },
+    {
+      "en": "Metrics and Specifications",
+      "ru": "Метрики и спецификации",
+      "tr": "Metrikler ve Spesifikasyonlar"
+    },
+    {
+      "en": "Additional Performance Metrics",
+      "ru": "Дополнительные показатели",
+      "tr": "Ek Performans Metrikleri"
+    },
+    {
+      "en": "Linear Velocity",
+      "ru": "Линейная скорость",
+      "tr": "Doğrusal Hız"
+    },
+    {
+      "en": "Packing Porosity",
+      "ru": "Пористость стационарной фазы",
+      "tr": "Sabit Faz Porozitesi"
+    },
+    {
+      "en": "Flow Resistance",
+      "ru": "Сопротивление потоку",
+      "tr": "Akış Direnci"
+    },
+    {
+      "en": "Permeability",
+      "ru": "Проницаемость",
+      "tr": "Geçirgenlik"
+    },
+    {
+      "en": "Report Content",
+      "ru": "Содержание отчета",
+      "tr": "Rapor İçeriği"
+    },
+    {
+      "en": "Document Number",
+      "ru": "Номер документа",
+      "tr": "Belge Numarası"
+    },
+    {
+      "en": "Operator",
+      "ru": "Оператор",
+      "tr": "Operatör"
+    },
+    {
+      "en": "Product Information",
+      "ru": "Информация о продукте",
+      "tr": "Ürün Bilgileri"
+    },
+    {
+      "en": "Column Serial Number",
+      "ru": "Серийный номер колонки",
+      "tr": "Kolon Seri Numarası"
+    },
+    {
+      "en": "Column Part Number",
+      "ru": "Номер детали колонки",
+      "tr": "Kolon Parça Numarası"
+    },
+    {
+      "en": "Column Description",
+      "ru": "Описание колонки",
+      "tr": "Kolon Açıklaması"
+    },
+    {
+      "en": "Batch Number",
+      "ru": "Номер партии",
+      "tr": "Parti Numarası"
+    },
+    {
+      "en": "Analytical Method",
+      "ru": "Метод анализа",
+      "tr": "Analitik Yöntem"
+    },
+    {
+      "en": "Mobile Phase",
+      "ru": "Подвижная фаза",
+      "tr": "Mobil Faz"
+    },
+    {
+      "en": "Shipment Phase",
+      "ru": "Изначальная фаза",
+      "tr": "Saklama fazi"
+    },
+    {
+      "en": "Back Pressure (bar)",
+      "ru": "Обратное давление (бар)",
+      "tr": "Geri Basınç (bar)"
+    },
+    {
+      "en": "Flow Rate (mL/min)",
+      "ru": "Скорость потока (мл/мин)",
+      "tr": "Akış Hızı (mL/dak)"
+    },
+    {
+      "en": "Column Temperature (°C)",
+      "ru": "Температура колонки (°C)",
+      "tr": "Kolon Sıcaklığı (°C)"
+    },
+    {
+      "en": "Injection Volume (µL)",
+      "ru": "Объем инъекции (мкл)",
+      "tr": "Enjeksiyon Hacmi (µL)"
+    },
+    {
+      "en": "Output Settings",
+      "ru": "Настройки экспорта",
+      "tr": "Çıktı Ayarları"
+    },
+    {
+      "en": "Chromatogram Aspect Ratio",
+      "ru": "Соотношение сторон хроматограммы",
+      "tr": "Kromatogram En Boy Oranı"
+    },
+    {
+      "en": "Report Font Size",
+      "ru": "Размер шрифта отчета",
+      "tr": "Rapor Yazı Tipi Boyutu"
+    },
+    {
+      "en": "Upload Custom Logo (.jpg or .png)",
+      "ru": "Загрузить логотип (.jpg или .png)",
+      "tr": "Özel Logo Yükle (.jpg ve .png)"
+    },
+    {
+      "en": "Report Generation",
+      "ru": "Генерация отчета",
+      "tr": "Rapor Oluşturma"
+    },
+    {
+      "en": "Export Directory",
+      "ru": "Путь экспорта",
+      "tr": "Dışa Aktarma Dizini"
+    },
+    {
+      "en": "Browse",
+      "ru": "Обзор",
+      "tr": "Gözat"
+    },
+    {
+      "en": "Select export directory",
+      "ru": "Выберите путь для экспорта",
+      "tr": "Dışa aktarma dizinini seçin"
+    },
+    {
+      "en": "Generate Report",
+      "ru": "Сгенерировать отчет",
+      "tr": "Rapor Oluştur"
+    },
+    {
+      "en": "2:5 or comma-separated",
+      "ru": "2:5 или через запятую",
+      "tr": "2:5 veya virgülle ayrılmış"
+    }
+  ]
+}

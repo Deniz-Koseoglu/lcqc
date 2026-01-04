@@ -1,0 +1,104 @@
+{
+  "translation": [
+    {
+      "en": "Chromatogram with integration baselines",
+      "ru": "Хроматограмма с линиями интегрирования",
+      "tr": "Entegrasyon çizgileriyle kromatogram"
+    },    
+    {
+      "en": "Integration",
+      "ru": "Интеграция",
+      "tr": "Entegrasyon"
+    },
+    {
+      "en": "Integration was not yet run. No summary information available.",
+      "tr": "Entegrasyon henüz başlatılmadı.",
+      "ru": "Интеграция еще не была выполнена. Информация отсутствует."
+    },
+    {
+      "en": "Integration Summary Information",
+      "tr": "Entegrasyon Özet Bilgi",
+      "ru": "Информация об интеграции"
+    },
+    {
+      "en": "Basics",
+      "tr": "Temeller",
+      "ru": "Основы"
+    },
+    {
+      "en": "Perpendicular Drop",
+      "tr": "Dik Çizgi",
+      "ru": "Перпендикулярная линия"
+    },
+    {
+      "en": "Tangent Skim",
+      "tr": "Teğet Sıyırma",
+      "ru": "Отслаивание по касательной"
+    },
+    {
+      "en": "Exponential Skim",
+      "tr": "Üstel Sıyırma",
+      "ru": "Экспоненциальное отслаивание"
+    },
+    {
+      "en": "Gaussian Skim",
+      "tr": "Gauss Sıyırma",
+      "ru": "Отслаивание Гаусса"
+    },
+    {
+      "en": "Current Method",
+      "tr": "Güncel Yöntem",
+      "ru": "Текущий метод"
+    },
+    {
+      "en": "Integration Method",
+      "tr": "Entegrasyon Yöntemi",
+      "ru": "Метод Интеграции"
+    },
+    {
+      "en": "Apply Integration",
+      "tr": "Entegrasyonu Uygula",
+      "ru": "Применить Интеграцию"
+    },
+    {
+      "en": "Advanced",
+      "tr": "Gelişmiş",
+      "ru": "Продвинутый"
+    },
+    {
+      "en": "Skim Ratio",
+      "tr": "Sıyırma Oranı",
+      "ru": "Коэффициент Отслаивания"
+    },
+    {
+      "en": "Dyson Criterion",
+      "tr": "Dyson Kriteri",
+      "ru": "Критерий Дайсона"
+    },
+    {
+      "en": "Critical Width",
+      "tr": "Kritik Genişlik",
+      "ru": "Критическая Ширина"
+    },
+    {
+      "en": "Determine critical width automatically",
+      "tr": "Kritik genişliği otomatik olarak belirle",
+      "ru": "Определить критическую ширину автоматически"
+    },
+    {
+      "en": "Integration Plot",
+      "tr": "Entegrasyon Grafiği",
+      "ru": "График Интеграции"
+    },
+    {
+      "en": "Results Table",
+      "tr": "Sonuç Tablosu",
+      "ru": "Таблица Результатов"
+    },
+    {
+      "en": "Summary Information",
+      "tr": "Özet Bilgiler",
+      "ru": "Сводная Информация"
+    }
+  ]
+}

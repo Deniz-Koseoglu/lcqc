@@ -1,0 +1,74 @@
+{
+  "translation": [
+    {
+      "en": "Manage Settings",
+      "ru": "Управление настройками",
+      "tr": "Ayarları Yönet"
+    },
+    {
+      "en": "Save",
+      "ru": "Сохранить",
+      "tr": "Kaydet"
+    },
+    {
+      "en": "Save Current Settings",
+      "ru": "Сохранить текущие настройки",
+      "tr": "Mevcut Ayarları Kaydet"
+    },
+    {
+      "en": "Export Current Settings",
+      "ru": "Экспортировать текущие настройки",
+      "tr": "Mevcut Ayarları Dışarı Aktar"
+    },
+    {
+      "en": "Settings Name",
+      "ru": "Название настроек",
+      "tr": "Ayar Adı"
+    },
+    {
+      "en": "e.g., my_hplc_method",
+      "ru": "например, мой_метод_ВЭЖХ",
+      "tr": "örn., hplc_metodum"
+    },
+    {
+      "en": "Load Saved Settings",
+      "ru": "Загрузить сохраненные настройки",
+      "tr": "Kaydedilmiş Ayarları Yükle"
+    },
+    {
+      "en": "Load",
+      "ru": "Загрузить",
+      "tr": "Yükle"
+    },
+    {
+      "en": "Import Settings from File",
+      "ru": "Импортировать настройки из файла",
+      "tr": "Dosyadan Ayarları İçe Aktar"
+    },
+    {
+      "en": "Choose JSON File",
+      "ru": "Выберите файл JSON",
+      "tr": "JSON Dosyası Seç"
+    },
+    {
+      "en": "Import",
+      "ru": "Импорт",
+      "tr": "İçe Aktar"
+    },
+    {
+      "en": "Filename",
+      "ru": "Имя файла",
+      "tr": "Dosya Adı"
+    },
+    {
+      "en": "Export",
+      "ru": "Экспорт",
+      "tr": "Dışa Aktar"
+    },
+    {
+      "en": "Cancel",
+      "ru": "Отмена",
+      "tr": "İptal"
+    }
+  ]
+}

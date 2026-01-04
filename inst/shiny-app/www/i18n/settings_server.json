@@ -1,0 +1,124 @@
+{
+  "translation": [
+    {
+      "en": "Select Settings",
+      "ru": "Выберите настройки",
+      "tr": "Ayarları Seç"
+    },
+    {
+      "en": "Error",
+      "ru": "Ошибка",
+      "tr": "Hata"
+    },
+    {
+      "en": "Please provide a name for the settings.",
+      "ru": "Пожалуйста, укажите имя для настроек.",
+      "tr": "Lütfen ayarlar için bir ad belirtin."
+    },
+    {
+      "en": "Success!",
+      "ru": "Успех!",
+      "tr": "Başarılı!"
+    },
+    {
+      "en": "Settings saved as",
+      "ru": "Настройки сохранены как",
+      "tr": "Ayarlar kaydedildi:"
+    },
+    {
+      "en": "Failed to save settings:",
+      "ru": "Не удалось сохранить настройки:",
+      "tr": "Ayarlar kaydedilemedi:"
+    },
+    {
+      "en": "No saved settings found.",
+      "ru": "Сохраненные настройки не найдены.",
+      "tr": "Kaydedilmiş ayar bulunamadı."
+    },
+    {
+      "en": "Settings loaded successfully.",
+      "ru": "Настройки успешно загружены.",
+      "tr": "Ayarlar başarıyla yüklendi."
+    },
+    {
+      "en": "Failed to load settings:",
+      "ru": "Не удалось загрузить настройки:",
+      "tr": "Ayarlar yüklenemedi:"
+    },
+    {
+      "en": "Settings imported successfully.",
+      "ru": "Настройки успешно импортированы.",
+      "tr": "Ayarlar başarıyla içe aktarıldı."
+    },
+    {
+      "en": "Failed to import file:",
+      "ru": "Не удалось импортировать файл:",
+      "tr": "Dosya içe aktarılamadı:"
+    },
+    {
+      "en": "Could not update all settings. The settings file might be outdated or corrupted. Error:",
+      "ru": "Не удалось обновить все настройки. Файл настроек может быть устаревшим или поврежденным. Ошибка:",
+      "tr": "Tüm ayarlar güncellenemedi. Ayarlar dosyası eski veya bozuk olabilir. Hata:"
+    },
+    {
+      "en": "Baseline",
+      "ru": "Базовая линия",
+      "tr": "Baz Çizgisi"
+    },
+    {
+      "en": "Default settings file not found.",
+      "ru": "Файл настроек по умолчанию не найден.",
+      "tr": "Varsayılan ayarlar dosyası bulunamadı."
+    },
+    {
+      "en": "Default settings loaded for:",
+      "ru": "Настройки по умолчанию загружены для:",
+      "tr": "Varsayılan ayarlar yüklendi:"
+    },
+    {
+      "en": "Defaults",
+      "ru": "По умолчанию",
+      "tr": "Varsayılanlar"
+    },
+    {
+      "en": "Failed to load default settings:",
+      "ru": "Не удалось загрузить настройки по умолчанию:",
+      "tr": "Varsayılan ayarlar yüklenemedi:"
+    },
+    {
+      "en": "Load Defaults",
+      "ru": "Загрузить по умолчанию",
+      "tr": "Varsayılanları Yükle"
+    },
+    {
+      "en": "Please select a JSON file to import.",
+      "ru": "Выберите JSON-файл для импорта.",
+      "tr": "Lütfen içe aktarılacak bir JSON dosyası seçin."
+    },
+    {
+      "en": "Please select at least one module to import settings for.",
+      "ru": "Выберите хотя бы один модуль для импорта настроек.",
+      "tr": "Lütfen ayarları içe aktarmak için en az bir modül seçin."
+    },
+    {
+      "en": "Please select at least one module to load defaults for.",
+      "ru": "Выберите хотя бы один модуль для загрузки настроек по умолчанию.",
+      "tr": "Lütfen varsayılanları yüklemek için en az bir modül seçin."
+    },
+    {
+      "en": "Select Modules to Import or Load Defaults",
+      "ru": "Выберите модули для импорта или загрузки по умолчанию",
+      "tr": "İçe Aktarılacak veya Varsayılanları Yüklenecek Modülleri Seçin"
+    },
+    {
+      "en": "Settings imported successfully for:",
+      "ru": "Настройки успешно импортированы для:",
+      "tr": "Ayarlar başarıyla içe aktarıldı:"
+    },
+    {
+      "en": "Warning",
+      "ru": "Предупреждение",
+      "tr": "Uyarı"
+    }
+  ]
+}
